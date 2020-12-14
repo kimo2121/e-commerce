@@ -35,11 +35,12 @@ const Navbar = () => {
   //   };
   // }, []);
   return (
-    <div className={`nav-bar  `}>
-      <Link className={`logo `} to="/">
+    <div className="nav-bar">
+      <Link className="logo" to="/">
         Logo
       </Link>
       <div className="drop-down-menu">
+        <br />
         <NewInMenu />
         <WomenMenu />
         <MenMenu />
@@ -58,22 +59,22 @@ const Navbar = () => {
         onSearch={onSearch}
         // style={{ width: "30%", margin: "20px 20px  20px -140px" }}
       />
-
       <Link
         to="/"
-        style={{ position: "absolute", marginLeft: "58%", marginTop: "2%" }}
-      >
-        <RiIcons.RiHeart2Line color={"black"} size={26} />
-      </Link>
-      <Link
-        to="/"
-        style={{ position: "absolute", marginLeft: "50%", marginTop: "2%" }}
+        style={{ position: "absolute", marginLeft: "72%", marginTop: "2%" }}
       >
         <MdIcons.MdPersonOutline color={"black"} size={28} />
       </Link>
       <Link
         to="/"
-        style={{ position: "absolute", marginLeft: "66%", marginTop: "2%" }}
+        style={{ position: "absolute", marginLeft: "77%", marginTop: "2%" }}
+      >
+        <RiIcons.RiHeart2Line color={"black"} size={26} />
+      </Link>
+
+      <Link
+        to="/"
+        style={{ position: "absolute", marginLeft: "82%", marginTop: "2%" }}
       >
         <AiIcons.AiOutlineShopping color={"black"} size={28} />
       </Link>

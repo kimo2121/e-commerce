@@ -1,17 +1,14 @@
 .nav-bar {
-  position: absolute;
+  position: relative;
   color: rgb(255, 255, 255);
   top: 0;
-  justify-content: center;
   display: flex;
   font-size: 20px;
   width: 100%;
-  /* margin-left: -30%; */
-  /* background-color: black; */
-  height: 18vh !important;
-  z-index: 8;
-  /* transition-timing-function: ease-in; */
-  transition: all 0.5s;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid gray 1px;
+  z-index: 6;
 }
 .nav-bar-color {
   color: rgb(0, 0, 0);
@@ -19,7 +16,7 @@
   background-color: rgb(255, 255, 255);
 }
 .logo-color {
-  color: rgb(255, 255, 255) !important;
+  color: rgb(255, 255, 255);
 }
 
 .logo {
@@ -27,38 +24,21 @@
   color: rgb(0, 0, 0);
   font-size: 30px;
   margin-top: 1%;
-  margin-left: -84%;
-  /* margin-top: 5px; */
-  /* margin-bottom: 100px; */
-  /* margin-right: 20px; */
+  margin-left: 5.5%;
   position: absolute;
 }
 
 .search-bar {
   position: absolute;
-  width: 30% !important;
-  margin: 20px 20px 20px 5% !important;
+  width: 30%;
+  margin: 1.3% 0 0 35%;
 }
-/* .home,
-.pages,
-.shop,
-.portfolio,
-.blog,
-.element {
-  margin: 10px 20px;
-  cursor: pointer;
-} */
-/* .icon {
-  margin: 14px 15px;
-  color: black;
-} */
+
 .drop-down-menu {
-  /* justify-content: space-between !important; */
-  margin-left: 16%;
-  top: 65% !important;
-  z-index: 5;
-  width: 60%;
-  height: 80% !important;
-  position: absolute;
   display: flex;
+  left: 29.8%;
+  top: 70%;
+  z-index: 5;
+  width: 65%;
+  position: absolute;
 }
