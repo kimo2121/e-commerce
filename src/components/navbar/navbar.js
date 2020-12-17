@@ -40,15 +40,16 @@ const Navbar = () => {
         Logo
       </Link>
       <div className="drop-down-menu">
-        <br />
-        <NewInMenu />
-        <WomenMenu />
-        <MenMenu />
-        <BagsMenu />
-        <ShoesMenu />
-        <HomeGarden />
-        <AccessoriesBeautyMenu />
-        <SaleMenu />
+        <div className="fkin">
+          <NewInMenu />
+          <WomenMenu />
+          <MenMenu />
+          <BagsMenu />
+          <ShoesMenu />
+          <HomeGarden />
+          <AccessoriesBeautyMenu />
+          <SaleMenu />
+        </div>
       </div>
 
       {/* <KidsMenu /> */}

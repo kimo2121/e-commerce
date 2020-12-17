@@ -1,5 +1,4 @@
 .nav-bar {
-  position: relative;
   color: rgb(255, 255, 255);
   top: 0;
   display: flex;
@@ -31,14 +30,18 @@
 .search-bar {
   position: absolute;
   width: 30%;
-  margin: 1.3% 0 0 35%;
+  margin: 18px 0 0 35%;
 }
 
 .drop-down-menu {
+  width: 100%;
+  position: relative;
+  align-self: flex-end;
+}
+
+.fkin {
   display: flex;
-  left: 29.8%;
-  top: 70%;
-  z-index: 5;
-  width: 65%;
-  position: absolute;
+  margin-left: 31.2%;
+  top: 0 !important;
+  z-index: 100;
 }

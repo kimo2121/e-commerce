@@ -1,6 +1,78 @@
 .main-home {
-  /* margin-bottom: 100px; */
   font-family: Arial, Helvetica, sans-serif;
-  height: auto;
-  width: auto;
+}
+.home-page-banner {
+  height: 55vh;
+}
+.home-page-banner img {
+  min-height: 100%;
+}
+.dep-brands {
+  top: -15%;
+  font-weight: bolder;
+  position: absolute;
+}
+.brands-section {
+  margin-left: 6%;
+  margin-top: 5%;
+  width: 88%;
+  height: 50vh;
+  filter: brightness(98%);
+  display: flex;
+}
+.brands-section a:hover {
+  filter: brightness(103%);
+}
+.christmas-offers {
+  height: fit-content;
+  width: 50%;
+}
+
+.brands {
+  margin-left: 2%;
+  width: 50%;
+  min-height: fit-content;
+}
+.dep-categories {
+  position: absolute;
+  left: 6%;
+  margin-top: 2%;
+  font-weight: bolder;
+}
+.hot-categories-slider-dev {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  height: 80vh;
+}
+.hot-categories {
+  margin-top: 5%;
+  background-color: rgb(255, 255, 255);
+  height: 80%;
+  width: 30%;
+}
+.dep-sub-categories {
+  position: relative;
+  left: -29%;
+}
+.hot-categories-component {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hot-categories-component a {
+  width: 29%;
+  margin: 1% 2% 1% 2.2%;
+}
+.hot-categories-component a span {
+  margin-left: -5.5%;
+  margin-top: 10%;
+  position: absolute;
+  color: rgb(168, 168, 168);
+}
+.hot-categories-component a img {
+  height: 26vh;
+}
+.hot-categories-component a img:hover {
+  filter: brightness(103%);
 }
