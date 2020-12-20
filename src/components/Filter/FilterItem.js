@@ -22,37 +22,47 @@ const filterList = [
 ];
 export default function FilterItem() {
   const [show, setShow] = useState(false);
+  const [activeLink, setactiveLink] = useState({ index: "", active: false });
+  console.log({ activeLink });
+
   return (
     <div>
-      {filterList.map((i) => (
+      {filterList.map((i, index) => (
         <div>
           {/* <hr /> */}
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              //   flexDirection: `${show ? "column" : ""}`,
-              padding: "0px",
-            }}
-          >
-            <p>{i.name} </p>
 
-            <p className="plus">
-              <Link onClick={() => setShow(!show)}>
-                {" "}
-                {show ? i.iconMinus : i.iconPlus}{" "}
-              </Link>
-            </p>
-          </div>
-          {show && (
-            <div className="">
-              <Checkbox label="color" />
-              <Checkbox label="color" />
-              <Checkbox label="color" />
-              <Checkbox label="color" />
+          <Link
+            style={{ color: "black" }}
+            onClick={() => setactiveLink({ index, active: !activeLink.active })}
+          >
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-between",
+                //   flexDirection: `${show ? "column" : ""}`,
+                padding: "0px",
+              }}
+            >
+              <p>{i.name} </p>
+
+              <p className="plus">
+                <Link style={{ color: "black" }}>
+                  {activeLink.index === index
+                    ? activeLink.active && i.iconMinus
+                    : i.iconPlus}
+                </Link>
+              </p>
             </div>
-          )}
-          <hr />
+            {activeLink.index === index && activeLink.active && (
+              <div className="">
+                <Checkbox label="color" />
+                <Checkbox label="color" />
+                <Checkbox label="color" />
+                <Checkbox label="color" />
+              </div>
+            )}
+            <hr />
+          </Link>
         </div>
       ))}
     </div>

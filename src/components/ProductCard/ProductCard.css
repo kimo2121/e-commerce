@@ -15,9 +15,9 @@
   height: 24px;
 }
 
-.rowcContianer {
+.rowContianer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .loveIcon {
@@ -31,4 +31,5 @@
 }
 .row {
   display: flex;
+  margin-left: auto;
 }

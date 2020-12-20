@@ -3,15 +3,17 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 
-export default function SimpleMenu() {
+export default function SimpleMenu({ data, btnName }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [name, setName] = React.useState(data[0].item);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleClose = (name) => {
     setAnchorEl(null);
+    setName(name);
   };
 
   return (
@@ -22,7 +24,7 @@ export default function SimpleMenu() {
         onClick={handleClick}
         style={{ textTransform: "none" }}
       >
-        Most Popular
+        {btnName} {name}
       </Button>
       <Menu
         id="simple-menu"
@@ -31,11 +33,9 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Most popular</MenuItem>
-        <MenuItem onClick={handleClose}>New Arrival</MenuItem>
-        <MenuItem onClick={handleClose}>Price High to Low</MenuItem>
-        <MenuItem onClick={handleClose}>Price Low to High </MenuItem>
-        <MenuItem onClick={handleClose}>Recommend</MenuItem>
+        {data.map((i) => (
+          <MenuItem onClick={() => handleClose(i.item)}> {i.item} </MenuItem>
+        ))}
       </Menu>
     </div>
   );

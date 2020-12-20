@@ -9,6 +9,14 @@ import ProductCard from "../../components/ProductCard/ProductCard";
 import Menu from "../../components/Menu/Menu";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
+const data = [
+  { item: "Most Popular" },
+  { item: "New Arrival" },
+  { item: "Price High to Low " },
+  { item: "Price Low to High " },
+  { item: "Recommend " },
+];
+
 export default function ProductsList() {
   return (
     <Page>
@@ -18,13 +26,13 @@ export default function ProductsList() {
           <Grid item xs={2}>
             <Filter />
           </Grid>
-          <Grid item xs={10}>
+          <Grid item xs={10} style={{ overflow: "scroll", height: "75vh" }}>
             <Grid item xs={12}>
               <ProductsListHeader />
             </Grid>
             <Grid container style={{ margin: "10px 0px" }}>
               <Grid item xs={2}>
-                <Menu />
+                <Menu data={data} />
               </Grid>
               <Grid item xs={8}>
                 ship in 24 hours
@@ -37,7 +45,7 @@ export default function ProductsList() {
               {Array(40)
                 .fill()
                 .map((i) => (
-                  <Grid item xs={3} sm={3}>
+                  <Grid item xs={12} sm={3}>
                     <ProductCard />
                   </Grid>
                 ))}
