@@ -4,8 +4,7 @@ import Slider from "react-slick";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
 
-export const img =
-  "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
+const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
 function SampleNextArrow(props) {
   const {

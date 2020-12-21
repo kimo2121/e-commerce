@@ -19,7 +19,7 @@ const activeStyles = {
   padding: "4px",
 };
 
-export default function ProductImgList({ isSingleProduct }) {
+export default function ProductImgList({ isSingleProduct, style }) {
   const [activeLink, setactiveLink] = useState({ index: 0, active: true });
   return (
     <div>
@@ -36,9 +36,11 @@ export default function ProductImgList({ isSingleProduct }) {
               alt="product"
               //   className="smallImg"
               style={
-                isSingleProduct &&
-                activeLink.index === index &&
-                activeLink.active
+                style
+                  ? style
+                  : isSingleProduct &&
+                    activeLink.index === index &&
+                    activeLink.active
                   ? activeStyles
                   : styles
               }

@@ -29,7 +29,7 @@ export default function HeaderItem({ data }) {
           {activeLink.index === index && activeLink.active && (
             <CloseIcon
               style={{
-                fontSize: "1rem",
+                fontSize: ".8rem",
                 position: "absolute",
                 top: "2px",
                 right: "1.5px",

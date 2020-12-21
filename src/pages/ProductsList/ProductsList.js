@@ -1,13 +1,13 @@
 import React from "react";
-import Page from "../../components/Page/Page";
 import "./ProductsList.css";
+import ProductsCardList from "../../components/ProductsCardList";
+import Page from "../../components/Page/Page";
 import Grid from "@material-ui/core/Grid";
 import Header from "../../components/Header/Header";
 import Filter from "../../components/Filter/Filter";
 import ProductsListHeader from "../../components/ProductsListHeader/ProductsListHeader";
-import ProductCard from "../../components/ProductCard/ProductCard";
 import Menu from "../../components/Menu/Menu";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+// import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 const data = [
   { item: "Most Popular" },
@@ -41,15 +41,7 @@ export default function ProductsList() {
                 {` < >`}
               </Grid>
             </Grid>
-            <Grid container spacing={3}>
-              {Array(40)
-                .fill()
-                .map((i) => (
-                  <Grid item xs={12} sm={3}>
-                    <ProductCard />
-                  </Grid>
-                ))}
-            </Grid>
+            <ProductsCardList row={3} />
           </Grid>
         </Grid>
       </div>

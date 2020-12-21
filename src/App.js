@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
+import "semantic-ui-css/semantic.min.css";
 // import About from "./pages/about/about";
 import MainHome from "./pages/home/main-home";
 import Navbar from "./components/navbar/navbar";

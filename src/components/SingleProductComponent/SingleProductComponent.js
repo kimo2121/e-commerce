@@ -1,9 +1,7 @@
 import React from "react";
-import { Rating } from "semantic-ui-react";
-import Grid from "@material-ui/core/Grid";
-import Button from "@material-ui/core/Button";
 import LocalMallIcon from "@material-ui/icons/LocalMall";
-// import Rating from "@material-ui/lab/Rating";
+import Grid from "@material-ui/core/Grid";
+import Rating from "@material-ui/lab/Rating";
 import Menu from "../../components/Menu/Menu";
 import { menuData, headerItemData } from "./data";
 import ProductImgList from "../../components/ProductImgList/ProductImgList";
@@ -12,6 +10,7 @@ import HeaderItem from "../../components/HeaderItem/HeaderItem";
 import List from "../../components/List/List";
 import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
+import MainButton from '../../components/MainButton/MainButton'
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
@@ -34,9 +33,18 @@ export default function SingleProductComponent() {
       </Grid>
       <Grid item sm={7} xs={12}>
         <p>Mens Solid Color Baggy Loose Drawstring Casual Cotton Harem Pants</p>
-        <Rating defaultRating={3} maxRating={5} disabled />
         <div style={{ display: "flex" }}>
           <p>productId:51465465</p>
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginLeft: "1rem",
+            }}
+          >
+            <Rating name="read-only" value={5} readOnly size="small" />
+            <p>10 Reviews</p>
+          </div>
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
           <h1 style={{ color: "red" }}>US$40.99</h1>
@@ -44,20 +52,17 @@ export default function SingleProductComponent() {
           <div style={{ background: "#ffcccb", color: "red" }}>-20%</div>
         </div>
         <div>
-          <h3 style={{ color: "black" }}>color</h3>
+          <h2 style={{ color: "black" }}>color:red</h2>
           <ProductImgList isSingleProduct />
         </div>
         <Menu btnName="Size:" data={menuData} />
         <HeaderItem data={headerItemData} />
         <div style={{ display: "flex", margin: "1rem" }}>
-          <Button
-            variant="contained"
-            color="primary"
-            style={{ width: "20vw", marginRight: "1rem" }}
-          >
+        <MainButton title='ADD TO BAG'>
+
             <LocalMallIcon style={{ marginRight: "5px" }} />
-            ADD TO BAG
-          </Button>
+        </MainButton>
+          
           <div
             style={{
               display: "flex",
@@ -69,7 +74,6 @@ export default function SingleProductComponent() {
             <p>255</p>
           </div>
         </div>
-
         <List title="Description">
           <ProducatDescription />
         </List>
