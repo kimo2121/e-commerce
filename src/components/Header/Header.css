@@ -1,0 +1,6 @@
+.header {
+  color: grey;
+}
+.header:hover {
+  color: black;
+}

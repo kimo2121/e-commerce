@@ -1,0 +1,16 @@
+hr {
+  color: lightgray;
+  padding: 0;
+  line-height: 0;
+}
+hr:hover {
+  color: black;
+  cursor: pointer;
+}
+.plus {
+  font-size: 1.2rem;
+}
+p {
+  padding-top: 1rem;
+  line-height: 0;
+}

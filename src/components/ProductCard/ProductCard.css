@@ -1,0 +1,34 @@
+.cardImg {
+  /* width: 100%; */
+  object-fit: contain;
+}
+.smallImg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.smallImg:hover {
+  border: 1px solid black;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.rowcContianer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loveIcon {
+  font-size: 1.2rem !important;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.row {
+  display: flex;
+}
