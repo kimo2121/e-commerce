@@ -26,6 +26,7 @@
   border-radius: 50% !important;
   width: 12rem;
   height: 12rem;
+  object-fit: fill;
 }
 .image:hover {
   cursor: pointer;

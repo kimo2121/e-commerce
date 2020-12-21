@@ -1,9 +1,12 @@
 .cardImg {
-  /* width: 100%; */
-  object-fit: contain;
+  min-width: 100%;
+  height: 80%;
+
+  /* object-fit: contain; */
 }
 .smallImg {
   width: 20px;
+  margin-left: 2%;
   height: 20px;
   object-fit: contain;
 }
@@ -16,19 +19,26 @@
 }
 
 .rowcContianer {
+  position: relative;
+  height: 20%;
+  margin-left: 2%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 .loveIcon {
+  margin: 0.3rem 0rem 0rem 0.5rem;
   font-size: 1.2rem !important;
 }
 .oldPrice {
   text-decoration: line-through;
   color: grey;
-  font-size: 10px;
+  font-size: 0.8rem;
   margin-left: 5px;
 }
 .row {
+  font-size: 1rem;
+  height: 20%;
   display: flex;
 }

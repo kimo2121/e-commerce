@@ -16,6 +16,7 @@ import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
 import SaleMenu from "../megamenu/sale-menu";
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
+
 // import KidsMenu from "../megamenu/kids-menu";
 
 const Navbar = () => {
@@ -61,7 +62,7 @@ const Navbar = () => {
         // style={{ width: "30%", margin: "20px 20px  20px -140px" }}
       />
       <Link
-        to="/"
+        to="/account"
         style={{ position: "absolute", marginLeft: "72%", marginTop: "2%" }}
       >
         <MdIcons.MdPersonOutline color={"black"} size={28} />

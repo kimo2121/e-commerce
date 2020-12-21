@@ -2,6 +2,8 @@
 @import "~slick-carousel/slick/slick-theme.css";
 
 .slider-component {
+  text-align: center;
+
   width: 31vw;
   margin: 5% 2% 0 6%;
   height: 80%;
@@ -12,7 +14,6 @@
   transition: all 0.5s ease-out;
 }
 /* .name-price-block {
-   background-color: red; 
 } */
 .slide img {
   height: 45vh;

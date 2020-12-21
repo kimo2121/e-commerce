@@ -33,7 +33,7 @@ export default function ProductsList() {
                 {` < >`}
               </Grid>
             </Grid>
-            <Grid container spacing={3}>
+            <Grid  container spacing={3}>
               {Array(40)
                 .fill()
                 .map((i) => (
