@@ -1,0 +1,22 @@
+.my-orders {
+  margin-top: 3%;
+}
+.my-assets {
+  margin-top: 1%;
+}
+.acc-info {
+  margin-top: 1%;
+}
+.prog-center {
+  margin-top: 1%;
+}
+.icons {
+  color: rgb(134, 134, 134);
+}
+.my-orders a:hover .icons,
+.my-assets a:hover .icons,
+.acc-info a:hover .icons,
+.prog-center a:hover .icons {
+  fill: rgb(0, 0, 0);
+  color: rgb(211, 211, 211);
+}

@@ -15,8 +15,8 @@
 
 .my-account-panel a {
   display: inline-block;
-  margin: 0.5% 0 0% 0%;
-  padding: 2.5% 0% 2.5% 15%;
+  margin: -5vh 0% 0% 0%;
+  padding: 2% 0% 2% 15%;
   min-width: 100%;
   color: rgb(68, 68, 68);
 }
@@ -132,18 +132,17 @@
   color: rgb(255, 202, 105);
 }
 
-.profile-tags {
+/* .profile-tags {
   width: 19.4%;
   padding-left: 5%;
   padding-top: 2%;
   height: 80%;
-}
+} */
 .profile-tags:hover,
-.my-orders-tags:hover,
 .interactive-center-tags:hover {
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
-.profile-tags:hover > span {
+/* .profile-tags:hover > span {
   color: rgb(253, 114, 114);
   cursor: pointer;
 }
@@ -153,14 +152,13 @@
 }
 .profile-tags a {
   position: absolute;
-  /* float: left; */
   margin-top: 2% !important;
   color: rgb(253, 114, 114);
 }
 .profile-tags a:hover {
   color: rgb(253, 114, 114);
   text-decoration: underline;
-}
+} */
 .divider3,
 .divider4,
 .divider5 {
@@ -171,13 +169,7 @@
   width: 95%;
   height: 8%;
 }
-.my-orders-tags {
-  text-align: center;
-  padding-top: 5%;
-  margin-left: 2.8%;
-  width: 21.5%;
-  height: 100%;
-}
+
 .divider4 {
   font-weight: bolder;
   background-color: rgb(231, 231, 231);
@@ -188,8 +180,7 @@
   justify-content: space-between;
   border: none;
 }
-.interactive-center-tags:hover,
-.my-orders-tags:hover {
+.interactive-center-tags:hover {
   cursor: pointer;
   color: rgb(253, 114, 114);
 }
@@ -203,10 +194,26 @@
   text-align: center;
   padding-top: 10%;
   margin-left: 1%;
-  width: 32%;
+  width: 32.3%;
   height: 100%;
 }
+.lottery-tag {
+  border-bottom: 1px solid #97979734;
+  border-right: 1px solid #97979734;
+  border-left: 1px solid #97979734;
+}
+
+.check-in-tag,
+.vote-tag {
+  border-bottom: 1px solid #97979734;
+}
+.community-tag {
+  border-right: 1px solid #97979734;
+  border-left: 1px solid #97979734;
+}
 .divider5 {
+  width: 98.5%;
+  margin-left: 0.5%;
   margin-top: 0.5%;
   padding-bottom: 10%;
 }

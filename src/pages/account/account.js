@@ -12,6 +12,13 @@ import * as FaIcons from "react-icons/fa";
 import * as BiIcons from "react-icons/bi";
 import * as FiIcons from "react-icons/fi";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import IconicComponent from "../../components/iconic-component/iconic-component";
+import {
+  IconData,
+  MyAssets,
+} from "../../components/iconic-component/iconic-data";
+import MyAccountPanel from "../../components/account-panel/my-account-panel";
+import { MyOrders,Assets } from "../../components/account-panel/panel-data";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -47,7 +54,7 @@ const Account = () => {
               >
                 <div className="my-account-panel">
                   <Link
-                    to="/"
+                    to="/account"
                     style={{
                       textAlign: "left",
                       fontSize: "18px",
@@ -61,59 +68,26 @@ const Account = () => {
                   <br />
                   <div className="my-orders">
                     <span>My Orders</span>
-                    <br />
 
-                    <Link>
-                      <HiIcons.HiOutlineClipboardList
-                        className="icons"
-                        size={16}
-                      />{" "}
-                      All(0)
-                    </Link>
                     <br />
-                    <Link>
-                      <HiIcons.HiOutlineCreditCard
-                        className="icons"
-                        size={16}
-                      />{" "}
-                      Unpaid(0)
-                    </Link>
-                    <br />
-                    <Link>
-                      <FiIcons.FiPackage className="icons" size={15} />{" "}
-                      Processing(0)
-                    </Link>
-                    <br />
-                    <Link>
-                      <FiIcons.FiTruck className="icons" size={16} /> Shipped(0)
-                    </Link>
-                    <br />
-                    <Link>
-                      <FiIcons.FiLock className="icons" size={17} /> Closed(0)
-                    </Link>
+                    {MyOrders.map((item) => (
+                      <MyAccountPanel icon={item.icon} name={item.name} />
+                    ))}
+                    
                   </div>
                   <br />
                   <div className="my-assets">
                     <span>My Assets</span>
                     <br />
-                    <Link>
-                      <HiIcons.HiOutlineCurrencyDollar
-                        className="icons"
-                        size={16}
-                      />{" "}
-                      My Points
-                    </Link>
-                    <br />
-                    <Link>
-                      <HiIcons.HiOutlineTicket className="icons" size={16} /> My
-                      Coupons
-                    </Link>
+                    {Assets.map((item) => (
+                      <MyAccountPanel icon={item.icon} name={item.name} />
+                    ))}
                   </div>
                   <br />
                   <div className="acc-info">
                     <span>Account Information</span>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineUserCircle
                         className="icons"
                         size={16}
@@ -121,12 +95,12 @@ const Account = () => {
                       Personal Info
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineMail className="icons" size={16} />{" "}
                       Email Preferences
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineLocationMarker
                         className="icons"
                         size={16}
@@ -134,21 +108,21 @@ const Account = () => {
                       Address Book
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineHeart className="icons" size={16} /> My
                       Wishlist
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <GiIcons.GiPirateCoat className="icons" size={16} /> My
                       Outfits
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <FiIcons.FiStar className="icons" size={16} /> My Reviews
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineQuestionMarkCircle
                         className="icons"
                         size={16}
@@ -156,7 +130,7 @@ const Account = () => {
                       My Questions
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineShieldExclamation
                         className="icons"
                         size={16}
@@ -168,17 +142,17 @@ const Account = () => {
                   <div className="prog-center">
                     <span>Program Center</span>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineSupport className="icons" size={16} />{" "}
                       Affiliate Center
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineTag className="icons" size={16} />{" "}
                       Wholesale Center
                     </Link>
                     <br />
-                    <Link>
+                    <Link to="/account">
                       <HiIcons.HiOutlineExclamation
                         className="icons"
                         size={16}
@@ -218,31 +192,15 @@ const Account = () => {
                   <br />
                   <span className="exp-amount">NC EXP 0</span>
                 </div>
-                <div
-                  className="profile-tags"
-                  style={{
-                    width: "19.3%",
-                    marginLeft: "22.5%",
-                  }}
-                >
-                  <span>5</span>
-                  <p>Points</p>
-                  <Link>Get & Use</Link>
-                </div>
-                <div className="profile-tags">
-                  <span>2</span>
-                  <p>Coupons</p>
-                  <Link>View</Link>
-                </div>
-                <div className="profile-tags">
-                  <span>0</span>
-                  <p>Wishlists</p>
-                  <Link>View</Link>
-                </div>
-                <div className="profile-tags">
-                  <span>12</span>
-                  <p>View history</p>
-                  <Link>View</Link>
+                <div style={{ marginLeft: "23%", display: "flex" }}>
+                  {MyAssets.map((item) => (
+                    <IconicComponent
+                      value={item.value}
+                      title={item.title}
+                      link={item.link}
+                      isMyAssets
+                    />
+                  ))}
                 </div>
               </Paper>
             </Grid>
@@ -256,32 +214,9 @@ const Account = () => {
               >
                 <span className="divider3">My Orders</span>
                 <div style={{ display: "flex", height: "30%" }}>
-                  <div className="my-orders-tags">
-                    <HiIcons.HiOutlineClipboardList
-                      className="svg-icons"
-                      size={30}
-                    />
-                    <br />
-                    <span>All orders</span>
-                  </div>
-                  <div className="my-orders-tags">
-                    <HiIcons.HiOutlineCreditCard
-                      className="svg-icons"
-                      size={30}
-                    />
-                    <br />
-                    <span>Unpaid</span>
-                  </div>
-                  <div className="my-orders-tags">
-                    <FiIcons.FiPackage className="svg-icons" size={28} />
-                    <br />
-                    <span>Processing</span>
-                  </div>
-                  <div className="my-orders-tags">
-                    <RiIcons.RiTruckLine className="svg-icons" size={29} />
-                    <br />
-                    <span>Shipped</span>
-                  </div>
+                  {IconData.map((item) => (
+                    <IconicComponent name={item.name} icon={item.icon} />
+                  ))}
                 </div>
                 <div className="divider4">
                   <span>Products</span>
@@ -301,7 +236,7 @@ const Account = () => {
                     height: "47%",
                   }}
                 >
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags check-in-tag">
                     <RiIcons.RiCalendarCheckLine
                       className="svg-icons"
                       size={28}
@@ -309,27 +244,27 @@ const Account = () => {
                     <br />
                     <span>Check In</span>
                   </div>
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags lottery-tag">
                     <CgIcons.CgPerformance className="svg-icons" size={28} />
                     <br />
                     <span>Lottery activity</span>
                   </div>
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags vote-tag">
                     <FaIcons.FaVoteYea className="svg-icons" size={28} />
                     <br />
                     <span>Vote</span>
                   </div>
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags make-money-tag">
                     <FaIcons.FaHandHoldingUsd className="svg-icons" size={28} />
                     <br />
                     <span>Make Money</span>
                   </div>
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags community-tag">
                     <BiIcons.BiHomeHeart className="svg-icons" size={28} />
                     <br />
                     <span>Community</span>
                   </div>
-                  <div className="interactive-center-tags">
+                  <div className="interactive-center-tags sale-tag">
                     <CgIcons.CgShoppingBag className="svg-icons" size={28} />
                     <br />
                     <span>$0.01 sale</span>
@@ -339,7 +274,7 @@ const Account = () => {
             </Grid>
             <div className="misc-links">
               <div className="link-1" style={{ marginRight: "1.5%" }}>
-                <Link to="/">
+                <Link to="/account">
                   <img
                     src="https://imgaz1.chiccdn.com/os/201910/20191017050928_348.jpg.webp"
                     alt=""
@@ -347,7 +282,7 @@ const Account = () => {
                 </Link>
               </div>
               <div style={{ marginRight: "1.5%" }}>
-                <Link to="/">
+                <Link to="/account">
                   <img
                     src="https://imgaz1.chiccdn.com/os/201910/20191017050919_804.jpg.webp"
                     alt=""
@@ -355,15 +290,15 @@ const Account = () => {
                 </Link>
               </div>
               <div style={{ marginRight: "1.5%" }}>
-                <Link to="/">
+                <Link to="/account">
                   <img
                     src="https://imgaz1.chiccdn.com/os/201910/20191017050908_919.jpg.webp"
                     alt=""
                   />
                 </Link>
               </div>
-              <div >
-                <Link to="/">
+              <div>
+                <Link to="/account">
                   <img
                     src="https://imgaz1.chiccdn.com/os/201910/20191017050900_567.jpg.webp"
                     alt=""
