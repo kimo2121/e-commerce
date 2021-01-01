@@ -1,15 +1,8 @@
 import React from "react";
 import "./iconic-component.css";
-import * as HiIcons from "react-icons/hi";
-import * as RiIcons from "react-icons/ri";
-import * as FiIcons from "react-icons/fi";
-import * as GiIcons from "react-icons/gi";
-import * as CgIcons from "react-icons/cg";
-import * as FaIcons from "react-icons/fa";
-import * as BiIcons from "react-icons/bi";
 import { Link } from "react-router-dom";
 
-const IconicComponent = ({ name, icon, isMyAssets,value,title,link }) => {
+const IconicComponent = ({ name, icon, isMyAssets,value,title,link,InteractiveCenter }) => {
   return (
     <div>
       {isMyAssets ? (
@@ -20,7 +13,7 @@ const IconicComponent = ({ name, icon, isMyAssets,value,title,link }) => {
         </div>
       ) : (
         <div>
-          <div className="my-orders-tags">
+          <div className={InteractiveCenter ? "interactive-center-tags" : "my-orders-tags" }>
             {icon}
             <br />
             <span>{name}</span>

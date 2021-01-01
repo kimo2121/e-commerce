@@ -1,17 +1,33 @@
-.my-orders {
-  margin-top: 3%;
+.my-acc {
+  font-size: 1.1rem;
+  margin-top: 1.5%;
 }
-.my-assets {
-  margin-top: 1%;
-}
-.acc-info {
-  margin-top: 1%;
+.sett-info {
+  font-size: 1.1rem;
+  margin-top: 1.5%;
 }
 .prog-center {
-  margin-top: 1%;
+  font-size: 1.1rem;
+  margin-top: 1.5%;
 }
 .icons {
   color: rgb(134, 134, 134);
+}
+.account-divider,
+.settings-divider,
+.program-divider {
+  border-bottom: 1px solid #979797;
+  width: 88%;
+  opacity: 0.3;
+  position: absolute;
+  left: 6%;
+  top: 8%;
+}
+.settings-divider {
+  top: 39%;
+}
+.program-divider {
+  top: 77%;
 }
 .my-orders a:hover .icons,
 .my-assets a:hover .icons,

@@ -1,0 +1,37 @@
+.react-date-picker__wrapper {
+  height: 5vh !important;
+}
+.react-date-picker__inputGroup__divider {
+  line-height: 2rem !important;
+}
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__year,
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__day,
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__month {
+  margin-top: 1% !important;
+  height: 18% !important;
+}
+.input-label {
+  text-align: left !important;
+  width: 8rem !important;
+}
+.form-personal-info {
+  position: absolute !important;
+  z-index: 10;
+  margin-top: 2%;
+  margin-left: 4.5%;
+}
+.Preference-categories {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+  height: 23vh !important;
+  margin-bottom: 5% !important;
+  margin-left: 26% !important;
+}
+
+.confirm-edit1 {
+  margin-top: 7% !important;
+  margin-bottom: 5% !important;
+  margin-left: 25% !important;
+}

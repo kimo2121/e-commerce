@@ -26,13 +26,13 @@
   text-decoration: none;
 }
 
-.dropdown {
+.dropdown0 {
   z-index: 5 !important;
   /* position: absolute; */
   float: none;
   overflow: hidden;
 }
-.dropdown .dropbtn {
+.dropdown0 .dropbtn {
   font-size: 16px;
   border: none;
   outline: none;
@@ -75,7 +75,7 @@
   margin: 5% 5%;
 }
 .navbar:hover .dropdown-content {
-  display: block;
+  display: none;
 }
 
 /* Create three equal columns that floats next to each other */

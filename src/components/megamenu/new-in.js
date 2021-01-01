@@ -4,7 +4,7 @@ import "./megamenu.css";
 const NewInMenu = () => {
   return (
     <div className="navbar" style={{ marginLeft: "-37%" }}>
-      <div className="dropdown">
+      <div className="dropdown0">
         <button className="dropbtn">New In</button>
         <div className="dropdown-content">
           <div className="row-1">

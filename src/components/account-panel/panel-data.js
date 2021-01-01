@@ -1,87 +1,71 @@
 import * as HiIcons from "react-icons/hi";
-import * as RiIcons from "react-icons/ri";
 import * as FiIcons from "react-icons/fi";
 import * as GiIcons from "react-icons/gi";
-import * as CgIcons from "react-icons/cg";
-import * as FaIcons from "react-icons/fa";
-import * as BiIcons from "react-icons/bi";
+
 export const MyOrders = [
   {
+    icon: <HiIcons.HiOutlineViewGrid className="icons" size={16} />,
+    name: "Overview",
+    id: 1162,
+    to: "/account",
+  },
+  {
     icon: <HiIcons.HiOutlineClipboardList className="icons" size={16} />,
-    name: "All(0)",
+    name: "Orders",
+    id: 1272,
+    to: "/account",
   },
-  {
-    icon: <HiIcons.HiOutlineCreditCard className="icons" size={16} />,
-    name: "Unpaid(0)",
-  },
-  {
-    icon: <FiIcons.FiPackage className="icons" size={15} />,
-    name: "processing(0)",
-  },
-  {
-    icon: <FiIcons.FiTruck className="icons" size={16} />,
-    name: "Shipped(0)",
-  },
-  {
-    icon: <FiIcons.FiLock className="icons" size={17} />,
-    name: "Closed(0)",
-  },
-];
-export const Assets = [
   {
     icon: <HiIcons.HiOutlineCurrencyDollar className="icons" size={16} />,
-    name: "My Orders",
-  },
-  {
-    icon: <HiIcons.HiOutlineTicket className="icons" size={16} />,
-    name: "My Orders",
+    name: "Rewards",
+    id: 1307,
+    to: "/account",
   },
 ];
-const AccountInfo = [
+export const Assets = [];
+export const AccountInfo = [
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineUserCircle className="icons" size={16} />,
+    name: "Personal Info",
+    id: 11327,
+    to: "/account/personalinfo",
   },
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineLocationMarker className="icons" size={16} />,
+    name: "Address Book",
+    id: 13787,
+    to: "/account/addressbook",
   },
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineHeart className="icons" size={16} />,
+    name: "My Wishlist",
+    id: 13757,
+    to: "/account",
   },
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
-  },
-  {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
-  },
-  {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
-  },
-  {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
-  },
-  {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineShieldExclamation className="icons" size={16} />,
+    name: "Change Password",
+    id: 12547,
+    to: "/account",
   },
 ];
-const ProgramCenter = [
+export const ProgramCenter = [
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineSupport className="icons" size={16} />,
+    name: "Affiliate Center",
+    id: 137224,
+    to: "/account",
   },
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineTag className="icons" size={16} />,
+    name: "Wholescale Center",
+    id: 137778,
+    to: "/account",
   },
   {
-    icon: <HiIcons.HiOutlineClipboardList className="svg-icons" size={30} />,
-    name: "My Orders",
+    icon: <HiIcons.HiOutlineExclamation className="icons" size={16} />,
+    name: "Drop-ship rules",
+    id: 111437,
+    to: "/account",
   },
 ];

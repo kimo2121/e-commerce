@@ -8,6 +8,14 @@
   position: absolute;
   width: 17%;
 }
+.account-panel-link {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 0% !important;
+  margin-top: 2% !important;
+  margin-bottom: 7.5% !important;
+}
+
 .my-account-panel a:hover {
   background-color: rgb(236, 236, 236);
   color: rgb(68, 68, 68);
@@ -15,8 +23,8 @@
 
 .my-account-panel a {
   display: inline-block;
-  margin: -5vh 0% 0% 0%;
-  padding: 2% 0% 2% 15%;
+  margin: -1vh 0% 0% 0%;
+  padding: 2% 0% 2% 7%;
   min-width: 100%;
   color: rgb(68, 68, 68);
 }
@@ -27,38 +35,21 @@
   position: relative;
   display: inline-block;
 }
-.my-orders {
-  margin-top: 10%;
-}
 
-.my-assets {
-  margin-top: 1%;
-}
-.acc-info {
-  margin-top: 1%;
-}
-.prog-center {
-  margin-top: 1%;
-}
-.icons {
-  color: rgb(134, 134, 134);
-}
 .my-orders a:hover .icons,
 .my-assets a:hover .icons,
 .acc-info a:hover .icons,
 .prog-center a:hover .icons {
   fill: rgb(0, 0, 0);
   color: rgb(211, 211, 211);
-  /* filter: invert(100%); */
-  /* -webkit-filter: invert(50%); */
 }
-.divider {
-  border-bottom: 1px solid #979797;
-  width: 88%;
-  opacity: 0.3;
-  position: absolute;
-  left: 6%;
-  top: 5%;
+
+.paper-style {
+  padding: 0;
+  margin: 0;
+  height: 35vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 .divider2,
 .divider3,
@@ -132,33 +123,6 @@
   color: rgb(255, 202, 105);
 }
 
-/* .profile-tags {
-  width: 19.4%;
-  padding-left: 5%;
-  padding-top: 2%;
-  height: 80%;
-} */
-.profile-tags:hover,
-.interactive-center-tags:hover {
-  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
-}
-/* .profile-tags:hover > span {
-  color: rgb(253, 114, 114);
-  cursor: pointer;
-}
-.profile-tags span {
-  font-weight: bolder;
-  font-size: 2rem !important;
-}
-.profile-tags a {
-  position: absolute;
-  margin-top: 2% !important;
-  color: rgb(253, 114, 114);
-}
-.profile-tags a:hover {
-  color: rgb(253, 114, 114);
-  text-decoration: underline;
-} */
 .divider3,
 .divider4,
 .divider5 {
@@ -180,43 +144,19 @@
   justify-content: space-between;
   border: none;
 }
-.interactive-center-tags:hover {
-  cursor: pointer;
-  color: rgb(253, 114, 114);
-}
-/* .svg-icons {
-} */
+
 .svg-icons:hover {
   color: rgb(253, 114, 114);
 }
 
-.interactive-center-tags {
-  text-align: center;
-  padding-top: 10%;
-  margin-left: 1%;
-  width: 32.3%;
-  height: 100%;
-}
-.lottery-tag {
-  border-bottom: 1px solid #97979734;
-  border-right: 1px solid #97979734;
-  border-left: 1px solid #97979734;
-}
-
-.check-in-tag,
-.vote-tag {
-  border-bottom: 1px solid #97979734;
-}
-.community-tag {
-  border-right: 1px solid #97979734;
-  border-left: 1px solid #97979734;
-}
 .divider5 {
+  max-height: 8%;
   width: 98.5%;
   margin-left: 0.5%;
   margin-top: 0.5%;
   padding-bottom: 10%;
 }
+
 .misc-links {
   display: flex;
   width: 97.8%;
@@ -224,21 +164,21 @@
   margin-left: 0.8%;
   justify-content: space-between !important;
 }
-.misc-links div img {
-  filter: brightness(98%);
-  width: 100% !important;
-}
-.misc-links div img:hover {
-  filter: brightness(103%);
-}
+
 .you-may-like {
   margin-left: 1%;
   background-color: white;
-  display: flex;
   flex-wrap: wrap;
   width: 97.5%;
 }
 .divider6 {
+  height: 5%;
   margin-top: 2%;
-  padding-bottom: 3.5%;
+  padding-bottom: 2% !important;
+}
+.interactive-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 47%;
 }

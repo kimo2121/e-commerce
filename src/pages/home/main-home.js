@@ -7,6 +7,7 @@ import SliderComponent from "../../components/slider-3d/slider";
 import SliderMultiple from "../../components/slider-multiple/slider-multiple";
 import ProductCard from "../../components/ProductCard/ProductCard";
 
+
 const MainHome = () => {
   return (
     <div className="main-home">
@@ -122,6 +123,7 @@ const MainHome = () => {
       <div className="dep-recommended-for-you">
         <h2 className="recommended-for-you">Recommended For You</h2>
       </div>
+
       <Footer />
     </div>
   );

@@ -1,0 +1,22 @@
+.sign-page {
+  background-color: rgb(238, 238, 238);
+  padding-top: 1%;
+}
+.sign-page-container {
+  position: relative;
+  width: 88%;
+  padding-top: 5%;
+  margin-left: 6%;
+  height: 80vh;
+  background: white;
+  display: flex;
+}
+
+.sign-page-divider {
+  border-left: 1px solid #979797;
+  height: 90%;
+  opacity: 0.3;
+  position: absolute;
+  right: 50%;
+  top: 7%;
+}

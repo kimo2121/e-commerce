@@ -59,7 +59,6 @@ const Navbar = () => {
         size="large"
         placeholder="Search..."
         onSearch={onSearch}
-        // style={{ width: "30%", margin: "20px 20px  20px -140px" }}
       />
       <Link
         to="/account"
