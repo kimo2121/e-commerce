@@ -17,7 +17,6 @@
 
 .rowContianer {
   display: flex;
-  /* justify-content: space-between; */
 }
 
 .loveIcon {
@@ -32,4 +31,26 @@
 .row {
   display: flex;
   margin-left: auto;
+}
+
+.productImgContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.productLink {
+  color: black !important;
+  background: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  position: absolute;
+  margin: 15rem auto;
+  padding: 0.5rem;
+  opacity: 0;
+  transition: all 0.8s ease;
+
+}
+
+.productImgContainer:hover .productLink {
+  opacity: .9;
 }

@@ -10,11 +10,14 @@ import HeaderItem from "../../components/HeaderItem/HeaderItem";
 import List from "../../components/List/List";
 import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
-import MainButton from '../../components/MainButton/MainButton'
+import MainButton from "../../components/MainButton/MainButton";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
 export default function SingleProductComponent() {
+  const [image, setImage] = React.useState("");
+  console.log({ image });
+
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
@@ -26,9 +29,14 @@ export default function SingleProductComponent() {
           }}
         >
           <div style={{ width: "10%", height: "100%" }}>
-            <VerticalSlider />
+            <VerticalSlider setImage={setImage} />
           </div>
-          <img src={img} alt="" style={{ width: "90%", height: "100%" }} />
+          <img
+            // src={imgae !== "" ? image : img}
+            src={image}
+            alt="product"
+            style={{ width: "90%", height: "100%" }}
+          />
         </div>
       </Grid>
       <Grid item sm={7} xs={12}>
@@ -56,13 +64,12 @@ export default function SingleProductComponent() {
           <ProductImgList isSingleProduct />
         </div>
         <Menu btnName="Size:" data={menuData} />
-        <HeaderItem data={headerItemData} />
+          <HeaderItem data={headerItemData} />
         <div style={{ display: "flex", margin: "1rem" }}>
-        <MainButton title='ADD TO BAG'>
-
+          <MainButton title="ADD TO BAG">
             <LocalMallIcon style={{ marginRight: "5px" }} />
-        </MainButton>
-          
+          </MainButton>
+
           <div
             style={{
               display: "flex",

@@ -7,7 +7,9 @@ import Header from "../../components/Header/Header";
 import Filter from "../../components/Filter/Filter";
 import ProductsListHeader from "../../components/ProductsListHeader/ProductsListHeader";
 import Menu from "../../components/Menu/Menu";
-// import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import ModalCard from "../../components/Modal/Modal";
+import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
+import { Link } from "react-router-dom";
 
 const data = [
   { item: "Most Popular" },
@@ -18,6 +20,18 @@ const data = [
 ];
 
 export default function ProductsList() {
+  const [open, setOpen] = React.useState(false);
+  // console.log({ open });
+
+  const handleOpen = () => {
+    setOpen(true);
+    console.log("true");
+  };
+  const handleClose = () => {
+    setOpen(false);
+    console.log("false");
+  };
+
   return (
     <Page>
       <div className="productsList_contianer">
@@ -41,7 +55,10 @@ export default function ProductsList() {
                 {` < >`}
               </Grid>
             </Grid>
-            <ProductsCardList row={3} />
+            <ProductsCardList onClick={handleOpen} row={3} />
+            <ModalCard handleClose={handleClose} open={open}>
+              <SingleProductComponent />
+            </ModalCard>
           </Grid>
         </Grid>
       </div>

@@ -21,9 +21,9 @@ const filterList = [
   { name: "Price Range", iconPlus: "+", iconMinus: "-" },
 ];
 export default function FilterItem() {
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
   const [activeLink, setactiveLink] = useState({ index: "", active: false });
-  console.log({ activeLink });
+  // console.log({ activeLink });
 
   return (
     <div>
@@ -54,7 +54,12 @@ export default function FilterItem() {
               </p>
             </div>
             {activeLink.index === index && activeLink.active && (
-              <div className="">
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                }}
+              >
                 <Checkbox label="color" />
                 <Checkbox label="color" />
                 <Checkbox label="color" />

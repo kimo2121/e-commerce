@@ -1,8 +1,9 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import "./VerticalSlider.css";
 import Slider from "react-slick";
 import KeyboardArrowUpIcon from "@material-ui/icons/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
+import { Link } from "react-router-dom";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
@@ -22,7 +23,7 @@ function SampleNextArrow(props) {
 }
 
 function SamplePrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { className, style } = props;
   return (
     <div
       className={className}
@@ -52,6 +53,9 @@ export default class VerticalSwipeToSlide extends Component {
   getCurrentIndex(index) {
     this.setState({ index });
   }
+  // componentDidMount() {
+  //   props.setImage("");
+  // }
 
   render() {
     const settings = {
@@ -89,15 +93,17 @@ export default class VerticalSwipeToSlide extends Component {
             .fill()
             .map((i) => (
               <div className="">
-                <img
-                  src={img}
-                  alt=""
-                  style={{
-                    width: "20ox",
-                    height: "40px",
-                    objectFit: "contain",
-                  }}
-                />
+                <Link onClick={() => this.props.setImage(img)}>
+                  <img
+                    src={img}
+                    alt=""
+                    style={{
+                      width: "20ox",
+                      height: "40px",
+                      // objectFit: "contain",
+                    }}
+                  />
+                </Link>
               </div>
             ))}
         </Slider>

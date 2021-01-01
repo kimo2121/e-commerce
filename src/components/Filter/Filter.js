@@ -33,7 +33,7 @@ export default function Filter() {
             } filter_link  `}
             onClick={() => setactiveLink({ index })}
           >
-            {link.name}{" "}
+            {link.name}
           </Link>
         ))}
       </div>

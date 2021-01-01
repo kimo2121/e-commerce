@@ -11,12 +11,12 @@ import MainButton from "../../components/MainButton/MainButton";
 import ArrowDropDownOutlinedIcon from "@material-ui/icons/ArrowDropDownOutlined";
 
 const centerContianer = {
-    display: "flex",
-    flexDirection: "column",
-    justifyContent: "center",
-    alignItems: "center",
-    margin:"1rem"
-  }
+  display: "flex",
+  flexDirection: "column",
+  justifyContent: "center",
+  alignItems: "center",
+  margin: "1rem",
+};
 
 export default function SingleProduct() {
   return (
@@ -26,23 +26,19 @@ export default function SingleProduct() {
         <SingleProductComponent />
         <Reviews />
         <hr />
-        <div
-          style={centerContianer}
-        >
-
-        <Pagination />
+        <div style={centerContianer}>
+          <Pagination />
         </div>
         <br />
         <h1>Pick For You</h1>
         <ProductsCardList isSingleProductPage row={2} />
-        <div
-          style={centerContianer}
-        >
-        <MainButton title="View more">
-          <ArrowDropDownOutlinedIcon />
-        </MainButton>
+        <div style={centerContianer}>
+          <MainButton title="View more">
+            <ArrowDropDownOutlinedIcon />
+          </MainButton>
         </div>
       </div>
+      
     </Page>
   );
 }
