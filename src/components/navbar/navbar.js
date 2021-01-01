@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import * as MdIcons from "react-icons/md";
 import * as RiIcons from "react-icons/ri";
-import * as AiIcons from "react-icons/ai";
 
 import "antd/dist/antd.css";
 import "./navbar.css";
@@ -16,6 +14,8 @@ import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
 import SaleMenu from "../megamenu/sale-menu";
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
+import CartDropdown from "../cart-dropdown/cart-dropdown";
+import AccountDropdown from "../account-dropdown/account-dropdown";
 
 // import KidsMenu from "../megamenu/kids-menu";
 
@@ -60,25 +60,14 @@ const Navbar = () => {
         placeholder="Search..."
         onSearch={onSearch}
       />
-      <Link
-        to="/account"
-        style={{ position: "absolute", marginLeft: "72%", marginTop: "2%" }}
-      >
-        <MdIcons.MdPersonOutline color={"black"} size={28} />
-      </Link>
+      <AccountDropdown />
       <Link
         to="/"
         style={{ position: "absolute", marginLeft: "77%", marginTop: "2%" }}
       >
         <RiIcons.RiHeart2Line color={"black"} size={26} />
       </Link>
-
-      <Link
-        to="/"
-        style={{ position: "absolute", marginLeft: "82%", marginTop: "2%" }}
-      >
-        <AiIcons.AiOutlineShopping color={"black"} size={28} />
-      </Link>
+      <CartDropdown />
     </div>
   );
 };

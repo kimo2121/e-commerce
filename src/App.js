@@ -9,6 +9,7 @@ import ProductsList from "./pages/ProductsList/ProductsList";
 import Addressbook from "./pages/addressbook/addressbook";
 import PersonalInfo from "./pages/personalinfo/personalinfo";
 import SignInSignUp from "./pages/sign-page/sign-page";
+import CartItem from "./components/cart-item/cart-item";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
           <Route exact path="/account/addressbook" component={Addressbook} />
           <Route exact path="/account/personalinfo" component={PersonalInfo} />
           <Route exact path="/sign-in-up" component={SignInSignUp} />
+          <Route exact path="/cartitem" component={CartItem} />
+          
         </Switch>
       </div>
     </Router>
