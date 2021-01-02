@@ -4,7 +4,7 @@ import "./megamenu.css";
 const BagsMenu = () => {
   return (
     <div className="navbar">
-      <div className="dropdown">
+      <div className="dropdown0">
         <button className="dropbtn">Bags</button>
         <div className="dropdown-content">
           <div className="row-1">

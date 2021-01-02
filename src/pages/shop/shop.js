@@ -4,7 +4,6 @@ import SearchSlider from "../../components/search-slider/search-slider";
 import { Input, Select, Pagination } from "antd";
 import "antd/dist/antd.css";
 import "./shop.css";
-import ShopItem from "../../components/shop-item/shop-item";
 
 const Shop = () => {
   const { Search } = Input;
@@ -31,7 +30,7 @@ const Shop = () => {
       </div>
       <div className="items-categ">
         <div className="shop-items">
-          <ShopItem />
+          {/* <ShopItem /> */}
         </div>
         <div className="categories">
           <SearchSlider />

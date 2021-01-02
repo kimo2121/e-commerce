@@ -4,7 +4,7 @@ import "./megamenu.css";
 const HomeGarden = () => {
   return (
     <div className="navbar">
-      <div className="dropdown">
+      <div className="dropdown0">
         <button className="dropbtn">Home & Garden</button>
         <div className="dropdown-content">
           <div className="row-1">

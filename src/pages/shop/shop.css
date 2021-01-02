@@ -1,9 +1,8 @@
-.shop-page {
+/* .shop-page {
   justify-content: center;
   height: 40vh;
   width: 100%;
   position: absolute;
-  /* display: flex; */
   background-color: rgb(104, 104, 104);
 }
 .search-sort {
@@ -18,9 +17,7 @@
   justify-content: space-around;
   width: 70%;
 }
-/* .item-img {
-  height: 500px;
-} */
+
 .select-dropdown {
   text-align: start;
   margin-right: 9%;
@@ -31,4 +28,4 @@
   justify-content: center;
   margin-top: 65%;
   margin-bottom: 5%;
-}
+} */

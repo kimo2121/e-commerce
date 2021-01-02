@@ -6,7 +6,7 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-export default function ProductCard({onClick}) {
+export default function ProductCard({ onClick }) {
   const handleClick = () => {};
   return (
     <Card
