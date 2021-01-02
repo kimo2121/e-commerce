@@ -3,23 +3,25 @@ import { Link } from "react-router-dom";
 import "./ProductCard.css";
 import Card from "@material-ui/core/Card";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import SimpleModal from "../Modal/Modal";
+import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-export default function ProductCard({ onClick }) {
-  const handleClick = () => {};
+export default function ProductCard({ onClick,isHome,isSingle,isProductlist }) {
   return (
     <Card
       style={{
         display: "flex",
         flexDirection: "column",
         padding: "0 0 .5rem 0",
+        position: "relative",
       }}
     >
       <div className="productImgContainer">
-        <Link onClick={onClick} className="productLink">
-          Quick View
-        </Link>
+        <SimpleModal>
+          <SingleProductComponent />
+        </SimpleModal>
         <img src={img} alt="product" className="cardImg" />
       </div>
       <div style={{ marginLeft: "1rem" }}>

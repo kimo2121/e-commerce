@@ -88,14 +88,15 @@
   width: 89.8%;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   margin-left: 6%;
-  margin-top: 8%;
-  height: 50vh;
+  margin-top: 5%;
+  /* height: 50vh; */
 }
 .flash-deals {
-  position: absolute;
-  left: 6%;
-  margin-top: -3%;
+  /* position: absolute; */
+  /* left: 6%; */
+  /* margin-top: -20%; */
   font-weight: bolder;
 }
 .dep-recommended-for-you {
