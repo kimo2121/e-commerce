@@ -1,7 +1,7 @@
 import React from "react";
 import "./ProductCard.css";
 import Card from "@material-ui/core/Card";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
 
@@ -24,8 +24,12 @@ export default function BasicProductCard({ onClick, isHome }) {
         </SimpleModal>
         <img src={img} alt="product" className="cardImg" />
       </div>
-      {isHome && <p style={{ padding: "1.5rem" }}>bDbfSvs</p>}
-      <p style={{ padding: "1.5rem" }}>US$59.99</p>
+      {isHome && (
+        <Link style={{ fontSize: ".8rem", marginTop: "1rem", color: "grey" }}>
+          Wool Detachable Scarf Trench Coats
+        </Link>
+      )}
+      <p style={{ marginBottom: "1rem" }}>US$59.99</p>
     </Card>
   );
 }

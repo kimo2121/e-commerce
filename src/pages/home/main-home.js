@@ -66,7 +66,7 @@ const MainHome = () => {
           {Array(5)
             .fill()
             .map((i) => (
-              <BasicProductCard isHome />
+              <BasicProductCard isHome  />
             ))}
           <br style={{ width: "10%" }} />
         </div>

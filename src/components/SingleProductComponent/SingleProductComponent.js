@@ -14,10 +14,9 @@ import MainButton from "../../components/MainButton/MainButton";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-export default function SingleProductComponent() {
+export default function SingleProductComponent({product }) {
   const [image, setImage] = React.useState("");
   console.log({ image });
-
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
