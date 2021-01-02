@@ -48,7 +48,7 @@ export default function SimpleModal({ children, open, handleClose }) {
   );
 
   return (
-    <div>
+    <div style={{ zIndex: "1000" }}>
       <Modal
         open={open}
         onClose={handleClose}
