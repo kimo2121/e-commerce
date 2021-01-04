@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import CloseIcon from "@material-ui/icons/Close";
-
+import { Link } from "react-router-dom";
 function getModalStyle() {
   const top = 50;
   const left = 50;
@@ -26,19 +26,25 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SimpleModal({ children, open, handleClose }) {
+export default function SimpleModal({
+  children,
+  // open,
+  //  handleClose
+}) {
   const classes = useStyles();
   // getModalStyle is not a pure function, we roll the style only on the first render
   const [modalStyle] = React.useState(getModalStyle);
-  //   const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
 
-  //   const handleOpen = () => {
-  //     setOpen(true);
-  //   };
+  const handleOpen = (e) => {
+    e.preventDefault();
+    setOpen(true);
+  };
 
-  //   const handleClose = () => {
-  //     setOpen(false);
-  //   };
+  const handleClose = (e) => {
+    e.preventDefault();
+    setOpen(false);
+  };
 
   const body = (
     <div style={modalStyle} className={classes.paper}>
@@ -48,7 +54,14 @@ export default function SimpleModal({ children, open, handleClose }) {
   );
 
   return (
-    <div style={{ zIndex: "1000" }}>
+    <div>
+      <Link
+        to={window.location.pathname}
+        onClick={handleOpen}
+        className="productLink"
+      >
+        Quick View
+      </Link>
       <Modal
         open={open}
         onClose={handleClose}
@@ -60,3 +73,4 @@ export default function SimpleModal({ children, open, handleClose }) {
     </div>
   );
 }
+

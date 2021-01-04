@@ -37,7 +37,7 @@
 .productImgContainer {
   position: relative;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .productLink {
   color: black !important;
@@ -54,3 +54,4 @@
 .productImgContainer:hover .productLink {
   opacity: 0.9;
 }
+

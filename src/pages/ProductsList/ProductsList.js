@@ -56,9 +56,9 @@ export default function ProductsList() {
               </Grid>
             </Grid>
             <ProductsCardList onClick={handleOpen} row={3} />
-            <ModalCard handleClose={handleClose} open={open}>
+            {/* <ModalCard handleClose={handleClose} open={open}>
               <SingleProductComponent />
-            </ModalCard>
+            </ModalCard> */}
           </Grid>
         </Grid>
       </div>

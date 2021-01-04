@@ -5,8 +5,7 @@ import "./main-home.css";
 import Footer from "../../components/footer/footer";
 import SliderComponent from "../../components/slider-3d/slider";
 import SliderMultiple from "../../components/slider-multiple/slider-multiple";
-import ProductCard from "../../components/ProductCard/ProductCard";
-
+import BasicProductCard from "../../components/ProductCard/BasicProductCard";
 
 const MainHome = () => {
   return (
@@ -20,7 +19,6 @@ const MainHome = () => {
       <SliderMultiple />
       <div className="brands-section">
         <h2 className="dep-brands">Featured Brands</h2>
-
         <div className="christmas-offers">
           <Link to="/">
             <img
@@ -61,13 +59,12 @@ const MainHome = () => {
         </div>
       </div>
       <div className="dep-flash-deals">
-        <h2 className="flash-deals">Flash Deals</h2>
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <br style={{ width: "10%" }} />
+        {/* <h2 className="flash-deals">Flash Deals</h2> */}
+        <h2>Flash Deals</h2>
+        <div style={{ display: "flex" }}>
+          <BasicProductCard isHome />
+          {/* <br style={{ width: "10%" }} /> */}
+        </div>
       </div>
       <div className="hot-categories-slider-dev">
         <h2 className="dep-categories">What's Hot</h2>
