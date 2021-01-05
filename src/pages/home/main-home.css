@@ -85,12 +85,10 @@
   filter: brightness(103%);
 }
 .dep-flash-deals {
-  width: 100%;
+  width: 89.8%;
   display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: row; */
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
+  justify-content: space-between;
+  flex-direction: column;
   margin-left: 6%;
   margin-top: 5%;
   /* height: 50vh; */

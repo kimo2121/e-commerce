@@ -27,7 +27,6 @@ export default function ProductImgList({ isSingleProduct, style }) {
         .fill()
         .map((i, index) => (
           <Link
-          to={window.location.pathname}
             style={{ color: "black" }}
             // onClick={() => setactiveLink({ index, active: !activeLink.active })}
             onClick={() => setactiveLink({ index, active: true })}

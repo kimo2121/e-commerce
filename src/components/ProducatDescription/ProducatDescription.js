@@ -11,7 +11,7 @@ export default function ProducatDescription() {
   return (
     <div>
       {data.map((i, index) => (
-        <Grid key={index} container>
+        <Grid container>
           <Grid sm={2} xs={6}>
             <p> {i.item} </p>
           </Grid>
@@ -20,10 +20,7 @@ export default function ProducatDescription() {
           </Grid>
         </Grid>
       ))}
-      <p style={{ fontWeight: "bold", marginTop: "2rem", color: "red" }}>
-        {" "}
-        Please Note:
-      </p>
+      <p style={{ fontWeight: "bold", marginTop: "2rem",color:"red" }}> Please Note:</p>
       <p>Please see the Size Reference to find the correct size.</p>
     </div>
   );

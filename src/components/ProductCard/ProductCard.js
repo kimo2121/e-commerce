@@ -8,12 +8,7 @@ import SingleProductComponent from "../SingleProductComponent/SingleProductCompo
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-export default function ProductCard({
-  onClick,
-  isHome,
-  isSingle,
-  isProductlist,
-}) {
+export default function ProductCard({ onClick,isHome,isSingle,isProductlist }) {
   return (
     <Card
       style={{
@@ -30,7 +25,7 @@ export default function ProductCard({
         <img src={img} alt="product" className="cardImg" />
       </div>
       <div style={{ marginLeft: "1rem" }}>
-        <Link to={window.location.pathname}>product name </Link>
+        <Link>product name </Link>
         <div className="rowContianer">
           <div className="row">
             <p>US$40.99</p>

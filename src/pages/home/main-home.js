@@ -6,9 +6,8 @@ import Footer from "../../components/footer/footer";
 import SliderComponent from "../../components/slider-3d/slider";
 import SliderMultiple from "../../components/slider-multiple/slider-multiple";
 import BasicProductCard from "../../components/ProductCard/BasicProductCard";
-import { connect } from "react-redux";
 
-const MainHome = ({ products }) => {
+const MainHome = () => {
   return (
     <div className="main-home">
       <div className="home-page-banner">
@@ -20,6 +19,7 @@ const MainHome = ({ products }) => {
       <SliderMultiple />
       <div className="brands-section">
         <h2 className="dep-brands">Featured Brands</h2>
+
         <div className="christmas-offers">
           <Link to="/">
             <img
@@ -63,11 +63,12 @@ const MainHome = ({ products }) => {
         {/* <h2 className="flash-deals">Flash Deals</h2> */}
         <h2>Flash Deals</h2>
         <div style={{ display: "flex" }}>
-          {products.map((product) => (
-            <BasicProductCard isHome product={product} />
-          ))}
-
-          {/* <br style={{ width: "10%" }} /> */}
+          {Array(5)
+            .fill()
+            .map((i) => (
+              <BasicProductCard isHome  />
+            ))}
+          <br style={{ width: "10%" }} />
         </div>
       </div>
       <div className="hot-categories-slider-dev">
@@ -129,7 +130,5 @@ const MainHome = ({ products }) => {
     </div>
   );
 };
-const mapStateToProps = (state) => ({
-  products: state.products.products,
-});
-export default connect(mapStateToProps)(MainHome);
+
+export default MainHome;

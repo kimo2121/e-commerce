@@ -36,13 +36,11 @@ export default function SimpleModal({
   const [modalStyle] = React.useState(getModalStyle);
   const [open, setOpen] = React.useState(false);
 
-  const handleOpen = (e) => {
-    e.preventDefault();
+  const handleOpen = () => {
     setOpen(true);
   };
 
-  const handleClose = (e) => {
-    e.preventDefault();
+  const handleClose = () => {
     setOpen(false);
   };
 
@@ -55,11 +53,7 @@ export default function SimpleModal({
 
   return (
     <div>
-      <Link
-        to={window.location.pathname}
-        onClick={handleOpen}
-        className="productLink"
-      >
+      <Link onClick={handleOpen} className="productLink">
         Quick View
       </Link>
       <Modal
@@ -73,4 +67,3 @@ export default function SimpleModal({
     </div>
   );
 }
-

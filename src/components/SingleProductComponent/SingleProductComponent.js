@@ -11,13 +11,12 @@ import List from "../../components/List/List";
 import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
 import MainButton from "../../components/MainButton/MainButton";
-import { connect } from "react-redux";
-import { addItem } from "../../redux/cart/cart.actions";
-// const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-const SingleProductComponent = ({ addItem, product }) => {
+const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
+
+export default function SingleProductComponent({product }) {
   const [image, setImage] = React.useState("");
-  // console.log({ image });
+  console.log({ image });
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
@@ -33,16 +32,16 @@ const SingleProductComponent = ({ addItem, product }) => {
           </div>
           <img
             // src={imgae !== "" ? image : img}
-            src={product.image_url}
+            src={image}
             alt="product"
             style={{ width: "90%", height: "100%" }}
           />
         </div>
       </Grid>
       <Grid item sm={7} xs={12}>
-        <p>{product.name}</p>
+        <p>Mens Solid Color Baggy Loose Drawstring Casual Cotton Harem Pants</p>
         <div style={{ display: "flex" }}>
-          <p>{product.model}</p>
+          <p>productId:51465465</p>
           <div
             style={{
               display: "flex",
@@ -55,8 +54,8 @@ const SingleProductComponent = ({ addItem, product }) => {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <h1 style={{ color: "red" }}>{product.current_price}</h1>
-          <p className="oldPrice">{product.raw_price}</p>
+          <h1 style={{ color: "red" }}>US$40.99</h1>
+          <p className="oldPrice">US$40.99</p>
           <div style={{ background: "#ffcccb", color: "red" }}>-20%</div>
         </div>
         <div>
@@ -64,9 +63,9 @@ const SingleProductComponent = ({ addItem, product }) => {
           <ProductImgList isSingleProduct />
         </div>
         <Menu btnName="Size:" data={menuData} />
-        <HeaderItem data={headerItemData} />
+          <HeaderItem data={headerItemData} />
         <div style={{ display: "flex", margin: "1rem" }}>
-          <MainButton onClick={addItem(product)} title="ADD TO BAG">
+          <MainButton title="ADD TO BAG">
             <LocalMallIcon style={{ marginRight: "5px" }} />
           </MainButton>
 
@@ -78,7 +77,7 @@ const SingleProductComponent = ({ addItem, product }) => {
             }}
           >
             <RiHeart2Line style={{ fontSize: "2rem" }} />
-            <p>{product.likes_count}</p>
+            <p>255</p>
           </div>
         </div>
         <List title="Description">
@@ -87,9 +86,4 @@ const SingleProductComponent = ({ addItem, product }) => {
       </Grid>
     </Grid>
   );
-};
-const mapDispatchToProps = (dispatch) => ({
-  addItem: (product) => dispatch(addItem(product)),
-});
-
-export default connect(null, mapDispatchToProps)(SingleProductComponent);
+}
