@@ -6,8 +6,9 @@ import Footer from "../../components/footer/footer";
 import SliderComponent from "../../components/slider-3d/slider";
 import SliderMultiple from "../../components/slider-multiple/slider-multiple";
 import BasicProductCard from "../../components/ProductCard/BasicProductCard";
+import { connect } from "react-redux";
 
-const MainHome = () => {
+const MainHome = ({ products }) => {
   return (
     <div className="main-home">
       <div className="home-page-banner">
@@ -62,7 +63,10 @@ const MainHome = () => {
         {/* <h2 className="flash-deals">Flash Deals</h2> */}
         <h2>Flash Deals</h2>
         <div style={{ display: "flex" }}>
-          <BasicProductCard isHome />
+          {products.map((product) => (
+            <BasicProductCard isHome product={product} />
+          ))}
+
           {/* <br style={{ width: "10%" }} /> */}
         </div>
       </div>
@@ -125,5 +129,7 @@ const MainHome = () => {
     </div>
   );
 };
-
-export default MainHome;
+const mapStateToProps = (state) => ({
+  products: state.products.products,
+});
+export default connect(mapStateToProps)(MainHome);

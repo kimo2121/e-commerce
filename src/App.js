@@ -23,7 +23,6 @@ function App() {
           <Route exact path="/productsList" component={ProductsList} />
           <Route exact path="/product/:productId" component={SingleProduct} />
           <Route exact path="/Shop" component={Shop} />
-          <Route exact path="/shop" component={Shop} />
           <Route exact path="/account" component={Account} />
           <Route exact path="/account/addressbook" component={Addressbook} />
           <Route exact path="/account/personalinfo" component={PersonalInfo} />

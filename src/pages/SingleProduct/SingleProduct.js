@@ -1,6 +1,5 @@
 import React from "react";
 import Page from "../../components/Page/Page";
-// import "./ProductsList.css";
 import Header from "../../components/Header/Header";
 import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
 import Reviews from "../../components/Reviews/Reviews";
