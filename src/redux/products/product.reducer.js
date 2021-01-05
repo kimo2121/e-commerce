@@ -1,7 +1,11 @@
-import PRODUCTS_DATA from "./product.data";
+// import PRODUCTS_DATA from "./product.data";
+import { kidsNew } from "./KidsNew";
+import { ShoesNew } from "../../data/ShoesNew";
 
 const INITIAL_STATE = {
-  products: PRODUCTS_DATA,
+  // products: ShoesNew.slice(0, 19),
+  products: kidsNew,
+  // kidsNew: KidsNew,
 };
 
 const productReducer = (state = INITIAL_STATE, action) => {

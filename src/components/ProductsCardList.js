@@ -5,19 +5,21 @@ import Grid from "@material-ui/core/Grid";
 
 export default function ProductsCardList({
   isSingleProductPage,
+  isHome,
   row,
   onClick,
+  data,
 }) {
   return (
     <Grid container spacing={3}>
-      {Array(40)
-        .fill()
-        .map((i) => (
-          <Grid item xs={12} sm={row}>
-            {isSingleProductPage ? (
-              <BasicProductCard onClick={onClick} />
+      {data &&
+        data.length > 0 &&
+        data.map((item, i) => (
+          <Grid key={i} item xs={12} sm={row}>
+            {isSingleProductPage || isHome ? (
+              <BasicProductCard onClick={onClick} product={item} isHome />
             ) : (
-              <ProductCard onClick={onClick} />
+              <ProductCard onClick={onClick} product={item} />
             )}
           </Grid>
         ))}

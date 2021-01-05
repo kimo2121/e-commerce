@@ -53,7 +53,11 @@ export default function SimpleModal({
 
   return (
     <div>
-      <Link onClick={handleOpen} className="productLink">
+      <Link
+        // to={window.location.pathname}
+        onClick={handleOpen}
+        className="productLink"
+      >
         Quick View
       </Link>
       <Modal

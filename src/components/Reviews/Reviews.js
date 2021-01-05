@@ -8,8 +8,8 @@ export default function Reviews() {
       <ReviewsHeader />
       {Array(5)
         .fill()
-        .map((i) => (
-          <ReviewCard />
+        .map((i, index) => (
+          <ReviewCard key={index} />
         ))}
     </div>
   );

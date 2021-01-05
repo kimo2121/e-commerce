@@ -33,8 +33,11 @@ export default function SimpleMenu({ data, btnName }) {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        {data.map((i) => (
-          <MenuItem onClick={() => handleClose(i.item)}> {i.item} </MenuItem>
+        {data.map((i, index) => (
+          <MenuItem key={index} onClick={() => handleClose(i.item)}>
+            {" "}
+            {i.item}{" "}
+          </MenuItem>
         ))}
       </Menu>
     </div>

@@ -5,7 +5,7 @@ const defualtStyles = {
   border: "1px solid black",
   borderRadius: "6px",
   margin: "0 1rem",
-  padding: ".6rem",
+  padding: ".3rem",
   background: "white",
   position: "relative",
 };
@@ -13,7 +13,7 @@ const styles = {
   border: "1px solid black",
   borderRadius: "6px",
   margin: "0 1rem",
-  padding: ".6rem",
+  padding: ".3rem",
   background: "black",
   color: "grey ",
   position: "relative",
@@ -25,6 +25,7 @@ export default function HeaderItem({ data }) {
     <div style={{ display: "flex" }}>
       {data.map((i, index) => (
         <div
+          key={index}
           style={
             activeLink.index === index && activeLink.active
               ? styles
@@ -32,6 +33,7 @@ export default function HeaderItem({ data }) {
           }
         >
           <Link
+            to={window.location.pathname}
             style={{
               color:
                 activeLink.index === index && activeLink.active

@@ -61,7 +61,7 @@ export default class VerticalSwipeToSlide extends Component {
     const settings = {
       //   dots: true,
       infinite: true,
-      slidesToShow: 8,
+      slidesToShow: 2,
       slidesToScroll: 1,
       vertical: true,
       verticalSwiping: true,
@@ -73,10 +73,15 @@ export default class VerticalSwipeToSlide extends Component {
       },
       afterChange: function (currentSlide) {
         console.log("after change", currentSlide);
-        // this.getCurrentIndex(currentSlide);
       },
     };
     console.log(this.state.index);
+    const data = this.props.data;
+    const imgs = [
+      data.variation_0_image,
+      data.variation_1_image,
+      data.image_url,
+    ];
     return (
       <div
         style={{
@@ -84,30 +89,42 @@ export default class VerticalSwipeToSlide extends Component {
           flexDirection: "column ",
           justifyContent: "center",
           alignItems: "center",
+          marginRight: "2rem",
         }}
       >
-        <KeyboardArrowUpIcon onClick={this.previous} className="arrow" />
-
-        <Slider ref={(c) => (this.slider = c)} {...settings}>
-          {Array(20)
-            .fill()
-            .map((i) => (
-              <div className="">
-                <Link onClick={() => this.props.setImage(img)}>
-                  <img
-                    src={img}
-                    alt=""
-                    style={{
-                      width: "20ox",
-                      height: "40px",
-                      // objectFit: "contain",
-                    }}
-                  />
-                </Link>
-              </div>
-            ))}
-        </Slider>
-        <KeyboardArrowDownIcon onClick={this.next} className="arrow" />
+        <div
+          style={{
+            height: "60vh",
+            // display: "flex",
+            // flexDirection: "column",
+            // alignItems: "center",
+          }}
+        >
+          <KeyboardArrowUpIcon onClick={this.previous} className="arrow" />
+          <div style={{ margin: "1.4rem auto" }}>
+            <Slider ref={(c) => (this.slider = c)} {...settings}>
+              {imgs.map((i, index) => (
+                <div key={index}>
+                  <Link
+                    to={window.location.pathname}
+                    onClick={() => this.props.setImage(i)}
+                  >
+                    <img
+                      src={i}
+                      alt=""
+                      style={{
+                        width: "20ox",
+                        height: "40px",
+                        objectFit: "contain",
+                      }}
+                    />
+                  </Link>
+                </div>
+              ))}
+            </Slider>
+          </div>
+          <KeyboardArrowDownIcon onClick={this.next} className="arrow" />
+        </div>
       </div>
     );
   }

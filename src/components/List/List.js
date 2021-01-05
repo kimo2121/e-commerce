@@ -10,15 +10,21 @@ export default function List({ children, title }) {
       <div>
         {/* <hr /> */}
 
-        <Link style={{ color: "black" }} onClick={() => setActive(!active)}>
+        <div
+          // to={window.location.pathname}
+          style={{ color: "black" }}
+          onClick={() => setActive(!active)}
+        >
           <div style={{ display: "flex", justifyContent: "space-between" }}>
             <p style={{ fontWeight: "bold", fontSize: "1.1rem" }}>{title} </p>
             <p className="plus">
-              <Link style={{ color: "black" }}>{active ? "-" : "+"}</Link>
+              <Link to={window.location.pathname} style={{ color: "black" }}>
+                {active ? "-" : "+"}
+              </Link>
             </p>
           </div>
           {active && <div>{children}</div>}
-        </Link>
+        </div>
       </div>
     </div>
   );

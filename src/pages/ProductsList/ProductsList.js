@@ -10,6 +10,8 @@ import Menu from "../../components/Menu/Menu";
 import ModalCard from "../../components/Modal/Modal";
 import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { useParams } from "react-router-dom";
 
 const data = [
   { item: "Most Popular" },
@@ -20,9 +22,10 @@ const data = [
 ];
 
 export default function ProductsList() {
+  const products = useSelector((state) => state.products.products);
   const [open, setOpen] = React.useState(false);
   // console.log({ open });
-
+  
   const handleOpen = () => {
     setOpen(true);
     console.log("true");
@@ -32,6 +35,13 @@ export default function ProductsList() {
     console.log("false");
   };
 
+  const { category, subcategory } = useParams();
+  console.log({ category });
+  console.log({ subcategory });
+  const filteredData = products.filter(
+    (item) => item.category == category && item.subcategory == subcategory
+  );
+  console.log({ filteredData });
   return (
     <Page>
       <div className="productsList_contianer">
@@ -55,7 +65,11 @@ export default function ProductsList() {
                 {` < >`}
               </Grid>
             </Grid>
-            <ProductsCardList onClick={handleOpen} row={3} />
+            <ProductsCardList
+              onClick={handleOpen}
+              row={3}
+              data={filteredData}
+            />
             {/* <ModalCard handleClose={handleClose} open={open}>
               <SingleProductComponent />
             </ModalCard> */}

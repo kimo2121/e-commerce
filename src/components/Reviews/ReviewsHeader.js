@@ -25,15 +25,15 @@ export default function ReviewsHeader() {
           <h1>
             5.0/ <span style={{ fontSize: "1rem" }}>5.0</span>
           </h1>
-          <Rating name="read-only" value={5} readOnly size="larg" />
+          <Rating name="read-only" value={5} readOnly size="large" />
         </Grid>
         <Grid item sm={6} xs={12}>
-          {sizes.map((i) => (
-            <Grid container>
-              <Grid sm={2} xs={6}>
+          {sizes.map((i, index) => (
+            <Grid key={index} container>
+              <Grid item sm={2} xs={6}>
                 <p> {i} </p>
               </Grid>
-              <Grid sm={10} xs={6} style={{ paddingTop: ".5rem" }}>
+              <Grid item sm={10} xs={6} style={{ paddingTop: ".5rem" }}>
                 <Progress percent={44} progress color="black" size="small" />
               </Grid>
             </Grid>

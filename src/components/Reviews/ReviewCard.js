@@ -13,15 +13,15 @@ const imgStyles = {
 export default function ReviewCard() {
   return (
     <Grid container>
-      <Grid sm={12} xs={12}>
+      <Grid item sm={12} xs={12}>
         <hr />
       </Grid>
-      <Grid sm={3} xs={2}>
+      <Grid item sm={3} xs={2}>
         <p> username </p>
       </Grid>
-      <Grid sm={9} xs={10}>
+      <Grid item sm={9} xs={10}>
         <div style={{ display: "flex" }}>
-          <Rating name="read-only" value={5} readOnly size="larg" />
+          <Rating name="read-only" value={5} readOnly size="large" />
           <p style={{ marginLeft: "1rem" }}>True to size</p>
         </div>
         <p>What you see is what you get.</p>
