@@ -1,11 +1,7 @@
 .cardImg {
   width: 100%;
   max-height: 300px;
-<<<<<<< HEAD
   object-fit: contain;
-=======
-  object-fit: cover;
->>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 }
 .smallImg {
   width: 20px;
@@ -41,11 +37,7 @@
 .productImgContainer {
   position: relative;
   display: flex;
-<<<<<<< HEAD
   /* justify-content: center; */
-=======
-  justify-content: center;
->>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 }
 .productLink {
   color: black !important;

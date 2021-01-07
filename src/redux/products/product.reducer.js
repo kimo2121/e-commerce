@@ -1,6 +1,6 @@
 // import PRODUCTS_DATA from "./product.data";
-import { kidsNew } from "./KidsNew";
-import { ShoesNew } from ".ShoesNew";
+// import { kidsNew } from "./KidsNew";
+import { ShoesNew } from "./ShoesNew";
 
 const INITIAL_STATE = {
   products: ShoesNew.slice(0, 19),

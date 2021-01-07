@@ -21,17 +21,12 @@ function App() {
         <Switch>
           <Route exact path="/" component={MainHome} />
           <Route exact path="/productsList" component={ProductsList} />
-<<<<<<< HEAD
           <Route
             exact
             path="/product/:category/:subcategory"
             component={ProductsList}
           />
           <Route exact path="/product/:productId" component={SingleProduct} />
-=======
-          <Route exact path="/SingleProduct" component={SingleProduct} />
-          {/* <Route exact path="/About" component={About} /> */}
->>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
           <Route exact path="/Shop" component={Shop} />
           <Route exact path="/shop" component={Shop} />
           <Route exact path="/account" component={Account} />
@@ -39,10 +34,6 @@ function App() {
           <Route exact path="/account/personalinfo" component={PersonalInfo} />
           <Route exact path="/sign-in-up" component={SignInSignUp} />
           <Route exact path="/cartitem" component={CartItem} />
-<<<<<<< HEAD
-=======
-          
->>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
         </Switch>
       </div>
     </Router>
