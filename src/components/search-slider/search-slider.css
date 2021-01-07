@@ -1,0 +1,16 @@
+.search-slider {
+  width: 10%;
+  height: 10vh;
+  z-index: 3;
+  position: absolute;
+  margin-top: 20%;
+}
+.items-categ {
+  display: flex;
+}
+.shop-items {
+  justify-content: space-between !important;
+  margin: 1% 2% 5% 5%;
+  width: 60%;
+  height: auto;
+}

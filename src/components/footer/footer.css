@@ -1,0 +1,65 @@
+.footer-page {
+  height: 60vh;
+  width: 100%;
+  background-color: rgb(42, 42, 42);
+  color: rgb(255, 255, 255);
+}
+.footer-first {
+  margin-bottom: 4%;
+  margin-top: 5%;
+  color: white;
+  margin-left: 8%;
+  text-align: start;
+  display: flex;
+}
+.footer-first > div > a {
+  color: rgb(117, 117, 117);
+}
+div > h3 {
+  color: white;
+}
+
+.about-us-div {
+  width: 30%;
+}
+
+.useful-links,
+.download {
+  margin-left: -2%;
+  width: 15%;
+  margin-right: 5%;
+}
+
+.about-us-div > p,
+.call-center > p {
+  width: 60%;
+  color: rgb(117, 117, 117);
+}
+.footer-first > div > a:hover {
+  color: rgb(194, 194, 194);
+}
+
+.footer-second {
+  margin-top: 2%;
+  margin-left: 7%;
+  display: flex;
+}
+
+.footer-second > a {
+  color: white;
+  font-size: 17px;
+  width: 6%;
+}
+.footer-second > a:hover {
+  color: rgb(117, 117, 117);
+}
+.made-by,
+.made-by > a {
+  color: rgb(117, 117, 117);
+}
+.made-by > a:hover {
+  color: rgb(194, 194, 194);
+}
+.footer-second > p {
+  margin-left: 35%;
+}
