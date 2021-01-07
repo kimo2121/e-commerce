@@ -10,8 +10,11 @@ import Menu from "../../components/Menu/Menu";
 import ModalCard from "../../components/Modal/Modal";
 import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
 import { Link } from "react-router-dom";
+<<<<<<< HEAD
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 
 const data = [
   { item: "Most Popular" },
@@ -22,10 +25,16 @@ const data = [
 ];
 
 export default function ProductsList() {
+<<<<<<< HEAD
   const products = useSelector((state) => state.products.products);
   const [open, setOpen] = React.useState(false);
   // console.log({ open });
   
+=======
+  const [open, setOpen] = React.useState(false);
+  // console.log({ open });
+
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
   const handleOpen = () => {
     setOpen(true);
     console.log("true");
@@ -35,6 +44,7 @@ export default function ProductsList() {
     console.log("false");
   };
 
+<<<<<<< HEAD
   const { category, subcategory } = useParams();
   console.log({ category });
   console.log({ subcategory });
@@ -42,6 +52,8 @@ export default function ProductsList() {
     (item) => item.category == category && item.subcategory == subcategory
   );
   console.log({ filteredData });
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
   return (
     <Page>
       <div className="productsList_contianer">
@@ -65,11 +77,15 @@ export default function ProductsList() {
                 {` < >`}
               </Grid>
             </Grid>
+<<<<<<< HEAD
             <ProductsCardList
               onClick={handleOpen}
               row={3}
               data={filteredData}
             />
+=======
+            <ProductsCardList onClick={handleOpen} row={3} />
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
             {/* <ModalCard handleClose={handleClose} open={open}>
               <SingleProductComponent />
             </ModalCard> */}

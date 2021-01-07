@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React from "react";
+=======
+import React, { useEffect, useState } from "react";
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 import { Link } from "react-router-dom";
 
 import * as RiIcons from "react-icons/ri";
@@ -13,11 +17,19 @@ import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
 import SaleMenu from "../megamenu/sale-menu";
+<<<<<<< HEAD
 // import KidsMenu from "../megamenu/kids-menu";
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
 
+<<<<<<< HEAD
+=======
+// import KidsMenu from "../megamenu/kids-menu";
+
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 const Navbar = () => {
   const onSearch = (value) => console.log(value);
   const { Search } = Input;
@@ -44,7 +56,10 @@ const Navbar = () => {
           <NewInMenu />
           <WomenMenu />
           <MenMenu />
+<<<<<<< HEAD
           {/* <KidsMenu /> */}
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
           <BagsMenu />
           <ShoesMenu />
           <HomeGarden />
@@ -53,6 +68,10 @@ const Navbar = () => {
         </div>
       </div>
 
+<<<<<<< HEAD
+=======
+      {/* <KidsMenu /> */}
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
       <Search
         className="search-bar"
         size="large"

@@ -19,6 +19,7 @@ const activeStyles = {
   padding: "4px",
 };
 
+<<<<<<< HEAD
 export default function ProductImgList({
   isSingleProduct,
   style,
@@ -46,6 +47,22 @@ export default function ProductImgList({
           {i !== "" && (
             <img
               src={i}
+=======
+export default function ProductImgList({ isSingleProduct, style }) {
+  const [activeLink, setactiveLink] = useState({ index: 0, active: true });
+  return (
+    <div>
+      {Array(4)
+        .fill()
+        .map((i, index) => (
+          <Link
+            style={{ color: "black" }}
+            // onClick={() => setactiveLink({ index, active: !activeLink.active })}
+            onClick={() => setactiveLink({ index, active: true })}
+          >
+            <img
+              src={img}
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
               alt="product"
               //   className="smallImg"
               style={
@@ -58,9 +75,14 @@ export default function ProductImgList({
                   : styles
               }
             />
+<<<<<<< HEAD
           )}
         </Link>
       ))}
+=======
+          </Link>
+        ))}
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
     </div>
   );
 }

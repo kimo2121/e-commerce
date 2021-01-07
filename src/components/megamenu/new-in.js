@@ -11,7 +11,11 @@ const NewInMenu = () => {
             <div className="row">
               <div className="column" style={{ paddingLeft: "13%" }}>
                 <span>Women New</span>
+<<<<<<< HEAD
                 <Link to="/product/men/Tops">Tops</Link>
+=======
+                <Link to="/">Tops</Link>
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
                 <Link to="/">Sweaters</Link>
                 <Link to="/">Coats</Link>
                 <Link to="/">Hoodies</Link>
@@ -30,7 +34,11 @@ const NewInMenu = () => {
                 <Link to="/">Coats & Jackets</Link>
                 <Link to="/">Men Flats</Link>
                 <Link to="/">Men Boots</Link>
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
                 <Link to="/" className="major">
                   Accessories New
                 </Link>

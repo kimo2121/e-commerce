@@ -5,7 +5,11 @@
   text-align: center;
 
   width: 31vw;
+<<<<<<< HEAD
   margin: 5% 1rem 0 6%;
+=======
+  margin: 5% 2% 0 6%;
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
   height: 80%;
   background-color: rgb(255, 255, 255);
 }

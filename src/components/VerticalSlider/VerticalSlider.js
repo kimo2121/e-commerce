@@ -53,12 +53,22 @@ export default class VerticalSwipeToSlide extends Component {
   getCurrentIndex(index) {
     this.setState({ index });
   }
+<<<<<<< HEAD
+=======
+  // componentDidMount() {
+  //   props.setImage("");
+  // }
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
 
   render() {
     const settings = {
       //   dots: true,
       infinite: true,
+<<<<<<< HEAD
       slidesToShow: 2,
+=======
+      slidesToShow: 8,
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
       slidesToScroll: 1,
       vertical: true,
       verticalSwiping: true,
@@ -70,6 +80,7 @@ export default class VerticalSwipeToSlide extends Component {
       },
       afterChange: function (currentSlide) {
         console.log("after change", currentSlide);
+<<<<<<< HEAD
       },
     };
     console.log(this.state.index);
@@ -79,6 +90,12 @@ export default class VerticalSwipeToSlide extends Component {
       data.variation_1_image && data.variation_1_image,
       data.image_url && data.image_url,
     ];
+=======
+        // this.getCurrentIndex(currentSlide);
+      },
+    };
+    console.log(this.state.index);
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
     return (
       <div
         style={{
@@ -86,6 +103,7 @@ export default class VerticalSwipeToSlide extends Component {
           flexDirection: "column ",
           justifyContent: "center",
           alignItems: "center",
+<<<<<<< HEAD
           marginRight: "2rem",
         }}
       >
@@ -119,6 +137,32 @@ export default class VerticalSwipeToSlide extends Component {
           </div>
           <KeyboardArrowDownIcon onClick={this.next} className="arrow" />
         </div>
+=======
+        }}
+      >
+        <KeyboardArrowUpIcon onClick={this.previous} className="arrow" />
+
+        <Slider ref={(c) => (this.slider = c)} {...settings}>
+          {Array(20)
+            .fill()
+            .map((i) => (
+              <div className="">
+                <Link onClick={() => this.props.setImage(img)}>
+                  <img
+                    src={img}
+                    alt=""
+                    style={{
+                      width: "20ox",
+                      height: "40px",
+                      // objectFit: "contain",
+                    }}
+                  />
+                </Link>
+              </div>
+            ))}
+        </Slider>
+        <KeyboardArrowDownIcon onClick={this.next} className="arrow" />
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
       </div>
     );
   }
