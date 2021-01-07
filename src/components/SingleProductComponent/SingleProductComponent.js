@@ -32,7 +32,11 @@ const SingleProductComponent = ({ addItem, product }) => {
             <VerticalSlider setImage={setImage} data={product} />
           </div>
           <img
-            src={image !== "" ? image : product.image_url}
+            src={
+              image !== ""
+                ? image
+                : product && product.image_url && product.image_url
+            }
             // src={product && product.image_url}
             alt="product"
             style={{ width: "90%", height: "100%" }}
@@ -66,7 +70,7 @@ const SingleProductComponent = ({ addItem, product }) => {
         <Menu btnName="Size:" data={menuData} />
         <HeaderItem data={headerItemData} />
         <div style={{ display: "flex", margin: "1rem" }}>
-          <MainButton onClick={addItem(product)} title="ADD TO BAG">
+          <MainButton onClick={() => addItem(product)} title="ADD TO BAG">
             <LocalMallIcon style={{ marginRight: "5px" }} />
           </MainButton>
 

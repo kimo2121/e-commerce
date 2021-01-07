@@ -10,37 +10,41 @@ const BagsMenu = () => {
           <div className="row-1">
             <div className="row">
               <div className="column" style={{ paddingLeft: "13%" }}>
-                <Link className="junior" to="/">
+                <Link className="junior" to="/bags/Chic Bags">
                   Chic Bags
                 </Link>
-                <Link className="major" to="/">
+                <Link className="major" to="/bags/Women's Bags">
                   Women's Bags
                 </Link>
-                <Link to="/">Handbags</Link>
-                <Link to="/">Crossbody Bags</Link>
-                <Link to="/">Backpack</Link>
-                <Link to="/">Wallets</Link>
-                <Link to="/">Clutches Bags</Link>
-                <Link to="/">Luggage&Travel Bags</Link>
-                <Link to="/">Storage Bags</Link>
-                <Link to="/">Bag Accessories</Link>
+                <Link to="/bags/Handbags</">Handbags</Link>
+                <Link to="/bags/Crossbody Bags">Crossbody Bags</Link>
+                <Link to="/bags/Backpack</">Backpack</Link>
+                <Link to="/bags/Wallets</">Wallets</Link>
+                <Link to="/bags/Clutches Bags">Clutches Bags</Link>
+                <Link to="/bags/Luggage&Travel Bags">Luggage&Travel Bags</Link>
+                <Link to="/bags/Storage Bags">Storage Bags</Link>
+                <Link to="/bags/Bag Accessories">Bag Accessories</Link>
               </div>
               <div className="column" style={{ paddingLeft: "6%" }}>
-                <Link className="junior" to="/">
-                Men Bags
+                <Link className="junior" to="/bags/Men Bags">
+                  Men Bags
                 </Link>
-                <Link to="/">Crossbody Bags</Link>
-                <Link to="/">Laptop Bags & Briefcases</Link>
-                <Link to="/">Backpacks</Link>
-                <Link to="/">Wallets</Link>
-                <Link to="/">Clutch Bags</Link>
-                <Link to="/">Holder & Coin Bag</Link>
+                <Link to="/bags/Crossbody Bags">Crossbody Bags</Link>
+                <Link to="/bags/Laptop Bags & Briefcases">
+                  Laptop Bags & Briefcases
+                </Link>
+                <Link to="/bags/Backpacks</">Backpacks</Link>
+                <Link to="/bags/Wallets</">Wallets</Link>
+                <Link to="/bags/Clutch Bags">Clutch Bags</Link>
+                <Link to="/bags/Holder  & Coin Bag">Holder & Coin Bag</Link>
               </div>
               <div className="column">
-                <Link to="/">Bohemian Bags</Link>
-                <Link to="/">Crossbody Handbag</Link>
-                <Link to="/">Anti Theft Sling Bag</Link>
-                <Link to="/">EDC Bag</Link>
+                <Link to="/bags/Bohemian Bags">Bohemian Bags</Link>
+                <Link to="/bags/Crossbody Handbag">Crossbody Handbag</Link>
+                <Link to="/bags/Anti Theft Sling Bag">
+                  Anti Theft Sling Bag
+                </Link>
+                <Link to="/bags/EDC Bag">EDC Bag</Link>
               </div>
             </div>
             <div className="headerDivider1"></div>

@@ -75,7 +75,8 @@
   margin: 5% 5%;
 }
 .navbar:hover .dropdown-content {
-  display: none;
+  /* display: none; */
+  display: block;
 }
 
 /* Create three equal columns that floats next to each other */

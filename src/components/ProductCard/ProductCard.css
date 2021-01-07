@@ -37,7 +37,8 @@
 .productImgContainer {
   position: relative;
   display: flex;
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 .productLink {
   color: black !important;
@@ -45,7 +46,7 @@
   /* border: 1px solid black; */
   border-radius: 5px;
   position: absolute;
-  margin: 15rem auto;
+  margin: 0 20%;
   padding: 0.5rem;
   opacity: 0;
   transition: all 0.8s ease;

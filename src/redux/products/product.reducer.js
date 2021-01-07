@@ -3,7 +3,7 @@
 import { ShoesNew } from "./ShoesNew";
 
 const INITIAL_STATE = {
-  products: ShoesNew.slice(0, 19),
+  products: ShoesNew.slice(0, 200),
   // products: kidsNew,
   // kidsNew: KidsNew,
 };

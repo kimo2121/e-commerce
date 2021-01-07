@@ -75,32 +75,29 @@ export default class VerticalSwipeToSlide extends Component {
     console.log(this.state.index);
     const data = this.props.data;
     const imgs = [
+      data.image_url && data.image_url,
       data.variation_0_image && data.variation_0_image,
       data.variation_1_image && data.variation_1_image,
-      data.image_url && data.image_url,
     ];
     return (
       <div
         style={{
           display: "flex",
-          flexDirection: "column ",
-          justifyContent: "center",
-          alignItems: "center",
           marginRight: "2rem",
+          flexDirection: "column",
+          justifyContent: "center",
         }}
       >
         <div
           style={{
             height: "60vh",
-            // display: "flex",
-            // flexDirection: "column",
-            // alignItems: "center",
+            width: "40px",
           }}
         >
           <KeyboardArrowUpIcon onClick={this.previous} className="arrow" />
-          <div style={{ margin: "1.4rem auto" }}>
+          <div style={{ margin: "2rem auto" }}>
             <Slider ref={(c) => (this.slider = c)} {...settings}>
-              {imgs.map((i) => (
+              {imgs.map((i, indx) => (
                 <div>
                   <Link onClick={() => this.props.setImage(i)}>
                     <img

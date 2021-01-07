@@ -13,7 +13,7 @@ import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
 import SaleMenu from "../megamenu/sale-menu";
-// import KidsMenu from "../megamenu/kids-menu";
+import KidsMenu from "../megamenu/kids-menu";
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
@@ -44,7 +44,7 @@ const Navbar = () => {
           <NewInMenu />
           <WomenMenu />
           <MenMenu />
-          {/* <KidsMenu /> */}
+          <KidsMenu />
           <BagsMenu />
           <ShoesMenu />
           <HomeGarden />

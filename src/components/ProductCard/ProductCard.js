@@ -34,7 +34,7 @@ export default function ProductCard({
     >
       <div className="productImgContainer">
         <SimpleModal>
-          <SingleProductComponent />
+          <SingleProductComponent product={product} />
         </SimpleModal>
         <img src={image_url} alt="product" className="cardImg" />
       </div>
