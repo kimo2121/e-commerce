@@ -6,7 +6,7 @@
 // import { BeautyNew } from "../../shopData/BeautyNew";
 // import { HouseNew } from "../../shopData/HouseNew";
 // import { JewelryNew } from "../../MenNew/JewelryNew";
-import { ShoesNew } from "../../shopData/ShoesNew";
+import { ShoesNew } from "./ShoesNew";
 // import { WomenNew } from "../../shopData/WomenNew";
 
 const INITIAL_STATE = {
