@@ -4,7 +4,7 @@
 // import { AccessoriesNew } from "../../shopData/AccessoriesNew";
 // import { BagsNew } from "../../shopData/BagsNew";
 // import { BeautyNew } from "../../shopData/BeautyNew";
-// import { HouseNew } from "../../shopData/HouseNew";
+// import { HouseNew } from "../../shopData/HouseNew";ea
 // import { JewelryNew } from "../../MenNew/JewelryNew";
 import { ShoesNew } from "./ShoesNew";
 // import { WomenNew } from "../../shopData/WomenNew";
