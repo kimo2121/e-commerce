@@ -10,7 +10,8 @@ import { ShoesNew } from "./ShoesNew";
 // import { WomenNew } from "../../shopData/WomenNew";
 
 const INITIAL_STATE = {
-  products: ShoesNew.slice(0, 200),
+  // products: ShoesNew.slice(0, 200),
+  products: ShoesNew.slice(0, 500),
   // products: kidsNew,
   // kidsNew: KidsNew,
 };

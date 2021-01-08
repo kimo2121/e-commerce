@@ -19,7 +19,7 @@ const styles = {
   position: "relative",
 };
 
-export default function HeaderItem({ data, category}) {
+export default function HeaderItem({ data, category }) {
   const [activeLink, setactiveLink] = useState({ index: "", active: false });
   return (
     <div style={{ display: "flex" }}>
@@ -32,7 +32,7 @@ export default function HeaderItem({ data, category}) {
           }
         >
           <Link
-            to={`/${category}/${item}`}
+            to={`/${category && category}/${item}`}
             style={{
               color:
                 activeLink.index === index && activeLink.active

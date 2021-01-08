@@ -26,7 +26,7 @@ const SingleProduct = ({ products }) => {
   return (
     <Page>
       <div className="productsList_contianer">
-        {/* <Header /> */}
+        <Header data={product}  />
         <SingleProductComponent product={product} />
         <Reviews />
         <hr />

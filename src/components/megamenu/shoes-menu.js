@@ -10,7 +10,7 @@ const ShoesMenu = () => {
           <div className="row-1">
             <div className="row">
               <div className="column" style={{ paddingLeft: "13%" }}>
-                <Link to="/Shoes/Women's Latest Style">
+                <Link to="/${product.category}/${product.subcategory}">
                   Women's Latest Style
                 </Link>
                 <Link className="major" to="/Shoes/Women's Shoes">

@@ -34,21 +34,17 @@ const SingleProductComponent = ({ addItem, product }) => {
             <VerticalSlider setImage={setImage} data={product} />
           </div>
           <img
-            src={
-              image !== ""
-                ? image
-                : product && product.image_url && product.image_url
-            }
-            // src={product && product.image_url}
+            src={image !== "" ? image : product?.image_url}
+            // src={img}
             alt="product"
             style={{ width: "90%", height: "100%" }}
           />
         </div>
       </Grid>
       <Grid item sm={7} xs={12}>
-        <p>{product && product.name}</p>
+        <p>{product?.name}</p>
         <div style={{ display: "flex" }}>
-          <p>{product && product.model}</p>
+          <p>{product?.model}</p>
           <div
             style={{
               display: "flex",
@@ -61,8 +57,8 @@ const SingleProductComponent = ({ addItem, product }) => {
           </div>
         </div>
         <div style={{ display: "flex", alignItems: "center" }}>
-          <h1 style={{ color: "red" }}>{product && product.current_price}</h1>
-          <p className="oldPrice">{product && product.raw_price}</p>
+          <h1 style={{ color: "red" }}>{product?.current_price}</h1>
+          <p className="oldPrice">{product?.raw_price}</p>
           <div style={{ background: "#ffcccb", color: "red" }}>-20%</div>
         </div>
         <div>
@@ -70,7 +66,7 @@ const SingleProductComponent = ({ addItem, product }) => {
           <ProductImgList isSingleProduct data={product} setImage={setImage} />
         </div>
         <Menu btnName="Size:" data={menuData} />
-        <HeaderItem data={headerItemData} />
+        {/* <HeaderItem data={headerItemData} /> */}
         <div style={{ display: "flex", margin: "1rem" }}>
           <MainButton onClick={() => addItem(product)} title="ADD TO BAG">
             <LocalMallIcon style={{ marginRight: "5px" }} />
@@ -84,7 +80,7 @@ const SingleProductComponent = ({ addItem, product }) => {
             }}
           >
             <RiHeart2Line style={{ fontSize: "2rem" }} />
-            <p>{product && product.likes_count}</p>
+            <p>{product?.likes_count}</p>
           </div>
         </div>
         <List title="Description">
