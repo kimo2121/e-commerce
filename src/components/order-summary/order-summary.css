@@ -1,0 +1,39 @@
+.order-summary-component {
+  width: 25%;
+  margin-left: 3%;
+}
+.order-summary {
+  width: auto;
+  height: 45vh;
+  margin-top: 3%;
+  background-color: rgb(233, 233, 233);
+  padding-top: 3%;
+}
+.sho-bag-summary{
+  height: 35vh;
+
+}
+.to-sup-summary {
+  position: relative;
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 7.5%;
+  width: 85% !important;
+  height: 47% !important;
+  background-color: white;
+}
+.sho-ba{
+  height: 40% !important;
+
+}
+.sup-sum {
+  display: flex;
+  justify-content: space-between;
+}
+.total-sum {
+  padding-top: 3%;
+  margin-top: 5%;
+  border-top: rgba(207, 207, 207, 0.589) dashed 1px;
+  display: flex;
+  justify-content: space-between;
+}

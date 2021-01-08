@@ -1,24 +1,43 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./cart-item.css";
 import * as HiIcons from "react-icons/hi";
-
-const CartItem = () => {
+import { connect } from "react-redux";
+import { clearItemFromCart } from "../../redux/cart/cart.actions";
+const CartItem = ({ item, clearItemFromCart }) => {
   return (
     <div className="cart-item">
-      <img
-        src="https://www.vermontcountrystore.com/ccstore/v1/images/?source=/file/v6276597326414967799/products/80756.main.png&height=500&width=500&quality=0.88"
-        alt=""
-      />
+      <img src={item.image_url} alt="" />
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <Link to="/cartitem">Name</Link>
-        <HiIcons.HiOutlineTrash className="remove-icon" size={19} />
-        <p>Color / Size</p>
-        <br/>
-        <h2>Price</h2>
+        <span
+          className="item-cart-name"
+          onClick={() => {
+            window.location.replace(`/product/${item.id}`);
+          }}
+        >
+          {item.name}
+        </span>
+        <HiIcons.HiOutlineTrash
+          onClick={() => {
+            clearItemFromCart(item);
+          }}
+          className="remove-icon"
+          size={19}
+        />
+        <div className="cart-item-details">
+          <br />
+          <p>Color / Size</p>
+          <br />
+          <div className="details-style">
+            <h2 style={{ fontWeight: "700" }}>${item.current_price}</h2>
+            <h4>X{item?.quantity}</h4>
+          </div>
+        </div>
       </div>
     </div>
   );
 };
+const mapDispatchToProps = (dispatch) => ({
+  clearItemFromCart: (item) => dispatch(clearItemFromCart(item)),
+});
 
-export default CartItem;
+export default connect(null, mapDispatchToProps)(CartItem);

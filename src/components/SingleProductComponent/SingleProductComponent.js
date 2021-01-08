@@ -66,7 +66,11 @@ const SingleProductComponent = ({ addItem, product }) => {
         <Menu btnName="Size:" data={menuData} />
         <HeaderItem data={headerItemData} />
         <div style={{ display: "flex", margin: "1rem" }}>
-          <MainButton onClick={() => addItem(product)} title="ADD TO BAG">
+          <MainButton
+            color="secondary"
+            onClick={() => addItem(product)}
+            title="ADD TO BAG"
+          >
             <LocalMallIcon style={{ marginRight: "5px" }} />
           </MainButton>
 

@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
 
-const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
-
 function BasicProductCard({ product, onClick, isHome }) {
   return (
     <div>

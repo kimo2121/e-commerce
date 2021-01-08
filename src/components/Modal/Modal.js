@@ -54,7 +54,7 @@ export default function SimpleModal({
   return (
     <div>
       <Link
-        // to={window.location.pathname}
+        to={window.location.pathname}
         onClick={handleOpen}
         className="productLink"
       >
