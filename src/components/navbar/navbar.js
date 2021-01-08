@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import * as RiIcons from "react-icons/ri";
@@ -13,11 +13,10 @@ import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
 import SaleMenu from "../megamenu/sale-menu";
+import KidsMenu from "../megamenu/kids-menu";
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
-
-// import KidsMenu from "../megamenu/kids-menu";
 
 const Navbar = () => {
   const onSearch = (value) => console.log(value);
@@ -45,6 +44,7 @@ const Navbar = () => {
           <NewInMenu />
           <WomenMenu />
           <MenMenu />
+          <KidsMenu />
           <BagsMenu />
           <ShoesMenu />
           <HomeGarden />
@@ -53,7 +53,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* <KidsMenu /> */}
       <Search
         className="search-bar"
         size="large"

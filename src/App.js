@@ -28,6 +28,13 @@ function App() {
             component={ProductsList}
           />
           <Route exact path="/product/:productId" component={SingleProduct} />
+          {/* <Route exact path="/productsList" component={ProductsList} /> */}
+          <Route exact path="/product/:productId" component={SingleProduct} />
+          <Route
+            exact
+            path="/:category/:subcategory"
+            component={ProductsList}
+          />
           <Route exact path="/Shop" component={Shop} />
           <Route exact path="/shop" component={Shop} />
           <Route exact path="/account" component={Account} />

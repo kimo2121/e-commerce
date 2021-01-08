@@ -21,10 +21,12 @@ const centerContianer = {
 const SingleProduct = ({ products }) => {
   const { productId } = useParams();
   const product = products.find((product) => product.id === productId);
+  console.log({ productId });
+  console.log({ product });
   return (
     <Page>
       <div className="productsList_contianer">
-        <Header />
+        <Header data={product}  />
         <SingleProductComponent product={product} />
         <Reviews />
         <hr />

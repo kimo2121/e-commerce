@@ -1,14 +1,20 @@
 import React from "react";
-import SliderComponent from "../slider-3d/slider";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import SliderComponent from "../slider-3d/slider";
+import DiscountCart from "./DiscountCart";
 
 export default function HomeFooter() {
+  const products = useSelector((state) => state.products.products);
+
   return (
     <div className="hot-categories-slider-dev">
       <h2 className="dep-categories">What's Hot</h2>
       <SliderComponent />
+
       <div className="hot-categories">
-        <h2 className="dep-sub-categories">Hot Categories</h2>
+        {/* <h2 className="dep-sub-categories" >Hot Categories</h2> */}
+        <h2 style={{ margin: "1rem" }}>Hot Categories</h2>
         <div className="hot-categories-component">
           <Link to="/">
             <img
@@ -53,6 +59,12 @@ export default function HomeFooter() {
             <span>Socks</span>
           </Link>
         </div>
+      </div>
+      <div className="hot-categories">
+        <h2 style={{ margin: "1rem" }}>Coupon Center</h2>
+        {products.slice(8, 12).map((item) => (
+          <DiscountCart product={item} />
+        ))}
       </div>
     </div>
   );

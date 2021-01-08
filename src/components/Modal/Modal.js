@@ -3,6 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import CloseIcon from "@material-ui/icons/Close";
 import { Link } from "react-router-dom";
+
 function getModalStyle() {
   const top = 50;
   const left = 50;

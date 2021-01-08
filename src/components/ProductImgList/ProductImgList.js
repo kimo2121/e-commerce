@@ -27,15 +27,14 @@ export default function ProductImgList({
 }) {
   const [activeLink, setactiveLink] = useState({ index: 0, active: true });
   const imgs = [
-    data && data.variation_0_image && data.variation_0_image,
-    data && data.variation_1_image && data.variation_1_image,
-    data && data.image_url && data.image_url,
+    data && data.image_url !== "" && data.image_url,
+    data && data.variation_0_image !== "" && data.variation_0_image,
+    data && data.variation_1_image !== "" && data.variation_1_image,
   ];
   return (
     <div>
       {imgs.map((i, index) => (
         <Link
-          key={index}
           to={window.location.pathname}
           style={{ color: "black" }}
           // onClick={() => setactiveLink({ index, active: !activeLink.active })}
@@ -44,21 +43,22 @@ export default function ProductImgList({
             setImage(i);
           }}
         >
-          <img
-            key={index}
-            src={i}
-            alt="product"
-            //   className="smallImg"
-            style={
-              style
-                ? style
-                : isSingleProduct &&
-                  activeLink.index === index &&
-                  activeLink.active
-                ? activeStyles
-                : styles
-            }
-          />
+          {i !== "" && (
+            <img
+              src={i}
+              alt="product"
+              //   className="smallImg"
+              style={
+                style
+                  ? style
+                  : isSingleProduct &&
+                    activeLink.index === index &&
+                    activeLink.active
+                  ? activeStyles
+                  : styles
+              }
+            />
+          )}
         </Link>
       ))}
     </div>

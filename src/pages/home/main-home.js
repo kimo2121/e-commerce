@@ -13,6 +13,7 @@ import HomeFooter from "../../components/homePage/HomeFooter";
 
 const MainHome = () => {
   const products = useSelector((state) => state.products.products);
+  console.log({ products });
   return (
     <div className="main-home">
       <Banner />

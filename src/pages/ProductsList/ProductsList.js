@@ -7,9 +7,6 @@ import Header from "../../components/Header/Header";
 import Filter from "../../components/Filter/Filter";
 import ProductsListHeader from "../../components/ProductsListHeader/ProductsListHeader";
 import Menu from "../../components/Menu/Menu";
-import ModalCard from "../../components/Modal/Modal";
-import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
-import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 
@@ -30,29 +27,50 @@ export default function ProductsList() {
     setOpen(true);
     console.log("true");
   };
-  const handleClose = () => {
-    setOpen(false);
-    console.log("false");
-  };
+  // const handleClose = () => {
+  //   setOpen(false);
+  //   console.log("false");
+  // };
 
   const { category, subcategory } = useParams();
   console.log({ category });
   console.log({ subcategory });
   const filteredData = products.filter(
-    (item) => item.category == category && item.subcategory == subcategory
+    (item) =>
+      item.category.toUpperCase().includes(category.toUpperCase()) &&
+      item.subcategory.toUpperCase().includes(subcategory.toUpperCase())
   );
   console.log({ filteredData });
+  console.log({ products });
+  let subcategoryList = [];
+  products.sort((a, b) => {
+    if (a.subcategory !== b.subcategory) {
+      console.log(a.subcategory);
+      subcategoryList.push(a.subcategory);
+    }
+  });
+
+  subcategoryList.length > 0 && console.log({ subcategoryList });
   return (
     <Page>
       <div className="productsList_contianer">
-        <Header />
+        <Header
+          data={filteredData && filteredData.length > 0 && filteredData[0]}
+        />
         <Grid container spacing={3}>
           <Grid item xs={2}>
-            <Filter />
+            <Filter
+              category={filteredData[0]?.category}
+              subcategoryList={subcategoryList}
+            />
           </Grid>
           <Grid item xs={10} style={{ overflow: "scroll", height: "75vh" }}>
             <Grid item xs={12}>
-              <ProductsListHeader />
+              <ProductsListHeader
+                itemsCount={filteredData.length}
+                subcategoryList={subcategoryList}
+                category={filteredData[0]?.category}
+              />
             </Grid>
             <Grid container style={{ margin: "10px 0px" }}>
               <Grid item xs={2}>
@@ -69,6 +87,7 @@ export default function ProductsList() {
               onClick={handleOpen}
               row={3}
               data={filteredData}
+              open={open}
             />
             {/* <ModalCard handleClose={handleClose} open={open}>
               <SingleProductComponent />

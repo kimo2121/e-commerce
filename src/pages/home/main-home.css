@@ -43,7 +43,7 @@
 .dep-categories {
   position: absolute;
   left: 6%;
-  margin-top: 2%;
+  margin: 2rem 0 !important;
   font-weight: bolder;
 }
 .hot-categories-slider-dev {
@@ -54,10 +54,11 @@
   height: 80vh;
 }
 .hot-categories {
-  margin-top: 5%;
+  margin-top: 5% !important;
   background-color: rgb(255, 255, 255);
   height: 80%;
   width: 30%;
+  margin: 0 1rem;
 }
 .dep-sub-categories {
   position: relative;

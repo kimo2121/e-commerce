@@ -1585,11 +1585,23 @@
   dependencies:
     "@babel/runtime" "^7.4.4"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 "@material-ui/lab@^4.0.0-alpha.57":
   version "4.0.0-alpha.57"
   resolved "https://registry.yarnpkg.com/@material-ui/lab/-/lab-4.0.0-alpha.57.tgz#e8961bcf6449e8a8dabe84f2700daacfcafbf83a"
   integrity sha512-qo/IuIQOmEKtzmRD2E4Aa6DB4A87kmY6h0uYhjUmrrgmEAgbbw9etXpWPVXuRK6AGIQCjFzV6WO2i21m1R4FCw==
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 "@material-ui/styles@^4.11.2":
   version "4.11.2"
   resolved "https://registry.yarnpkg.com/@material-ui/styles/-/styles-4.11.2.tgz#e70558be3f41719e8c0d63c7a3c9ae163fdc84cb"
@@ -4722,11 +4734,20 @@ dedent@^0.7.0:
   resolved "https://registry.yarnpkg.com/dedent/-/dedent-0.7.0.tgz"
   integrity sha1-JJXduvbrh0q7Dhvp3yLS5aVEMmw=
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 deep-diff@^0.3.5:
   version "0.3.8"
   resolved "https://registry.yarnpkg.com/deep-diff/-/deep-diff-0.3.8.tgz#c01de63efb0eec9798801d40c7e0dae25b582c84"
   integrity sha1-wB3mPvsO7JeYgB1Ax+Da4ltYLIQ=
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 deep-equal@^1.0.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/deep-equal/-/deep-equal-1.1.1.tgz"
@@ -11493,7 +11514,19 @@ react-input-autosize@^2.2.2:
   dependencies:
     prop-types "^15.5.8"
 
+<<<<<<< HEAD
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
+=======
+react-is@^16.12.0, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+=======
+react-is@^16.12.0, react-is@^16.6.0, react-is@^16.6.3, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.6:
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
@@ -11516,6 +11549,10 @@ react-popper@^2.2.3:
     react-fast-compare "^3.0.1"
     warning "^4.0.2"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 react-redux@^7.2.2:
   version "7.2.2"
   resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-7.2.2.tgz#03862e803a30b6b9ef8582dadcc810947f74b736"
@@ -11527,6 +11564,11 @@ react-redux@^7.2.2:
     prop-types "^15.7.2"
     react-is "^16.13.1"
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 react-refresh@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz"
@@ -11627,6 +11669,23 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+react-select-country-list@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/react-select-country-list/-/react-select-country-list-2.2.1.tgz#d87fd3d2f079c7d0165ec4ef7d38a2556d202d46"
+  integrity sha512-sH5/nV7J5QreB75iGSFFPjuSeHr0B1oDtSximzlZj/LXoVw47SsOv2WvzPhwYcHMwgXiLI+gvdXY9Cp0MGasjA==
+
+<<<<<<< HEAD
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 react-select@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/react-select/-/react-select-3.1.1.tgz#156a5b4a6c22b1e3d62a919cb1fd827adb4060bc"
@@ -11834,6 +11893,10 @@ redent@^3.0.0:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 redux-devtools-extension@^2.13.8:
   version "2.13.8"
   resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.8.tgz#37b982688626e5e4993ff87220c9bbb7cd2d96e1"
@@ -11851,6 +11914,11 @@ redux-persist@^6.0.0:
   resolved "https://registry.yarnpkg.com/redux-persist/-/redux-persist-6.0.0.tgz#b4d2972f9859597c130d40d4b146fecdab51b3a8"
   integrity sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ==
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> dbe0e6370e2b29a7e59daff34f20bfc2ca584fb2
+>>>>>>> 033f4807438993db409a99cab7ecad45edf83680
 redux@^4.0.5:
   version "4.0.5"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
