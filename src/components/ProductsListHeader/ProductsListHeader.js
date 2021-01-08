@@ -9,14 +9,18 @@ export const headerItemData = [
   { name: "OverCoats" },
   { name: "Blazers" },
 ];
-export default function ProductsListHeader() {
+export default function ProductsListHeader({
+  subcategoryList,
+  category,
+  itemsCount,
+}) {
   return (
     <div style={{ height: "20vh", background: "#f9f9f9f9", padding: "1rem" }}>
       <div style={{ display: "flex", alignItems: "center" }}>
-        <p style={{ fontSize: "2rem", marginRight: "1rem" }}>Buttoms</p>
-        <p>633 Products</p>
+        <p style={{ fontSize: "2rem", marginRight: "1rem" }}> {category} </p>
+        <p> {itemsCount} Products</p>
       </div>
-      <HeaderItem data={headerItemData} />
+      <HeaderItem data={subcategoryList} category={category} />
     </div>
   );
 }

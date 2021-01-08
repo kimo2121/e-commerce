@@ -3,7 +3,7 @@ import "./ProductCard.css";
 import Card from "@material-ui/core/Card";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
-import MainLink from "../MainLink";
+import MainLink from "../MainLink/MainLink";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 

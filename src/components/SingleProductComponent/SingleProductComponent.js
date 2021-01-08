@@ -18,6 +18,8 @@ const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 const SingleProductComponent = ({ addItem, product }) => {
   const [image, setImage] = React.useState("");
   console.log({ image });
+  console.log({ product });
+
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
