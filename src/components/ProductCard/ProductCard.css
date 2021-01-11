@@ -1,0 +1,57 @@
+.cardImg {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+}
+.smallImg {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.smallImg:hover {
+  border: 1px solid black;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.rowContianer {
+  display: flex;
+}
+
+.loveIcon {
+  font-size: 1.2rem !important;
+}
+.oldPrice {
+  text-decoration: line-through;
+  color: grey;
+  font-size: 10px;
+  margin-left: 5px;
+}
+.row {
+  display: flex;
+  margin-left: auto;
+}
+
+.productImgContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productLink {
+  color: black !important;
+  background: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  position: absolute;
+  margin: 0 20%;
+  padding: 0.5rem;
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.productImgContainer:hover .productLink {
+  opacity: 0.9;
+}

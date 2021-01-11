@@ -1,0 +1,26 @@
+.address-book-form {
+  width: 70%;
+  position: absolute;
+  margin-top: 2%;
+}
+
+.text-field1 {
+  z-index: 0;
+  width: 12rem !important;
+}
+
+.text-field2 {
+  z-index: 0;
+  width: 25rem !important;
+}
+.select-option {
+  width: 25rem !important;
+}
+
+.check-box:hover {
+  color: rgb(255, 100, 86);
+}
+.confirm-edit {
+  position: absolute !important;
+  left: 2.3%;
+}

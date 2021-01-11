@@ -1,0 +1,28 @@
+/* .item-conut {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+  width: 20px;
+  text-align: center;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  bottom: 10px;
+}
+.cart-icon {
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 82%;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+}
+.cart-icon svg {
+  color: rgb(0, 0, 0);
+}
+.cart-icon:hover svg {
+  fill: rgb(0, 0, 0);
+  color: rgb(224, 224, 224);
+} */

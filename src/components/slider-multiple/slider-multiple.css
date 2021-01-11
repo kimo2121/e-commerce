@@ -1,0 +1,73 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider-multiple {
+  background-color: white;
+  /* height: 400px; */
+  width: 87%;
+  margin-left: 6%;
+  margin-top: 5%;
+}
+.slider-multiple > h2 {
+  font-weight: bolder;
+  font-size: 22px;
+  text-align: start;
+}
+.fukintext {
+  font-size: 18px;
+  color: black;
+}
+
+.fukintext:hover {
+  color: rgb(177, 177, 177);
+}
+.image {
+  filter: brightness(95%);
+  border-radius: 50% !important;
+  width: 12rem;
+  height: 12rem;
+  object-fit: fill;
+}
+.image:hover {
+  cursor: pointer;
+  filter: brightness(110%);
+  color: rgb(100, 100, 100) !important;
+}
+
+.arrow-1 {
+  display: none;
+  height: 13%;
+  width: 3%;
+  color: rgb(255, 255, 255);
+  background-color: rgba(44, 44, 44, 0.377);
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+.slider-multiple:hover .arrow-1 {
+  display: block;
+}
+.arrow-1:hover {
+  background-color: rgb(44, 44, 44);
+}
+.next-1 svg {
+  margin-left: 10% !important;
+  margin-top: 25% !important;
+}
+.prev-1 svg {
+  margin-left: -10% !important;
+  margin-top: 25% !important;
+}
+.next-1 {
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  right: 0%;
+  top: 33%;
+}
+
+.prev-1 {
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  left: 0%;
+  top: 33%;
+}
