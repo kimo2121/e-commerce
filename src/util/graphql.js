@@ -2,6 +2,7 @@ import gql from "graphql-tag";
 
 //Quereis
 
+<<<<<<< HEAD
 export const GET_ORDER_QUERY = gql`
   query getOrder($orderId: ID!) {
     getOrder(orderId: $orderId) {
@@ -88,6 +89,8 @@ export const GET_ORDERS_QUERY = gql`
   }
 `;
 
+=======
+>>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
 export const FETCH_POSTS_QUERY = gql`
   {
     getPosts {
@@ -115,6 +118,7 @@ export const GET_USER_QUERY = gql`
     getUser(userId: $userId) {
       id
       username
+<<<<<<< HEAD
       email
       gender
       phone
@@ -136,6 +140,10 @@ export const GET_ORDER_QUERY = gql`
       brithDate
       Preference_categorie
       address
+=======
+      userImgUrl
+      phone
+>>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
       createdAt
     }
   }
@@ -145,6 +153,7 @@ export const GET_ORDER_QUERY = gql`
 
 export const UPDATE_USER = gql`
   mutation updateUser(
+<<<<<<< HEAD
     $username: String
     $email: String
     $gender: String
@@ -233,6 +242,23 @@ export const CREATE_ORDER = gql`
       avaliable_hours_start
       avaliable_hours_end
       playground_Images
+=======
+    $username: String!
+    $phone: String!
+    $bio: String
+    $userImgUrl: String!
+  ) {
+    updateUser(
+      username: $username
+      phone: $phone
+      bio: $bio
+      userImgUrl: $userImgUrl
+    ) {
+      id
+      username
+      userImgUrl
+      phone
+>>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
       createdAt
     }
   }

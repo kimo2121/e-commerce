@@ -12,6 +12,7 @@ export const headerItemData = [
 export default function ProductsListHeader({
   subcategoryList,
   category,
+<<<<<<< HEAD
   subcategory,
   itemsCount,
 }) {
@@ -24,16 +25,26 @@ export default function ProductsListHeader({
         overflow: "scroll",
       }}
     >
+=======
+  itemsCount,
+}) {
+  return (
+    <div style={{ height: "20vh", background: "#f9f9f9f9", padding: "1rem" }}>
+>>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
       <div style={{ display: "flex", alignItems: "center" }}>
         <p style={{ fontSize: "2rem", marginRight: "1rem" }}> {category} </p>
         <p> {itemsCount} Products</p>
       </div>
+<<<<<<< HEAD
 
       <HeaderItem
         data={subcategoryList}
         category={category}
         subcategory={subcategory}
       />
+=======
+      <HeaderItem data={subcategoryList} category={category} />
+>>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
     </div>
   );
 }
