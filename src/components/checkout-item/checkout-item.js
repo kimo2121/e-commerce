@@ -7,54 +7,71 @@ import {
   removeItem,
   addItem,
 } from "../../redux/cart/cart.actions";
-import { connect } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { Dropdown } from "semantic-ui-react";
 
-const CheckoutItem = ({ item, removeItem, addItem, clearItemFromCart }) => {
+const CheckoutItem = ({ item, checkoutState }) => {
   const subTotal =
     Math.round((item.current_price * item.quantity + Number.EPSILON) * 100) /
     100;
+  const orderOverview = useSelector((state) => state.checkout.checkout);
+  const clearItem = useDispatch();
+  const remove = useDispatch();
+  const add = useDispatch();
 
   return (
     <div className="checkout-item-layout">
       <img src={item.image_url} alt="" />
       <div className="checkout-item-details">
         <div style={{ width: "35%", textAlign: "left", marginLeft: "2%" }}>
-          <SimpleModal>
-            <SingleProductComponent />
-          </SimpleModal>
-          {item.name}
-          <Dropdown
-            fluid
-            style={{ marginTop: "10%", width: "60%", height: "2%" }}
-            placeholder=""
-            search
-            selection
-          />
-
-          <div className="del-add-btns">
-            <span
-              className="remove-from-checkout"
-              onClick={() => clearItemFromCart(item)}
-            >
-              Delete
-            </span>
-            <span className="add-to-wishlist">Save in wishlist</span>
-          </div>
+          {checkoutState == "shoppingbag" ? (
+            <SimpleModal item={item}>
+              <SingleProductComponent product={item} />
+            </SimpleModal>
+          ) : (
+            item.name
+          )}
+          {orderOverview == "shoppingbag" && (
+            <Dropdown
+              fluid
+              style={{ marginTop: "10%", width: "60%", height: "2%" }}
+              placeholder=""
+              search
+              selection
+            />
+          )}
+          {orderOverview == "shoppingbag" && (
+            <div className="del-add-btns">
+              <span
+                className="remove-from-checkout"
+                onClick={() => clearItem(clearItemFromCart(item))}
+              >
+                Delete
+              </span>
+              <span className="add-to-wishlist">Save in wishlist</span>
+            </div>
+          )}
         </div>
         <span style={{ marginRight: "8%" }}>${item.current_price}</span>
         <span className="item-quantity">
-          <button
-            className="quantity-arrow"
-            disabled={item.quantity <= 1}
-            onClick={() => removeItem(item)}
-          >
-            &#10094;
-          </button>
+          {orderOverview == "shoppingbag" && (
+            <button
+              className="quantity-arrow"
+              disabled={item.quantity <= 1}
+              onClick={() => remove(removeItem(item))}
+            >
+              &#10094;
+            </button>
+          )}
           <span className="quantity-value">{item.quantity}</span>
-          <button className="quantity-arrow" onClick={() => addItem(item)}>
-            &#10095;
-          </button>
+          {orderOverview == "shoppingbag" && (
+            <button
+              className="quantity-arrow"
+              onClick={() => add(addItem(item))}
+            >
+              &#10095;
+            </button>
+          )}
         </span>
         <span style={{ fontWeight: "bold", textAlign: "right" }}>
           ${subTotal}
@@ -63,10 +80,5 @@ const CheckoutItem = ({ item, removeItem, addItem, clearItemFromCart }) => {
     </div>
   );
 };
-const mapDispatchToProps = (dispatch) => ({
-  removeItem: (item) => dispatch(removeItem(item)),
-  addItem: (item) => dispatch(addItem(item)),
-  clearItemFromCart: (item) => dispatch(clearItemFromCart(item)),
-});
 
-export default connect(null, mapDispatchToProps)(CheckoutItem);
+export default CheckoutItem;

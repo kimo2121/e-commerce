@@ -17,7 +17,7 @@ const SignForm = ({ onChange, values, signUp, signIn }) => {
   return (
     <div>
       <Form style={{ marginLeft: "1.5%" }}>
-        <Form.Group widths="equal" style={{ display: "block" }}>
+        <Form.Group  widths="equal" style={{ display: "block" }}>
           {data &&
             data.map((item) => {
               // console.log("values", values && values[item.label]);

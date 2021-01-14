@@ -14,9 +14,13 @@ const FieldData = [
   { label: "ZIP/postal code", id: 85457 },
   { label: "Phone", id: 54521 },
 ];
-const AddressForm = () => {
+const AddressForm = ({ isCheckoutComponent }) => {
   return (
-    <div className="address-book-form">
+    <div
+      className={
+        isCheckoutComponent ? "checkout-address-form" : "address-book-form"
+      }
+    >
       <Form style={{ marginLeft: "6.5%" }}>
         <Form.Group widths="equal" style={{ display: "flex" }}>
           <label style={{ marginRight: "4.4%" }}>Your name :</label>

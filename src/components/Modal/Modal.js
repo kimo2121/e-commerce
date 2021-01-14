@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import CloseIcon from "@material-ui/icons/Close";
 import { Link } from "react-router-dom";
-
+import "./modal.css";
 function getModalStyle() {
   const top = 50;
   const left = 50;
@@ -16,6 +16,7 @@ function getModalStyle() {
   };
 }
 
+const styles = { color: "white", background: "black" };
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",
@@ -29,6 +30,7 @@ const useStyles = makeStyles((theme) => ({
 
 export default function SimpleModal({
   children,
+  item,
   // open,
   //  handleClose
 }) {
@@ -54,12 +56,13 @@ export default function SimpleModal({
 
   return (
     <div>
+      {/* {item && <span>{item.name}</span>} */}
       <Link
         to={window.location.pathname}
         onClick={handleOpen}
-        className="productLink"
+        className={item ? "checkout-item" : "productLink"}
       >
-        Quick View
+        {item ? <span>{item.name}</span> : "Quick View"}
       </Link>
       <Modal
         open={open}

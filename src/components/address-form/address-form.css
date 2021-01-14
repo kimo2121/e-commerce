@@ -24,3 +24,6 @@
   position: absolute !important;
   left: 2.3%;
 }
+.checkout-address-form {
+  position: relative;
+}

@@ -1,11 +1,17 @@
 import React from "react";
-import "./account-dropdown";
-import { Header, Button, Popup, Grid } from "semantic-ui-react";
+import "./account-dropdown.css";
+import { Header, Button, Popup } from "semantic-ui-react";
 import * as HiIcons from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 const AccountDropdown = () => {
   return (
     <Popup
+      style={{
+        padding: "0",
+        width: "23vw",
+        height: "35vh",
+      }}
       position="bottom center"
       trigger={
         <HiIcons.HiOutlineUser
@@ -17,15 +23,20 @@ const AccountDropdown = () => {
       flowing
       hoverable
     >
-      <Grid centered divided columns={3}>
-        <Grid.Column textAlign="center">
-          <Header as="h4">Basic Plan</Header>
-          <p>
-            <b>2</b> projects, $10 a month
-          </p>
-          <Button>Choose</Button>
-        </Grid.Column>
-      </Grid>
+      <div className="account-dropdown">
+        <div>
+          <HiIcons.HiOutlineUser size={20} className="icons" />
+          <Link to="/account">My Account</Link>
+        </div>
+        <div>
+          <HiIcons.HiOutlineCash size={20} className="icons" />
+          <Link to="/">My Wallet</Link>
+        </div>
+        <div>
+          <HiIcons.HiOutlineClipboardList size={20} className="icons" />
+          <Link to="/">Orders</Link>
+        </div>
+      </div>
     </Popup>
   );
 };

@@ -130,7 +130,7 @@ const Account = () => {
             </div>
             <div className="you-may-like">
               <span className="divider3 divider6">You may also like</span>
-              <YouMayAlsoLike />
+              {/* <YouMayAlsoLike /> */}
             </div>
           </Grid>
         </div>

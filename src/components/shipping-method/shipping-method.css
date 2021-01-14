@@ -1,0 +1,20 @@
+/* .shipping-method {
+} */
+.shipping-method-title {
+  font-size: 1.5rem;
+  border-bottom: rgb(214, 214, 214) 1px solid;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  font-weight: bold;
+}
+.ship-meth-choices {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: dashed rgb(214, 214, 214) 1px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  margin-bottom: 1%;
+}
+/* .ship-meth-insurance{
+    bord
+} */

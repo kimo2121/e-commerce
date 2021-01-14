@@ -2,6 +2,7 @@
   "name": "shop-app",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8000",
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
     "@apollo/react-hooks": "^4.0.0",
@@ -16,6 +17,7 @@
     "apollo-client": "^2.6.10",
     "apollo-link-context": "^1.0.20",
     "apollo-link-http": "^1.5.17",
+    "axios": "^0.21.1",
     "chroma-js": "^2.1.0",
     "date-fns": "^2.16.1",
     "graphql": "^15.4.0",
@@ -31,6 +33,7 @@
     "react-select": "^3.1.1",
     "react-slick": "^0.27.13",
     "react-slideshow-image": "^3.4.2",
+    "react-stripe-checkout": "^2.6.3",
     "redux": "^4.0.5",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
