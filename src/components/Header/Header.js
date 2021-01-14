@@ -4,7 +4,7 @@ import MainLink from "../MainLink/MainLink";
 import "./Header.css";
 
 export default function Header({ data }) {
-  console.log({ data });
+  // console.log({ data });
   // const { category, subcategory } = data;
   return (
     <p className="header">

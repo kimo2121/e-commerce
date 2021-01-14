@@ -9,7 +9,7 @@ import {
   passowordInfo,
 } from "./personal-info-data";
 
-const PersonalInfoForm = () => {
+const PersonalInfoForm =  () => {
   const [state, setState] = useState({});
   const [date, setDate] = useState(new Date());
   const handleChange = (e, { value }) => {

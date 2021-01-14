@@ -57,7 +57,7 @@ export default class VerticalSwipeToSlide extends Component {
   render() {
     const settings = {
       //   dots: true,
-      infinite: true,
+      infinite: false,
       slidesToShow: 2,
       slidesToScroll: 1,
       vertical: true,
@@ -75,9 +75,9 @@ export default class VerticalSwipeToSlide extends Component {
     console.log(this.state.index);
     const data = this.props.data;
     const imgs = [
-      data.image_url && data.image_url,
-      data.variation_0_image && data.variation_0_image,
-      data.variation_1_image && data.variation_1_image,
+      data?.image_url,
+      data?.variation_0_image,
+      data?.variation_1_image,
     ];
     return (
       <div

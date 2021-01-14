@@ -14,8 +14,8 @@ export default function Filter({ category, subcategoryList }) {
   ];
   const [activeLink, setactiveLink] = useState({ index: 0 });
 
-  console.log({ category });
-  console.log({ subcategoryList });
+  // console.log({ category });
+  // console.log({ subcategoryList });
 
   return (
     <div

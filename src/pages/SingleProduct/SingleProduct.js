@@ -8,8 +8,8 @@ import Pagination from "../../components/Pagination/Pagination";
 import ProductsCardList from "../../components/ProductsCardList";
 import MainButton from "../../components/MainButton/MainButton";
 import ArrowDropDownOutlinedIcon from "@material-ui/icons/ArrowDropDownOutlined";
-import { connect } from "react-redux";
 import { useParams } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const centerContianer = {
   display: "flex",
@@ -18,8 +18,10 @@ const centerContianer = {
   alignItems: "center",
   margin: "1rem",
 };
-const SingleProduct = ({ products }) => {
+const SingleProduct = () => {
   const { productId } = useParams();
+  const products = useSelector((state) => state.products.all_products);
+
   const product = products.find((product) => product.id === productId);
   console.log({ productId });
   console.log({ product });
@@ -45,7 +47,5 @@ const SingleProduct = ({ products }) => {
     </Page>
   );
 };
-const mapStateToProps = (state) => ({
-  products: state.products.products,
-});
-export default connect(mapStateToProps)(SingleProduct);
+
+export default SingleProduct;

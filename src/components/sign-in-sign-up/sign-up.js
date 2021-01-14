@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 import { Form } from "semantic-ui-react";
 import SignForm from "../sign-form/sign-form";
 import { useForm } from "../../util/hooks";
-// import gql from "graphql-tag";
-// import { AuthContext } from "../../context/auth";
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/user/user.actions";
 
 const SignUp = (props) => {
-  // const context = useContext(AuthContext);
   const [errors, setErrors] = useState({});
   console.log({ errors });
+  const dispatch = useDispatch();
 
   const { onChange, onSubmit, values, setValues } = useForm(registerUser, {
     username: "",
@@ -28,7 +28,8 @@ const SignUp = (props) => {
     //  { loading }
   ] = useMutation(REGISTER_USER, {
     update(_, { data: { register: userData } }) {
-      // context.login(userData);
+      localStorage.setItem("jwtToken", userData.token);
+      dispatch(login(userData));
       props.history.push("/");
       console.log({ userData });
     },

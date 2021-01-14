@@ -27,9 +27,9 @@ export default function ProductImgList({
 }) {
   const [activeLink, setactiveLink] = useState({ index: 0, active: true });
   const imgs = [
-    data && data.image_url !== "" && data.image_url,
-    data && data.variation_0_image !== "" && data.variation_0_image,
-    data && data.variation_1_image !== "" && data.variation_1_image,
+    data?.image_url,
+    data?.variation_0_image,
+    data?.variation_1_image,
   ];
   return (
     <div>

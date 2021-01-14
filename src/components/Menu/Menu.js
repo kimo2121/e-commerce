@@ -3,7 +3,7 @@ import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 
-export default function SimpleMenu({ data, btnName }) {
+export default function SimpleMenu({ data, btnName, setFilterTerm }) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [name, setName] = React.useState(data[0].item);
 
@@ -14,6 +14,7 @@ export default function SimpleMenu({ data, btnName }) {
   const handleClose = (name) => {
     setAnchorEl(null);
     setName(name);
+    setFilterTerm(name)
   };
 
   return (

@@ -1,4 +1,4 @@
-export const Accessories = [
+export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Autres",
