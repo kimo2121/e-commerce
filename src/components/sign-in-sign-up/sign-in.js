@@ -8,11 +8,11 @@ import "./sign-in-sign-up.css";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { useForm } from "../../util/hooks";
 import { useHistory } from "react-router-dom";
-
+import { useDispatch } from "react-redux";
+import { login } from "../../redux/user/user.actions";
 const SignIn = () => {
   let history = useHistory();
-
-  // const context = useContext(AuthContext);
+  const dispatch = useDispatch();
   const [errors, setErrors] = React.useState({});
   console.log({ errors });
 
@@ -27,8 +27,8 @@ const SignIn = () => {
   ] = useMutation(LOGIN_USER, {
     update(_, { data: { login: userData } }) {
       console.log({ userData });
-      // localStorage.setItem("jwtToken", userData.token);
-      // context.login(userData);
+      localStorage.setItem("jwtToken", userData.token);
+      dispatch(login(userData));
       history.push("/");
     },
     onError(err) {

@@ -12,15 +12,15 @@ import { WomenNew } from "../../shopData/WomenNew";
 const INITIAL_STATE = {
   products: ShoesNew.slice(0, 500),
   all_products: [
-    ...kidsNew.slice(0, 500),
-    ...MenNew.slice(0, 500),
-    ...AccessoriesNew.slice(0, 500),
-    ...BagsNew.slice(0, 500),
-    ...BeautyNew.slice(0, 500),
-    ...HouseNew.slice(0, 500),
-    ...JewelryNew.slice(0, 500),
-    ...ShoesNew.slice(0, 500),
-    ...WomenNew.slice(0, 500),
+    ...kidsNew.slice(0, 100),
+    ...MenNew.slice(0, 100),
+    ...AccessoriesNew.slice(0, 100),
+    ...BagsNew.slice(0, 100),
+    ...BeautyNew.slice(0, 100),
+    ...HouseNew.slice(0, 100),
+    ...JewelryNew.slice(0, 100),
+    ...ShoesNew.slice(0, 100),
+    ...WomenNew.slice(0, 100),
   ],
 };
 

@@ -6,6 +6,11 @@ import { createHttpLink } from "apollo-link-http";
 import { ApolloProvider } from "@apollo/react-hooks";
 import { setContext } from "apollo-link-context";
 
+//redux stuff
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+import { store, persistor } from "./redux/store";
+
 const httpLink = createHttpLink({
   // uri: "https://young-ravine-91676.herokuapp.com/",
   uri: "http://localhost:5000",
@@ -27,6 +32,12 @@ const client = new ApolloClient({
 
 export default (
   <ApolloProvider client={client}>
-    <App />
+    <Provider store={store}>
+      <React.StrictMode>
+        <PersistGate persistor={persistor}>
+          <App />
+        </PersistGate>
+      </React.StrictMode>
+    </Provider>
   </ApolloProvider>
 );

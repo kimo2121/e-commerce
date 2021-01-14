@@ -33,6 +33,7 @@ const SignForm = ({ onChange, values, signUp, signIn }) => {
                     name={item.label}
                     value={values && values[item.label]}
                     onChange={onChange}
+                    // style={{ width: "50%" }}
                   />
                 </div>
               );

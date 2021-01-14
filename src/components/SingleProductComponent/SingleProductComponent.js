@@ -59,7 +59,9 @@ const SingleProductComponent = ({ addItem, product }) => {
         <div style={{ display: "flex", alignItems: "center" }}>
           <h1 style={{ color: "red" }}>{product?.current_price}</h1>
           <p className="oldPrice">{product?.raw_price}</p>
-          <div style={{ background: "#ffcccb", color: "red" }}>-20%</div>
+          <div style={{ background: "#ffcccb", color: "red" }}>
+            - {product?.discount}%
+          </div>
         </div>
         <div>
           <h2 style={{ color: "black" }}>color:red</h2>
@@ -83,9 +85,9 @@ const SingleProductComponent = ({ addItem, product }) => {
             <p>{product?.likes_count}</p>
           </div>
         </div>
-        <List title="Description">
+        {/* <List title="Description">
           <ProducatDescription />
-        </List>
+        </List> */}
       </Grid>
     </Grid>
   );
