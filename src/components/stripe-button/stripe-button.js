@@ -23,6 +23,7 @@ const StripeCheckoutButton = ({ total }) => {
     })
       .then((response) => {
         alert("succesful payment");
+        Complete(completeOrder());
       })
       .catch((error) => {
         console.log("Payment Error: ", error);
@@ -33,8 +34,9 @@ const StripeCheckoutButton = ({ total }) => {
   };
 
   return (
-    <div>
+    <div className="stripe-component">
       <StripeCheckout
+      className="stripe-stripe-button"
         label="Pay Now"
         name="shop-app Ltd."
         // billingAddress
@@ -44,9 +46,7 @@ const StripeCheckoutButton = ({ total }) => {
         panelLabel="Pay Now"
         token={onToken}
         stripeKey={publishableKey}
-      >
-        <button onClick={() => Complete(completeOrder())}>BOMB!!!!</button>
-      </StripeCheckout>
+      />
     </div>
   );
 };

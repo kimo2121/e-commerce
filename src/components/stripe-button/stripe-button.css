@@ -1,4 +1,10 @@
-.stripe-button {
-  width: auto;
+.stripe-component {
+  width: 25%;
+  margin-left: 3%;
+  background-color: rgb(214, 214, 214);
   height: 15vh;
+}
+.stripe-stripe-button {
+  margin-top: 25%;
+  margin-left: 40%;
 }
