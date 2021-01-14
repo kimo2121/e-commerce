@@ -5,6 +5,7 @@ import userReducer from "./user/user.reducer";
 import cartReducer from "./cart/cart.reducer";
 import productReducer from "./products/product.reducer";
 import checkoutReducer from "./checkout/checkout.reducer";
+// import ordersReducer from "./orders/order.reducer";
 const persistConfig = {
   key: "root",
   storage,
@@ -16,6 +17,7 @@ const rootReducer = combineReducers({
   cart: cartReducer,
   products: productReducer,
   checkout: checkoutReducer,
+  // orders: ordersReducer,
 });
 
 export default persistReducer(persistConfig, rootReducer);

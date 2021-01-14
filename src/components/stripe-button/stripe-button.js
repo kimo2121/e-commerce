@@ -5,11 +5,13 @@ import axios from "axios";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import { connect } from "react-redux";
+import { completeOrder } from "../../redux/cart/cart.actions";
+import { useDispatch } from "react-redux";
 const StripeCheckoutButton = ({ total }) => {
+  const Complete = useDispatch();
   const priceForStripe = total * 100;
   const publishableKey =
     "pk_test_51H3FxnEh4aoUgsppLO0qDT435pCRv7e28ex5Ur3RiiqhjgRu92TscA8qVl2MbMrh0pp2yBcuTKkKP0rUaZhA3ZGL00yebtgJL9";
-
   const onToken = (token) => {
     axios({
       url: "payment",
@@ -42,7 +44,9 @@ const StripeCheckoutButton = ({ total }) => {
         panelLabel="Pay Now"
         token={onToken}
         stripeKey={publishableKey}
-      />
+      >
+        <button onClick={() => Complete(completeOrder())}>BOMB!!!!</button>
+      </StripeCheckout>
     </div>
   );
 };

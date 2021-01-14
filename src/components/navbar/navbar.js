@@ -7,34 +7,21 @@ import "antd/dist/antd.css";
 import "./navbar.css";
 import { Input } from "antd";
 import MenMenu from "../megamenu/men-menu";
-<<<<<<< HEAD
-import JewelryMenu from "../megamenu/Jewelry";
-=======
 import NewInMenu from "../megamenu/new-in";
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
 import WomenMenu from "../megamenu/women-menu";
 import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
-<<<<<<< HEAD
-import BeautyMenu from "../megamenu/beauty-menu";
-=======
 import SaleMenu from "../megamenu/sale-menu";
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
 import KidsMenu from "../megamenu/kids-menu";
 import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
-
-<<<<<<< HEAD
-import { useSelector } from "react-redux";
 import { getSubcategories } from "../../util/util_functions";
+import { useSelector } from "react-redux";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
-=======
-const Navbar = () => {
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
   const onSearch = (value) => console.log(value);
   const { Search } = Input;
   // const [show, handleShow] = useState(false);
@@ -57,8 +44,7 @@ const Navbar = () => {
       </Link>
       <div className="drop-down-menu">
         <div className="fkin">
-<<<<<<< HEAD
-          <JewelryMenu
+          <NewInMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
@@ -90,21 +76,10 @@ const Navbar = () => {
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-          <BeautyMenu
+          <SaleMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-=======
-          <NewInMenu />
-          <WomenMenu />
-          <MenMenu />
-          <KidsMenu />
-          <BagsMenu />
-          <ShoesMenu />
-          <HomeGarden />
-          <AccessoriesBeautyMenu />
-          <SaleMenu />
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
         </div>
       </div>
 
