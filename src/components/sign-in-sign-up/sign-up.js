@@ -21,7 +21,7 @@ const SignUp = (props) => {
     checkbox: false,
   });
 
-  console.log({ values });
+  // console.log({ values });
 
   const [
     addUser,
@@ -48,15 +48,11 @@ const SignUp = (props) => {
     // console.log({ values });
   };
 
-  // for (const prop in values) {
-  //   console.log(`obj.${prop} = ${values[prop]}`);
-  // }
-
   return (
     <div style={{ marginLeft: "15%" }}>
       <h1 style={{ marginBottom: "10%" }}>Register</h1>
       <Form onSubmit={onSubmit}>
-        <SignForm onChange={onChange} values={values} signUp />
+        <SignForm onChange={onChange} values={values} signUp errors={errors} />
         <span>
           By creating your account, you agree to our{" "}
           <Link to="/sign-in-up">

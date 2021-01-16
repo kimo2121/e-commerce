@@ -1,12 +1,14 @@
 import React from "react";
-import { connect } from "react-redux";
+import { connect, useDispatch } from "react-redux";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import MainButton from "../MainButton/MainButton";
 import { Checkbox } from "semantic-ui-react";
+import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
 import "./order-summary.css";
-const OrderSummaryPlaceOrder = ({ total }) => {
+const OrderSummaryPlaceOrder = ({ total, proceedNext }) => {
+  const handleCheckout = useDispatch();
   return (
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
@@ -35,6 +37,7 @@ const OrderSummaryPlaceOrder = ({ total }) => {
             width: "90%",
             background: " rgb(218, 9, 79)",
           }}
+          onClick={() => handleCheckout(proceedToCheckout())}
         >
           Checkout
         </MainButton>

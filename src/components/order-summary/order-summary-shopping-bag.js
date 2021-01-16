@@ -1,12 +1,15 @@
 import React from "react";
-import { connect } from "react-redux";
+import { connect, useDispatch } from "react-redux";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import MainButton from "../MainButton/MainButton";
 import { Dropdown, Radio } from "semantic-ui-react";
+import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
 import "./order-summary.css";
 const OrderSummaryShoppingBag = ({ total }) => {
+  const handleCheckout = useDispatch();
+
   return (
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
@@ -16,7 +19,13 @@ const OrderSummaryShoppingBag = ({ total }) => {
           <br />
           <Radio label="Coupon discount" />
           <br />
-          <Dropdown size="mini" placeholder="" search selection />
+          <Dropdown
+            style={{ width: "70%" }}
+            fluid
+            placeholder=""
+            search
+            selection
+          />
           <Radio label="Do not use any discount" />
         </div>
         <div className="to-sup-summary sho-ba">
@@ -33,11 +42,12 @@ const OrderSummaryShoppingBag = ({ total }) => {
       <MainButton
         style={{
           marginTop: "5%",
-          height: "15%",
+          height: "10%",
           fontSize: "1.2rem",
           width: "100%",
           background: " rgb(218, 9, 79)",
         }}
+        onClick={() => handleCheckout(proceedToCheckout())}
       >
         Proceed to checkout
       </MainButton>

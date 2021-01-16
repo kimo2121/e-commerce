@@ -2,12 +2,17 @@ import React from "react";
 import "./checkout-component.css";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
-import { connect } from "react-redux";
+import { connect, useSelector } from "react-redux";
 import Stepper from "../checkout-stepper/stepper";
 import CheckoutItem from "../checkout-item/checkout-item";
 import OrderSummaryShoppingBag from "../order-summary/order-summary-shopping-bag";
+import PlaceOrder from "../place-order/place-order";
+import OrderSummaryPlaceOrder from "../order-summary/order-summary-place-order";
+import StripeCheckoutButton from "../stripe-button/stripe-button";
 
 const CheckoutComponent = ({ cartItems }) => {
+  const checkoutState = useSelector((state) => state.checkout.checkout);
+
   return (
     <div className="checkout-component">
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -15,7 +20,15 @@ const CheckoutComponent = ({ cartItems }) => {
       </div>
       <div style={{ marginLeft: "6%", display: "flex", marginTop: "1.5%" }}>
         <div style={{ width: "65%" }}>
-          <span className="items-count">Shopping Bag({cartItems.length})</span>
+          {(checkoutState == "placeorder" || checkoutState == "pay") && (
+            <PlaceOrder />
+          )}
+          <span className="items-count">
+            {checkoutState == "shoppingbag"
+              ? `Shopping Bag(${cartItems.length})`
+              : `Order Review
+              `}
+          </span>
           <div className="titles-header">
             <span style={{ marginLeft: "5%" }}>item</span>
             <span>Unit Price</span>
@@ -24,11 +37,22 @@ const CheckoutComponent = ({ cartItems }) => {
           </div>
           <div>
             {cartItems.map((cartItem) => (
-              <CheckoutItem key={cartItem.id} item={cartItem} />
+              <CheckoutItem
+                key={cartItem.id}
+                item={cartItem}
+                checkoutState={checkoutState}
+              />
             ))}
           </div>
         </div>
-        <OrderSummaryShoppingBag />
+        {checkoutState == "shoppingbag" ? (
+          <OrderSummaryShoppingBag />
+        ) : (
+          (checkoutState == "placeorder" || checkoutState == "pay") && (
+            <OrderSummaryPlaceOrder />
+          )
+        )}
+        {checkoutState == "ordercomplete" && <StripeCheckoutButton />}
       </div>
     </div>
   );
@@ -36,7 +60,6 @@ const CheckoutComponent = ({ cartItems }) => {
 
 const mapStateToProps = createStructuredSelector({
   cartItems: selectCartItems,
-  // total: selectCartTotal,
 });
 
 export default connect(mapStateToProps)(CheckoutComponent);

@@ -52,6 +52,7 @@
   transition: all 0.8s ease;
 }
 
+
 .productImgContainer:hover .productLink {
   opacity: 0.9;
 }

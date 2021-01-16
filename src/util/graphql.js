@@ -2,7 +2,6 @@ import gql from "graphql-tag";
 
 //Quereis
 
-<<<<<<< HEAD
 export const GET_ORDER_QUERY = gql`
   query getOrder($orderId: ID!) {
     getOrder(orderId: $orderId) {
@@ -89,8 +88,6 @@ export const GET_ORDERS_QUERY = gql`
   }
 `;
 
-=======
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
 export const FETCH_POSTS_QUERY = gql`
   {
     getPosts {
@@ -118,32 +115,33 @@ export const GET_USER_QUERY = gql`
     getUser(userId: $userId) {
       id
       username
-<<<<<<< HEAD
       email
       gender
       phone
-      brithDate
-      Preference_categorie
-      address
-      createdAt
-    }
-  }
-`;
-export const GET_ORDER_QUERY = gql`
-  query getUser($userId: ID!) {
-    getUser(userId: $userId) {
-      id
-      username
-      email
-      gender
-      phone
-      brithDate
-      Preference_categorie
-      address
-=======
-      userImgUrl
-      phone
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
+      birthDate
+      Preference_categorie {
+        women
+        bags
+        beauty
+        accessories
+        kids
+        men
+        shoes
+        jewelry
+        home
+      }
+      address {
+        FirstName
+        LastName
+        Country
+        State
+        City
+        Address
+        Address_2
+        postal_code
+        Phone
+        defaultAddrses
+      }
       createdAt
     }
   }
@@ -153,21 +151,20 @@ export const GET_ORDER_QUERY = gql`
 
 export const UPDATE_USER = gql`
   mutation updateUser(
-<<<<<<< HEAD
     $username: String
     $email: String
     $gender: String
     $phone: String
-    $brithDate: String
-    $Preference_categorie: [String]
-    $address: [AddressInput]
+    $birthDate: String
+    $Preference_categorie: Preference_categorieInput
+    $address: AddressInput
   ) {
     updateUser(
       username: $username
       email: $email
       gender: $gender
       phone: $phone
-      brithDate: $brithDate
+      birthDate: $birthDate
       Preference_categorie: $Preference_categorie
       address: $address
     ) {
@@ -175,9 +172,30 @@ export const UPDATE_USER = gql`
       email
       gender
       phone
-      brithDate
-      Preference_categorie
-      address
+      birthDate
+      Preference_categorie {
+        women
+        bags
+        beauty
+        accessories
+        kids
+        men
+        shoes
+        jewelry
+        home
+      }
+      address {
+        FirstName
+        LastName
+        Country
+        State
+        City
+        Address
+        Address_2
+        postal_code
+        Phone
+        defaultAddrses
+      }
     }
   }
 `;
@@ -191,14 +209,7 @@ export const CREATE_ORDER = gql`
     $current_price: String!
     $currency: String!
     $discount: String!
-    $FirstName: String!
-    $LastName: String!
-    $State: String!
-    $City: String!
-    $Address: String!
-    $Address_2: String!
-    $postal_code: String!
-    $Phone: String!
+    $address: AddressInput!
   ) {
     updatePlayGround(
       orderInput: {
@@ -213,16 +224,7 @@ export const CREATE_ORDER = gql`
             discount: $discount
           }
         ]
-        address: {
-          FirstName: $FirstName
-          LastName: $LastName
-          State: $State
-          City: $City
-          Address: $Address
-          Address_2: $Address_2
-          postal_code: $postal_code
-          Phone: $Phone
-        }
+        address: $address
       }
 
       playgroundId: $playgroundId
@@ -242,23 +244,6 @@ export const CREATE_ORDER = gql`
       avaliable_hours_start
       avaliable_hours_end
       playground_Images
-=======
-    $username: String!
-    $phone: String!
-    $bio: String
-    $userImgUrl: String!
-  ) {
-    updateUser(
-      username: $username
-      phone: $phone
-      bio: $bio
-      userImgUrl: $userImgUrl
-    ) {
-      id
-      username
-      userImgUrl
-      phone
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
       createdAt
     }
   }

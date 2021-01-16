@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Form } from "semantic-ui-react";
+import { Form, Label } from "semantic-ui-react";
 import GoogleSiginIn from "../google-login/google-sign-in";
 import GoogleSignOut from "../google-logout/google-sign-out";
 import SignForm from "../sign-form/sign-form";
@@ -10,6 +10,7 @@ import { useForm } from "../../util/hooks";
 import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
+
 const SignIn = () => {
   let history = useHistory();
   const dispatch = useDispatch();
@@ -44,7 +45,8 @@ const SignIn = () => {
   return (
     <div style={{ marginLeft: "15%", position: "relative" }}>
       <h1 style={{ marginBottom: "10%" }}>Sign In</h1>
-      <SignForm onChange={onChange} values={values} signIn />
+      <p>{errors?.general}</p>
+      <SignForm onChange={onChange} values={values} signIn errors={errors } />
       <Form onSubmit={onSubmit}>
         <Form.Button color="black" style={{ width: "23rem" }}>
           Sign in

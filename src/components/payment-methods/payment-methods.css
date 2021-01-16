@@ -1,0 +1,10 @@
+.payment-method {
+  margin-top: 7%;
+}
+.payment-method-title {
+  border-bottom: rgb(214, 214, 214) solid 1px;
+  font-size: 1.5rem;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  font-weight: bold;
+}

@@ -4,7 +4,9 @@ import "./megamenu.css";
 import NavLink from "../../components/NavLink";
 
 const KidsMenu = ({ all_products, getSubcategories }) => {
+
   const subcategories = getSubcategories(all_products, "kids");
+  
   return (
     <div className="navbar">
       <div className="dropdown0">

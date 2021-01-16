@@ -1,15 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./megamenu.css";
-<<<<<<< HEAD
-import NavLink from "../../components/NavLink";
-
-const ShoesMenu = ({ all_products, getSubcategories }) => {
-  const subcategories = getSubcategories(all_products, "Shoes");
-  <NavLink subcategories={subcategories} />;
-=======
 const ShoesMenu = () => {
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
   return (
     <div className="navbar">
       <div className="dropdown0">
@@ -17,9 +9,6 @@ const ShoesMenu = () => {
         <div className="dropdown-content">
           <div className="row-1">
             <div className="row">
-<<<<<<< HEAD
-              <NavLink subcategories={subcategories} category="shoes" />
-=======
               <div className="column" style={{ paddingLeft: "13%" }}>
                 <Link to="/${product.category}/${product.subcategory}">
                   Women's Latest Style
@@ -105,7 +94,6 @@ const ShoesMenu = () => {
                   Kid's Shoes
                 </Link>
               </div>
->>>>>>> 8afad4c7bdae8f19a965980e003bde751923118a
             </div>
             <div className="headerDivider1"></div>
             <div className="header">

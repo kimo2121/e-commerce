@@ -2,6 +2,7 @@ import CartActionTypes from "./cart.types";
 import { addItemToCart, removeItemFromCart } from "../cart/cart.utils";
 const INITIAL_STATE = {
   cartItems: [],
+  orderdItems: [],
 };
 
 const cartReducer = (state = INITIAL_STATE, action) => {
@@ -26,6 +27,12 @@ const cartReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         cartItems: removeItemFromCart(state.cartItems, action.payload),
+      };
+    case CartActionTypes.COMPLETE_ORDER:
+      return {
+        ...state,
+        orderdItems: [...state.orderdItems, state.cartItems],
+        cartItems: [],
       };
   }
 };
