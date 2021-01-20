@@ -3,8 +3,8 @@ import gql from "graphql-tag";
 //Quereis
 
 export const GET_ORDER_QUERY = gql`
-  query getOrder($orderId: ID!) {
-    getOrder(orderId: $orderId) {
+  query getOrder($orderId: ID!, $userId: ID!) {
+    getOrder(orderId: $orderId, userId: $userId) {
       id
       items {
         category
@@ -29,6 +29,7 @@ export const GET_ORDER_QUERY = gql`
         url
         id
         model
+        quantity
       }
       address {
         FirstName
@@ -46,8 +47,8 @@ export const GET_ORDER_QUERY = gql`
 `;
 
 export const GET_ORDERS_QUERY = gql`
-  {
-    getOeders {
+  query getOrders($userId: ID!) {
+    getOrders(userId: $userId) {
       id
       items {
         category
@@ -72,17 +73,21 @@ export const GET_ORDERS_QUERY = gql`
         url
         id
         model
+        quantity
       }
       address {
         FirstName
         LastName
         State
+        Country
         City
         Address
         Address_2
         postal_code
         Phone
+        defaultAddrses
       }
+      total
       createdAt
     }
   }
@@ -202,49 +207,59 @@ export const UPDATE_USER = gql`
 
 export const CREATE_ORDER = gql`
   mutation createOrder(
-    $category: String!
-    $subcategory: String!
-    $name: String!
-    $raw_price: String!
-    $current_price: String!
-    $currency: String!
-    $discount: String!
+    $items: [ProductInput!]!
     $address: AddressInput!
+    $total: Int!
   ) {
-    updatePlayGround(
-      orderInput: {
-        items: [
-          {
-            category: $category
-            subcategory: $subcategory
-            name: $name
-            raw_price: $raw_price
-            current_price: $current_price
-            currency: $currency
-            discount: $discount
-          }
-        ]
-        address: $address
-      }
-
-      playgroundId: $playgroundId
+    createOrder(
+      orderInput: { items: $items, address: $address, total: $total }
     ) {
       id
-      owner
-      ownerId
-      ownerPhone
-      ownerImgUrl
-      ownerCreatedAt
-      name
-      city
-      location
-      price
-      contactNumber
-      amenities
-      avaliable_hours_start
-      avaliable_hours_end
-      playground_Images
+      items {
+        category
+        subcategory
+        name
+        current_price
+        raw_price
+        currency
+        discount
+        likes_count
+        is_new
+        brand
+        brand_url
+        codCountry
+        variation_0_color
+        variation_1_color
+        variation_0_thumbnail
+        variation_0_image
+        variation_1_thumbnail
+        variation_1_image
+        image_url
+        url
+        id
+        model
+        quantity
+      }
+      address {
+        FirstName
+        LastName
+        State
+        Country
+        City
+        Address
+        Address_2
+        postal_code
+        Phone
+        defaultAddrses
+      }
+      total
       createdAt
     }
+  }
+`;
+
+export const CREATE_PAYMENT = gql`
+  mutation createPayment($tokenId: ID!, $amount: Int!) {
+    createPayment(tokenId: $tokenId, amount: $amount)
   }
 `;

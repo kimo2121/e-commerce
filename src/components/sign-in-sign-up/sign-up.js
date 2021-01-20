@@ -1,14 +1,16 @@
-import React, { useState, useContext } from "react";
+import React, { useState } from "react";
 import "./sign-in-sign-up.css";
 import { useMutation, gql } from "@apollo/react-hooks";
-import { Link } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 import { Form } from "semantic-ui-react";
 import SignForm from "../sign-form/sign-form";
 import { useForm } from "../../util/hooks";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
 
-const SignUp = (props) => {
+const SignUp = () => {
+  let history = useHistory();
+
   const [errors, setErrors] = useState({});
   console.log({ errors });
   const dispatch = useDispatch();
@@ -21,17 +23,15 @@ const SignUp = (props) => {
     checkbox: false,
   });
 
+  console.log({ history });
   // console.log({ values });
 
-  const [
-    addUser,
-    //  { loading }
-  ] = useMutation(REGISTER_USER, {
+  const [addUser, { loading }] = useMutation(REGISTER_USER, {
     update(_, { data: { register: userData } }) {
+      console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-      props.history.push("/");
-      console.log({ userData });
+      history.push("/");
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);

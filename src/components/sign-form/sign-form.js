@@ -43,9 +43,11 @@ const SignForm = ({ onChange, values, signUp, errors }) => {
                     // style={{ width: "50%" }}
                   />
                   {errors && errors[item.label] && (
-                    <Label basic color="red" pointing>
-                      {errors && errors[item.label]}
-                    </Label>
+                    <div style={{ width: "80%" }}>
+                      <Label basic color="red" pointing>
+                        {errors && errors[item.label]}
+                      </Label>
+                    </div>
                   )}
                 </div>
               );

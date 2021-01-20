@@ -17,8 +17,11 @@ const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
 const SingleProductComponent = ({ addItem, product }) => {
   const [image, setImage] = React.useState("");
+  const [colorState, setColorState] = React.useState("");
+  const [sizeState, setSizeState] = React.useState("");
   console.log({ image });
   console.log({ product });
+  const colors = [product?.variation_0_color, product?.variation_1_color];
 
   return (
     <Grid container>
@@ -64,10 +67,20 @@ const SingleProductComponent = ({ addItem, product }) => {
           </div>
         </div>
         <div>
-          <h2 style={{ color: "black" }}>color:red</h2>
+          <Menu
+            btnName="Size:"
+            data={menuData}
+            firstItem={menuData[0].item}
+            setFilterTerm={setSizeState}
+          />
+          <Menu
+            btnName="Color:"
+            data={colors}
+            firstItem={colors[0]}
+            setFilterTerm={setColorState}
+          />
           <ProductImgList isSingleProduct data={product} setImage={setImage} />
         </div>
-        <Menu btnName="Size:" data={menuData} />
         {/* <HeaderItem data={headerItemData} /> */}
         <div style={{ display: "flex", margin: "1rem" }}>
           <MainButton onClick={() => addItem(product)} title="ADD TO BAG">

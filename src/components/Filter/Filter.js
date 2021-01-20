@@ -26,7 +26,16 @@ export default function Filter({ category, subcategoryList }) {
         // position: "fixed",
       }}
     >
-      <div style={{ display: "flex", flexDirection: "column" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          maxHeight: "30vh",
+          width: "100%",
+          overflowX: "scroll",
+        }}
+      >
+        <p>Categories:</p>
         {subcategoryList.length > 0 &&
           subcategoryList.map((link, index) => (
             <Link

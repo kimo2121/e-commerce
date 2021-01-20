@@ -4,7 +4,11 @@ import Grid from "@material-ui/core/Grid";
 import Rating from "@material-ui/lab/Rating";
 import { Progress } from "semantic-ui-react";
 
-const sizes = ["Small", "True to size", "Large"];
+const sizes = [
+  { text: "small", progress: "25" },
+  { text: "Large", progress: "25" },
+  { text: "True to size", progress: "50" },
+];
 
 export default function ReviewsHeader() {
   return (
@@ -31,10 +35,15 @@ export default function ReviewsHeader() {
           {sizes.map((i, index) => (
             <Grid key={index} container>
               <Grid item sm={2} xs={6}>
-                <p> {i} </p>
+                <p> {i.text} </p>
               </Grid>
               <Grid item sm={10} xs={6} style={{ paddingTop: ".5rem" }}>
-                <Progress percent={44} progress color="black" size="small" />
+                <Progress
+                  percent={i.progress}
+                  progress
+                  color="black"
+                  size="small"
+                />
               </Grid>
             </Grid>
           ))}

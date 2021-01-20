@@ -34,7 +34,7 @@ const AccountDropdown = () => {
         </div>
         <div>
           <HiIcons.HiOutlineClipboardList size={20} className="icons" />
-          <Link to="/">Orders</Link>
+          <Link to="/account/orders">Orders</Link>
         </div>
       </div>
     </Popup>

@@ -33,9 +33,11 @@ export default function ProductCard({
       }}
     >
       <div className="productImgContainer">
-        <SimpleModal>
-          <SingleProductComponent product={product} />
-        </SimpleModal>
+        {window.innerWidth > 900 && (
+          <SimpleModal>
+            <SingleProductComponent product={product} />
+          </SimpleModal>
+        )}
         <img src={image_url} alt="product" className="cardImg" />
       </div>
       <div style={{ marginLeft: "1rem" }}>

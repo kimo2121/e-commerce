@@ -6,52 +6,65 @@ export const getSubcategories = (products, category) => {
   let subcategoryList = [];
   filteredData.sort((a, b) => {
     if (a.subcategory !== b.subcategory) {
-      //   console.log(a.subcategory);
       subcategoryList.push(a.subcategory);
     }
   });
   return subcategoryList;
+};
+export const getColorsFilter = (products) => {
+  let colorsList = [];
+  let newColorsList = [];
+
+  products.sort((a, b) => {
+    if (
+      a.variation_0_color !== "" ||
+      b.variation_0_color !== "" ||
+      a.variation_1_color !== "" ||
+      b.variation_1_color !== ""
+    ) {
+      if (a.variation_0_color !== b.variation_0_color) {
+        colorsList.push(a.variation_0_color);
+      }
+      if (a.variation_1_color !== b.variation_1_color) {
+        colorsList.push(a.variation_1_color);
+      }
+    }
+  });
+
+  colorsList = colorsList.filter((i) => i !== "");
+  colorsList = colorsList.sort(function (a, b) {
+    var nameA = a.toUpperCase(); // ignore upper and lowercase
+    var nameB = b.toUpperCase(); // ignore upper and lowercase
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
+    }
+
+    // names must be equal
+    return 0;
+  });
+
+  colorsList = colorsList.sort((a, b) => {
+    if (a !== b) {
+      newColorsList.push(a);
+    }
+  });
+  console.log({ newColorsList });
+  return newColorsList;
 };
 
 export const sortList = (filterTerm, array) => {
   console.log({ array });
   console.log({ filterTerm });
   let sortedList = array.sort((a, b) => {
-    // console.log(sort);
-
-    if (filterTerm === "Price High to Low") {
-      let nameA = a.current_price; // ignore upper and lowercase
-      let nameB = b.current_price; // ignore upper and lowercase
-      if (nameA > nameB) {
-        return -1;
-      }
-      if (nameA < nameB) {
-        return 1;
-      }
-      // names must be equal
-      return 0;
-    } else if (filterTerm === "Price Low to High") {
-      let nameA = a.current_price; // ignore upper and lowercase
-      let nameB = b.current_price; // ignore upper and lowercase
-      if (nameA < nameB) {
-        return -1;
-      }
-      if (nameA > nameB) {
-        return 1;
-      }
-      // names must be equal
-      return 0;
+    if (filterTerm === "Price Low to High") {
+      return parseInt(a.current_price) - parseInt(b.current_price);
+    } else if (filterTerm === "Price High to Low") {
+      return parseInt(b.current_price) - parseInt(a.current_price);
     } else if (filterTerm === "Most Popular") {
-      let nameA = a.likes_count; // ignore upper and lowercase
-      let nameB = b.likes_count; // ignore upper and lowercase
-      if (nameA > nameB) {
-        return -1;
-      }
-      if (nameA < nameB) {
-        return 1;
-      }
-      // names must be equal
-      return 0;
+      return parseInt(b.likes_count) - parseInt(a.likes_count);
     }
   });
   console.log("sortedList from util func", sortedList);

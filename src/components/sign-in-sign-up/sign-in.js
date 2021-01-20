@@ -46,7 +46,7 @@ const SignIn = () => {
     <div style={{ marginLeft: "15%", position: "relative" }}>
       <h1 style={{ marginBottom: "10%" }}>Sign In</h1>
       <p>{errors?.general}</p>
-      <SignForm onChange={onChange} values={values} signIn errors={errors } />
+      <SignForm onChange={onChange} values={values} signIn errors={errors} />
       <Form onSubmit={onSubmit}>
         <Form.Button color="black" style={{ width: "23rem" }}>
           Sign in
