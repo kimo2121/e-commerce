@@ -99,13 +99,14 @@ export default function ProductsList() {
     console.log({ colorsFilterArray });
   }, [colorsFilter]);
 
+  let width = window.innerWidth
   return (
     <Page>
       <div className="productsList_contianer">
         <Header data={productsToShow[0]} />
         <br />
         <Grid container spacing={3}>
-          {window.innerWidth > 900 && (
+          {width > 900 && (
             <Grid item xs={2}>
               <Filter
                 category={productsToShow[0]?.category}
@@ -121,7 +122,7 @@ export default function ProductsList() {
                 category={filteredData[0]?.category}
               /> */}
             </Grid>
-            <Grid container style={{ margin: "" }}>
+            <Grid container >
               <Grid
                 item
                 sm={2}
@@ -141,14 +142,15 @@ export default function ProductsList() {
                     justifyContent: "center",
                   }}
                 >
-                  {/* <FilterListRoundedIcon /> */}
-                  <PopoverMUI Icon={<FilterListRoundedIcon/> }>
+                 {window.innerWidth < 900 && 
+                  <PopoverMUI >
 
                   <Filter
                 category={productsToShow[0]?.category}
                 subcategoryList={subcategories}
               />
                   </PopoverMUI>
+                  }
                  
                   {/* <p>Filter</p> */}
                 </div>
@@ -161,7 +163,7 @@ export default function ProductsList() {
                 {/* {` < >`} */}
               </Grid>
             </Grid>
-            <div style={{ overflow: "scroll", height: "75vh" }}>
+            <div style={{ overflow: "scroll", height: "75vh" , width:width > 900 ? "95%" :""}}>
               <ProductsCardList
                 onClick={handleOpen}
                 row={3}

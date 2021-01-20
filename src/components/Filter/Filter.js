@@ -35,7 +35,7 @@ export default function Filter({ category, subcategoryList }) {
           overflowX: "scroll",
         }}
       >
-        <p>Categories:</p>
+        <p>#Subcategories</p>
         {subcategoryList.length > 0 &&
           subcategoryList.map((link, index) => (
             <Link

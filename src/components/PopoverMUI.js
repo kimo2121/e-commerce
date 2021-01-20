@@ -23,12 +23,12 @@ export default function PopoverMUI({ children,Icon }) {
           <Popover
             {...bindPopover(popupState)}
             anchorOrigin={{
-              vertical: "bottom",
-              horizontal: "center",
+              vertical: "top",
+              horizontal: "right",
             }}
             transformOrigin={{
               vertical: "top",
-              horizontal: "center",
+              horizontal: "right",
             }}
           >
             <Box p={2}>
