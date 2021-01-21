@@ -6,7 +6,7 @@ const MainButton = ({ children, title, ...otherProps }) => {
     <Button
       variant="contained"
       color="primary"
-      style={{ width: "20vw", marginRight: "1rem" }}
+      style={{ width: "200px", marginRight: "1rem" }}
       {...otherProps}
     >
       {children}

@@ -11,13 +11,15 @@ const imgStyles = {
   margin: ".5rem 0px",
 };
 export default function ReviewCard({ review }) {
+  let width = window.innerWidth;
+
   return (
     <Grid container>
       <Grid item sm={12} xs={12}>
         <hr />
       </Grid>
-      <Grid item sm={3} xs={2}>
-        <p> {review.username} </p>
+      <Grid item sm={3} xs={12} style={{marginBottom:width < 900 ? "1rem":"" }}>
+        <p > {review.username} </p>
       </Grid>
       <Grid item sm={9} xs={10}>
         <div style={{ display: "flex" }}>

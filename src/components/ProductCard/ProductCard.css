@@ -31,7 +31,9 @@
 }
 .row {
   display: flex;
-  margin-left: auto;
+  justify-items:center;
+  align-items:center;
+  text-align:center
 }
 
 .productImgContainer {

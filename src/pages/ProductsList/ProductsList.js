@@ -82,7 +82,8 @@ export default function ProductsList() {
         priceFilterArray[0] <= i.current_price &&
         priceFilterArray[1] >= i.current_price
     );
-    setPriceFilterdData(priceFilter2);
+    // setPriceFilterdData(priceFilter2);
+    priceFilterArray.length > 0 &&  setproductsToShow(priceFilter2);
     console.log({ productsToShow });
     console.log({ priceFilterArray });
     console.log({ priceFilter2 });
@@ -95,7 +96,9 @@ export default function ProductsList() {
         colorsFilter.includes(i.variation_0_color) ||
         colorsFilter.includes(i.variation_1_color)
     );
-    setPriceFilterdData(colorsFilterArray);
+    // setPriceFilterdData(colorsFilterArray);
+    colorsFilter.length > 0 &&  setproductsToShow(colorsFilterArray);
+   
     console.log({ colorsFilterArray });
   }, [colorsFilter]);
 
@@ -168,9 +171,10 @@ export default function ProductsList() {
                 onClick={handleOpen}
                 row={3}
                 data={
-                  priceFilterdData.length > 0
-                    ? priceFilterdData
-                    : productsToShow
+                  // priceFilterdData.length > 0
+                  //   ? priceFilterdData
+                  //   : productsToShow
+                  productsToShow
                 }
                 open={open}
               />
