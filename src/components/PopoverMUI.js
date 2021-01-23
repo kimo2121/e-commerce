@@ -6,8 +6,7 @@ import Popover from "@material-ui/core/Popover";
 import PopupState, { bindTrigger, bindPopover } from "material-ui-popup-state";
 import FilterListRoundedIcon from "@material-ui/icons/FilterListRounded";
 
-
-export default function PopoverMUI({ children,Icon }) {
+export default function PopoverMUI({ children, icon }) {
   return (
     <PopupState variant="popover" popupId="demo-popup-popover">
       {(popupState) => (
@@ -19,7 +18,14 @@ export default function PopoverMUI({ children,Icon }) {
           >
             Open Popover
           </Button> */}
-          <FilterListRoundedIcon {...bindTrigger(popupState)} />
+          {icon ? (
+            icon
+          ) : (
+            <FilterListRoundedIcon
+              {...bindTrigger(popupState)}
+              style={{ padding: "0" }}
+            />
+          )}
           <Popover
             {...bindPopover(popupState)}
             anchorOrigin={{
@@ -31,10 +37,7 @@ export default function PopoverMUI({ children,Icon }) {
               horizontal: "right",
             }}
           >
-            <Box p={2}>
-              {/* <Typography>The content of the Popover.</Typography> */}
-              {children}
-            </Box>
+            <Box p={2}>{children}</Box>
           </Popover>
         </div>
       )}

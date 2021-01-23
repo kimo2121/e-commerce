@@ -15,6 +15,8 @@ import SortIcon from "@material-ui/icons/Sort";
 import { sortList, getSubcategories } from "../../util/util_functions";
 import { addFilterPrice } from "../../redux/products/product.action";
 import FilterListRoundedIcon from "@material-ui/icons/FilterListRounded";
+import { Segment } from "semantic-ui-react";
+import { Card } from "@material-ui/core";
 
 const data = [
   { item: "Most Popular" },
@@ -83,7 +85,7 @@ export default function ProductsList() {
         priceFilterArray[1] >= i.current_price
     );
     // setPriceFilterdData(priceFilter2);
-    priceFilterArray.length > 0 &&  setproductsToShow(priceFilter2);
+    priceFilterArray.length > 0 && setproductsToShow(priceFilter2);
     console.log({ productsToShow });
     console.log({ priceFilterArray });
     console.log({ priceFilter2 });
@@ -97,12 +99,12 @@ export default function ProductsList() {
         colorsFilter.includes(i.variation_1_color)
     );
     // setPriceFilterdData(colorsFilterArray);
-    colorsFilter.length > 0 &&  setproductsToShow(colorsFilterArray);
-   
+    colorsFilter.length > 0 && setproductsToShow(colorsFilterArray);
+
     console.log({ colorsFilterArray });
   }, [colorsFilter]);
 
-  let width = window.innerWidth
+  let width = window.innerWidth;
   return (
     <Page>
       <div className="productsList_contianer">
@@ -125,38 +127,46 @@ export default function ProductsList() {
                 category={filteredData[0]?.category}
               /> */}
             </Grid>
-            <Grid container >
-              <Grid
-                item
-                sm={2}
-                xs={12}
-                style={{ display: "flex", justifyContent: "space-between" }}
-              >
-                <Menu
-                  data={data}
-                  // firstItem={data[0].item}
-                  icon={<SortIcon />}
-                  nameProp="sort"
-                  setFilterTerm={setTerm}
-                />
-                <div
-                  style={{
-                    display: "flex",
-                    justifyContent: "center",
-                  }}
-                >
-                 {window.innerWidth < 900 && 
-                  <PopoverMUI >
+            <Grid container>
+              <Grid item sm={2} xs={12}>
+                {window.innerWidth > 900 ? (
+                  <Menu
+                    data={data}
+                    // firstItem={data[0].item}
+                    icon={<SortIcon />}
+                    nameProp="sort"
+                    setFilterTerm={setTerm}
+                  />
+                ) : (
+                  <Card
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      margin: "1rem auto",
+                      // padding:"4px"
+                    }}
+                  >
+                    <Menu
+                      data={data}
+                      // firstItem={data[0].item}
+                      icon={<SortIcon />}
+                      nameProp="sort"
+                      setFilterTerm={setTerm}
+                    />
 
-                  <Filter
-                category={productsToShow[0]?.category}
-                subcategoryList={subcategories}
-              />
-                  </PopoverMUI>
-                  }
-                 
-                  {/* <p>Filter</p> */}
-                </div>
+                    <div style={{ display: "flex", alignItems: "center" }}>
+                      <PopoverMUI>
+                        <div style={{ width: "80vw" }}>
+                          <Filter
+                            category={productsToShow[0]?.category}
+                            subcategoryList={subcategories}
+                          />
+                        </div>
+                      </PopoverMUI>
+                      {/* <p>Filter</p> */}
+                    </div>
+                  </Card>
+                )}
               </Grid>
               {/* <Grid item xs={8}>
                 ship in 24 hours
@@ -166,7 +176,13 @@ export default function ProductsList() {
                 {/* {` < >`} */}
               </Grid>
             </Grid>
-            <div style={{ overflow: "scroll", height: "75vh" , width:width > 900 ? "95%" :""}}>
+            <div
+              style={{
+                overflow: "scroll",
+                height: "75vh",
+                width: width > 900 ? "95%" : "",
+              }}
+            >
               <ProductsCardList
                 onClick={handleOpen}
                 row={3}

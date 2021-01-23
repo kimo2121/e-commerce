@@ -14,12 +14,15 @@ import SignInSignUp from "./pages/sign-page/sign-page";
 import CartItem from "./components/cart-item/cart-item";
 import Checkout from "./pages/checkout/checkout";
 import OrdersPage from "./pages/orders/OrdersPage";
+import PrimarySearchAppBar from "./components/PrimarySearchAppBar";
 
 function App() {
+  let width = window.innerWidth;
+
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        {width > 900 ? <Navbar /> : <PrimarySearchAppBar />}
         <Switch>
           <Route exact path="/" component={MainHome} />
           <Route exact path="/account" component={Account} />
