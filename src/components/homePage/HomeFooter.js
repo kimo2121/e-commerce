@@ -62,8 +62,8 @@ export default function HomeFooter() {
       </div>
       <div className="hot-categories">
         <h2 style={{ margin: "1rem" }}>Coupon Center</h2>
-        {products.slice(8, 12).map((item) => (
-          <DiscountCart product={item} />
+        {products.slice(8, 11).map((item, index) => (
+          <DiscountCart key={index} product={item} />
         ))}
       </div>
     </div>

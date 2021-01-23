@@ -35,18 +35,22 @@ const StripeCheckoutButton = ({ total }) => {
 
   return (
     <div className="stripe-component">
-      <StripeCheckout
-      className="stripe-stripe-button"
-        label="Pay Now"
-        name="shop-app Ltd."
-        // billingAddress
-        // shippingAddress
-        discription={`Your total is  $${total}`}
-        amount={priceForStripe}
-        panelLabel="Pay Now"
-        token={onToken}
-        stripeKey={publishableKey}
-      />
+      <span className="stripe-div-title">Complete Your Order</span>
+      <div className="stripe-component-button">
+        <div className="title-total">
+          <span>Total Billing: ${total}</span>
+        </div>
+        <StripeCheckout
+          className="stripe-stripe-button"
+          label="Pay Now"
+          name="shop-app Ltd."
+          discription={`Your total is  $${total}`}
+          amount={priceForStripe}
+          panelLabel="Pay Now"
+          token={onToken}
+          stripeKey={publishableKey}
+        />
+      </div>
     </div>
   );
 };

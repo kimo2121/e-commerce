@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import SliderData from "./slider-data";
-import "./slider.css";
+import "./slider.scss";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
 
 function SliderComponent() {

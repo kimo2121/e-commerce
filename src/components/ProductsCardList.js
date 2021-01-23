@@ -10,13 +10,12 @@ export default function ProductsCardList({
   onClick,
   data,
 }) {
-  
   return (
     <Grid container spacing={3}>
       {data &&
         data.length > 0 &&
-        data.map((item) => (
-          <Grid item xs={12} sm={row}>
+        data.map((item, index) => (
+          <Grid key={index} item xs={12} sm={row}>
             {isSingleProductPage || isHome ? (
               <BasicProductCard onClick={onClick} product={item} isHome />
             ) : (

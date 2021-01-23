@@ -1,7 +1,7 @@
 // export const KidsNew = [
 //   {
 //     "category": "kids",
-//     "subcategory": "Accessoires pour enfant",
+//     "subcategory": "Children's accessories",
 //     "name": "Combinaison � fleurs Boh�me pour filles",
 //     "current_price": "24.06",
 //     "raw_price": "60.63",

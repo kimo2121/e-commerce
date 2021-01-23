@@ -9,7 +9,7 @@ import {
   passowordInfo,
 } from "./personal-info-data";
 
-const PersonalInfoForm =  () => {
+const PersonalInfoForm = () => {
   const [state, setState] = useState({});
   const [date, setDate] = useState(new Date());
   const handleChange = (e, { value }) => {
@@ -64,7 +64,7 @@ const PersonalInfoForm =  () => {
         <span className="label-info">Preference categories:</span>
         <div className="Preference-categories">
           {PreferenceInfo.map((item) => (
-            <div key={item.id} style={{marginRight:'20%'}}>
+            <div key={item.id} style={{ marginRight: "20%" }}>
               <Form.Checkbox style={{ marginTop: "10%" }} label={item.label} />
             </div>
           ))}

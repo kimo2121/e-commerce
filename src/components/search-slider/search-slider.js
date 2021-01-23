@@ -9,10 +9,9 @@ const SearchSlider = () => {
   const handleDisabledChange = (disabled) => {
     setDisabled(disabled);
   };
-  
+
   return (
     <div className="search-slider">
-      
       <Slider range defaultValue={[20, 50]} disabled={disabled} />
       <Switch size="small" checked={disabled} onChange={handleDisabledChange} />
     </div>

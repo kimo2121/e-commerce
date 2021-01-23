@@ -3,7 +3,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures d�contract�es antid�rapantes en tissu de soie glac�e pour hommes",
+      "Men's Ice Silk Fabric Non-Slip Casual Shoes",
     current_price: "36.4",
     raw_price: "72.8",
     currency: "USD",
@@ -32,7 +32,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures en cuir � carreaux pour hommes de grande taille",
+    name: "Plus Size Mens Plaid Leather Shoes",
     current_price: "46.36",
     raw_price: "106.49",
     currency: "USD",
@@ -61,7 +61,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures d�contract�es en cuir pour hommes",
+    name: "Mens Leather Casual Shoes",
     current_price: "43.38",
     raw_price: "119.98",
     currency: "USD",
@@ -90,7 +90,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Baskets plates �lastiques en tricot d'�pissage",
+    name: "Elastic splice-knit flat sneakers",
     current_price: "19.99",
     raw_price: "39.99",
     currency: "USD",
@@ -119,7 +119,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Hommes Cuir �pissage Soft Semelle Casual Chaussures",
+    name: "Men Spliced Leather Soft Sole Casual Shoes",
     current_price: "46.18",
     raw_price: "119.98",
     currency: "USD",
@@ -149,7 +149,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures d�contract�es antid�rapantes en cuir microfibre pour hommes",
+      "Men's Microfiber Leather Non-Slip Casual Shoes",
     current_price: "45.57",
     raw_price: "91.14",
     currency: "USD",
@@ -179,7 +179,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures de conduite d�contract�es antid�rapantes en tissu de soie glac�e pour hommes",
+      "Men's Ice Silk Fabric Non-Slip Casual Riding Shoes",
     current_price: "36.64",
     raw_price: "73.28",
     currency: "USD",
@@ -208,7 +208,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures d�contract�es confortables en toile lav�e pour hommes",
+    name: "Comfortable Washed Canvas Men's Casual Shoes",
     current_price: "22.98",
     raw_price: "63.98",
     currency: "USD",
@@ -237,7 +237,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Bottes � talons blocs � lacets brod�s",
+    name: "Embroidered lace-up block heel boots",
     current_price: "41.29",
     raw_price: "96.94",
     currency: "USD",
@@ -266,7 +266,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Bottes d'�t� en cuir brod� de fleurs en strass",
+    name: "Leather summer boots embroidered with rhinestone flowers",
     current_price: "32.99",
     raw_price: "69.99",
     currency: "USD",
@@ -295,7 +295,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Sneakers de course et de marche de grande taille pour homme",
+    name: "Plus Size Running & Walking Sneakers for Men",
     current_price: "34.84",
     raw_price: "76.46",
     currency: "USD",
@@ -324,7 +324,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Sandales compens�es � boucle �vid�e",
+    name: "Wedge sandals with open buckle",
     current_price: "30.67",
     raw_price: "74.2",
     currency: "USD",
@@ -354,7 +354,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures de conduite d�contract�es antid�rapantes en daim pour hommes",
+      "Men's Suede Non-Slip Casual Riding Shoes",
     current_price: "49.99",
     raw_price: "112.34",
     currency: "USD",
@@ -383,7 +383,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Hommes Engrener Sneakers de randonn�e non glissantes",
+    name: "Mens Mesh Non-Slip Hiking Sneakers",
     current_price: "43.12",
     raw_price: "110.6",
     currency: "USD",
@@ -412,7 +412,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Baskets � enfiler en maille Air Mesh",
+    name: "Air Mesh slip-on sneakers",
     current_price: "19.99",
     raw_price: "39.99",
     currency: "USD",
@@ -441,7 +441,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures en cuir � couture � la main",
+    name: "Hand-stitched leather shoes",
     current_price: "64.62",
     raw_price: "131.98",
     currency: "USD",
@@ -470,7 +470,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures plates sans dossier en daim � gros bout rond",
+    name: "Chunky Round Toe Suede Backless Flats",
     current_price: "26.09",
     raw_price: "68.27",
     currency: "USD",
@@ -499,7 +499,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures d�contract�es antid�rapantes en cuir pour hommes",
+    name: "Men's non-slip leather casual shoes",
     current_price: "46.99",
     raw_price: "124.98",
     currency: "USD",
@@ -529,7 +529,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures d�contract�es respirantes en tissu de soie glac�e pour hommes",
+      "Men's Breathable Ice Silk Fabric Casual Shoes",
     current_price: "31.33",
     raw_price: "62.66",
     currency: "USD",
@@ -559,7 +559,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
     name:
-      "Chaussures Souples De Grande Taille Mocassins Plats En Couleur Pure � Mettre De Multi Fa�on",
+      "Large Size Soft Shoes Flat Moccasins In Pure Color To Put On In Many Ways",
     current_price: "23.59",
     raw_price: "39.99",
     currency: "USD",
@@ -588,7 +588,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Sandales plates � bout ferm� r�tro",
+    name: "Retro closed-toe flat sandals",
     current_price: "36.99",
     raw_price: "79.99",
     currency: "USD",
@@ -617,7 +617,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "ACCESSOIRES CHAUSSURES",
-    name: "Chaussures en cuir de vache cousues � la main pour hommes",
+    name: "Men's Hand-stitched Cowhide Shoes",
     current_price: "48.04",
     raw_price: "99.98",
     currency: "USD",
@@ -646,7 +646,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Hommes PU �pissage chaussures de sport antid�rapantes",
+    name: "Men PU Splicing Non-slip Sports Shoes",
     current_price: "29.69",
     raw_price: "65.98",
     currency: "USD",
@@ -676,7 +676,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "Baskets",
     name:
-      "Bottes en cuir d�contract�es antid�rapantes cousues � la main pour hommes",
+      "Men's Hand-Sewn Non-Slip Casual Leather Boots",
     current_price: "45.99",
     raw_price: "95.98",
     currency: "USD",
@@ -705,7 +705,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Chaussettes athl�tiques respirantes en maille",
+    name: "Breathable Athletic Mesh Socks",
     current_price: "19.99",
     raw_price: "39.99",
     currency: "USD",
@@ -734,7 +734,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales � talons bas avec boucle � crochet",
+    name: "Low heel sandals with hook buckle",
     current_price: "90.99",
     raw_price: "152.07",
     currency: "USD",
@@ -763,7 +763,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Baskets d�contract�es en maille pour hommes",
+    name: "Mens Mesh Casual Sneakers",
     current_price: "51.44",
     raw_price: "109.95",
     currency: "USD",
@@ -793,7 +793,7 @@ export const ShoesNew = [
     category: "shoes",
     subcategory: "Baskets",
     name:
-      "Chaussures de conduite d�contract�es antid�rapantes en cuir v�ritable pour hommes",
+      "Men's Genuine Leather Non-Slip Casual Riding Shoes",
     current_price: "49.99",
     raw_price: "99.98",
     currency: "USD",
@@ -822,7 +822,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Bottes d'�t� d�contract�es � talons �pais en maille",
+    name: "Chunky Heel Mesh Casual Summer Boots",
     current_price: "29.98",
     raw_price: "59.99",
     currency: "USD",
@@ -851,7 +851,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Chaussures de sport en maille � velcro",
+    name: "Velcro mesh athletic shoes",
     current_price: "14.88",
     raw_price: "60.29",
     currency: "USD",
@@ -880,7 +880,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Mocassins plats � pompon respirant",
+    name: "Breathable pompom flat moccasins",
     current_price: "31.26",
     raw_price: "115.47",
     currency: "USD",
@@ -909,7 +909,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Casual Soft Splicing Leather Flats Chaussures",
+    name: "casual Soft Splicing Leather Flats Chaussures",
     current_price: "19.99",
     raw_price: "53.95",
     currency: "USD",
@@ -938,7 +938,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Chaussures plates � boucle creuse respirante",
+    name: "Breathable Hollow Buckle Flats",
     current_price: "24.99",
     raw_price: "73.95",
     currency: "USD",
@@ -967,7 +967,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Chaussures d'eau en tricot pour hommes",
+    name: "Men's knit water shoes",
     current_price: "47.24",
     raw_price: "90.38",
     currency: "USD",
@@ -996,7 +996,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales d�contract�es antid�rapantes en cuir pour hommes",
+    name: "Men's Non-Slip Leather Casual Sandals",
     current_price: "40.14",
     raw_price: "85.98",
     currency: "USD",
@@ -1025,7 +1025,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Bottines d�contract�es en cuir cousues � la main pour hommes",
+    name: "Men's Hand-Sewn Leather Casual Ankle Boots",
     current_price: "44.92",
     raw_price: "89.84",
     currency: "USD",
@@ -1054,7 +1054,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "SOCOFY sandales r�tro creuses en cuir",
+    name: "SOCOFY hollow retro leather sandals",
     current_price: "29.99",
     raw_price: "140.62",
     currency: "USD",
@@ -1083,7 +1083,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales � bride arri�re en forme de T",
+    name: "T-shaped slingback sandals",
     current_price: "23.6",
     raw_price: "47.99",
     currency: "USD",
@@ -1112,7 +1112,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales �lastiques Bande Comfort",
+    name: "Comfort Band Elastic Sandals",
     current_price: "31.66",
     raw_price: "51.87",
     currency: "USD",
@@ -1141,7 +1141,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Pantoufles sans dos d�contract�es en cuir PU pour hommes",
+    name: "Mens PU Leather Casual Backless Slippers",
     current_price: "20.3",
     raw_price: "38.66",
     currency: "USD",
@@ -1170,7 +1170,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales d�contract�es brod�es de fleurs",
+    name: "Flower embroidered casual sandals",
     current_price: "22.61",
     raw_price: "54.3",
     currency: "USD",
@@ -1199,7 +1199,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "SOCOFY sandales boh�miennes ajustables en cuir",
+    name: "SOCOFY adjustable bohemian sandals in leather",
     current_price: "70.25",
     raw_price: "133.64",
     currency: "USD",
@@ -1228,7 +1228,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Soft Mocassins plats � lacets Splicing",
+    name: "Soft Splicing Lace-Up Flat Loafers",
     current_price: "19.78",
     raw_price: "39.99",
     currency: "USD",
@@ -1257,7 +1257,7 @@ export const ShoesNew = [
   {
     category: "shoes",
     subcategory: "Baskets",
-    name: "Sandales � brides en m�tal",
+    name: "Sandals with metal straps",
     current_price: "19.99",
     raw_price: "38.63",
     currency: "USD",
