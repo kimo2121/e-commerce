@@ -33,11 +33,15 @@ const SingleProduct = () => {
         <Reviews />
         <hr />
         <div style={centerContianer}>
-          <Pagination />
+          <MainButton title="View more">
+            <ArrowDropDownOutlinedIcon />
+          </MainButton>
         </div>
         <br />
         <h1>Pick For You</h1>
-        <ProductsCardList isSingleProductPage row={2} />
+        <div style={{ display: "flex" }}>
+          <ProductsCardList data={products.slice(0, 6)} row={2} isHome />
+        </div>
         <div style={centerContianer}>
           <MainButton title="View more">
             <ArrowDropDownOutlinedIcon />

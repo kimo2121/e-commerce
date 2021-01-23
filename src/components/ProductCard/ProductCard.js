@@ -5,6 +5,11 @@ import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
 import MainLink from "../MainLink/MainLink";
+import { addItem } from "../../redux/cart/cart.actions";
+import { useDispatch } from "react-redux";
+import LocalMallIcon from "@material-ui/icons/LocalMall";
+import MainButton from "../../components/MainButton/MainButton";
+
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
@@ -23,6 +28,11 @@ export default function ProductCard({
     image_url,
     id,
   } = product;
+
+  const dispatch = useDispatch();
+  const width = window.innerWidth;
+
+
   return (
     <Card
       style={{
@@ -33,10 +43,14 @@ export default function ProductCard({
       }}
     >
       <div className="productImgContainer">
-        <SimpleModal>
-          <SingleProductComponent product={product} />
-        </SimpleModal>
-        <img src={image_url} alt="product" className="cardImg" />
+        {window.innerWidth > 900 && (
+          <SimpleModal>
+            <SingleProductComponent product={product} />
+          </SimpleModal>
+        )}
+         <MainLink pathname={`/product/${id}`} >
+          <img src={image_url} alt="product" className="cardImg" />
+          </MainLink>
       </div>
       <div style={{ marginLeft: "1rem" }}>
         <MainLink
@@ -50,10 +64,13 @@ export default function ProductCard({
           </div>
           <div className="row">
             <FavoriteBorderIcon className="loveIcon" />
-            <p>{likes_count} </p>
+            <p style={{margin:"5px"}}>{likes_count} </p>
           </div>
         </div>
       </div>
+      { width < 900 &&   <MainButton onClick={() => dispatch(addItem(product))} title="ADD TO BAG" style={{width:"95%"}}>
+            <LocalMallIcon style={{ marginRight: "5px" }} />
+          </MainButton>}
     </Card>
   );
 }

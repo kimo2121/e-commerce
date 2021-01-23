@@ -10,22 +10,40 @@ import { ShoesNew } from "./ShoesNew";
 import { WomenNew } from "../../shopData/WomenNew";
 
 const INITIAL_STATE = {
-  products: ShoesNew.slice(0, 500),
+  products: ShoesNew.slice(0, 50),
   all_products: [
-    ...kidsNew.slice(0, 100),
-    ...MenNew.slice(0, 100),
-    ...AccessoriesNew.slice(0, 100),
-    ...BagsNew.slice(0, 100),
-    ...BeautyNew.slice(0, 100),
-    ...HouseNew.slice(0, 100),
-    ...JewelryNew.slice(0, 100),
-    ...ShoesNew.slice(0, 100),
-    ...WomenNew.slice(0, 100),
+    ...kidsNew.slice(0, 200),
+    ...MenNew.slice(0, 200),
+    ...AccessoriesNew.slice(0, 200),
+    ...BagsNew.slice(0, 200),
+    ...BeautyNew.slice(0, 200),
+    // ...HouseNew.slice(0, 50),
+    ...JewelryNew.slice(0, 200),
+    ...ShoesNew.slice(0, 200),
+    // ...WomenNew.slice(0, 50),
   ],
+  filter: [],
+  priceFilter: [],
+  colorsFilter: [],
 };
 
 const productReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
+    case "FILTER_PRICE":
+      return {
+        ...state,
+        filter: action.payload,
+      };
+    case "FILTER_PRICE_INPUT":
+      return {
+        ...state,
+        priceFilter: action.payload,
+      };
+    case "FILTER_COLORS_INPUT":
+      return {
+        ...state,
+        colorsFilter: action.payload,
+      };
     default:
       return state;
   }

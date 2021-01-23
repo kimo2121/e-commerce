@@ -22,8 +22,9 @@ import AdvancedSearch from "../search-component/search-advanced";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
-  // const products = useSelector((state) => state.products.products);
-
+  const onSearch = (value) => console.log(value);
+  // const { Search } = Input;
+  console.log({ all_products });
   // const [show, handleShow] = useState(false);
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {

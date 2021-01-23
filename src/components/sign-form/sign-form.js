@@ -1,6 +1,6 @@
 import React from "react";
 import "./sign-form.css";
-import { Form } from "semantic-ui-react";
+import { Form, Label, Message } from "semantic-ui-react";
 const signUpData = [
   { label: "username", id: 0, type: "text" },
   { label: "email", id: 1, type: "email" },
@@ -12,7 +12,7 @@ const signInData = [
   { label: "password", id: 2, type: "password" },
 ];
 
-const SignForm = ({ onChange, values, signUp, signIn }) => {
+const SignForm = ({ onChange, values, signUp, errors }) => {
   const data = signUp ? signUpData : signInData;
   return (
     <div>
@@ -23,7 +23,14 @@ const SignForm = ({ onChange, values, signUp, signIn }) => {
               // console.log("values", values && values[item.label]);
 
               return (
-                <div key={item.id} style={{ marginBottom: "7%" }}>
+                <div
+                  key={item.id}
+                  style={{
+                    marginBottom: "7%",
+                    display: "flex",
+                    flexDirection: "column",
+                  }}
+                >
                   <Form.Input
                     type={item.type}
                     placeholder={item.label}
@@ -35,9 +42,17 @@ const SignForm = ({ onChange, values, signUp, signIn }) => {
                     onChange={onChange}
                     // style={{ width: "50%" }}
                   />
+                  {errors && errors[item.label] && (
+                    <div style={{ width: "80%" }}>
+                      <Label basic color="red" pointing>
+                        {errors && errors[item.label]}
+                      </Label>
+                    </div>
+                  )}
                 </div>
               );
             })}
+          {errors?.general && <Message color="red">{errors?.general}</Message>}
         </Form.Group>
       </Form>
     </div>

@@ -13,7 +13,7 @@ export const MyOrders = [
     icon: <HiIcons.HiOutlineClipboardList className="icons" size={16} />,
     name: "Orders",
     id: 1272,
-    to: "/account",
+    to: "/account/orders",
   },
   {
     icon: <HiIcons.HiOutlineCurrencyDollar className="icons" size={16} />,
