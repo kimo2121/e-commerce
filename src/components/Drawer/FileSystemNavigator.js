@@ -41,7 +41,7 @@ export default function FileSystemNavigator({ onClose }) {
       {data.map((category, indx) => (
         <TreeItem nodeId={indx} label={category}>
           {getSubcategories(all_products, category).map((sub, idx) => (
-            <MainLink pathname={`/${category}/${sub}`} onClick={onClose}>
+            <MainLink pathname={`/${category}/${sub}`} onClick={onClose()}>
               <TreeItem nodeId={idx} label={sub} />
             </MainLink>
           ))}
