@@ -15,7 +15,6 @@ import SortIcon from "@material-ui/icons/Sort";
 import { sortList, getSubcategories } from "../../util/util_functions";
 import { addFilterPrice } from "../../redux/products/product.action";
 import FilterListRoundedIcon from "@material-ui/icons/FilterListRounded";
-import { Segment } from "semantic-ui-react";
 import { Card } from "@material-ui/core";
 
 const data = [
@@ -155,7 +154,7 @@ export default function ProductsList() {
                     />
 
                     <div style={{ display: "flex", alignItems: "center" }}>
-                      <PopoverMUI>
+                      <PopoverMUI icon={<FilterListRoundedIcon />}>
                         <div style={{ width: "80vw" }}>
                           <Filter
                             category={productsToShow[0]?.category}

@@ -25,10 +25,15 @@ const SingleProduct = () => {
   const product = products.find((product) => product.id === productId);
   console.log({ productId });
   console.log({ product });
+  const width = window.innerWidth;
+
   return (
     <Page>
-      <div className="productsList_contianer">
-        <Header data={product}  />
+      <div
+        className="productsList_contianer"
+        // style={{ paddingTop: width > 900 ? "" : "2rem" }}
+      >
+        <Header data={product} />
         <SingleProductComponent product={product} />
         <Reviews />
         <hr />

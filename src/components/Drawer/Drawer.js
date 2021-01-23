@@ -10,10 +10,15 @@ import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import InboxIcon from "@material-ui/icons/MoveToInbox";
 import MailIcon from "@material-ui/icons/Mail";
+import IconButton from "@material-ui/core/IconButton";
+import MenuIcon from "@material-ui/icons/Menu";
+import FileSystemNavigator from "./FileSystemNavigator";
 
 const useStyles = makeStyles({
   list: {
     width: 250,
+    paddingTop: "2rem",
+    padding: "1.5rem",
   },
   fullList: {
     width: "auto",
@@ -52,41 +57,45 @@ export default function TemporaryDrawer() {
       <List>
         {["Inbox", "Starred", "Send email", "Drafts"].map((text, index) => (
           <ListItem button key={text}>
-            <ListItemIcon>
+            {/* <ListItemIcon>
               {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
+            </ListItemIcon> */}
             <ListItemText primary={text} />
           </ListItem>
         ))}
       </List>
       <Divider />
-      <List>
-        {["All mail", "Trash", "Spam"].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>
-              {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-            </ListItemIcon>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
-      </List>
     </div>
   );
-
+  const anchor = "left";
   return (
     <div>
-      {["left", "right", "top", "bottom"].map((anchor) => (
-        <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button>
-          <Drawer
-            anchor={anchor}
-            open={state[anchor]}
-            onClose={toggleDrawer(anchor, false)}
-          >
-            {list(anchor)}
-          </Drawer>
-        </React.Fragment>
-      ))}
+      {/* {["left", "right", "top", "bottom"].map((anchor) => ( */}
+
+      <React.Fragment key={anchor}>
+        {/* <Button onClick={toggleDrawer(anchor, true)}>{anchor}</Button> */}
+        <IconButton
+          edge="start"
+          color="inherit"
+          aria-label="menu"
+          onClick={toggleDrawer(anchor, true)}
+        >
+          <MenuIcon />
+        </IconButton>
+        <Drawer
+          anchor={anchor}
+          open={state[anchor]}
+          onClose={toggleDrawer(anchor, false)}
+        >
+          <div className={classes.list}>
+            <FileSystemNavigator
+              onClose={() => toggleDrawer(anchor, false)}
+            />
+          </div>
+          {/* {list(anchor)} */}
+        </Drawer>
+      </React.Fragment>
+      {/* ))} */}
     </div>
   );
 }
