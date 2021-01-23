@@ -1,5 +1,5 @@
 import React from "react";
-import "./checkout-component.css";
+import "./checkout-component.scss";
 import { selectCartItems } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import { connect, useSelector } from "react-redux";
@@ -18,8 +18,8 @@ const CheckoutComponent = ({ cartItems }) => {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Stepper />
       </div>
-      <div style={{ marginLeft: "6%", display: "flex", marginTop: "1.5%" }}>
-        <div style={{ width: "65%" }}>
+      <div className="checkout-down-layout">
+        <div className="checkout-inner-layout">
           {(checkoutState == "placeorder" || checkoutState == "pay") && (
             <PlaceOrder />
           )}

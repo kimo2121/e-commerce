@@ -1,0 +1,30 @@
+.items-count {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.titles-header {
+  margin-top: 1%;
+  display: flex;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  justify-content: space-between;
+  padding: 1%;
+}
+.checkout-component {
+  margin-top: 2%;
+}
+.checkout-down-layout {
+  display: flex;
+  margin-top: 1.6%;
+  margin-left: 6%;
+  @media only screen and(max-width:768px) {
+    display: block !important;
+  }
+}
+.checkout-inner-layout{
+  width: 65%;
+  @media only screen and(max-width:768px) {
+    width: 90%;
+
+  }
+}
