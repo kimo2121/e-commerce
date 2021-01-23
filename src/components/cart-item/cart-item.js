@@ -8,28 +8,32 @@ const CartItem = ({ item, clearItemFromCart }) => {
     <div className="cart-item">
       <img src={item.image_url} alt="" />
       <div style={{ display: "flex", flexDirection: "column" }}>
-        <span
+        <div
           className="item-cart-name"
           onClick={() => {
             window.location.replace(`/product/${item.id}`);
           }}
         >
-          {item.name}
-        </span>
-        <HiIcons.HiOutlineTrash
-          onClick={() => {
-            clearItemFromCart(item);
-          }}
-          className="remove-icon"
-          size={19}
-        />
+          <span> {`${item.name.slice(0, 20)}...`}</span>
+        </div>
+        <div className="remove-icon">
+          <HiIcons.HiOutlineTrash
+            style={{ position: "absolute",left:'20rem' }}
+            onClick={() => {
+              clearItemFromCart(item);
+            }}
+            size={19}
+          />
+        </div>
         <div className="cart-item-details">
           <br />
           <p>Color / Size</p>
           <br />
           <div className="details-style">
             <h2 style={{ fontWeight: "700" }}>${item.current_price}</h2>
-            <h4>X{item?.quantity}</h4>
+            <h4 style={{ right: "50%", position: "absolute" }}>
+              X{item?.quantity}
+            </h4>
           </div>
         </div>
       </div>
