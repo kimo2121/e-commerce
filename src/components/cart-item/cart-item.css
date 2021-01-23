@@ -46,6 +46,8 @@
 }
 .details-style {
   display: flex;
+  position: relative;
+  width: 12vw !important;
   /* justify-content: space-between !important; */
 }
 .details-style h4 {

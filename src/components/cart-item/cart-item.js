@@ -18,7 +18,7 @@ const CartItem = ({ item, clearItemFromCart }) => {
         </div>
         <div className="remove-icon">
           <HiIcons.HiOutlineTrash
-            style={{ position: "absolute",left:'20rem' }}
+            style={{ position: "absolute", right: "-120%" }}
             onClick={() => {
               clearItemFromCart(item);
             }}
@@ -31,7 +31,7 @@ const CartItem = ({ item, clearItemFromCart }) => {
           <br />
           <div className="details-style">
             <h2 style={{ fontWeight: "700" }}>${item.current_price}</h2>
-            <h4 style={{ right: "50%", position: "absolute" }}>
+            <h4 style={{ right: "60%", position: "absolute" }}>
               X{item?.quantity}
             </h4>
           </div>
