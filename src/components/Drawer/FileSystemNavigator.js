@@ -13,6 +13,7 @@ const useStyles = makeStyles({
     height: 240,
     flexGrow: 1,
     maxWidth: 400,
+    fontSize: "3rem",
   },
 });
 
@@ -31,6 +32,7 @@ export default function FileSystemNavigator({ onClose }) {
   const all_products = useSelector((state) => state.products.all_products);
 
   const classes = useStyles();
+  const refresh = () => window.location.reload();
 
   return (
     <TreeView
@@ -39,9 +41,9 @@ export default function FileSystemNavigator({ onClose }) {
       defaultExpandIcon={<ChevronRightIcon />}
     >
       {data.map((category, indx) => (
-        <TreeItem nodeId={indx} label={category}>
+        <TreeItem nodeId={indx} label={category} style={{ fontSize: "2rem" }}>
           {getSubcategories(all_products, category).map((sub, idx) => (
-            <MainLink pathname={`/${category}/${sub}`} onClick={onClose}>
+            <MainLink pathname={`/${category}/${sub}`} onClick={onClose()}>
               <TreeItem nodeId={idx} label={sub} />
             </MainLink>
           ))}
