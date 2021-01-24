@@ -1,6 +1,9 @@
 .checkout-item-layout {
   display: flex;
   margin-top: 2%;
+  @media only screen and(max-width:768px) {
+    display: block;
+  }
 }
 .item-quantity {
   display: flex !important;
@@ -31,6 +34,14 @@
 .checkout-item-layout img {
   height: 20vh;
   width: 13%;
+  @media only screen and(max-width:768px) {
+    height: 36vh;
+    width: 50%;
+  }
+  @media only screen and(max-width:500px) {
+    height: 34vh;
+    width: 55%;
+  }
 }
 .checkout-item-details {
   text-align: left !important;
@@ -38,6 +49,15 @@
   width: 90%;
   display: flex;
   justify-content: space-evenly;
+}
+.checkout-item-size-select {
+  height: 2%;
+  width: 20vw;
+  margin-top: 10%;
+  @media only screen and(max-width:768px) {
+    width: 35vw !important;
+    // width: 60%;
+  }
 }
 .checkout-item-details span {
   width: 25%;

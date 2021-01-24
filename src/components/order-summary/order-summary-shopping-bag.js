@@ -6,7 +6,7 @@ import MainButton from "../MainButton/MainButton";
 import { Dropdown, Radio } from "semantic-ui-react";
 import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
-import "./order-summary.css";
+import "./order-summary.scss";
 const OrderSummaryShoppingBag = ({ total }) => {
   const handleCheckout = useDispatch();
 
@@ -42,10 +42,10 @@ const OrderSummaryShoppingBag = ({ total }) => {
       <MainButton
         style={{
           marginTop: "5%",
-          height: "10%",
+          height: "15%",
           fontSize: "1.2rem",
           width: "100%",
-          background: " rgb(218, 9, 79)",
+          background: " rgb(218, 9, 79)"
         }}
         onClick={() => handleCheckout(proceedToCheckout())}
       >

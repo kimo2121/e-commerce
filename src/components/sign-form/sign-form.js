@@ -21,7 +21,6 @@ const SignForm = ({ onChange, values, signUp, errors }) => {
           {data &&
             data.map((item) => {
               // console.log("values", values && values[item.label]);
-
               return (
                 <div
                   key={item.id}
@@ -34,7 +33,7 @@ const SignForm = ({ onChange, values, signUp, errors }) => {
                   <Form.Input
                     type={item.type}
                     placeholder={item.label}
-                    style={{ width: "23rem" }}
+                    style={{ maxWidth: "85%" }}
                     fluid
                     inline
                     name={item.label}

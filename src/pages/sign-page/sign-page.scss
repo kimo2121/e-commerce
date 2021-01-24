@@ -1,0 +1,56 @@
+.sign-page {
+  background: rgb(238, 238, 238);
+  padding-top: 1%;
+  max-height: fit-content;
+}
+.sign-page-container {
+  position: relative;
+  width: 88%;
+  padding-top: 5%;
+  margin-left: 6%;
+  max-height: fit-content;
+  background: rgb(255, 255, 255);
+  display: flex;
+  padding-bottom: 5%;
+  @media only screen and(max-width:768px) {
+    display: block;
+  }
+}
+
+.sign-page-divider {
+  border-left: 1px solid #979797;
+  height: 90%;
+  opacity: 0.3;
+  position: absolute;
+  right: 50%;
+  top: 7%;
+  @media only screen and(max-width:768px) {
+    border-top: 1px solid #979797;
+    border-left: none;
+    height: 0;
+    width: 75%;
+    left: 15%;
+    top: 49%;
+  }
+}
+.sign-in-div {
+  width: 65%;
+  @media only screen and(max-width:768px) {
+    width: 75%;
+  }
+}
+
+.sign-up-div {
+  width: 65%;
+  @media only screen and(max-width:768px) {
+    width: 75%;
+  }
+}
+
+.sign-form-main-div {
+  margin-left: 10%;
+
+  @media only screen and(max-width:768px) {
+    margin-left: 20%;
+  }
+}

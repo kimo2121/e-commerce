@@ -1,5 +1,5 @@
 import React from "react";
-import "./cart-item.css";
+import "./cart-item.scss";
 import * as HiIcons from "react-icons/hi";
 import { connect } from "react-redux";
 import { clearItemFromCart } from "../../redux/cart/cart.actions";

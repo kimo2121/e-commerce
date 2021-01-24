@@ -21,8 +21,8 @@ const CartDropdownMob = ({ cartItems, total, itemCount }) => {
     <div
       style={{
         padding: "0",
-        // width: cartItems.length ? "35vw" : "20vw",
-        // height: !cartItems.length && "15vh",
+        width: cartItems.length ? "35vw" : "20vw",
+        height: !cartItems.length && "15vh",
       }}
       trigger={
         <div className="cart-icon">

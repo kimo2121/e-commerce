@@ -14,6 +14,7 @@ import Drawer from "./Drawer/Drawer";
 import SearchIcon from "@material-ui/icons/Search";
 import Badge from "@material-ui/core/Badge";
 import { useSelector } from "react-redux";
+import { Popup } from "semantic-ui-react";
 
 import {
   selectCartItems,
@@ -21,12 +22,14 @@ import {
   selectCartItemsCount,
 } from "../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
+import SearchComponent from "./search-component/search-component";
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    // position: "relative",
     justifyContent: "space-between",
-    // position: "fixed",
+    // position: "absolute",
     alignItems: "center",
     marginBottom: "2rem",
   },
@@ -64,7 +67,19 @@ export default function ButtonAppBar() {
 
   const icons = [
     {
-      icon: <SearchIcon />,
+      icon: (
+        <div
+          style={{
+            width: "120vw",
+            position: "absolute",
+            right: "-48vw",
+            top: "-.5rem",
+          }}
+          className="new-navbar-search"
+        >
+          <SearchComponent />
+        </div>
+      ),
     },
     {
       icon: (
@@ -76,11 +91,11 @@ export default function ButtonAppBar() {
           }
         >
           <div
-            style={{
-              width: "90vw",
-              maxHeight: "70vh",
-              overflow: "scroll",
-            }}
+          // style={{
+          //   width: "90vw",
+          //   maxHeight: "70vh",
+          //   overflow: "scroll",
+          // }}
           >
             <CartDropdownMob />
           </div>
@@ -93,7 +108,12 @@ export default function ButtonAppBar() {
   ];
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" style={{ height: "10vh" }}>
+      <AppBar
+        style={{
+          height: "10vh",
+          position: "relative",
+        }}
+      >
         <Toolbar>
           <Drawer />
           {/* <IconButton

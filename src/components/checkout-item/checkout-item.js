@@ -1,7 +1,7 @@
 import React from "react";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
-import "./checkout-item.css";
+import "./checkout-item.scss";
 import {
   clearItemFromCart,
   removeItem,
@@ -35,7 +35,7 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
             (orderOverview == "shoppingbag" && (
               <Dropdown
                 fluid
-                style={{ marginTop: "10%", width: "60%", height: "2%" }}
+                className="checkout-item-size-select"
                 placeholder=""
                 search
                 selection

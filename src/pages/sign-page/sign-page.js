@@ -1,22 +1,21 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import SignIn from "../../components/sign-in-sign-up/sign-in";
 import SignUp from "../../components/sign-in-sign-up/sign-up";
-import "./sign-page.css";
+import "./sign-page.scss";
 
 const SignInSignUp = () => {
   return (
     <div className="sign-page">
-      <div className="sign-page-container">
-        <Grid container spacing={3}>
-          <Grid item sm xs style={{ width: "80%" }}>
+      <div>
+        <div className="sign-page-container">
+          <div className="sign-in-div" >
             <SignIn />
-          </Grid>
+          </div>
           <div className="sign-page-divider"></div>
-          <Grid item sm xs style={{ width: "80%" }}>
+          <div className="sign-up-div" >
             <SignUp />
-          </Grid>
-        </Grid>
+          </div>
+        </div>
       </div>
     </div>
   );

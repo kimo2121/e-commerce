@@ -83,7 +83,7 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <SearchComponent all_products={all_products} />
+      <SearchComponent isWebView all_products={all_products} />
       {/* <AdvancedSearch all_products={all_products} className="search-bar" /> */}
       <AccountDropdown />
       <Link

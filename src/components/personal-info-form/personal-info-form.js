@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./personal-info-form.css";
+import "./personal-info-form.scss";
 import { Form, Label } from "semantic-ui-react";
 import DatePicker from "react-date-picker";
 import {
@@ -111,7 +111,7 @@ const PersonalInfoForm = () => {
             <div style={{ display: "flex", flexDirection: "column" }}>
               <Form.Input
                 type={item.type}
-                style={{ width: "23rem" }}
+                style={{ width: "45vw" }}
                 fluid
                 inline
                 onChange={onChange}
@@ -133,7 +133,7 @@ const PersonalInfoForm = () => {
           Gender:
         </span>
         <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex" }}>
+          <div className="radio-choices">
             {radioInfo.map((item) => (
               <Form.Radio
                 style={{ left: "0%" }}
@@ -169,7 +169,7 @@ const PersonalInfoForm = () => {
         <span className="label-info">Preference categories:</span>
         <div className="Preference-categories">
           {PreferenceInfo.map((item) => (
-            <div key={item.id} style={{ marginRight: "20%" }}>
+            <div key={item.id} className="checkout-input">
               <Form.Checkbox
                 style={{ marginTop: "10%" }}
                 label={item.label}
@@ -180,7 +180,6 @@ const PersonalInfoForm = () => {
               />
             </div>
           ))}
-          <p>(optional)</p>
         </div>
       </Form.Group>
       <Form.Button color="pink" className="confirm-edit1" type="submit">
@@ -194,7 +193,7 @@ const PersonalInfoForm = () => {
               <label className="input-label">{item.label}:</label>
               <Form.Input
                 type="password"
-                style={{ width: "23rem" }}
+                style={{ width: "45vw" }}
                 fluid
                 inline
                 onChange={onChange}
@@ -205,11 +204,7 @@ const PersonalInfoForm = () => {
           ))}
         </div>
       </Form.Group>
-      <Form.Button
-        className="confirm-edit1"
-        color="pink"
-        style={{ left: "50%" }}
-      >
+      <Form.Button className="confirm-edit1" color="pink">
         Confirm edit
       </Form.Button>
     </Form>

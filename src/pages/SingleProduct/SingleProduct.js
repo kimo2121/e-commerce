@@ -31,7 +31,6 @@ const SingleProduct = () => {
     <Page>
       <div
         className="productsList_contianer"
-        // style={{ paddingTop: width > 900 ? "" : "2rem" }}
       >
         <Header data={product} />
         <SingleProductComponent product={product} />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./sign-in-sign-up.css";
+import "./sign-in-sign-up.scss";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { Link, useHistory } from "react-router-dom";
 import { Form } from "semantic-ui-react";
@@ -49,7 +49,7 @@ const SignUp = () => {
   };
 
   return (
-    <div style={{ marginLeft: "15%" }}>
+    <div className="sign-form-main-div">
       <h1 style={{ marginBottom: "10%" }}>Register</h1>
       <Form onSubmit={onSubmit}>
         <SignForm onChange={onChange} values={values} signUp errors={errors} />
@@ -67,8 +67,12 @@ const SignUp = () => {
           value={values && values.chckbox}
           onChange={handleCheckboxChange}
         />
-
-        <Form.Button color="black" style={{ width: "23rem" }} type="submit">
+        <Form.Button
+          fluid
+          color="black"
+          className="sign-form-btn"
+          type="submit"
+        >
           Register
         </Form.Button>
       </Form>

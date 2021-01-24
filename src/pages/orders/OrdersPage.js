@@ -21,37 +21,20 @@ function OrdersPage() {
   const classes = useStyles();
   return (
     <div className="account-page">
-      <div
-        className={classes.root}
-        style={{
-          marginLeft: "6%",
-          display: "flex",
-          flexWrap: "wrap",
-        }}
-      >
-        <div style={{ minWidth: "18%" }}>
+      <div className={`${classes.root}` && "account-inner-container"}>
+        <div className="left-pane-account">
           <Grid container spacing={0}>
             <Grid item xs={12}>
-              <Paper
-                style={{ minHeight: "160vh", padding: "0px" }}
-                className={classes.paper}
-              >
+              <Paper className={`${classes.paper}` && "account-paper"}>
                 <AccountPanel />
               </Paper>
             </Grid>
           </Grid>
         </div>
-        <div style={{ width: "74%", marginLeft: "1.5%" }}>
+        <div className="right-side-account">
           <Grid container spacing={2}>
             <Grid style={{ marginLeft: "0%" }} item xs={12}>
-              <Paper
-                className={classes.paper}
-                style={{
-                  padding: "0",
-                  margin: "0",
-                  minHeight: "140vh",
-                }}
-              >
+              <Paper className={`${classes.paper}` && `profile-paper`}>
                 <Orders />
               </Paper>
             </Grid>

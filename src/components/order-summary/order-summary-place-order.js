@@ -3,10 +3,10 @@ import { connect, useDispatch } from "react-redux";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import MainButton from "../MainButton/MainButton";
-import { Checkbox } from "semantic-ui-react";
+import { Checkbox, Grid } from "semantic-ui-react";
 import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
-import "./order-summary.css";
+import "./order-summary.scss";
 const OrderSummaryPlaceOrder = ({ total, proceedNext }) => {
   const handleCheckout = useDispatch();
   return (
@@ -43,7 +43,8 @@ const OrderSummaryPlaceOrder = ({ total, proceedNext }) => {
         </MainButton>
         <Checkbox
           style={{
-            marginLeft: "5%",
+            width: "90%",
+            left: "8%",
             marginTop: "3%",
           }}
           label="I accept the Terms and Conditions and privacy policy"
