@@ -1,11 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import * as RiIcons from "react-icons/ri";
 
-import "antd/dist/antd.css";
 import "./navbar.css";
-import { Input } from "antd";
 import MenMenu from "../megamenu/men-menu";
 import NewInMenu from "../megamenu/new-in";
 import WomenMenu from "../megamenu/women-menu";
@@ -19,11 +17,13 @@ import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
 import { getSubcategories } from "../../util/util_functions";
 import { useSelector } from "react-redux";
+import SearchComponent from "../search-component/search-component";
+import AdvancedSearch from "../search-component/search-advanced";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
   const onSearch = (value) => console.log(value);
-  const { Search } = Input;
+  // const { Search } = Input;
   console.log({ all_products });
   // const [show, handleShow] = useState(false);
   // useEffect(() => {
@@ -83,13 +83,8 @@ const Navbar = () => {
           />
         </div>
       </div>
-
-      <Search
-        className="search-bar"
-        size="large"
-        placeholder="Search..."
-        onSearch={onSearch}
-      />
+      <SearchComponent all_products={all_products} />
+      {/* <AdvancedSearch all_products={all_products} className="search-bar" /> */}
       <AccountDropdown />
       <Link
         to="/"

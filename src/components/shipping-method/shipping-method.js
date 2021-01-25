@@ -5,12 +5,12 @@ const ShippingMethod = () => {
   return (
     <div className="shipping-method">
       <div className="shipping-method-title">Shipping Methods</div>
-      <div className='ship-meth-choices'>
+      <div className="ship-meth-choices">
         <Radio label="Expedited Shipping Service" />
         <span>Shipping Time: 10-20 business days</span>
         <span>$43.14</span>
       </div>
-      <div className='ship-meth-insurance'>
+      <div className="ship-meth-insurance">
         <Checkbox label="Add Shipping Insurance to your order" />
         <span>
           Notice: Our processing time is not included in the shipping time. Once

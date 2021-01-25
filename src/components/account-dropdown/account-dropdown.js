@@ -1,6 +1,6 @@
 import React from "react";
 import "./account-dropdown.css";
-import { Header, Button, Popup } from "semantic-ui-react";
+import { Popup } from "semantic-ui-react";
 import * as HiIcons from "react-icons/hi";
 import { Link } from "react-router-dom";
 
@@ -10,7 +10,7 @@ const AccountDropdown = () => {
       style={{
         padding: "0",
         width: "23vw",
-        height: "35vh",
+        height: "29vh",
       }}
       position="bottom center"
       trigger={
@@ -36,6 +36,10 @@ const AccountDropdown = () => {
           <HiIcons.HiOutlineClipboardList size={20} className="icons" />
           <Link to="/account/orders">Orders</Link>
         </div>
+      </div>
+      <div className="signout-drop-span">
+        <HiIcons.HiOutlineLogout size={20} className="icons" />
+        <span>Sign Out</span>
       </div>
     </Popup>
   );

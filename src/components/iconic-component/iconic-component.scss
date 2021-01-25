@@ -1,0 +1,67 @@
+.my-orders-tags {
+  text-align: center;
+  padding-top: 12%;
+  margin-left: 9%;
+  width: 16vw ;
+  height: 19.5vh;
+  @media only screen and(max-width:768px) {
+  padding-top: 8%;
+  width: 100% ;
+    margin-left: 0;
+  }
+}
+.my-orders-tags:hover {
+  cursor: pointer;
+  color: rgb(253, 114, 114);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.profile-tags {
+  position: relative;
+  margin-left: 12%;
+  min-width: 12.3vw;
+  padding-top: 2%;
+  height: 28vh;
+  @media only screen and(max-width:768px) {
+    min-width: 20.5vw;
+    margin-left: 0;
+  }
+}
+.profile-tags:hover {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+.profile-tags:hover > span {
+  color: rgb(253, 114, 114);
+  cursor: pointer;
+}
+.profile-tags span {
+  font-weight: bolder;
+  font-size: 2rem !important;
+}
+.profile-tags a {
+  position: relative;
+  margin-top: 2% !important;
+  color: rgb(253, 114, 114);
+}
+.profile-tags a:hover {
+  color: rgb(253, 114, 114);
+  text-decoration: underline;
+}
+
+// .interactive-center-tags {
+//   position: relative;
+//   text-align: center;
+//   padding-top: 22%;
+//   margin-left: 1%;
+//   width: 9.5vw;
+//   height: 19vh;
+//   @media only screen and(max-width:768px) {
+//     margin-left: 0;
+//   }
+// }
+
+.interactive-center-tags:hover {
+  cursor: pointer;
+  color: rgb(253, 114, 114);
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}

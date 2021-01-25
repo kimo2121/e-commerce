@@ -29,9 +29,7 @@ const Shop = () => {
         />
       </div>
       <div className="items-categ">
-        <div className="shop-items">
-          {/* <ShopItem /> */}
-        </div>
+        <div className="shop-items">{/* <ShopItem /> */}</div>
         <div className="categories">
           <SearchSlider />
         </div>

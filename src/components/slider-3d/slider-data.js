@@ -3,7 +3,7 @@ const SliderData = [
     category: "men",
     subcategory: "Suit Jackets",
     name:
-      "Plus Taille Casual Business Velours c�tel� Confortable Slim Fit Velvet Blazers pour hommes",
+      "Plus Size Casual Business Corduroy Comfortable Slim Fit Velvet Blazers For Men",
     current_price: "36.46",
     raw_price: "87.64",
     currency: "USD",
@@ -32,7 +32,7 @@ const SliderData = [
   {
     category: "men",
     subcategory: "Shirts",
-    name: "Chemise � manches longues ray�e 100% coton",
+    name: "100% cotton long sleeve striped shirt",
     current_price: "18.39",
     raw_price: "42.73",
     currency: "USD",
@@ -61,7 +61,7 @@ const SliderData = [
   {
     category: "men",
     subcategory: "Vestes",
-    name: "Veste d�contract�e de couleur unie d�contract�e pour hommes",
+    name: "Mens Casual Solid Color Casual Jacket",
     current_price: "39.59",
     raw_price: "68.99",
     currency: "USD",
@@ -90,7 +90,7 @@ const SliderData = [
   {
     category: "men",
     subcategory: "T-Shirts",
-    name: "T-shirts � imprim� abstrait",
+    name: "Abstract print t-shirts",
     current_price: "15.99",
     raw_price: "39.99",
     currency: "USD",
@@ -120,7 +120,7 @@ const SliderData = [
     category: "men",
     subcategory: "PULLS & GILETS",
     name:
-      "Veste automne hiver chaud ray� � la mode en maille avec col montant pour homme",
+      "Fashionable striped warm autumn winter knit jacket with stand-up collar for men",
     current_price: "19.95",
     raw_price: "79.01",
     currency: "USD",
@@ -149,7 +149,7 @@ const SliderData = [
   {
     category: "men",
     subcategory: "PANTALONS & SHORTS",
-    name: "Pantalon en velours c�tel� pliss� pour hommes",
+    name: "Men's Pleated Corduroy Trousers",
     current_price: "23.75",
     raw_price: "42.99",
     currency: "USD",

@@ -20,9 +20,9 @@
 }
 .remove-icon {
   display: none;
-  margin-left: 60%;
-  margin-top: 5%;
-  position: absolute;
+  width: 10vw !important;
+  height: 20vh !important;
+  position: relative;
   color: black;
 }
 .remove-icon:hover {
@@ -40,13 +40,15 @@
 }
 .cart-item-details {
   width: inherit;
-  position: absolute;
+  position: relative;
   text-align: left;
   margin-top: 5%;
 }
 .details-style {
   display: flex;
-  justify-content: space-between !important;
+  position: relative;
+  width: 12vw !important;
+  /* justify-content: space-between !important; */
 }
 .details-style h4 {
   margin-right: -17vw;

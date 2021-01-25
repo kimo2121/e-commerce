@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 import "./my-account-panel.css";
 const MyAccountPanel = ({ icon, name }) => {
   return (
-      <div className="my-orders">
-        <Link to="/account">
-          {icon} {name}
-        </Link>
-      </div>
+    <div className="my-orders">
+      <Link to="/account">
+        {icon} {name}
+      </Link>
+    </div>
   );
 };
 

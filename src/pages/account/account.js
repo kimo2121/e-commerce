@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-router-dom";
-import "./account.css";
+import "./account.scss";
 import * as HiIcons from "react-icons/hi";
 import IconicComponent from "../../components/iconic-component/iconic-component";
 import {
@@ -39,11 +39,11 @@ const Account = () => {
           flexWrap: "wrap",
         }}
       >
-        <div style={{ minWidth: "18%" }}>
+        <div className="left-pane-account">
           <Grid container spacing={0}>
             <Grid item xs={12}>
               <Paper
-                style={{ minHeight: "160vh", padding: "0px" }}
+                style={{ minHeight: "102vh", padding: "0px" }}
                 className={classes.paper}
               >
                 <AccountPanel />
@@ -51,34 +51,27 @@ const Account = () => {
             </Grid>
           </Grid>
         </div>
-        <div style={{ width: "74%", marginLeft: "1.5%" }}>
+        <div className="right-side-account">
           <Grid container spacing={2}>
             <Grid style={{ marginLeft: "0%" }} item xs={12}>
-              <Paper
-                className={classes.paper}
-                style={{
-                  display: "flex",
-                  flexWrap: "wrap",
-                  padding: "0",
-                  margin: "0",
-                  height: "35vh",
-                }}
-              >
-                <span className="divider2">My Assets</span>
+              <Paper className={`${classes.paper}` && `header-paper`}>
+                <div className="divider2">My Assets</div>
                 <div className="profile-picture">
-                  <div className="edit-prof-pic">
-                    NC
-                    <button className="edit">
-                      <HiIcons.HiPencil size={23} />
-                    </button>
+                  <div className="edit-container">
+                    <div className="edit-prof-pic">
+                      NC
+                      <button className="edit">
+                        <HiIcons.HiPencil size={23} />
+                      </button>
+                    </div>
+                    <span>Jhon Wick</span>
+                    <br />
+                    <Link to="/account">Email: jhonwick@exp.com</Link>
+                    <br />
+                    <span className="exp-amount">NC EXP 0</span>
                   </div>
-                  <span>Jhon Wick</span>
-                  <br />
-                  <Link to="/account">Email: jhonwick@exp.com</Link>
-                  <br />
-                  <span className="exp-amount">NC EXP 0</span>
                 </div>
-                <div style={{ marginLeft: "23%", display: "flex" }}>
+                <div className="header-assets">
                   {MyAssets.map((item) => (
                     <IconicComponent
                       value={item.value}
@@ -90,29 +83,31 @@ const Account = () => {
                 </div>
               </Paper>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={12}>
               <Paper
                 style={{
                   padding: "0",
-                  height: "65vh",
+                  minHeight: "65vh",
                 }}
                 className={classes.paper}
               >
-                <span className="divider3">My Orders</span>
-                <div style={{ display: "flex", height: "30%" }}>
+                <div className="divider3">My Orders</div>
+                <div className="header-orders">
                   {IconData.map((item) => (
                     <IconicComponent name={item.name} icon={item.icon} />
                   ))}
                 </div>
-                <div className="divider4">
-                  <span>Products</span>
-                  <span>Order status</span>
-                  <span>Operate</span>
+                <div className="my-orders-details">
+                  <div className="divider4">
+                    <span>Products</span>
+                    <span>Order status</span>
+                    <span>Operate</span>
+                  </div>
                 </div>
               </Paper>
             </Grid>
-            <Grid item xs={4}>
-              <Paper style={{ height: "42vh" }} className={classes.paper}>
+            {/* <Grid item xs={4}>
+              <Paper style={{ height: "65vh" }} className={classes.paper}>
                 <span className="divider5">Interactive center</span>
                 <div className="interactive-section">
                   {InteractiveData.map((item) => (
@@ -124,7 +119,7 @@ const Account = () => {
                   ))}
                 </div>
               </Paper>
-            </Grid>
+            </Grid> */}
             <div className="misc-links">
               <MiscLinks />
             </div>

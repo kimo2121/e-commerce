@@ -5,10 +5,7 @@ import PanelLinks from "./panel-links";
 function AccountPanel() {
   return (
     <div className="my-account-panel">
-      <span to="/account" className="account-panel-link">
-        My Account
-      </span>
-      <div className="account-divider"></div>
+      <span className="account-panel-link">My Account</span>
       <div className="my-acc">
         {MyOrders.map((item) => (
           <PanelLinks
@@ -19,10 +16,7 @@ function AccountPanel() {
           />
         ))}
       </div>
-      <span to="/account" className="account-panel-link">
-        Manage Settings
-      </span>
-      <div className="settings-divider"></div>
+      <span className="account-panel-link">Manage Settings</span>
       <br />
       <div className="sett-info">
         {AccountInfo.map((item) => (
@@ -34,10 +28,7 @@ function AccountPanel() {
           />
         ))}
       </div>
-      <span to="/account" className="account-panel-link">
-        Program Center
-      </span>
-      <div className="program-divider"></div>
+      <span className="account-panel-link">Program Center</span>
       <br />
       <div className="prog-center">
         {ProgramCenter.map((item) => (

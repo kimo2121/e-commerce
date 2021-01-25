@@ -3,7 +3,7 @@ import { Icon, Label, Segment } from "semantic-ui-react";
 import "./shipping-address-container.css";
 const UserAddress = () => {
   return (
-    <div style={{marginBottom:'3%'}} >
+    <div style={{ marginBottom: "3%" }}>
       <Segment className="main-user-ship-seg" padded>
         <div className="user-ship-info">Username xxx xxx xxx</div>
         <div className="user-ship-addd">Address Address Address Address</div>

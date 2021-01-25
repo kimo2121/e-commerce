@@ -31,7 +31,7 @@ const CartDropdown = ({ cartItems, total, itemCount }) => {
       flowing
       hoverable
     >
-      <div style={{ height: "60vh", overflow: "scroll" }}>
+      <div style={{ maxHeight: "50vh", overflowY: "scroll" }}>
         {cartItems.length ? (
           cartItems.map((cartItem) => (
             <CartItem key={cartItem.id} item={cartItem} />
@@ -39,8 +39,8 @@ const CartDropdown = ({ cartItems, total, itemCount }) => {
         ) : (
           <span className="empty-message">YOUR CART IS EMPTY</span>
         )}
-        <CartDropdownCheckout total={total} cartItems={cartItems} />
       </div>
+      <CartDropdownCheckout total={total} cartItems={cartItems} />
     </Popup>
   );
 };

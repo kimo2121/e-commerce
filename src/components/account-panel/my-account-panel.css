@@ -13,16 +13,7 @@
 .icons {
   color: rgb(134, 134, 134);
 }
-.account-divider,
-.settings-divider,
-.program-divider {
-  border-bottom: 1px solid #979797;
-  width: 88%;
-  opacity: 0.3;
-  position: absolute;
-  left: 6%;
-  top: 8%;
-}
+
 .settings-divider {
   top: 39%;
 }
