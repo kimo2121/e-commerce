@@ -23,7 +23,7 @@ const SingleProductComponent = ({ addItem, product }) => {
   console.log({ image });
   console.log({ product });
   const colors = [product?.variation_0_color, product?.variation_1_color];
-const width = window.innherWidth;
+  const width = window.innherWidth;
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
@@ -34,26 +34,24 @@ const width = window.innherWidth;
             justifyContent: "space-between",
           }}
         >
-          {width > 900 &&
-          <div style={{ width: "12%", height: "100%" }}>
-            <VerticalSlider setImage={setImage} data={product} />
-          </div>
-          }
-           {/* <MainLink pathname={`/product/${product.id}`} > */}
+          {width > 900 && (
+            <div style={{ width: "12%", height: "100%" }}>
+              <VerticalSlider setImage={setImage} data={product} />
+            </div>
+          )}
+          {/* <MainLink pathname={`/product/${product.id}`} > */}
 
           <img
             src={image !== "" ? image : product?.image_url}
             // src={img}
             alt="product"
             style={{ width: "90%", height: "100%" }}
-            />
-            {/* </MainLink> */}
+          />
+          {/* </MainLink> */}
         </div>
       </Grid>
       <Grid item sm={7} xs={12}>
-        
-
-      <h5>{product?.name}</h5>
+        <h5>{product?.name}</h5>
 
         <div style={{ display: "flex" }}>
           <p>{product?.model}</p>
@@ -92,8 +90,12 @@ const width = window.innherWidth;
         </div>
         {/* <HeaderItem data={headerItemData} /> */}
         <div style={{ display: "flex", margin: "1rem auto" }}>
-          <MainButton onClick={() => addItem(product)} title="ADD TO BAG" style={{width:"200px"}}>
-            <LocalMallIcon style={{ marginRight: "5px" }} />
+          <MainButton
+            onClick={() => addItem(product)}
+            title="ADD TO BAG"
+            style={{ width: "200px" }}
+          >
+            <LocalMallIcon style={{ marginLeft: "5px" }} />
           </MainButton>
 
           <div
@@ -101,6 +103,7 @@ const width = window.innherWidth;
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
+              marginLeft: "1rem",
             }}
           >
             <RiHeart2Line style={{ fontSize: "2rem" }} />

@@ -149,7 +149,7 @@ export default function ProductsList() {
                       data={data}
                       // firstItem={data[0].item}
                       icon={<SortIcon />}
-                      nameProp="sort"
+                      // nameProp="sort"
                       setFilterTerm={setTerm}
                     />
 

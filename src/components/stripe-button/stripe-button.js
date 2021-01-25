@@ -26,32 +26,6 @@ const StripeCheckoutButton = ({ total }) => {
   const publishableKey =
     "pk_test_51H3FxnEh4aoUgsppLO0qDT435pCRv7e28ex5Ur3RiiqhjgRu92TscA8qVl2MbMrh0pp2yBcuTKkKP0rUaZhA3ZGL00yebtgJL9";
 
-  // const onToken = (token) => {
-  //   axios({
-  //     url: "payment",
-  //     method: "post",
-  //     data: {
-  //       amount: priceForStripe,
-  //       token: token,
-  //     },
-  //   })
-  //     .then((response) => {
-  //       // alert("succesful payment");
-  //       if (!userLoading) {
-  //         createOrder();
-  //         Complete(completeOrder());
-  //         console.log("succesful payment");
-  //         console.log({ response });
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       console.log("Payment Error: ", error);
-  //       alert(
-  //         "There was an issue with your payment! Please make sure you use the provided credit card."
-  //       );
-  //     });
-  // };
-
   const [
     createPayment,
     //  { loading }
@@ -69,27 +43,26 @@ const StripeCheckoutButton = ({ total }) => {
     console.log("succesful payment");
   };
 
-  const {
-    userLoading,
-    data: { getUser: userData },
-  } = useQuery(GET_USER_QUERY, {
+  const { userLoading, data } = useQuery(GET_USER_QUERY, {
     variables: { userId: user?.id },
   });
 
-  let address = userData.address.find((i) => i.defaultAddrses === false);
+  let address = data?.getUser.address.find((i) => i?.defaultAddrses === false);
+  // let address = data?.getUser.address[4];
+
   console.log({ address });
-  console.log({ userData });
+  console.log({ data });
   const newAddress = {
-    FirstName: address.FirstName,
-    LastName: address.LastName,
-    Country: address.Country,
-    State: address.State,
-    City: address.City,
-    Address: address.Address,
-    Address_2: address.Address_2,
-    postal_code: address.postal_code,
-    Phone: address.Phone,
-    defaultAddrses: address.defaultAddrses,
+    FirstName: address?.FirstName,
+    LastName: address?.LastName,
+    Country: address?.Country,
+    State: address?.State,
+    City: address?.City,
+    Address: address?.Address,
+    Address_2: address?.Address_2,
+    postal_code: address?.postal_code,
+    Phone: address?.Phone,
+    defaultAddrses: address?.defaultAddrses,
   };
 
   const [createOrder, { loading }] = useMutation(CREATE_ORDER, {
@@ -110,7 +83,6 @@ const StripeCheckoutButton = ({ total }) => {
 
   console.log(cartItems);
   console.log(total);
-  console.log(userData.address[0]);
   return (
     <div className="stripe-component">
       <StripeCheckout

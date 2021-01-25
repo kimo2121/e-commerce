@@ -4,14 +4,15 @@ import { Form, Label } from "semantic-ui-react";
 import GoogleSiginIn from "../google-login/google-sign-in";
 import GoogleSignOut from "../google-logout/google-sign-out";
 import SignForm from "../sign-form/sign-form";
-import "./sign-in-sign-up.css";
+import "./sign-in-sign-up.scss";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { useForm } from "../../util/hooks";
 import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
+import SimpleBackdrop from "../BackDrop";
 
-const SignIn = () => {
+const SignIn = ({ open, handleClose, handleToggle }) => {
   let history = useHistory();
   const dispatch = useDispatch();
   const [errors, setErrors] = React.useState({});
@@ -22,15 +23,13 @@ const SignIn = () => {
     password: "",
   });
 
-  const [
-    loginUser,
-    //  { loading }
-  ] = useMutation(LOGIN_USER, {
+  const [loginUser, { loading }] = useMutation(LOGIN_USER, {
     update(_, { data: { login: userData } }) {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-      history.push("/");
+      // history.push("/");
+      window.location.replace("http://localhost:3000/");
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -43,12 +42,18 @@ const SignIn = () => {
   }
 
   return (
-    <div style={{ marginLeft: "15%", position: "relative" }}>
+    <div style={{ marginBottom: "8%" }} className="sign-form-main-div">
+      <SimpleBackdrop
+        open={loading}
+        handleClose={handleClose}
+        handleToggle={handleToggle}
+      />
+
       <h1 style={{ marginBottom: "10%" }}>Sign In</h1>
       <p>{errors?.general}</p>
       <SignForm onChange={onChange} values={values} signIn errors={errors} />
       <Form onSubmit={onSubmit}>
-        <Form.Button color="black" style={{ width: "23rem" }}>
+        <Form.Button fluid color="black" className="sign-form-btn">
           Sign in
         </Form.Button>
         <Link to="/sign-in-up" style={{ color: "#979797" }}>
@@ -66,7 +71,7 @@ const SignIn = () => {
           </span>
         </button>
 
-        <GoogleSiginIn />
+        {/* <GoogleSiginIn className="google-btn" /> */}
         {/* <GoogleSignOut /> */}
       </Form>
       <span>

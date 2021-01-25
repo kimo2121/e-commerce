@@ -16,7 +16,7 @@ const Orders = () => {
   console.log({ data });
 
   return (
-    <div>
+    <div style={{ position: "inherit" }}>
       {data?.getOrders.map((order) => (
         <OrderCard user={user} order={order} />
       ))}

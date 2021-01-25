@@ -6,17 +6,31 @@
 .left-pane-account {
   width: 20%;
   @media only screen and(max-width:768px) {
-    width: 28%;
+    width: 90%;
+  }
+}
+.account-inner-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 6%;
+  @media only screen and(max-width:768px) {
+    display: block;
   }
 }
 .my-account-panel {
   overflow: hidden;
   display: inline-table;
   position: absolute;
+  height: max-content !important;
   width: 19%;
   @media only screen and(max-width:768px) {
-    width: 27%;
+    position: relative;
+    width: 100%;
   }
+  // @media only screen and(max-width:617px) {
+  //   position: absolute;
+  //   width: 100%;
+  // }
 }
 .account-panel-link {
   text-align: left;
@@ -26,6 +40,9 @@
   margin-top: 2% !important;
   padding-bottom: 2%;
   margin-bottom: 6% !important;
+  @media only screen and(max-width:768px) {
+    margin-bottom: 1% !important;
+  }
 }
 
 .my-account-panel a:hover {
@@ -55,7 +72,14 @@
   fill: rgb(0, 0, 0);
   color: rgb(211, 211, 211);
 }
-
+.account-paper {
+  margin-bottom: 3%;
+  padding: 0;
+  min-height: 102vh;
+  @media only screen and(max-width:617px) {
+    min-height: fit-content;
+  }
+}
 .paper-style {
   padding: 0;
   margin: 0;
@@ -84,7 +108,8 @@
   width: 72%;
   margin-left: 1.5%;
   @media only screen and(max-width:768px) {
-    width: 64%;
+    margin-left: 0%;
+    width: 90%;
   }
 }
 .profile-picture {
@@ -96,7 +121,7 @@
   background-color: rgb(235, 97, 97);
   @media only screen and(max-width:768px) {
     position: relative;
-    height: 25vh;
+    height: 35vh;
     width: auto;
   }
 }
@@ -107,6 +132,9 @@
   position: relative;
   transition: none;
   top: 40%;
+}
+.edit-container {
+  position: relative !important;
 }
 .edit-prof-pic {
   position: relative;
@@ -148,9 +176,10 @@
 }
 .exp-amount {
   transition: none;
-  position: relative;
+  position: absolute !important;
   padding: 1%;
-  top: 50% !important;
+  margin-top: 5.5rem;
+  margin-left: -2.2rem;
   color: rgb(211, 82, 82) !important;
   background-color: rgb(255, 202, 105);
 }
@@ -161,7 +190,7 @@
 .profile-picture a:hover {
   color: rgb(255, 202, 105);
 }
-.header-paper {
+.profile-paper {
   display: flex;
   flex-wrap: wrap;
   min-height: 35vh;

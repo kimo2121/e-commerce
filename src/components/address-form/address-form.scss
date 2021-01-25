@@ -1,7 +1,8 @@
 .address-book-form {
-  width: 70%;
-  position: absolute;
-  margin-top: 2%;
+  width: 90%;
+  position: inherit;
+  padding-top: 3% !important;
+  padding-bottom: 10% !important;
 }
 
 .text-field1 {
@@ -26,4 +27,13 @@
 }
 .checkout-address-form {
   position: relative;
+}
+.address-form-checkbox {
+  width: 28vw !important;
+  margin-top: 2% !important;
+  margin-left: 7.5rem !important;
+  @media only screen and(max-width:476px) {
+  margin-left: 5rem !important;
+    
+  }
 }

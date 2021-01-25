@@ -5,20 +5,21 @@ import * as RiIcons from "react-icons/ri";
 
 import "./navbar.css";
 import MenMenu from "../megamenu/men-menu";
-import NewInMenu from "../megamenu/new-in";
+import NewInMenu from "../megamenu/accessories";
 import WomenMenu from "../megamenu/women-menu";
 import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
-import SaleMenu from "../megamenu/sale-menu";
+import jewelryMenu from "../megamenu/jewelry";
 import KidsMenu from "../megamenu/kids-menu";
-import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
+import BeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
 import { getSubcategories } from "../../util/util_functions";
 import { useSelector } from "react-redux";
 import SearchComponent from "../search-component/search-component";
-import AdvancedSearch from "../search-component/search-advanced";
+// import AdvancedSearch from "../search-component/search-advanced";
+import * as HiIcons from "react-icons/hi";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
@@ -73,19 +74,28 @@ const Navbar = () => {
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-          <AccessoriesBeautyMenu
+          <BeautyMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-          <SaleMenu
+          <jewelryMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
         </div>
       </div>
-      <SearchComponent all_products={all_products} />
+      <SearchComponent isWebView all_products={all_products} />
       {/* <AdvancedSearch all_products={all_products} className="search-bar" /> */}
-      <AccountDropdown />
+      {localStorage.getItem("jwtToken") ? (
+        <AccountDropdown />
+      ) : (
+        <Link
+          to="/sign-in-up"
+          style={{ position: "absolute", marginLeft: "72%", marginTop: "2%" }}
+        >
+          <HiIcons.HiOutlineUser color={"black"} size={26} />
+        </Link>
+      )}
       <Link
         to="/"
         style={{ position: "absolute", marginLeft: "77%", marginTop: "2%" }}

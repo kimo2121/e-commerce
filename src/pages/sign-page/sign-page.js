@@ -1,22 +1,37 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
 import SignIn from "../../components/sign-in-sign-up/sign-in";
 import SignUp from "../../components/sign-in-sign-up/sign-up";
-import "./sign-page.css";
+import "./sign-page.scss";
 
 const SignInSignUp = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleToggle = () => {
+    setOpen(!open);
+  };
+
   return (
     <div className="sign-page">
-      <div className="sign-page-container">
-        <Grid container spacing={3}>
-          <Grid item sm xs style={{ width: "80%" }}>
-            <SignIn />
-          </Grid>
+      <div>
+        <div className="sign-page-container">
+          <div className="sign-in-div">
+            <SignIn
+              open={open}
+              handleClose={handleClose}
+              handleToggle={handleToggle}
+            />
+          </div>
           <div className="sign-page-divider"></div>
-          <Grid item sm xs style={{ width: "80%" }}>
-            <SignUp />
-          </Grid>
-        </Grid>
+          <div className="sign-up-div">
+            <SignUp
+              open={open}
+              handleClose={handleClose}
+              handleToggle={handleToggle}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

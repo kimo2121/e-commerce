@@ -1,6 +1,6 @@
 .sign-in-divider {
   border-bottom: 1px solid #979797;
-  width: 100%;
+  width: 87%;
   height: 13px;
   border-top: unset;
   border-right: unset;
@@ -12,4 +12,11 @@
   /* position: absolute; */
   /* right: 50%; */
   top: 35%;
+}
+.sign-form-btn{
+  width: 70% !important;
+}
+
+.google-btn{
+  width: 50rem !important ;
 }

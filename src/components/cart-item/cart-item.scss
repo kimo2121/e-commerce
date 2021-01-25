@@ -21,11 +21,14 @@
 .remove-icon {
   display: none;
   width: 10vw !important;
-  height: 20vh !important;
+  z-index: 10;
   position: relative;
   color: black;
+  @media only screen and(maxWidth:800px) {
+    // min-width: 20vw !important;
+  }
 }
-.remove-icon:hover {
+.remove-icon svg:hover {
   color: rgb(218, 9, 79);
 }
 .cart-item {
@@ -42,7 +45,7 @@
   width: inherit;
   position: relative;
   text-align: left;
-  margin-top: 5%;
+  // margin-top: 5%;
 }
 .details-style {
   display: flex;

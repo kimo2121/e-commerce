@@ -1,38 +1,47 @@
 .order-summary-component {
   width: 25%;
   margin-left: 3%;
+  height: 60vh;
+  @media only screen and(max-width:768px) {
+    width: 90%;
+    margin-left: 0%;
+  }
 }
 .order-summary {
-  width: auto;
-  height: 45vh;
+  min-width: fit-content;
+  min-height: 35vh !important;
   margin-top: 3%;
   background-color: rgb(233, 233, 233);
   padding-top: 3%;
+  padding-bottom: 3%;
+  @media only screen and(max-width:768px) {
+    width: 100%;
+  }
 }
-.sho-bag-summary{
-  height: 35vh;
-
+.sho-bag-summary {
+  height: 35%;
 }
 .to-sup-summary {
   position: relative;
-  padding: 2%;
-  margin-top: 2%;
+  padding: 2% !important;
   margin-left: 7.5%;
   width: 85% !important;
-  height: 47% !important;
   background-color: white;
+  
 }
-.sho-ba{
-  height: 40% !important;
-
+.sho-ba {
+  height: 11vh;
 }
 .sup-sum {
+  margin-bottom: 0.5%;
   display: flex;
   justify-content: space-between;
+  @media only screen and(max-width:768px) {
+    margin-top: -1%;
+  }
 }
 .total-sum {
-  padding-top: 3%;
-  margin-top: 5%;
+  padding-top: 1%;
   border-top: rgba(207, 207, 207, 0.589) dashed 1px;
   display: flex;
   justify-content: space-between;

@@ -3,6 +3,7 @@ import "./search-component.css";
 import { Input } from "antd";
 import "antd/dist/antd.css";
 import _ from "lodash";
+import { useSelector } from "react-redux";
 
 // import { Search } from "semantic-ui-react";
 import { Grid } from "semantic-ui-react";
@@ -17,7 +18,9 @@ const madCar = [
   "beans",
   "corn",
 ];
-const SearchComponent = ({ all_products }) => {
+const SearchComponent = ({ isWebView }) => {
+  const all_products = useSelector((state) => state.products.all_products);
+
   const onSearch = (value) => console.log(value);
   const { Search } = Input;
 
@@ -37,7 +40,11 @@ const SearchComponent = ({ all_products }) => {
         //   results={results}
         //   value={value}
       />
-      <div className="search-results">
+      <div
+        className={
+          isWebView ? "search-results-for-web" : "search-results-for-mobile"
+        }
+      >
         {all_products
           .filter((value) => {
             if (search == "") {

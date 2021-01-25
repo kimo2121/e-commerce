@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Label } from "semantic-ui-react";
-import "./address-form.css";
+import "./address-form.scss";
 import { CountryOptions } from "./CountryData";
 import { useForm } from "../../util/hooks";
 import { useMutation, gql, useQuery } from "@apollo/react-hooks";
@@ -13,7 +13,7 @@ const NameData = [
   { label: "Last Name", id: 58545, name: "LastName" },
 ];
 const FieldData = [
-  { label: "State/province", id: 60257, name: "State" },
+  { label: "State", id: 60257, name: "State" },
   { label: "City", id: 45347, name: "City" },
   { label: "Address", id: 78542, name: "Address" },
   { label: "Address 2", id: 25126, name: "Address_2" },
@@ -45,10 +45,11 @@ const AddressForm = ({ isCheckoutComponent }) => {
     updateUser,
     //  { loading }
   ] = useMutation(UPDATE_USER, {
-    update(_, { data: { updateUser: userData } }) {
-      console.log({ userData });
+    update(_, { data }) {
+      console.log({ data });
     },
     onError(err) {
+      console.log(err);
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
     },
     variables: { address: values },
@@ -77,22 +78,29 @@ const AddressForm = ({ isCheckoutComponent }) => {
     >
       <Form style={{ marginLeft: "6.5%" }} onSubmit={onSubmit}>
         <Form.Group widths="equal" style={{ display: "flex" }}>
-          <label style={{ marginRight: "4.4%" }}>Your name :</label>
+          <label className="input-label">Your name :</label>
           {NameData.map((item) => (
-            <div key={item.id} style={{ display: "flex", marginRight: "1.8%" }}>
+            <div
+              key={item.id}
+              style={{
+                display: "flex",
+                marginRight: "1.5%",
+                marginBottom: "3%",
+              }}
+            >
               <div style={{ display: "flex", flexDirection: "column" }}>
                 <Form.Input
                   type={item.type}
                   key={item.id}
                   placeholder={item.label}
-                  style={{ width: "11.9rem" }}
+                  style={{ width: "17vw" }}
                   fluid
                   inline
                   onChange={onChange}
                   name={item.name}
                   value={values && values[item.name]}
                 />
-                {errors[item.name] && (
+                {errors?.length && errors[item.name] && (
                   <Label basic color="red" pointing>
                     {errors[item.name]}
                   </Label>
@@ -102,14 +110,13 @@ const AddressForm = ({ isCheckoutComponent }) => {
           ))}
         </Form.Group>
         <Form.Group>
-          <label>Country/region :</label>
+          <label className="input-label">Country :</label>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <Form.Select
               style={{
-                width: "25rem",
-                marginTop: "1.5%",
-                marginBottom: "1.5%",
-                marginLeft: "1.1%",
+                width: "35vw",
+                marginBottom: "5%",
+                // marginLeft: "1.1%",
               }}
               placeholder="Select Country"
               fluid
@@ -119,7 +126,7 @@ const AddressForm = ({ isCheckoutComponent }) => {
               name="Country"
               // value={CountryOptions.text}
             />
-            {errors.Country && (
+            {errors?.length && errors.Country && (
               <Label basic color="red" pointing>
                 {errors["Country"]}
               </Label>
@@ -135,14 +142,14 @@ const AddressForm = ({ isCheckoutComponent }) => {
                   type={item.type}
                   key={item.id}
                   placeholder={item.label}
-                  style={{ width: "25rem" }}
+                  style={{ width: "35vw" }}
                   fluid
                   inline
                   onChange={onChange}
                   name={item.name}
                   value={values && values[item.name]}
                 />
-                {errors[item.name] && (
+                {errors?.length && errors[item.name] && (
                   <Label basic color="red" pointing>
                     {errors[item.name]}
                   </Label>
@@ -153,16 +160,15 @@ const AddressForm = ({ isCheckoutComponent }) => {
         </Form.Group>
         <div style={{ display: "flex" }}>
           <Form.Checkbox
-            style={{ width: "25vw", marginTop: "2%", left: "12.4%" }}
+            className="address-form-checkbox"
             label="Set this as your default shipping address."
             name={values && values.defaultAddrses}
             value={values && values.defaultAddrses}
             onChange={handleCheckboxChange}
           />
-          <p>(optional)</p>
         </div>
 
-        <Form.Button color="pink" className="confirm-edit" type="submit">
+        <Form.Button color="pink" className="confirm-edit1" type="submit">
           Confirm edit
         </Form.Button>
       </Form>

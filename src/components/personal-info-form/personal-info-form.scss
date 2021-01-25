@@ -1,0 +1,65 @@
+.react-date-picker__wrapper {
+  max-height: 6vh !important;
+  width: fit-content !important;
+  @media only screen and(max-width:400px) {
+    // width: 55vw !important;
+  }
+}
+.react-date-picker__inputGroup__divider {
+  line-height: 2rem !important;
+  max-width: fit-content !important;
+}
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__year,
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__day,
+.react-date-picker__inputGroup__input.react-date-picker__inputGroup__month {
+  margin-top: 1% !important;
+  height: 18% !important;
+  max-width: fit-content !important;
+}
+
+.input-label {
+  text-align: left !important;
+  width: 8rem !important;
+  @media only screen and(max-width:476px) {
+    width: 5.5rem !important;
+  }
+}
+.form-personal-info {
+  position: inherit !important;
+  z-index: 10;
+  /* margin-top: 2%; */
+  margin-left: 4.5%;
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+}
+.Preference-categories {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 40%;
+  height: 26vh !important;
+  margin-bottom: 5% !important;
+  margin-left: 26%;
+  @media only screen and(max-width:476px) {
+    margin-left: 20%;
+    height: 28vh !important;
+  }
+}
+.checkout-input {
+  margin-right: 20%;
+  @media only screen and(max-width:476px) {
+    margin-right: 5% !important;
+  }
+}
+.radio-choices {
+  display: flex;
+  @media only screen and(max-width:476px) {
+    display: inline-block;
+  }
+}
+
+.confirm-edit1 {
+  margin-top: 7% !important;
+  margin-bottom: 5% !important;
+  margin-left: 20vw !important;
+}

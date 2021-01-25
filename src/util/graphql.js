@@ -178,6 +178,18 @@ export const UPDATE_USER = gql`
       gender
       phone
       birthDate
+      address {
+        FirstName
+        LastName
+        State
+        Country
+        City
+        Address
+        Address_2
+        postal_code
+        Phone
+        defaultAddrses
+      }
       Preference_categorie {
         women
         bags
@@ -188,18 +200,6 @@ export const UPDATE_USER = gql`
         shoes
         jewelry
         home
-      }
-      address {
-        FirstName
-        LastName
-        Country
-        State
-        City
-        Address
-        Address_2
-        postal_code
-        Phone
-        defaultAddrses
       }
     }
   }

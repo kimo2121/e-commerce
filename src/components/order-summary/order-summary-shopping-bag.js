@@ -6,10 +6,18 @@ import MainButton from "../MainButton/MainButton";
 import { Dropdown, Radio } from "semantic-ui-react";
 import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
-import "./order-summary.css";
+import "./order-summary.scss";
+import { useHistory } from "react-router-dom";
 const OrderSummaryShoppingBag = ({ total }) => {
+  let history = useHistory();
+  console.log({ history });
   const handleCheckout = useDispatch();
-
+  const onCheckout = () => {
+    localStorage.getItem("jwtToken")
+      ? handleCheckout(proceedToCheckout())
+      : // : history.push("/sign-in-up");
+        window.location.replace("http://localhost:3000/sign-in-up");
+  };
   return (
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
@@ -42,12 +50,12 @@ const OrderSummaryShoppingBag = ({ total }) => {
       <MainButton
         style={{
           marginTop: "5%",
-          height: "10%",
+          height: "15%",
           fontSize: "1.2rem",
           width: "100%",
           background: " rgb(218, 9, 79)",
         }}
-        onClick={() => handleCheckout(proceedToCheckout())}
+        onClick={onCheckout}
       >
         Proceed to checkout
       </MainButton>

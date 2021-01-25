@@ -13,7 +13,9 @@ const data = [
   `ZIP/postal code:`,
   `Phone:`,
 ];
-const ShippingAddressContainer = ({ user }) => {
+const ShippingAddressContainer = () => {
+  const user = useSelector((state) => state.user.user);
+  console.log({ user });
   const checkoutState = useSelector((state) => state.checkout.checkout);
 
   return (
@@ -35,11 +37,11 @@ const ShippingAddressContainer = ({ user }) => {
         <div>
           <div width={50}>
             <div width={50}>
-              {user?.shippmentaddress ? (
+              {user?.addressbook ? (
                 <div>
-                  {user?.shippmentaddress?.map((address) => (
+                  {user?.address?.map((address) => (
                     <div className="grid-cont-ship-info" width={50}>
-                      <UserAddress />
+                      <UserAddress user={user && user} address={address} />
                     </div>
                   ))}
                   <FillShipAdddress />

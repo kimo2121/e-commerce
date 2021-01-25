@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./sign-in-sign-up.css";
+import "./sign-in-sign-up.scss";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { Link, useHistory } from "react-router-dom";
 import { Form } from "semantic-ui-react";
@@ -7,8 +7,9 @@ import SignForm from "../sign-form/sign-form";
 import { useForm } from "../../util/hooks";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
+import SimpleBackdrop from "../BackDrop";
 
-const SignUp = () => {
+const SignUp = ({ open, handleClose, handleToggle }) => {
   let history = useHistory();
 
   const [errors, setErrors] = useState({});
@@ -31,7 +32,8 @@ const SignUp = () => {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-      history.push("/");
+      // history.push("/");
+      window.location.replace("http://localhost:3000/");
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -49,7 +51,13 @@ const SignUp = () => {
   };
 
   return (
-    <div style={{ marginLeft: "15%" }}>
+    <div className="sign-form-main-div">
+      <SimpleBackdrop
+        open={loading}
+        handleClose={handleClose}
+        handleToggle={handleToggle}
+      />
+
       <h1 style={{ marginBottom: "10%" }}>Register</h1>
       <Form onSubmit={onSubmit}>
         <SignForm onChange={onChange} values={values} signUp errors={errors} />
@@ -67,8 +75,12 @@ const SignUp = () => {
           value={values && values.chckbox}
           onChange={handleCheckboxChange}
         />
-
-        <Form.Button color="black" style={{ width: "23rem" }} type="submit">
+        <Form.Button
+          fluid
+          color="black"
+          className="sign-form-btn"
+          type="submit"
+        >
           Register
         </Form.Button>
       </Form>
@@ -96,7 +108,6 @@ const REGISTER_USER = gql`
       id
       email
       username
-      checkbox
       createdAt
       token
     }

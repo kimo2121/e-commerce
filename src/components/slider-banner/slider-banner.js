@@ -8,6 +8,7 @@ import { Icon } from "semantic-ui-react";
 import SubcategorySliderCard from "./subcategory-slider-card";
 
 const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
+  
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>

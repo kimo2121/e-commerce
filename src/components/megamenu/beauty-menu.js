@@ -1,11 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./megamenu.css";
 import NavLink from "../NavLink";
 
 const SaleMenu = ({ all_products, getSubcategories }) => {
   const subcategories = getSubcategories(all_products, "beauty");
-  <NavLink subcategories={subcategories} />;
   return (
     <div className="navbar">
       <div className="dropdown0">

@@ -31,21 +31,11 @@ const Account = () => {
   const classes = useStyles();
   return (
     <div className="account-page">
-      <div
-        className={classes.root}
-        style={{
-          marginLeft: "6%",
-          display: "flex",
-          flexWrap: "wrap",
-        }}
-      >
+      <div className={`${classes.root}` && "account-inner-container"}>
         <div className="left-pane-account">
           <Grid container spacing={0}>
             <Grid item xs={12}>
-              <Paper
-                style={{ minHeight: "102vh", padding: "0px" }}
-                className={classes.paper}
-              >
+              <Paper className={`${classes.paper}` && "account-paper"}>
                 <AccountPanel />
               </Paper>
             </Grid>
@@ -54,7 +44,7 @@ const Account = () => {
         <div className="right-side-account">
           <Grid container spacing={2}>
             <Grid style={{ marginLeft: "0%" }} item xs={12}>
-              <Paper className={`${classes.paper}` && `header-paper`}>
+              <Paper className={`${classes.paper}` && `profile-paper`}>
                 <div className="divider2">My Assets</div>
                 <div className="profile-picture">
                   <div className="edit-container">
