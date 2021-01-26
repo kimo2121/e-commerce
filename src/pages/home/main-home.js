@@ -1,15 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./main-home.scss";
 import Footer from "../../components/footer/footer";
-import SliderComponent from "../../components/slider-3d/slider";
-import SliderMultiple from "../../components/slider-multiple/slider-multiple";
-import BasicProductCard from "../../components/ProductCard/BasicProductCard";
+// import SliderComponent from "../../components/slider-3d/slider";
+// import SliderMultiple from "../../components/slider-multiple/slider-multiple";
+// import BasicProductCard from "../../components/ProductCard/BasicProductCard";
 import ProductsCardList from "../../components/ProductsCardList";
 import { useSelector } from "react-redux";
 import Banner from "../../components/banner/banner";
 import Brands from "../../components/homePage/Brands";
-import HomeFooter from "../../components/homePage/HomeFooter";
+// import HomeFooter from "../../components/homePage/HomeFooter";
 import SliderBanner from "../../components/slider-banner/slider-banner";
 
 const MainHome = () => {

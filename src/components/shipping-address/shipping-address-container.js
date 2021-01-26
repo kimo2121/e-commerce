@@ -1,6 +1,6 @@
 import React from "react";
 import "./shipping-address-container.css";
-import { Grid } from "semantic-ui-react";
+// import { Grid } from "semantic-ui-react";
 import UserAddress from "./user-address";
 import AddressForm from "../address-form/address-form";
 import FillShipAdddress from "./fill-ship-address";
@@ -24,7 +24,7 @@ const ShippingAddressContainer = () => {
         Please confirm your shipping address
       </div>
 
-      {checkoutState == "pay" ? (
+    {checkoutState === "pay" ? (
         <div>
           {data.map((item, index) => (
             <span key={index}>

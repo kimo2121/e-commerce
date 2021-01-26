@@ -12,11 +12,11 @@ import { useForm } from "../../util/hooks";
 import { useMutation, useQuery } from "@apollo/react-hooks";
 import { UPDATE_USER, GET_USER_QUERY } from "../../util/graphql";
 import { useSelector } from "react-redux";
-import { useDispatch } from "react-redux";
-import { login } from "../../redux/user/user.actions";
+// import { useDispatch } from "react-redux";
+// import { login } from "../../redux/user/user.actions";
 
 const PersonalInfoForm = () => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
   const user = useSelector((state) => state.user.user);
   console.log({ user });
   const [date, setDate] = useState(new Date());
@@ -62,7 +62,12 @@ const PersonalInfoForm = () => {
     }
   );
   console.log({ values });
-  const [updateUser, { loadingUser }] = useMutation(UPDATE_USER, {
+  const [
+    updateUser,
+    {
+      //  loadingUser
+    },
+  ] = useMutation(UPDATE_USER, {
     update(
       _,
       {
@@ -97,7 +102,10 @@ const PersonalInfoForm = () => {
     setValues({ ...values, gender: value });
   };
 
-  const { loading, data } = useQuery(GET_USER_QUERY, {
+  const {
+    //  loading,
+    data,
+  } = useQuery(GET_USER_QUERY, {
     variables: { userId: user?.id },
   });
   console.log({ data });

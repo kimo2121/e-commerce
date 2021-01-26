@@ -116,6 +116,7 @@ export default function ButtonAppBar(props) {
         //   {/* <SearchComponent /> */}
         // </div>
         <Link
+          to=""
           onClick={() => setShowSearch(!showSearch)}
           style={{ color: "white" }}
         >
@@ -159,11 +160,12 @@ export default function ButtonAppBar(props) {
             </div>
 
             <div style={{ display: "flex", justifyContent: "space-between" }}>
-              {icons.map((icon) => (
+              {icons.map((icon, indx) => (
                 <IconButton
                   edge="start"
                   className={classes.menuButton}
                   color="inherit"
+                  key={indx}
                 >
                   {icon.icon}
                 </IconButton>

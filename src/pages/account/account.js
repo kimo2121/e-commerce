@@ -4,15 +4,15 @@ import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import { Link } from "react-router-dom";
 import "./account.scss";
-import * as HiIcons from "react-icons/hi";
+// import * as HiIcons from "react-icons/hi";
 import IconicComponent from "../../components/iconic-component/iconic-component";
 import {
   IconData,
   MyAssets,
-  InteractiveData,
+  // InteractiveData,
 } from "../../components/iconic-component/iconic-data";
 import MiscLinks from "../../components/misc-links/misc-links";
-import YouMayAlsoLike from "../../components/you-may-also-like/you-may-also-like";
+// import YouMayAlsoLike from "../../components/you-may-also-like/you-may-also-like";
 import AccountPanel from "../../components/account-panel/panel";
 import { useSelector } from "react-redux";
 

@@ -3,7 +3,7 @@ import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import AccountPanel from "../../components/account-panel/panel";
-import PersonalInfoForm from "../../components/personal-info-form/personal-info-form";
+// import PersonalInfoForm from "../../componenpts/personal-info-form/personal-info-form";
 import Orders from "./orders";
 const useStyles = makeStyles((theme) => ({
   root: {

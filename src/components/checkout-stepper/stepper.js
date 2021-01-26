@@ -8,7 +8,7 @@ const Stepper = () => {
 
   return (
     <Step.Group className="stepper-group"  size="mini">
-      <Step active={step == "shoppingbag"} completed={step != "shoppingbag"}>
+      <Step active={step === "shoppingbag"} completed={step !== "shoppingbag"}>
         <Icon name="shopping bag" />
         <Step.Content>
           <Step.Title>Shipping Bag</Step.Title>
@@ -16,8 +16,8 @@ const Stepper = () => {
       </Step>
 
       <Step
-        active={step == "placeorder"}
-        completed={step == "pay" || step == "ordercomplete"}
+        active={step === "placeorder"}
+        completed={step === "pay" || step === "ordercomplete"}
         style={{ width: "23%" }}
       >
         <Icon name="clipboard list" />
@@ -27,8 +27,8 @@ const Stepper = () => {
       </Step>
 
       <Step
-        active={step == "pay"}
-        completed={step == "ordercomplete"}
+        active={step === "pay"}
+        completed={step === "ordercomplete"}
         style={{ width: "23%" }}
       >
         <Icon name="payment" />
@@ -38,8 +38,8 @@ const Stepper = () => {
       </Step>
 
       <Step
-        active={step == "ordercomplete"}
-        completed={step == "ordercomplete"}
+        active={step === "ordercomplete"}
+        completed={step === "ordercomplete"}
       >
         <Icon name="check square" />
         <Step.Content>

@@ -33,8 +33,13 @@ export default function SimpleMenu({ data, icon, itemIcon, onClick }) {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        {data.map((i) => (
-          <Link to={i.link} style={{ color: "black" }} onClick={i.title === "Logout" && onClick}>
+        {data.map((i, indx) => (
+          <Link
+            key={indx}
+            to={i.link || ""}
+            style={{ color: "black" }}
+            onClick={i.title === "Logout" && onClick}
+          >
             <MenuItem onClick={handleClose}>
               {i.title === "Logout" ? (
                 <div style={{ display: "flex", justifyContent: "center" }}>

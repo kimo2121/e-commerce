@@ -2,14 +2,14 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Rating from "@material-ui/lab/Rating";
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
-import ProductImgList from "../../components/ProductImgList/ProductImgList";
+// import ProductImgList from "../../components/ProductImgList/ProductImgList";
 
-const imgStyles = {
-  width: "5rem",
-  height: "5rem",
-  objectFit: "contain",
-  margin: ".5rem 0px",
-};
+// const imgStyles = {
+//   width: "5rem",
+//   height: "5rem",
+//   objectFit: "contain",
+//   margin: ".5rem 0px",
+// };
 export default function ReviewCard({ review }) {
   let width = window.innerWidth;
 

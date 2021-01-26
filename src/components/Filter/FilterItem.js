@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Filter.css";
-import { Link, useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Checkbox } from "semantic-ui-react";
 import RangeSlider from "../RangeSlider";
 import { useDispatch, useSelector } from "react-redux";
@@ -23,11 +23,11 @@ export default function FilterItem() {
   }, [filter]);
   useEffect(() => {
     dispatch(getColorsFilterArray(values.colors_family));
-  }, [values]);
+  }, [values,dispatch]);
 
-  let history = useHistory();
-  // console.log({ history });
-  let pathname = history.location.pathname;
+  // let history = useHistory();
+  // // console.log({ history });
+  // let pathname = history.location.pathname;
 
   const filterList = [
     { name: "Color", iconPlus: "+", iconMinus: "-" },

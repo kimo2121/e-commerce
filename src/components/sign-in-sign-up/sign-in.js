@@ -1,19 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Form, Label } from "semantic-ui-react";
-import GoogleSiginIn from "../google-login/google-sign-in";
-import GoogleSignOut from "../google-logout/google-sign-out";
+import { Form } from "semantic-ui-react";
+// import GoogleSiginIn from "../google-login/google-sign-in";
+// import GoogleSignOut from "../google-logout/google-sign-out";
 import SignForm from "../sign-form/sign-form";
 import "./sign-in-sign-up.scss";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { useForm } from "../../util/hooks";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
 import SimpleBackdrop from "../BackDrop";
 
-const SignIn = ({ open, handleClose, handleToggle }) => {
-  let history = useHistory();
+const SignIn = ({ handleClose, handleToggle }) => {
+  // let history = useHistory();
   const dispatch = useDispatch();
   const [errors, setErrors] = React.useState({});
   console.log({ errors });

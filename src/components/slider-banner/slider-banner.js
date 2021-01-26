@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import SliderData from "../slider-3d/slider-data";
 import "./slider-banner.scss";

@@ -2,23 +2,24 @@ import React, { useState } from "react";
 import "./search-component.css";
 import { Input } from "antd";
 import "antd/dist/antd.css";
-import _ from "lodash";
+// import _ from "lodash";
 import { useSelector } from "react-redux";
 
 // import { Search } from "semantic-ui-react";
-import { Grid } from "semantic-ui-react";
+// import { Grid } from "semantic-ui-react";
+
 import MainLink from "../MainLink/MainLink";
-const madCar = [
-  "potatos",
-  "tomato",
-  "watermelon",
-  "ketchup",
-  "pineapple",
-  "apple",
-  "rice",
-  "beans",
-  "corn",
-];
+// const madCar = [
+//   "potatos",
+//   "tomato",
+//   "watermelon",
+//   "ketchup",
+//   "pineapple",
+//   "apple",
+//   "rice",
+//   "beans",
+//   "corn",
+// ];
 const SearchComponent = ({ isWebView }) => {
   const all_products = useSelector((state) => state.products.all_products);
 
@@ -54,7 +55,7 @@ const SearchComponent = ({ isWebView }) => {
       >
         {all_products
           .filter((value) => {
-            if (search == "") {
+            if (search === "") {
               return value.name;
             } else if (
               value.name.toLowerCase().includes(search.toLowerCase())
@@ -62,10 +63,11 @@ const SearchComponent = ({ isWebView }) => {
             ) {
               return value.name;
             }
+            return value.name;
           })
           .slice(0, 9)
           .map((value, index) => {
-            if (search != "")
+            if (search !== "") {
               return (
                 <MainLink
                   pathname={`/${value.category}/${value.subcategory}`}
@@ -91,6 +93,7 @@ const SearchComponent = ({ isWebView }) => {
                   </div>
                 </MainLink>
               );
+            }
           })}
       </div>
     </div>

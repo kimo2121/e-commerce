@@ -3,7 +3,7 @@ import { connect, useDispatch } from "react-redux";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import MainButton from "../MainButton/MainButton";
-import { Dropdown, Radio } from "semantic-ui-react";
+import { Radio } from "semantic-ui-react";
 import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
 import "./order-summary.scss";

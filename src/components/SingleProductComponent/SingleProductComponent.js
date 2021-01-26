@@ -2,19 +2,19 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Rating from "@material-ui/lab/Rating";
 import Menu from "../../components/Menu/Menu";
-import { menuData, headerItemData } from "./data";
+import { menuData } from "./data";
 import ProductImgList from "../../components/ProductImgList/ProductImgList";
 import { RiHeart2Line } from "react-icons/ri";
-import HeaderItem from "../../components/HeaderItem/HeaderItem";
-import List from "../../components/List/List";
-import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
+// import HeaderItem from "../../components/HeaderItem/HeaderItem";
+// import List from "../../components/List/List";
+// import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
 import LocalMallIcon from "@material-ui/icons/LocalMall";
 import MainButton from "../../components/MainButton/MainButton";
 // import MainLink from "../../components/MainLink";
 import { connect } from "react-redux";
 import { addItem } from "../../redux/cart/cart.actions";
-const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
+// const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
 const SingleProductComponent = ({ addItem, product }) => {
   const [image, setImage] = React.useState("");
@@ -22,6 +22,8 @@ const SingleProductComponent = ({ addItem, product }) => {
   const [sizeState, setSizeState] = React.useState("");
   console.log({ image });
   console.log({ product });
+  console.log({ colorState });
+  console.log({ sizeState });
   const colors = [product?.variation_0_color, product?.variation_1_color];
   const width = window.innherWidth;
   return (

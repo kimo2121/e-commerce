@@ -1,6 +1,6 @@
 import * as HiIcons from "react-icons/hi";
-import * as FiIcons from "react-icons/fi";
-import * as GiIcons from "react-icons/gi";
+// import * as FiIcons from "react-icons/fi";
+// import * as GiIcons from "react-icons/gi";
 
 export const MyOrders = [
   {

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 import * as RiIcons from "react-icons/ri";
@@ -10,7 +10,7 @@ import WomenMenu from "../megamenu/women-menu";
 import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
-import jewelryMenu from "../megamenu/jewelry";
+// import jewelryMenu from "../megamenu/jewelry";
 import KidsMenu from "../megamenu/kids-menu";
 import BeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
@@ -23,7 +23,6 @@ import * as HiIcons from "react-icons/hi";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
-  const onSearch = (value) => console.log(value);
   // const { Search } = Input;
   console.log({ all_products });
   // const [show, handleShow] = useState(false);

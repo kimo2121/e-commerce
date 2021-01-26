@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import StripeCheckout from "react-stripe-checkout";
 import "./stripe-button.css";
-import axios from "axios";
+// import axios from "axios";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import { connect, useSelector } from "react-redux";
@@ -18,8 +18,9 @@ const StripeCheckoutButton = ({ total }) => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const user = useSelector((state) => state.user.user);
 
-  const [tokenId, setTokenId] = React.useState("");
+  // const [tokenId, setTokenId] = React.useState("");
   const [errors, setErrors] = React.useState({});
+  console.log({ errors });
   const Complete = useDispatch();
   const priceForStripe = total * 100;
   console.log({ total });
@@ -43,7 +44,10 @@ const StripeCheckoutButton = ({ total }) => {
     console.log("succesful payment");
   };
 
-  const { userLoading, data } = useQuery(GET_USER_QUERY, {
+  const {
+    //  userLoading,
+    data,
+  } = useQuery(GET_USER_QUERY, {
     variables: { userId: user?.id },
   });
 
@@ -65,7 +69,7 @@ const StripeCheckoutButton = ({ total }) => {
     defaultAddrses: address?.defaultAddrses,
   };
 
-  const [createOrder, { loading }] = useMutation(CREATE_ORDER, {
+  const [createOrder] = useMutation(CREATE_ORDER, {
     update(_, { data: { createOrder: order } }) {
       // props.history.push("/");
       console.log({ order });

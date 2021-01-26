@@ -3,9 +3,9 @@ import { Form, Label } from "semantic-ui-react";
 import "./address-form.scss";
 import { CountryOptions } from "./CountryData";
 import { useForm } from "../../util/hooks";
-import { useMutation, gql, useQuery } from "@apollo/react-hooks";
+import { useMutation, useQuery } from "@apollo/react-hooks";
 import { GET_USER_QUERY, UPDATE_USER } from "../../util/graphql";
-import MesageSemanticUI from "../MesageSemanticUI";
+// import MesageSemanticUI from "../MesageSemanticUI";
 import { useSelector } from "react-redux";
 
 const NameData = [
@@ -67,9 +67,13 @@ const AddressForm = ({ isCheckoutComponent }) => {
     setValues({ ...values, Country: value });
   };
 
-  const { loading, data } = useQuery(GET_USER_QUERY, {
+  const {
+    // loading
+    data,
+  } = useQuery(GET_USER_QUERY, {
     variables: { userId: user?.id },
   });
+  console.log({ data });
   return (
     <div
       className={

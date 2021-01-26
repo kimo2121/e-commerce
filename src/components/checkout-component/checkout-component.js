@@ -20,11 +20,11 @@ const CheckoutComponent = ({ cartItems }) => {
       </div>
       <div className="checkout-down-layout">
         <div className="checkout-inner-layout">
-          {(checkoutState == "placeorder" || checkoutState == "pay") && (
+          {(checkoutState === "placeorder" || checkoutState === "pay") && (
             <PlaceOrder />
           )}
           <span className="items-count">
-            {checkoutState == "shoppingbag"
+            {checkoutState === "shoppingbag"
               ? `Shopping Bag(${cartItems.length})`
               : `Order Review
               `}
@@ -45,14 +45,14 @@ const CheckoutComponent = ({ cartItems }) => {
             ))}
           </div>
         </div>
-        {checkoutState == "shoppingbag" ? (
+        {checkoutState === "shoppingbag" ? (
           <OrderSummaryShoppingBag />
         ) : (
-          (checkoutState == "placeorder" || checkoutState == "pay") && (
+          (checkoutState === "placeorder" || checkoutState === "pay") && (
             <OrderSummaryPlaceOrder />
           )
         )}
-        {checkoutState == "ordercomplete" && <StripeCheckoutButton />}
+        {checkoutState === "ordercomplete" && <StripeCheckoutButton />}
       </div>
     </div>
   );
