@@ -22,7 +22,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar /> */}
         {width > 900 ? <Navbar /> : <PrimarySearchAppBar />}
         <Switch>
           <Route exact path="/" component={MainHome} />
