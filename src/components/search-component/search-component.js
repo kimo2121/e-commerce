@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import "./search-component.css";
 import { Input } from "antd";
 import "antd/dist/antd.css";
-// import _ from "lodash";
 import { useSelector } from "react-redux";
-
-// import { Search } from "semantic-ui-react";
-// import { Grid } from "semantic-ui-react";
 
 import MainLink from "../MainLink/MainLink";
 
