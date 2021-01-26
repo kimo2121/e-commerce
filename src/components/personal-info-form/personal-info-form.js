@@ -62,12 +62,7 @@ const PersonalInfoForm = () => {
     }
   );
   console.log({ values });
-  const [
-    updateUser,
-    {
-      //  loadingUser
-    },
-  ] = useMutation(UPDATE_USER, {
+  const [updateUser, { loadingUser }] = useMutation(UPDATE_USER, {
     update(
       _,
       {
@@ -83,7 +78,7 @@ const PersonalInfoForm = () => {
     },
     variables: values,
   });
-
+  console.log({ loadingUser });
   function updateUserCallback() {
     updateUser();
   }

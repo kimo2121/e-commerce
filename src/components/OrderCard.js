@@ -11,12 +11,12 @@ const OrderCard = ({ order, user }) => {
     <Segment raised style={{ margin: "0 0 2rem 0" }}>
       <div style={{ margin: "1rem" }}>
         <Grid container spacing={3}>
-          <Grid item xs={6} xs={12}>
+          <Grid item sm={6} xs={12}>
             <h5> {`OrderId:  ${order?.id}`}</h5>
             <h5> {`Created at:  ${createdAt}`}</h5>
             {/* <p>payment way</p> */}
           </Grid>
-          <Grid item xs={6} xs={12}>
+          <Grid item sm={6} xs={12}>
             <h5> {`Recipient:  ${user.username}`} </h5>
             <h5> {`Total:$  ${order?.total}`} </h5>
           </Grid>

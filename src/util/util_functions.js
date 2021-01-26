@@ -10,6 +10,7 @@ export const getSubcategories = (products, category) => {
     if (a.subcategory !== b.subcategory) {
       subcategoryList.push(a.subcategory);
     }
+    return a;
   });
   return subcategoryList;
 };
@@ -31,6 +32,7 @@ export const getColorsFilter = (products) => {
         colorsList.push(a.variation_1_color);
       }
     }
+    return a;
   });
 
   colorsList = colorsList.filter((i) => i !== "");
@@ -52,6 +54,7 @@ export const getColorsFilter = (products) => {
     if (a !== b) {
       newColorsList.push(a);
     }
+    return a;
   });
   console.log({ newColorsList });
   return newColorsList;
@@ -68,6 +71,7 @@ export const sortList = (filterTerm, array) => {
     } else if (filterTerm === "Most Popular") {
       return parseInt(b.likes_count) - parseInt(a.likes_count);
     }
+    return a;
   });
   console.log("sortedList from util func", sortedList);
   return sortedList;

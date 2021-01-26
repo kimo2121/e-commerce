@@ -94,6 +94,7 @@ const SearchComponent = ({ isWebView }) => {
                 </MainLink>
               );
             }
+            return value;
           })}
       </div>
     </div>
