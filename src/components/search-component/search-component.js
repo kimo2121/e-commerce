@@ -9,17 +9,7 @@ import { useSelector } from "react-redux";
 // import { Grid } from "semantic-ui-react";
 
 import MainLink from "../MainLink/MainLink";
-// const madCar = [
-//   "potatos",
-//   "tomato",
-//   "watermelon",
-//   "ketchup",
-//   "pineapple",
-//   "apple",
-//   "rice",
-//   "beans",
-//   "corn",
-// ];
+
 const SearchComponent = ({ isWebView }) => {
   const all_products = useSelector((state) => state.products.all_products);
 
