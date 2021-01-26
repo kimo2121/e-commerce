@@ -10,7 +10,6 @@ import WomenMenu from "../megamenu/women-menu";
 import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
-// import jewelryMenu from "../megamenu/jewelry";
 import KidsMenu from "../megamenu/kids-menu";
 import BeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
