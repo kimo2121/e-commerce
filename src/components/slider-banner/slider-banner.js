@@ -3,26 +3,13 @@ import Slider from "react-slick";
 import SliderData from "../slider-3d/slider-data";
 import "./slider-banner.scss";
 import SliderBannerCard from "./slider-banner-card";
-import { ShoesNew } from "../../data/ShoesNew";
-import { Icon } from "semantic-ui-react";
 import SubcategorySliderCard from "./subcategory-slider-card";
+import { useSelector } from "react-redux";
+import { NextArrow, PrevArrow } from "../../util/util_functions";
 
 const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
-  const NextArrow = ({ onClick }) => {
-    return (
-      <div className="arrow next" onClick={onClick}>
-        <Icon className="right-direction" name="angle right" size="big" />
-      </div>
-    );
-  };
-
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div className="arrow prev" onClick={onClick}>
-        <Icon className="left-direction" name="angle left" size="big" />
-      </div>
-    );
-  };
+  const sliderProducts = useSelector((state) => state.products.sliderProducts);
+  
 
   const settings = {
     dots: true,
@@ -74,7 +61,7 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
       }`}</h2>
       <Slider className="slider-banner" {...settings}>
         {subcategoryBanner
-          ? ShoesNew.slice(0, 7).map((item, index) => (
+          ? SliderData.map((item, index) => (
               <SubcategorySliderCard
                 subcategoryBanner
                 item={item}
@@ -82,18 +69,21 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
               />
             ))
           : isWhatsHot
-          ? ShoesNew.slice(0, 22)
-              .filter((item) => item.likes_count > 1000)
+          ? sliderProducts
+              .slice(0, 120)
+              .filter((item) => item.likes_count > 500)
               .map((item, index) => (
                 <SliderBannerCard isWhatsHot item={item} key={index} />
               ))
           : flashDeals
-          ? ShoesNew.slice(37, 80)
+          ? sliderProducts
+              .slice(0, 140)
               .filter((item) => item.discount > 60)
               .map((item, index) => (
                 <SliderBannerCard flashDeals item={item} key={index} />
               ))
-          : ShoesNew.slice(25, 36)
+          : sliderProducts
+              .slice(90, 102)
               .filter((item) => (item.is_new = true))
               .map((item, index) => (
                 <SliderBannerCard isWhatsHot item={item} key={index} />

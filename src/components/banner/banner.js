@@ -1,40 +1,52 @@
 import React from "react";
-import { Fade } from "react-slideshow-image";
-import sofa from "../../assets/images/sofa.jpg";
-import living from "../../assets/images/living.jpg";
-import lamp from "../../assets/images/lamp.jpg";
-import "react-slideshow-image/dist/styles.css";
+import Slider from "react-slick";
+import image1 from "../../assets/images/image1.jpg";
+import image2 from "../../assets/images/image2.jpg";
+import image3 from "../../assets/images/image3.jpg";
+import image4 from "../../assets/images/image4.jpg";
+import image5 from "../../assets/images/image5.jpg";
+import image6 from "../../assets/images/image6.jpg";
+import image7 from "../../assets/images/image7.jpg";
+import image8 from "../../assets/images/image8.jpg";
+import image9 from "../../assets/images/image9.jpg";
+import image10 from "../../assets/images/image10.jpg";
+import { NextArrow, PrevArrow } from "../../util/util_functions";
+
 import "./banner.css";
-const FadeBanner = () => {
-  const fadeImages = [living, sofa, lamp];
+
+const bannerData = [
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
+  image6,
+  image7,
+  image8,
+  image9,
+  image10,
+];
+const Banner = () => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <NextArrow />,
+    prevArrow: <PrevArrow />,
+  };
   return (
-    <div>
-      <div className="fade-container">
-        <Fade
-          duration={3500}
-          transitionDuration={500}
-          indicators={false}
-          pauseOnHover={false}
-        >
-          <div className="each-fade">
-            <div>
-              <img src={fadeImages[0]} alt="" />
-            </div>
+    <div className="banner-component">
+      <Slider {...settings}>
+        {bannerData.map((item) => (
+          <div className="each-slide-in-banner">
+            <img src={item} alt="" />
           </div>
-          <div className="each-fade">
-            <div>
-              <img src={fadeImages[1]} alt="" />
-            </div>
-          </div>
-          <div className="each-fade">
-            <div>
-              <img src={fadeImages[2]} alt="" />
-            </div>
-          </div>
-        </Fade>
-      </div>
+        ))}
+      </Slider>
     </div>
   );
 };
 
-export default FadeBanner;
+export default Banner;

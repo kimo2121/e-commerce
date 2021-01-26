@@ -1,3 +1,5 @@
+import { Icon } from "semantic-ui-react";
+
 export const getSubcategories = (products, category) => {
   const filteredData = products.filter((item) =>
     item.category.toUpperCase().includes(category.toUpperCase())
@@ -69,4 +71,20 @@ export const sortList = (filterTerm, array) => {
   });
   console.log("sortedList from util func", sortedList);
   return sortedList;
+};
+
+export const NextArrow = ({ onClick }) => {
+  return (
+    <div className="arrow next" onClick={onClick}>
+      <Icon className="right-direction" name="angle right" size="big" />
+    </div>
+  );
+};
+
+export const PrevArrow = ({ onClick }) => {
+  return (
+    <div className="arrow prev" onClick={onClick}>
+      <Icon className="left-direction" name="angle left" size="big" />
+    </div>
+  );
 };

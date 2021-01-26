@@ -7,6 +7,7 @@
   max-height: fit-content;
   z-index: 10;
   background-color: transparent;
+  overflow: hidden;
 }
 .slick-list:hover {
   cursor: grab;

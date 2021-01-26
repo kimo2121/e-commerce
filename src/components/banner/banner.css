@@ -1,8 +1,15 @@
-.each-fade {
-  height: 100vh;
+.banner-component {
+  height: 70vh;
+  width: 96% !important;
+  margin-left: 2%;
 }
 
-img {
-  width: 100%;
+/* img {
   min-height: auto;
+} */
+.each-slide-in-banner img {
+  width: 95vw !important;
+}
+.each-slide-in-banner {
+  overflow: hidden;
 }
