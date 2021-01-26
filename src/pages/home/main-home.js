@@ -20,7 +20,7 @@ const MainHome = () => {
       <Banner />
       <SliderBanner subcategoryBanner />
       <Brands />
-      <SliderBanner flashDeals />
+      <SliderBanner  flashDeals />
       <SliderBanner />
       <SliderBanner isWhatsHot />
       {/* <HomeFooter /> */}

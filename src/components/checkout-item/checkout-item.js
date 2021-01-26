@@ -31,7 +31,7 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
           ) : (
             item.name
           )}
-          {isOrdersPage == "shoppingbag" ||
+          {/* {isOrdersPage == "shoppingbag" ||
             (orderOverview == "shoppingbag" && (
               <Dropdown
                 fluid
@@ -40,7 +40,7 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
                 search
                 selection
               />
-            ))}
+            ))} */}
           {isOrdersPage == "shoppingbag" ||
             (orderOverview == "shoppingbag" && (
               <div className="del-add-btns">

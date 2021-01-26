@@ -7,7 +7,7 @@ const Checkout = () => {
     <div className="checkout-page">
       <CheckoutComponent />
     </div>
-  );
+);
 };
 
 export default Checkout;
