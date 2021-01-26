@@ -10,7 +10,12 @@ import { ShoesNew } from "../../shopData/ShoesNew";
 import { WomenNew } from "../../shopData/WomenNew";
 
 const INITIAL_STATE = {
-  products: ShoesNew.slice(0, 50),
+  products: [
+    ...kidsNew.slice(0, 10),
+    ...MenNew.slice(100, 110),
+    ...AccessoriesNew.slice(0, 10),
+    ...BagsNew.slice(0, 10),
+  ],
   all_products: [
     ...kidsNew,
     ...MenNew,
@@ -21,6 +26,17 @@ const INITIAL_STATE = {
     ...JewelryNew,
     ...ShoesNew,
     ...WomenNew,
+  ],
+  sliderProducts: [
+    ...kidsNew.slice(0, 20),
+    ...MenNew.slice(0, 20),
+    ...AccessoriesNew.slice(0, 20),
+    ...BagsNew.slice(0, 20),
+    ...BeautyNew.slice(0, 20),
+    ...HouseNew.slice(0, 20),
+    ...JewelryNew.slice(0, 20),
+    ...ShoesNew.slice(0, 20),
+    ...WomenNew.slice(0, 20),
   ],
   filter: [],
   priceFilter: [],

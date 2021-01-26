@@ -84,7 +84,9 @@ const Navbar = () => {
           />
         </div>
       </div>
-      <SearchComponent isWebView all_products={all_products} />
+      <div style={{ marginTop: "2rem" }}>
+        <SearchComponent isWebView all_products={all_products} />
+      </div>
       {/* <AdvancedSearch all_products={all_products} className="search-bar" /> */}
       {localStorage.getItem("jwtToken") ? (
         <AccountDropdown />

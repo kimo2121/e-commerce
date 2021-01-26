@@ -11,7 +11,7 @@ const SubcategorySliderCard = ({ item }) => {
             <img className="image" src={item.image_url} alt="" />
           </div>
           <Link to="/" className="fukintext">
-            {item.name}
+            {item.category}
           </Link>
         </div>
       </slider>

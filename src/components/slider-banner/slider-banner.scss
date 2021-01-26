@@ -7,6 +7,7 @@
   max-height: fit-content;
   z-index: 10;
   background-color: transparent;
+  overflow: hidden;
 }
 .slick-list:hover {
   cursor: grab;
@@ -23,9 +24,11 @@
 }
 .image-card-style-1 {
   height: 45vh !important;
+  width: 100%;
 }
 .image-card-style-2 {
   height: 60vh !important;
+  width: 100%;
 }
 .Slider-banner-card:hover {
   cursor: pointer;

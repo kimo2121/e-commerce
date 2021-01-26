@@ -6,11 +6,13 @@ import "./slider-banner.scss";
 const SliderBannerCard = ({ item, isWhatsHot }) => {
   return (
     <Card className="Slider-banner-card">
-      <img
-        className={isWhatsHot ? "image-card-style-1" : "image-card-style-2"}
-        src={item.image_url}
-        alt=""
-      />
+      <MainLink pathname={`/product/${item.id}`}>
+        <img
+          className={isWhatsHot ? "image-card-style-1" : "image-card-style-2"}
+          src={item.image_url}
+          alt=""
+        />
+      </MainLink>
       <div>
         <MainLink pathname={`/product/${item.id}`}>
           <h4>{`${item.name.slice(0, 20)}...`}</h4>

@@ -32,7 +32,7 @@ export default function FileSystemNavigator({ onClose }) {
   const all_products = useSelector((state) => state.products.all_products);
 
   const classes = useStyles();
-  const refresh = () => window.location.reload();
+  // const refresh = () => window.location.reload();
 
   return (
     <TreeView

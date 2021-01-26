@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 // import PopoverMUI from "./PopoverMUI";
 // import CartDropdownMob from "./cart-dropdown/CartDropdownMob";
 import Drawer from "./Drawer/Drawer";
-// import SearchIcon from "@material-ui/icons/Search";
+import SearchIcon from "@material-ui/icons/Search";
 import Badge from "@material-ui/core/Badge";
 import { useSelector } from "react-redux";
 // import { Popup } from "semantic-ui-react";
@@ -19,11 +19,12 @@ import ExitToAppIcon from "@material-ui/icons/ExitToApp";
 
 import { selectCartItemsCount } from "../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
-import SearchComponent from "./search-component/search-component";
+// import SearchComponent from "./search-component/search-component";
 import MainLink from "./MainLink/MainLink";
 
 import PropTypes from "prop-types";
 import useScrollTrigger from "@material-ui/core/useScrollTrigger";
+import SearchComponent from "./search-component/search-component";
 
 function ElevationScroll(props) {
   const { children, window } = props;
@@ -91,6 +92,7 @@ export default function ButtonAppBar(props) {
       itemsCount: selectCartItemsCount,
     })
   );
+  const [showSearch, setShowSearch] = React.useState(false);
 
   const classes = useStyles();
 
@@ -101,18 +103,24 @@ export default function ButtonAppBar(props) {
   const icons = [
     {
       icon: (
-        <div
-          style={{
-            width: "120vw",
-            position: "absolute",
-            right: "-48vw",
-            top: "-.5rem",
-            marginTop: "1rem",
-          }}
-          className="new-navbar-search"
+        // <div
+        //   style={{
+        //     width: "120vw",
+        //     position: "absolute",
+        //     right: "-48vw",
+        //     top: "-.5rem",
+        //     marginTop: "1rem",
+        //   }}
+        //   className="new-navbar-search"
+        // >
+        //   {/* <SearchComponent /> */}
+        // </div>
+        <Link
+          onClick={() => setShowSearch(!showSearch)}
+          style={{ color: "white" }}
         >
-          <SearchComponent />
-        </div>
+          <SearchIcon />
+        </Link>
       ),
     },
     {
@@ -126,65 +134,81 @@ export default function ButtonAppBar(props) {
     },
   ];
   return (
-    <React.Fragment >      
-    
-        <ElevationScroll {...props}>
+    <React.Fragment>
+      <ElevationScroll {...props}>
+        <AppBar
+          style={
+            {
+              // height: "10vh",
+              // position: "fixed",
+            }
+          }
+        >
+          <Toolbar
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <Drawer />
+              <Link to="/" style={{ color: "white", display: "flex" }}>
+                <p style={{ fontSize: "1rem", marginTop: ".6rem" }}>Logo</p>
+              </Link>
+            </div>
 
-      <AppBar
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              {icons.map((icon) => (
+                <IconButton
+                  edge="start"
+                  className={classes.menuButton}
+                  color="inherit"
+                >
+                  {icon.icon}
+                </IconButton>
+              ))}
+              {localStorage.getItem("jwtToken") ? (
+                <IconButton
+                  edge="start"
+                  className={classes.menuButton}
+                  color="inherit"
+                >
+                  <SimpleMenu
+                    data={data}
+                    icon={<PersonIcon />}
+                    itemIcon={<ExitToAppIcon />}
+                    onClick={() => logout()}
+                  />
+                </IconButton>
+              ) : (
+                <Link
+                  to="/sign-in-up"
+                  style={{
+                    color: "white",
+                    display: "flex",
+                    marginTop: ".5rem",
+                  }}
+                >
+                  Login
+                </Link>
+              )}
+            </div>
+          </Toolbar>
+        </AppBar>
+      </ElevationScroll>
+
+      <div
         style={{
-          // height: "10vh",
-          // position: "fixed",
+          width: "100vw",
+          top: "10vh",
+          left: "0",
+          position: "fixed",
+          zIndex: "200",
         }}
       >
-        <Toolbar
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <Drawer />
-            <Link to="/" style={{ color: "white", display: "flex" }}>
-              <p style={{ fontSize: "1rem", marginTop: ".6rem" }}>Logo</p>
-            </Link>
-          </div>
-
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
-            {icons.map((icon) => (
-              <IconButton
-                edge="start"
-                className={classes.menuButton}
-                color="inherit"
-              >
-                {icon.icon}
-              </IconButton>
-            ))}
-            {localStorage.getItem("jwtToken") ? (
-              <IconButton
-                edge="start"
-                className={classes.menuButton}
-                color="inherit"
-              >
-                <SimpleMenu
-                  data={data}
-                  icon={<PersonIcon />}
-                  itemIcon={<ExitToAppIcon />}
-                  onClick={() => logout()}
-                />
-              </IconButton>
-            ) : (
-              <Link
-                to="/sign-in-up"
-                style={{ color: "white", display: "flex", marginTop: ".5rem" }}
-              >
-                Login
-              </Link>
-            )}
-          </div>
-        </Toolbar>
-      </AppBar>
-      </ElevationScroll>
+        {showSearch && <SearchComponent />}
+      </div>
     </React.Fragment>
   );
 }
