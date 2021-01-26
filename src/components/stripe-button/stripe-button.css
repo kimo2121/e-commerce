@@ -1,0 +1,29 @@
+.stripe-component {
+  width: 25%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.stripe-stripe-button {
+  margin-top: 25%;
+  margin-left: 40%;
+}
+.stripe-component-button {
+  margin-top: 0.5%;
+  background-color: rgb(214, 214, 214);
+  height: 15vh;
+}
+.stripe-div-title,
+.title-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.title-total {
+  width: 16%;
+  text-align: center;
+  vertical-align: middle;
+  height: 5vh;
+  position: absolute;
+  margin-left: 4%;
+  margin-top: 2.5%;
+  background-color: rgb(255, 255, 255);
+}

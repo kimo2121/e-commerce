@@ -1,0 +1,42 @@
+.nav-bar {
+  color: rgb(255, 255, 255);
+  top: 0;
+  display: flex;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid gray 1px;
+  z-index: 11;
+  position: relative;
+}
+.nav-bar-color {
+  color: rgb(0, 0, 0);
+  border-bottom: 0.1px solid rgb(190, 190, 190);
+  background-color: rgb(255, 255, 255);
+}
+.logo-color {
+  color: rgb(255, 255, 255);
+}
+
+.logo {
+  z-index: 3;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  margin-top: 1%;
+  margin-left: 5.5%;
+  position: absolute;
+}
+
+.drop-down-menu {
+  width: 100%;
+  position: relative;
+  align-self: flex-end;
+}
+
+.fkin {
+  display: flex;
+  margin-left: 31.2%;
+  top: 0 !important;
+  z-index: 100;
+}

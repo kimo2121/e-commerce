@@ -1,0 +1,38 @@
+.account-dropdown a,
+.signout-drop-span span {
+  transition: none !important;
+  font-size: 1.3rem;
+  margin-top: 3%;
+  margin-left: 9%;
+  color: black;
+}
+.account-dropdown svg,
+.signout-drop-span svg {
+  position: absolute;
+  margin-top: 0%;
+  color: black;
+}
+.account-dropdown div,
+.signout-drop-span {
+  padding-top: 3%;
+  padding-left: 5%;
+  height: 7vh;
+}
+.account-dropdown div:hover,
+.signout-drop-span:hover {
+  background-color: rgb(224, 224, 224);
+}
+.account-dropdown div:hover svg,
+.signout-drop-span:hover svg {
+  fill: black;
+  color: rgb(230, 230, 230);
+}
+.account-dropdown a:hover,
+.signout-drop-span span:hover {
+  transition: none !important;
+
+  color: rgb(255, 106, 106);
+}
+.signout-drop-span {
+  border-top: 1px solid rgb(218, 218, 218);
+}

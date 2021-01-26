@@ -1,0 +1,86 @@
+.footer-page {
+  position: relative;
+  min-height: 50vh !important;
+  width: 100%;
+  background-color: rgb(42, 42, 42);
+  color: rgb(255, 255, 255);
+}
+.footer-first {
+  margin-bottom: 4%;
+  margin-top: 5%;
+  color: white;
+  margin-left: 8%;
+  text-align: start;
+  display: flex;
+  @media only screen and(max-width:768px) {
+    margin-left: 5%;
+    display: block;
+  }
+}
+.footer-first > div > a {
+  color: rgb(117, 117, 117);
+}
+div > h3 {
+  color: white;
+}
+
+.about-us-div {
+  margin-top: 2%;
+  width: 30%;
+  @media only screen and(max-width:768px) {
+    width: 70%;
+    // margin-left: -2%;
+  }
+}
+
+.useful-links,
+.download {
+  margin-top: 2%;
+  width: 15%;
+  margin-right: 5%;
+  @media only screen and(max-width:768px) {
+    width: 30%;
+    margin-left: -2%;
+  }
+}
+.about-us-div h3 {
+  @media only screen and(max-width:768px) {
+    margin-left: -2%;
+  }
+}
+.about-us-div div,
+.call-center {
+  margin-top: 2%;
+  width: 75% !important;
+  color: rgb(117, 117, 117);
+  @media only screen and(max-width:768px) {
+    margin-left: -2%;
+  }
+}
+.footer-first > div > a:hover {
+  color: rgb(194, 194, 194);
+}
+
+.icon-footer-container {
+  margin-left: 8.5%;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  @media only screen and(max-width:768px) {
+  margin-left: 4%;
+  margin-bottom: 2%;
+  display: block;
+  }
+}
+.icon-footer-container span {
+  font-size: 1.3rem;
+}
+.footer-icons img {
+  width: 10vw;
+  height: 9vh;
+  margin: 1%;
+}
+.divider-footer {
+  width: 100%;
+  border-top: 1px solid gray;
+}

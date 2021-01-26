@@ -1,0 +1,39 @@
+.address-book-form {
+  width: 90%;
+  position: inherit;
+  padding-top: 3% !important;
+  padding-bottom: 10% !important;
+}
+
+.text-field1 {
+  z-index: 0;
+  width: 12rem !important;
+}
+
+.text-field2 {
+  z-index: 0;
+  width: 25rem !important;
+}
+.select-option {
+  width: 25rem !important;
+}
+
+.check-box:hover {
+  color: rgb(255, 100, 86);
+}
+.confirm-edit {
+  position: absolute !important;
+  left: 2.3%;
+}
+.checkout-address-form {
+  position: relative;
+}
+.address-form-checkbox {
+  width: 28vw !important;
+  margin-top: 2% !important;
+  margin-left: 7.5rem !important;
+  @media only screen and(max-width:476px) {
+  margin-left: 5rem !important;
+    
+  }
+}
