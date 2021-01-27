@@ -2,7 +2,6 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Rating from "@material-ui/lab/Rating";
 import ThumbUpAltOutlinedIcon from "@material-ui/icons/ThumbUpAltOutlined";
-
 export default function ReviewCard({ review }) {
   let width = window.innerWidth;
 

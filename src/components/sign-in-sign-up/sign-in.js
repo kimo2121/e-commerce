@@ -29,7 +29,11 @@ const SignIn = ({ handleClose, handleToggle }) => {
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
       // history.push("/");
+<<<<<<< HEAD
       window.location.replace("https://ecommerce-merng.netlify.app/");
+=======
+      window.location.replace("http://localhost:3000/");
+>>>>>>> e54bbbc9eafb4beba02f806705207bec86fa0e7f
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);

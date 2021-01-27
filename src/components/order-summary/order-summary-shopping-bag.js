@@ -27,7 +27,6 @@ const OrderSummaryShoppingBag = ({ total }) => {
           <br />
           <Radio label="Coupon discount" />
           <br />
-
           <Radio label="Do not use any discount" />
         </div>
         <div className="to-sup-summary sho-ba">
