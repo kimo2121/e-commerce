@@ -7,8 +7,7 @@
   height: 100px;
   background-color: rgb(255, 255, 255);
   border-bottom: solid gray 1px;
-  z-index: 11;
-  position: relative;
+  z-index: 6;
 }
 .nav-bar-color {
   color: rgb(0, 0, 0);
@@ -27,6 +26,8 @@
   margin-left: 5.5%;
   position: absolute;
 }
+
+
 
 .drop-down-menu {
   width: 100%;

@@ -1,7 +1,7 @@
 .search-component {
   position: absolute;
   z-index: 100 !important;
-  top: 25%;
+  top: 4%;
   left: 28%;
   width: 30% !important;
 }
@@ -11,7 +11,7 @@
   position: absolute;
   background-color: rgb(255, 255, 255);
   top: 9%;
-  margin-top: 3.5rem;
+  margin-top: 0;
   color: rgb(0, 0, 0);
   left: 28%;
   padding-left: 0.5%;
@@ -23,27 +23,9 @@
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
 }
 .search-results-for-mobile {
-  left: 0;
+  top: 0;
   margin-top: 2.2rem;
-  width: 100vw;
 }
-.search_results {
-  width: 100vw;
-}
-.search_results_web {
-  width: auto;
-}
-.search_results_web:hover {
-  background-color: rgb(241, 241, 241);
-  color: black;
-  width: "100%";
-}
-.search_results:hover {
-  background-color: rgb(241, 241, 241);
-  color: black;
-  width: "100%";
-}
-
 /* .search-result p {
   color: rgb(0, 0, 0);
   height: 2vh;

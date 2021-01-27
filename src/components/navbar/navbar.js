@@ -1,28 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import * as RiIcons from "react-icons/ri";
 
 import "./navbar.css";
 import MenMenu from "../megamenu/men-menu";
-import NewInMenu from "../megamenu/accessories";
+import NewInMenu from "../megamenu/new-in";
 import WomenMenu from "../megamenu/women-menu";
 import BagsMenu from "../megamenu/bags-menu";
 import ShoesMenu from "../megamenu/shoes-menu";
 import HomeGarden from "../megamenu/home-garden-menu";
-// import jewelryMenu from "../megamenu/jewelry";
+import SaleMenu from "../megamenu/sale-menu";
 import KidsMenu from "../megamenu/kids-menu";
-import BeautyMenu from "../megamenu/accessories-beauty-menu";
+import AccessoriesBeautyMenu from "../megamenu/accessories-beauty-menu";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import AccountDropdown from "../account-dropdown/account-dropdown";
 import { getSubcategories } from "../../util/util_functions";
 import { useSelector } from "react-redux";
 import SearchComponent from "../search-component/search-component";
-// import AdvancedSearch from "../search-component/search-advanced";
-import * as HiIcons from "react-icons/hi";
+import AdvancedSearch from "../search-component/search-advanced";
 
 const Navbar = () => {
   const all_products = useSelector((state) => state.products.all_products);
+  const onSearch = (value) => console.log(value);
   // const { Search } = Input;
   console.log({ all_products });
   // const [show, handleShow] = useState(false);
@@ -73,30 +73,19 @@ const Navbar = () => {
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-          <BeautyMenu
+          <AccessoriesBeautyMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
-          <jewelryMenu
+          <SaleMenu
             all_products={all_products}
             getSubcategories={getSubcategories}
           />
         </div>
       </div>
-      <div style={{ marginTop: "2rem" }}>
-        <SearchComponent isWebView all_products={all_products} />
-      </div>
+      <SearchComponent isWebView all_products={all_products} />
       {/* <AdvancedSearch all_products={all_products} className="search-bar" /> */}
-      {localStorage.getItem("jwtToken") ? (
-        <AccountDropdown />
-      ) : (
-        <Link
-          to="/sign-in-up"
-          style={{ position: "absolute", marginLeft: "72%", marginTop: "2%" }}
-        >
-          <HiIcons.HiOutlineUser color={"black"} size={26} />
-        </Link>
-      )}
+      <AccountDropdown />
       <Link
         to="/"
         style={{ position: "absolute", marginLeft: "77%", marginTop: "2%" }}

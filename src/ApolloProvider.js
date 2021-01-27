@@ -12,8 +12,8 @@ import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./redux/store";
 
 const httpLink = createHttpLink({
-  uri: "https://polar-atoll-14942.herokuapp.com/",
-  // uri: "http://localhost:5000",
+  // uri: "https://young-ravine-91676.herokuapp.com/",
+  uri: "http://localhost:5000",
 });
 
 const authLink = setContext(() => {

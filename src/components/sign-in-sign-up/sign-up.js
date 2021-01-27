@@ -7,9 +7,8 @@ import SignForm from "../sign-form/sign-form";
 import { useForm } from "../../util/hooks";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
-import SimpleBackdrop from "../BackDrop";
 
-const SignUp = ({ open, handleClose, handleToggle }) => {
+const SignUp = () => {
   let history = useHistory();
 
   const [errors, setErrors] = useState({});
@@ -32,8 +31,12 @@ const SignUp = ({ open, handleClose, handleToggle }) => {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
+<<<<<<< HEAD
       // history.push("/");
       window.location.replace("https://ecommerce-merng.netlify.app/");
+=======
+      history.push("/");
+>>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -52,12 +55,6 @@ const SignUp = ({ open, handleClose, handleToggle }) => {
 
   return (
     <div className="sign-form-main-div">
-      <SimpleBackdrop
-        open={loading}
-        handleClose={handleClose}
-        handleToggle={handleToggle}
-      />
-
       <h1 style={{ marginBottom: "10%" }}>Register</h1>
       <Form onSubmit={onSubmit}>
         <SignForm onChange={onChange} values={values} signUp errors={errors} />
@@ -108,6 +105,7 @@ const REGISTER_USER = gql`
       id
       email
       username
+      checkbox
       createdAt
       token
     }

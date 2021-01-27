@@ -1,4 +1,4 @@
-export const kidsNew = [
+export const KidsNew = [
   {
     category: "kids",
     subcategory: "Accessoires pour enfant",

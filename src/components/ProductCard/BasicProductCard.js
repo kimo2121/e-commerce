@@ -4,7 +4,7 @@ import Card from "@material-ui/core/Card";
 import SimpleModal from "../Modal/Modal";
 import SingleProductComponent from "../SingleProductComponent/SingleProductComponent";
 import MainLink from "../MainLink/MainLink";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import { addItem } from "../../redux/cart/cart.actions";
 import { useDispatch } from "react-redux";
 import LocalMallIcon from "@material-ui/icons/LocalMall";

@@ -7,14 +7,12 @@ export default function MainLink({
   pathname,
   children,
   onClick,
-  ...otherProps
 }) {
   return (
     <Link
       to={(location) => ({ ...location, pathname: pathname })}
       className="linkColor"
       onClick={onClick}
-      {...otherProps}
     >
       {title}
       {children}

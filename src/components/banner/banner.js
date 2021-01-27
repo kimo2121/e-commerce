@@ -30,21 +30,22 @@ const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    autoplaySpeed: 3000,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    pauseOnHover: false,
-    autoplay: true,
-    // fade: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-  const width = window.innerWidth;
   return (
-    <div className="banner-component" style={width < 900 && { height: "auto" }}>
+    <div className="banner-component">
       <Slider {...settings}>
+<<<<<<< HEAD
         {bannerData.map((item, indx) => (
           <div className="each-slide-in-banner" key={indx}>
+=======
+        {bannerData.map((item) => (
+          <div className="each-slide-in-banner">
+>>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
             <img src={item} alt="" />
           </div>
         ))}

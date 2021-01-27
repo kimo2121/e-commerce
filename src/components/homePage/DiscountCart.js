@@ -13,6 +13,7 @@ export default function DiscountCar({ product }) {
     top: "-1rem",
   };
   const { image_url, name, discount, id } = product;
+  const text = "111111111111111";
   return (
     <Card style={{ display: "flex", margin: "1rem" }}>
       <Link to={`product/${id}`}>

@@ -3,21 +3,22 @@ import { connect, useDispatch } from "react-redux";
 import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import MainButton from "../MainButton/MainButton";
-import { Radio } from "semantic-ui-react";
+import { Dropdown, Radio } from "semantic-ui-react";
 import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 
 import "./order-summary.scss";
-import { useHistory } from "react-router-dom";
 const OrderSummaryShoppingBag = ({ total }) => {
-  let history = useHistory();
-  console.log({ history });
   const handleCheckout = useDispatch();
+<<<<<<< HEAD
   const onCheckout = () => {
     localStorage.getItem("jwtToken")
       ? handleCheckout(proceedToCheckout())
       : history.push("/sign-in-up");
     // window.location.replace("https://ecommerce-merng.netlify.app/sign-in-up");
   };
+=======
+
+>>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
   return (
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
@@ -27,6 +28,16 @@ const OrderSummaryShoppingBag = ({ total }) => {
           <br />
           <Radio label="Coupon discount" />
           <br />
+<<<<<<< HEAD
+=======
+          <Dropdown
+            style={{ width: "70%" }}
+            fluid
+            placeholder=""
+            search
+            selection
+          />
+>>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
           <Radio label="Do not use any discount" />
         </div>
         <div className="to-sup-summary sho-ba">
@@ -46,9 +57,9 @@ const OrderSummaryShoppingBag = ({ total }) => {
           height: "15%",
           fontSize: "1.2rem",
           width: "100%",
-          background: " rgb(218, 9, 79)",
+          background: " rgb(218, 9, 79)"
         }}
-        onClick={onCheckout}
+        onClick={() => handleCheckout(proceedToCheckout())}
       >
         Proceed to checkout
       </MainButton>

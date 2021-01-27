@@ -1,6 +1,6 @@
 import React from "react";
 import "./shipping-address-container.css";
-// import { Grid } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import UserAddress from "./user-address";
 import AddressForm from "../address-form/address-form";
 import FillShipAdddress from "./fill-ship-address";
@@ -13,9 +13,7 @@ const data = [
   `ZIP/postal code:`,
   `Phone:`,
 ];
-const ShippingAddressContainer = () => {
-  const user = useSelector((state) => state.user.user);
-  console.log({ user });
+const ShippingAddressContainer = ({ user }) => {
   const checkoutState = useSelector((state) => state.checkout.checkout);
 
   return (
@@ -24,7 +22,7 @@ const ShippingAddressContainer = () => {
         Please confirm your shipping address
       </div>
 
-    {checkoutState === "pay" ? (
+      {checkoutState == "pay" ? (
         <div>
           {data.map((item, index) => (
             <span key={index}>
@@ -37,11 +35,11 @@ const ShippingAddressContainer = () => {
         <div>
           <div width={50}>
             <div width={50}>
-              {user?.addressbook ? (
+              {user?.shippmentaddress ? (
                 <div>
-                  {user?.address?.map((address) => (
+                  {user?.shippmentaddress?.map((address) => (
                     <div className="grid-cont-ship-info" width={50}>
-                      <UserAddress user={user && user} address={address} />
+                      <UserAddress />
                     </div>
                   ))}
                   <FillShipAdddress />
