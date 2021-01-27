@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Form, Label } from "semantic-ui-react";
-import GoogleSiginIn from "../google-login/google-sign-in";
-import GoogleSignOut from "../google-logout/google-sign-out";
+import { Form } from "semantic-ui-react";
+// import GoogleSiginIn from "../google-login/google-sign-in";
+// import GoogleSignOut from "../google-logout/google-sign-out";
 import SignForm from "../sign-form/sign-form";
 import "./sign-in-sign-up.scss";
 import { useMutation, gql } from "@apollo/react-hooks";
 import { useForm } from "../../util/hooks";
-import { useHistory } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { login } from "../../redux/user/user.actions";
+import SimpleBackdrop from "../BackDrop";
 
-const SignIn = () => {
-  let history = useHistory();
+const SignIn = ({ handleClose, handleToggle }) => {
+  // let history = useHistory();
   const dispatch = useDispatch();
   const [errors, setErrors] = React.useState({});
   console.log({ errors });
@@ -22,15 +23,13 @@ const SignIn = () => {
     password: "",
   });
 
-  const [
-    loginUser,
-    //  { loading }
-  ] = useMutation(LOGIN_USER, {
+  const [loginUser, { loading }] = useMutation(LOGIN_USER, {
     update(_, { data: { login: userData } }) {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-      history.push("/");
+      // history.push("/");
+      window.location.replace("https://ecommerce-merng.netlify.app/");
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
@@ -44,6 +43,12 @@ const SignIn = () => {
 
   return (
     <div style={{ marginBottom: "8%" }} className="sign-form-main-div">
+      <SimpleBackdrop
+        open={loading}
+        handleClose={handleClose}
+        handleToggle={handleToggle}
+      />
+
       <h1 style={{ marginBottom: "10%" }}>Sign In</h1>
       <p>{errors?.general}</p>
       <SignForm onChange={onChange} values={values} signIn errors={errors} />
@@ -66,7 +71,7 @@ const SignIn = () => {
           </span>
         </button>
 
-        <GoogleSiginIn className="google-btn" />
+        {/* <GoogleSiginIn className="google-btn" /> */}
         {/* <GoogleSignOut /> */}
       </Form>
       <span>

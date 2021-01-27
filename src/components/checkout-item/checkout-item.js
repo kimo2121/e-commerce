@@ -8,7 +8,6 @@ import {
   addItem,
 } from "../../redux/cart/cart.actions";
 import { useDispatch, useSelector } from "react-redux";
-import { Dropdown } from "semantic-ui-react";
 
 const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
   const subTotal =
@@ -21,18 +20,29 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
 
   return (
     <div className="checkout-item-layout">
-      <img src={item.image_url} alt="" />
+      <img
+        src={item.image_url}
+        alt="product"
+        style={{ objectFit: "contain" }}
+      />
+      {checkoutState === "shoppingbag" ? (
+        <SimpleModal item={item}>
+          <SingleProductComponent product={item} />
+        </SimpleModal>
+      ) : (
+        <h5> {item.name} </h5>
+      )}
       <div className="checkout-item-details">
         <div style={{ width: "35%", textAlign: "left", marginLeft: "2%" }}>
-          {checkoutState == "shoppingbag" ? (
+          {/* {checkoutState === "shoppingbag" ? (
             <SimpleModal item={item}>
               <SingleProductComponent product={item} />
             </SimpleModal>
           ) : (
-            item.name
-          )}
-          {isOrdersPage == "shoppingbag" ||
-            (orderOverview == "shoppingbag" && (
+            <h5> {item.name} </h5>
+          )} */}
+          {/* {isOrdersPage === "shoppingbag" ||
+            (orderOverview === "shoppingbag" && (
               <Dropdown
                 fluid
                 className="checkout-item-size-select"
@@ -40,9 +50,10 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
                 search
                 selection
               />
-            ))}
-          {isOrdersPage == "shoppingbag" ||
-            (orderOverview == "shoppingbag" && (
+            ))} */}
+          <br />
+          {isOrdersPage === "shoppingbag" ||
+            (orderOverview === "shoppingbag" && (
               <div className="del-add-btns">
                 <span
                   className="remove-from-checkout"
@@ -56,8 +67,8 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
         </div>
         <span style={{ marginRight: "8%" }}>${item.current_price}</span>
         <span className="item-quantity">
-          {isOrdersPage == "shoppingbag" ||
-            (orderOverview == "shoppingbag" && (
+          {isOrdersPage === "shoppingbag" ||
+            (orderOverview === "shoppingbag" && (
               <button
                 className="quantity-arrow"
                 disabled={item.quantity <= 1}
@@ -67,8 +78,8 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
               </button>
             ))}
           <span className="quantity-value">{item.quantity}</span>
-          {isOrdersPage == "shoppingbag" ||
-            (orderOverview == "shoppingbag" && (
+          {isOrdersPage === "shoppingbag" ||
+            (orderOverview === "shoppingbag" && (
               <button
                 className="quantity-arrow"
                 onClick={() => add(addItem(item))}

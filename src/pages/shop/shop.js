@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import SearchSlider from "../../components/search-slider/search-slider";
 import { Input, Select, Pagination } from "antd";
 import "antd/dist/antd.css";

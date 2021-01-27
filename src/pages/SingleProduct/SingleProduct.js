@@ -4,7 +4,7 @@ import Page from "../../components/Page/Page";
 import Header from "../../components/Header/Header";
 import SingleProductComponent from "../../components/SingleProductComponent/SingleProductComponent";
 import Reviews from "../../components/Reviews/Reviews";
-import Pagination from "../../components/Pagination/Pagination";
+// import Pagination from "../../components/Pagination/Pagination";
 import ProductsCardList from "../../components/ProductsCardList";
 import MainButton from "../../components/MainButton/MainButton";
 import ArrowDropDownOutlinedIcon from "@material-ui/icons/ArrowDropDownOutlined";
@@ -25,7 +25,7 @@ const SingleProduct = () => {
   const product = products.find((product) => product.id === productId);
   console.log({ productId });
   console.log({ product });
-  const width = window.innerWidth;
+  // const width = window.innerWidth;
 
   return (
     <Page>

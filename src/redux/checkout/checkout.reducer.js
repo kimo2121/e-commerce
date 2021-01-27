@@ -2,7 +2,7 @@ import CheckoutActionTypes from "./checkout.types";
 const layout = ["shoppingbag", "placeorder", "pay", "ordercomplete"];
 
 const INITIAL_STATE = {
-  checkout: layout[0],
+  checkout: ["shoppingbag"],
   index: 1,
 };
 

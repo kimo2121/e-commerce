@@ -3,9 +3,9 @@ import { Form, Label } from "semantic-ui-react";
 import "./address-form.scss";
 import { CountryOptions } from "./CountryData";
 import { useForm } from "../../util/hooks";
-import { useMutation, gql, useQuery } from "@apollo/react-hooks";
+import { useMutation, useQuery } from "@apollo/react-hooks";
 import { GET_USER_QUERY, UPDATE_USER } from "../../util/graphql";
-import MesageSemanticUI from "../MesageSemanticUI";
+// import MesageSemanticUI from "../MesageSemanticUI";
 import { useSelector } from "react-redux";
 
 const NameData = [
@@ -45,10 +45,11 @@ const AddressForm = ({ isCheckoutComponent }) => {
     updateUser,
     //  { loading }
   ] = useMutation(UPDATE_USER, {
-    update(_, { data: { updateUser: userData } }) {
-      console.log({ userData });
+    update(_, { data }) {
+      console.log({ data });
     },
     onError(err) {
+      console.log(err);
       setErrors(err.graphQLErrors[0].extensions.exception.errors);
     },
     variables: { address: values },
@@ -66,9 +67,13 @@ const AddressForm = ({ isCheckoutComponent }) => {
     setValues({ ...values, Country: value });
   };
 
-  const { loading, data } = useQuery(GET_USER_QUERY, {
+  const {
+    // loading
+    data,
+  } = useQuery(GET_USER_QUERY, {
     variables: { userId: user?.id },
   });
+  console.log({ data });
   return (
     <div
       className={
@@ -99,7 +104,7 @@ const AddressForm = ({ isCheckoutComponent }) => {
                   name={item.name}
                   value={values && values[item.name]}
                 />
-                {errors[item.name] && (
+                {errors?.length && errors[item.name] && (
                   <Label basic color="red" pointing>
                     {errors[item.name]}
                   </Label>
@@ -125,7 +130,7 @@ const AddressForm = ({ isCheckoutComponent }) => {
               name="Country"
               // value={CountryOptions.text}
             />
-            {errors.Country && (
+            {errors?.length && errors.Country && (
               <Label basic color="red" pointing>
                 {errors["Country"]}
               </Label>
@@ -148,7 +153,7 @@ const AddressForm = ({ isCheckoutComponent }) => {
                   name={item.name}
                   value={values && values[item.name]}
                 />
-                {errors[item.name] && (
+                {errors?.length && errors[item.name] && (
                   <Label basic color="red" pointing>
                     {errors[item.name]}
                   </Label>

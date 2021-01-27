@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./megamenu.css";
 import NavLink from "../../components/NavLink";
 
@@ -11,9 +10,7 @@ const WomenMenu = ({ all_products, getSubcategories }) => {
         <button className="dropbtn">Women</button>
         <div className="dropdown-content">
           <div className="row-1">
-            <div className="row">
               <NavLink subcategories={subcategories} category="Women" />;
-            </div>
             <div className="headerDivider1"></div>
             <div className="header">
               {/* <div style={{ display: "flex" }}>

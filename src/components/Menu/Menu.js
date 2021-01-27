@@ -38,7 +38,7 @@ export default function SimpleMenu({
         ) : (
           <span style={{ marginLeft: "5px" }}>
             {" "}
-            {btnName} {name}
+            {btnName && btnName} {name && name}
           </span>
         )}
       </Button>

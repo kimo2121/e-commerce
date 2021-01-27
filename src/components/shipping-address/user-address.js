@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Icon, Label, Segment } from "semantic-ui-react";
 import "./shipping-address-container.css";
-const UserAddress = () => {
+const UserAddress = ({ user, address }) => {
+  const { Country, City } = address;
   return (
     <div style={{ marginBottom: "3%" }}>
       <Segment className="main-user-ship-seg" padded>
-        <div className="user-ship-info">Username xxx xxx xxx</div>
-        <div className="user-ship-addd">Address Address Address Address</div>
+        <div className="user-ship-info">{user.username} </div>
+        <div className="user-ship-addd"> {` ${Country} ${City}  `} </div>
         <div
           className="user-ship-detail-btns"
           style={{
@@ -17,7 +19,9 @@ const UserAddress = () => {
         >
           <span>Default</span>
           <span className="user-sh-det-btns">Delete</span>
+          <Link to="/account/addressbook" >
           <span className="user-sh-det-btns">Edit</span>
+          </Link>
         </div>
         <Label
           style={{ backgroundColor: "rgb(255, 87, 87)" }}

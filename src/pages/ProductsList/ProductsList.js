@@ -6,7 +6,7 @@ import Grid from "@material-ui/core/Grid";
 import Header from "../../components/Header/Header";
 import Filter from "../../components/Filter/Filter";
 import PopoverMUI from "../../components/PopoverMUI";
-import ProductsListHeader from "../../components/ProductsListHeader/ProductsListHeader";
+// import ProductsListHeader from "../../components/ProductsListHeader/ProductsListHeader";
 import Menu from "../../components/Menu/Menu";
 import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
@@ -33,7 +33,7 @@ export default function ProductsList() {
   const [open, setOpen] = useState(false);
   const [term, setTerm] = useState("");
   const [productsToShow, setproductsToShow] = useState([]);
-  const [priceFilterdData, setPriceFilterdData] = useState([]);
+  // const [priceFilterdData, setPriceFilterdData] = useState([]);
 
   const handleOpen = () => {
     setOpen(true);
@@ -47,7 +47,7 @@ export default function ProductsList() {
         item.subcategory.toUpperCase().includes(subcategory.toUpperCase())
     );
     setproductsToShow(filteredData);
-  }, [category, subcategory]);
+  }, [category, subcategory, products]);
   console.log({ products });
 
   //getSubcategories
@@ -65,7 +65,7 @@ export default function ProductsList() {
     let sortedList = sortList(term, filteredData);
     setproductsToShow(sortedList);
     console.log({ sortedList });
-  }, [term]);
+  }, [term, products, category, subcategory]);
 
   // sort by current_price
   useEffect(() => {
@@ -74,7 +74,7 @@ export default function ProductsList() {
     });
     console.log({ priceFilter });
     dispatch(addFilterPrice(priceFilter));
-  }, [productsToShow]);
+  }, [productsToShow, dispatch]);
 
   // price filter
   useEffect(() => {
@@ -88,7 +88,7 @@ export default function ProductsList() {
     console.log({ productsToShow });
     console.log({ priceFilterArray });
     console.log({ priceFilter2 });
-  }, [priceFilterArray]);
+  }, [priceFilterArray, productsToShow]);
 
   // sort by colorsFilter
   useEffect(() => {
@@ -101,7 +101,7 @@ export default function ProductsList() {
     colorsFilter.length > 0 && setproductsToShow(colorsFilterArray);
 
     console.log({ colorsFilterArray });
-  }, [colorsFilter]);
+  }, [colorsFilter, productsToShow]);
 
   let width = window.innerWidth;
   return (

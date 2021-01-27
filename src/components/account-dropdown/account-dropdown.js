@@ -5,6 +5,10 @@ import * as HiIcons from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const AccountDropdown = () => {
+  const logout = () => {
+    localStorage.removeItem("jwtToken");
+    window.location.replace("https://ecommerce-merng.netlify.app/");
+  };
   return (
     <Popup
       style={{
@@ -37,9 +41,9 @@ const AccountDropdown = () => {
           <Link to="/account/orders">Orders</Link>
         </div>
       </div>
-      <div className="signout-drop-span">
+      <div className="account-dropdown" style={{ marginLeft: "1.2rem" }}>
         <HiIcons.HiOutlineLogout size={20} className="icons" />
-        <span>Sign Out</span>
+        <Link onClick={() => logout()}>Sign Out</Link>
       </div>
     </Popup>
   );
