@@ -40,17 +40,11 @@ const SearchComponent = ({ isWebView }) => {
         }
       >
         {all_products
-          .filter((value) => {
-            if (search === "") {
-              return value?.name;
-            } else if (
-              value?.name.toLowerCase().includes(search.toLowerCase())
-              // value.subcategory.toLowerCase().includes(search.toLowerCase())
-            ) {
-              return value?.name;
-            }
-            return value?.name;
-          })
+          .filter((value) =>
+            search === ""
+              ? value.name
+              : value?.name.toLowerCase().includes(search.toLowerCase())
+          )
           .slice(0, 9)
           .map(
             (value, index) =>
