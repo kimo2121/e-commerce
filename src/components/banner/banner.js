@@ -43,8 +43,8 @@ const Banner = () => {
   return (
     <div className="banner-component" style={width < 900 && { height: "auto" }}>
       <Slider {...settings}>
-        {bannerData.map((item) => (
-          <div className="each-slide-in-banner">
+        {bannerData.map((item, indx) => (
+          <div className="each-slide-in-banner" key={indx}>
             <img src={item} alt="" />
           </div>
         ))}

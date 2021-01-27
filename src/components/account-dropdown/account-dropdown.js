@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const AccountDropdown = () => {
   const logout = () => {
     localStorage.removeItem("jwtToken");
-    window.location.replace("http://localhost:3000/");
+    window.location.replace("https://ecommerce-merng.netlify.app/");
   };
   return (
     <Popup

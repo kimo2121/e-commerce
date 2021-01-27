@@ -42,32 +42,32 @@ const SearchComponent = ({ isWebView }) => {
         {all_products
           .filter((value) => {
             if (search === "") {
-              return value.name;
+              return value?.name;
             } else if (
-              value.name.toLowerCase().includes(search.toLowerCase())
+              value?.name.toLowerCase().includes(search.toLowerCase())
               // value.subcategory.toLowerCase().includes(search.toLowerCase())
             ) {
-              return value.name;
+              return value?.name;
             }
-            return value.name;
+            return value?.name;
           })
           .slice(0, 9)
-          .map((value, index) => {
-            if (search !== "") {
-              return (
+          .map(
+            (value, index) =>
+              search !== "" && (
                 <MainLink
-                  pathname={`/${value.category}/${value.subcategory}`}
+                  pathname={`/${value?.category}/${value?.subcategory}`}
                   onClick={onSearchClick}
+                  key={index}
                 >
                   <div
                     className={
                       isWebView ? "search_results_web" : "search_results"
                     }
-                    key={index}
                     style={{ display: "flex", margin: "5px 0" }}
                   >
                     <img
-                      src={value.variation_0_thumbnail}
+                      src={value?.variation_0_thumbnail}
                       alt="product"
                       style={{
                         width: "50px",
@@ -75,13 +75,11 @@ const SearchComponent = ({ isWebView }) => {
                         marginRight: "4px",
                       }}
                     />
-                    <h5>{value.name}</h5>
+                    <h5>{value?.name}</h5>
                   </div>
                 </MainLink>
-              );
-            }
-            return value;
-          })}
+              )
+          )}
       </div>
     </div>
   );

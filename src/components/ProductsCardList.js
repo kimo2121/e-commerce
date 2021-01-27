@@ -15,8 +15,8 @@ export default function ProductsCardList({
     <Grid container spacing={3}>
       {data &&
         data.length > 0 &&
-        data.map((item) => (
-          <Grid item xs={12} sm={row}>
+        data.map((item, indx) => (
+          <Grid item xs={12} sm={row} key={indx}>
             {window.innerWidth < 900 ? (
               <ResProductCard onClick={onClick} product={item} />
             ) : isSingleProductPage || isHome ? (

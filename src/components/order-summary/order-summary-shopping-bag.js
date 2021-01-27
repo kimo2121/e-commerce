@@ -15,8 +15,8 @@ const OrderSummaryShoppingBag = ({ total }) => {
   const onCheckout = () => {
     localStorage.getItem("jwtToken")
       ? handleCheckout(proceedToCheckout())
-      : // : history.push("/sign-in-up");
-        window.location.replace("http://localhost:3000/sign-in-up");
+      : history.push("/sign-in-up");
+    // window.location.replace("https://ecommerce-merng.netlify.app/sign-in-up");
   };
   return (
     <div className="order-summary-component">
@@ -27,13 +27,7 @@ const OrderSummaryShoppingBag = ({ total }) => {
           <br />
           <Radio label="Coupon discount" />
           <br />
-          {/* <Dropdown
-            style={{ width: "70%" }}
-            fluid
-            placeholder=""
-            search
-            selection
-          /> */}
+
           <Radio label="Do not use any discount" />
         </div>
         <div className="to-sup-summary sho-ba">
