@@ -54,13 +54,8 @@ const Footer = () => {
       <div className="divider-footer"></div>
       <div className="icon-footer-container">
         <span>We Accept : </span>
-<<<<<<< HEAD
-        {iconForFooter.map((icon, indx) => (
-          <div className="footer-icons" key={indx}>
-=======
         {iconForFooter.map((icon) => (
           <div className="footer-icons">
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
             <img src={icon} alt="" />
           </div>
         ))}

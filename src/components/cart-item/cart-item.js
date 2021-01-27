@@ -3,15 +3,7 @@ import "./cart-item.scss";
 import * as HiIcons from "react-icons/hi";
 import { connect } from "react-redux";
 import { clearItemFromCart } from "../../redux/cart/cart.actions";
-<<<<<<< HEAD
-import { useHistory } from "react-router-dom";
-
 const CartItem = ({ item, clearItemFromCart }) => {
-  const history = useHistory();
-  console.log({ history });
-=======
-const CartItem = ({ item, clearItemFromCart }) => {
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
   return (
     <div className="cart-item">
       <img src={item.image_url} alt="" />
@@ -19,12 +11,7 @@ const CartItem = ({ item, clearItemFromCart }) => {
         <div
           className="item-cart-name"
           onClick={() => {
-<<<<<<< HEAD
-            // window.location.replace(`/product/${item.id}`);
-            history.push(`/product/${item.id}`);
-=======
             window.location.replace(`/product/${item.id}`);
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
           }}
         >
           <span> {`${item.name.slice(0, 20)}...`}</span>

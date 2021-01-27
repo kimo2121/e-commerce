@@ -11,13 +11,8 @@ import OrderSummaryPlaceOrder from "../order-summary/order-summary-place-order";
 import StripeCheckoutButton from "../stripe-button/stripe-button";
 
 const CheckoutComponent = ({ cartItems }) => {
-<<<<<<< HEAD
-  let [checkoutState] = useSelector((state) => state.checkout.checkout);
-  console.log({ checkoutState });
-=======
   const checkoutState = useSelector((state) => state.checkout.checkout);
 
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
   return (
     <div className="checkout-component">
       <div style={{ display: "flex", justifyContent: "center" }}>

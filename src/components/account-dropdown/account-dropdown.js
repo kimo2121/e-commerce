@@ -5,13 +5,6 @@ import * as HiIcons from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const AccountDropdown = () => {
-<<<<<<< HEAD
-  const logout = () => {
-    localStorage.removeItem("jwtToken");
-    window.location.replace("https://ecommerce-merng.netlify.app/");
-  };
-=======
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
   return (
     <Popup
       style={{

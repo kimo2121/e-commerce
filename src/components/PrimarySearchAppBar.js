@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React, { useState } from "react";
-=======
 import React from "react";
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
@@ -66,24 +62,6 @@ export default function ButtonAppBar() {
       itemsCount: selectCartItemsCount,
     })
   );
-<<<<<<< HEAD
-  const [showSearch, setShowSearch] = useState(false);
-  console.log({ showSearch });
-  const classes = useStyles();
-
-  const logout = () => {
-    localStorage.removeItem("jwtToken");
-    window.location.replace("https://ecommerce-merng.netlify.app/");
-  };
-
-  const icons = [
-    {
-      icon: (
-        <Link
-          to="/"
-          onClick={() => setShowSearch(!showSearch)}
-          style={{ color: "white" }}
-=======
 
   const classes = useStyles();
 
@@ -98,7 +76,6 @@ export default function ButtonAppBar() {
             top: "-.5rem",
           }}
           className="new-navbar-search"
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
         >
           <SearchComponent />
         </div>

@@ -9,16 +9,6 @@ import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 import "./order-summary.scss";
 const OrderSummaryShoppingBag = ({ total }) => {
   const handleCheckout = useDispatch();
-<<<<<<< HEAD
-  const onCheckout = () => {
-    localStorage.getItem("jwtToken")
-      ? handleCheckout(proceedToCheckout())
-      : history.push("/sign-in-up");
-    // window.location.replace("https://ecommerce-merng.netlify.app/sign-in-up");
-  };
-=======
-
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
   return (
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
@@ -28,8 +18,6 @@ const OrderSummaryShoppingBag = ({ total }) => {
           <br />
           <Radio label="Coupon discount" />
           <br />
-<<<<<<< HEAD
-=======
           <Dropdown
             style={{ width: "70%" }}
             fluid
@@ -37,7 +25,6 @@ const OrderSummaryShoppingBag = ({ total }) => {
             search
             selection
           />
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
           <Radio label="Do not use any discount" />
         </div>
         <div className="to-sup-summary sho-ba">

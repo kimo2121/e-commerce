@@ -31,12 +31,7 @@ const SignUp = () => {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-<<<<<<< HEAD
-      // history.push("/");
-      window.location.replace("https://ecommerce-merng.netlify.app/");
-=======
       history.push("/");
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);

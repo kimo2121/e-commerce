@@ -62,20 +62,11 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
       <Slider className="slider-banner" {...settings}>
         {subcategoryBanner
           ? SliderData.map((item, index) => (
-<<<<<<< HEAD
-              <MainLink
-                pathname={`/${item.category}/${item.subcategory}`}
-                key={index}
-              >
-                <SubcategorySliderCard subcategoryBanner item={item} />
-              </MainLink>
-=======
               <SubcategorySliderCard
                 subcategoryBanner
                 item={item}
                 key={index}
               />
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
             ))
           : isWhatsHot
           ? sliderProducts

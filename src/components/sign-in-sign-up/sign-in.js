@@ -30,12 +30,7 @@ const SignIn = () => {
       console.log({ userData });
       localStorage.setItem("jwtToken", userData.token);
       dispatch(login(userData));
-<<<<<<< HEAD
-      // history.push("/");
-      window.location.replace("http://localhost:3000/");
-=======
       history.push("/");
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
     },
     onError(err) {
       setErrors(err.graphQLErrors[0].extensions.exception.errors);

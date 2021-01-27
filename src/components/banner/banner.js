@@ -39,13 +39,8 @@ const Banner = () => {
   return (
     <div className="banner-component">
       <Slider {...settings}>
-<<<<<<< HEAD
-        {bannerData.map((item, indx) => (
-          <div className="each-slide-in-banner" key={indx}>
-=======
         {bannerData.map((item) => (
           <div className="each-slide-in-banner">
->>>>>>> ae8fa3b05d3dfa8fc54973f9cd6bd1ccb0d6e29d
             <img src={item} alt="" />
           </div>
         ))}
