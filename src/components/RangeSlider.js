@@ -1,15 +1,15 @@
 import React, { useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-// import Typography from "@material-ui/core/Typography";
+import Typography from "@material-ui/core/Typography";
 import Slider from "@material-ui/core/Slider";
-// import { TextField } from "@material-ui/core";
+import { TextField } from "@material-ui/core";
 import { useDispatch, useSelector } from "react-redux";
 import { getPriceFilterArray } from "../redux/products/product.action";
 
-// const priceSlider = [
-//   { label: "Min", id: 1, type: "number" },
-//   { label: "Max", id: 2, type: "number" },
-// ];
+const priceSlider = [
+  { label: "Min", id: 1, type: "number" },
+  { label: "Max", id: 2, type: "number" },
+];
 
 const useStyles = makeStyles({
   root: {
@@ -39,7 +39,7 @@ const RangeSlider = () => {
 
   useEffect(() => {
     dispatch(getPriceFilterArray(value));
-  }, [value,dispatch]);
+  }, [value]);
 
   //   console.log({ min });
   //   console.log({ max });
@@ -49,11 +49,11 @@ const RangeSlider = () => {
   //   const onChange = (event) => {
   //     setValue({ ...value, });
   //   };
-  // const onChange = (event, newValue) => {
-  //   // console.log(newValue);
-  //   // setValues({ ...values, [event.target.name]: event.target.value });
-  //   // value && setValue(newValue);
-  // };
+  const onChange = (event, newValue) => {
+    // console.log(newValue);
+    // setValues({ ...values, [event.target.name]: event.target.value });
+    // value && setValue(newValue);
+  };
   const handleChange = (event, newValue) => {
     setValue(newValue);
     setValues({ ...values, [event.target.name]: event.target.value });

@@ -1,6 +1,6 @@
 import React from "react";
-// import { Link } from "react-router-dom";
-import { AccountInfo, MyOrders, ProgramCenter } from "./panel-data";
+import { Link } from "react-router-dom";
+import { AccountInfo, Assets, MyOrders, ProgramCenter } from "./panel-data";
 import PanelLinks from "./panel-links";
 function AccountPanel() {
   return (

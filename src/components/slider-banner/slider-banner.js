@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import SliderData from "../slider-3d/slider-data";
 import "./slider-banner.scss";
@@ -6,10 +6,10 @@ import SliderBannerCard from "./slider-banner-card";
 import SubcategorySliderCard from "./subcategory-slider-card";
 import { useSelector } from "react-redux";
 import { NextArrow, PrevArrow } from "../../util/util_functions";
-import MainLink from "../MainLink/MainLink";
 
 const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
   const sliderProducts = useSelector((state) => state.products.sliderProducts);
+  
 
   const settings = {
     dots: true,
@@ -62,17 +62,16 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
       <Slider className="slider-banner" {...settings}>
         {subcategoryBanner
           ? SliderData.map((item, index) => (
-              <MainLink
-                pathname={`/${item.category}/${item.subcategory}`}
+              <SubcategorySliderCard
+                subcategoryBanner
+                item={item}
                 key={index}
-              >
-                <SubcategorySliderCard subcategoryBanner item={item} />
-              </MainLink>
+              />
             ))
           : isWhatsHot
           ? sliderProducts
-              .slice(120, 140)
-              // .filter((item) => item.likes_count > 500)
+              .slice(0, 120)
+              .filter((item) => item.likes_count > 500)
               .map((item, index) => (
                 <SliderBannerCard isWhatsHot item={item} key={index} />
               ))

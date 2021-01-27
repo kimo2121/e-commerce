@@ -16,7 +16,7 @@ function getModalStyle() {
   };
 }
 
-// const styles = { color: "white", background: "black" };
+const styles = { color: "white", background: "black" };
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: "absolute",

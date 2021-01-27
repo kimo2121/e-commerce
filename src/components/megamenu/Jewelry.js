@@ -1,15 +1,19 @@
 import React from "react";
-import NavLink from "../NavLink";
+import { Link } from "react-router-dom";
 import "./megamenu.css";
-const SaleMenu = ({ all_products, getSubcategories }) => {
+import NavLink from "../NavLink";
+
+const NewInMenu = ({ all_products, getSubcategories }) => {
   const subcategories = getSubcategories(all_products, "jewelry");
   return (
-    <div className="navbar">
+    <div className="navbar" style={{ marginLeft: "-37%" }}>
       <div className="dropdown0">
-        <button className="dropbtn">jewelry</button>
+        <button className="dropbtn">Jewelry</button>
         <div className="dropdown-content">
           <div className="row-1">
-            <NavLink subcategories={subcategories} category="jewelry" />;
+            <div className="row">
+              <NavLink subcategories={subcategories} category="jewelry" />;
+            </div>
             <div className="headerDivider1"></div>
             <div className="header">
               {/* <div style={{ display: "flex" }}>
@@ -28,4 +32,4 @@ const SaleMenu = ({ all_products, getSubcategories }) => {
   );
 };
 
-export default SaleMenu;
+export default NewInMenu;

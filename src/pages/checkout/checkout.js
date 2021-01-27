@@ -4,7 +4,7 @@ import "./checkout.css";
 
 const Checkout = () => {
   return (
-    <div style={{ marginTop: "15vh" }}>
+    <div className="checkout-page">
       <CheckoutComponent />
     </div>
   );

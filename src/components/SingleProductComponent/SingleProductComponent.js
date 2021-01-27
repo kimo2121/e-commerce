@@ -2,19 +2,19 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Rating from "@material-ui/lab/Rating";
 import Menu from "../../components/Menu/Menu";
-import { menuData } from "./data";
+import { menuData, headerItemData } from "./data";
 import ProductImgList from "../../components/ProductImgList/ProductImgList";
 import { RiHeart2Line } from "react-icons/ri";
-// import HeaderItem from "../../components/HeaderItem/HeaderItem";
-// import List from "../../components/List/List";
-// import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
+import HeaderItem from "../../components/HeaderItem/HeaderItem";
+import List from "../../components/List/List";
+import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
 import LocalMallIcon from "@material-ui/icons/LocalMall";
 import MainButton from "../../components/MainButton/MainButton";
 // import MainLink from "../../components/MainLink";
 import { connect } from "react-redux";
 import { addItem } from "../../redux/cart/cart.actions";
-// const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
+const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
 const SingleProductComponent = ({ addItem, product }) => {
   const [image, setImage] = React.useState("");
@@ -22,10 +22,8 @@ const SingleProductComponent = ({ addItem, product }) => {
   const [sizeState, setSizeState] = React.useState("");
   console.log({ image });
   console.log({ product });
-  console.log({ colorState });
-  console.log({ sizeState });
   const colors = [product?.variation_0_color, product?.variation_1_color];
-  const width = window.innherWidth;
+const width = window.innherWidth;
   return (
     <Grid container>
       <Grid item sm={5} xs={12}>
@@ -36,24 +34,26 @@ const SingleProductComponent = ({ addItem, product }) => {
             justifyContent: "space-between",
           }}
         >
-          {width > 900 && (
-            <div style={{ width: "12%", height: "100%" }}>
-              <VerticalSlider setImage={setImage} data={product} />
-            </div>
-          )}
-          {/* <MainLink pathname={`/product/${product.id}`} > */}
+          {width > 900 &&
+          <div style={{ width: "12%", height: "100%" }}>
+            <VerticalSlider setImage={setImage} data={product} />
+          </div>
+          }
+           {/* <MainLink pathname={`/product/${product.id}`} > */}
 
           <img
             src={image !== "" ? image : product?.image_url}
             // src={img}
             alt="product"
             style={{ width: "90%", height: "100%" }}
-          />
-          {/* </MainLink> */}
+            />
+            {/* </MainLink> */}
         </div>
       </Grid>
       <Grid item sm={7} xs={12}>
-        <h5>{product?.name}</h5>
+        
+
+      <h5>{product?.name}</h5>
 
         <div style={{ display: "flex" }}>
           <p>{product?.model}</p>
@@ -92,12 +92,8 @@ const SingleProductComponent = ({ addItem, product }) => {
         </div>
         {/* <HeaderItem data={headerItemData} /> */}
         <div style={{ display: "flex", margin: "1rem auto" }}>
-          <MainButton
-            onClick={() => addItem(product)}
-            title="ADD TO BAG"
-            style={{ width: "200px" }}
-          >
-            <LocalMallIcon style={{ marginLeft: "5px" }} />
+          <MainButton onClick={() => addItem(product)} title="ADD TO BAG" style={{width:"200px"}}>
+            <LocalMallIcon style={{ marginRight: "5px" }} />
           </MainButton>
 
           <div
@@ -105,7 +101,6 @@ const SingleProductComponent = ({ addItem, product }) => {
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
-              marginLeft: "1rem",
             }}
           >
             <RiHeart2Line style={{ fontSize: "2rem" }} />

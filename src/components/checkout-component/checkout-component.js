@@ -11,8 +11,8 @@ import OrderSummaryPlaceOrder from "../order-summary/order-summary-place-order";
 import StripeCheckoutButton from "../stripe-button/stripe-button";
 
 const CheckoutComponent = ({ cartItems }) => {
-  let [checkoutState] = useSelector((state) => state.checkout.checkout);
-  console.log({ checkoutState });
+  const checkoutState = useSelector((state) => state.checkout.checkout);
+
   return (
     <div className="checkout-component">
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -20,11 +20,11 @@ const CheckoutComponent = ({ cartItems }) => {
       </div>
       <div className="checkout-down-layout">
         <div className="checkout-inner-layout">
-          {(checkoutState === "placeorder" || checkoutState === "pay") && (
+          {(checkoutState == "placeorder" || checkoutState == "pay") && (
             <PlaceOrder />
           )}
           <span className="items-count">
-            {checkoutState === "shoppingbag"
+            {checkoutState == "shoppingbag"
               ? `Shopping Bag(${cartItems.length})`
               : `Order Review
               `}
@@ -45,14 +45,14 @@ const CheckoutComponent = ({ cartItems }) => {
             ))}
           </div>
         </div>
-        {checkoutState === "shoppingbag" ? (
+        {checkoutState == "shoppingbag" ? (
           <OrderSummaryShoppingBag />
         ) : (
-          (checkoutState === "placeorder" || checkoutState === "pay") && (
+          (checkoutState == "placeorder" || checkoutState == "pay") && (
             <OrderSummaryPlaceOrder />
           )
         )}
-        {checkoutState === "ordercomplete" && <StripeCheckoutButton />}
+        {checkoutState == "ordercomplete" && <StripeCheckoutButton />}
       </div>
     </div>
   );

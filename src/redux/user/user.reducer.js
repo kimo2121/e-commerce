@@ -5,6 +5,7 @@ const initialState = {
 };
 
 if (localStorage.getItem("jwtToken")) {
+  
   const decodedToken = jwtDecode(localStorage.getItem("jwtToken"));
 
   if (decodedToken.exp * 1000 < Date.now()) {
@@ -14,8 +15,8 @@ if (localStorage.getItem("jwtToken")) {
   }
 }
 
-const userReducer = (state = initialState, action) => {
-  // const { type, payload } = action;
+export default function (state = initialState, action) {
+  const { type, payload } = action;
 
   switch (action.type) {
     case "LOGIN":
@@ -31,5 +32,4 @@ const userReducer = (state = initialState, action) => {
     default:
       return state;
   }
-};
-export default userReducer;
+}
