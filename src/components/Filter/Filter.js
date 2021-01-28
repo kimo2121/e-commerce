@@ -31,6 +31,7 @@ export default function Filter({ category, subcategoryList }) {
         {subcategoryList.length > 0 &&
           subcategoryList.map((link, index) => (
             <Link
+            key={index}
               to={`/${category}/${link}`}
               className={`${
                 activeLink.index === index ? "active_link" : ""

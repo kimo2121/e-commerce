@@ -23,7 +23,7 @@ export default function FilterItem() {
   }, [filter]);
   useEffect(() => {
     dispatch(getColorsFilterArray(values.colors_family));
-  }, [values,dispatch]);
+  }, [values, dispatch]);
 
   // let history = useHistory();
   // // console.log({ history });
@@ -71,7 +71,7 @@ export default function FilterItem() {
   return (
     <div>
       {filterList.map((i, index) => (
-        <div>
+        <div key={index}>
           {/* <hr /> */}
 
           {/* <Link
@@ -79,6 +79,7 @@ export default function FilterItem() {
             onClick={() => setactiveLink({ index, active: !activeLink.active })}
           > */}
           <Link
+            to={window.location.pathname}
             style={{ color: "black" }}
             onClick={() => setactiveLink({ index, active: !activeLink.active })}
           >

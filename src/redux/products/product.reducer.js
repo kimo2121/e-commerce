@@ -22,7 +22,7 @@ const INITIAL_STATE = {
     ...AccessoriesNew,
     ...BagsNew,
     ...BeautyNew,
-    ...HouseNew,
+    ...HouseNew.slice(0, 1000),
     ...JewelryNew,
     ...ShoesNew,
     ...WomenNew,

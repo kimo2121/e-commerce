@@ -20,8 +20,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {width > 900 ? <Navbar /> : <PrimarySearchAppBar />}
-
+        {width > 768 ? <Navbar /> : <PrimarySearchAppBar />}
         <Switch>
           <Route exact path="/" component={MainHome} />
           <Route exact path="/account" component={Account} />

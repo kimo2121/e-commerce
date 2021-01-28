@@ -33,11 +33,9 @@ const client = new ApolloClient({
 export default (
   <ApolloProvider client={client}>
     <Provider store={store}>
-      <React.StrictMode>
-        <PersistGate persistor={persistor}>
-          <App />
-        </PersistGate>
-      </React.StrictMode>
+      <PersistGate persistor={persistor}>
+        <App />
+      </PersistGate>
     </Provider>
   </ApolloProvider>
 );

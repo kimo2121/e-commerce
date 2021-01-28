@@ -39,9 +39,8 @@ const Banner = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-  const width = window.innerWidth;
   return (
-    <div className="banner-component" style={width < 900 && { height: "auto" }}>
+    <div className="banner-component">
       <Slider {...settings}>
         {bannerData.map((item, indx) => (
           <div className="each-slide-in-banner" key={indx}>

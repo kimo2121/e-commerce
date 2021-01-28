@@ -1,12 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
-import SliderData from "../slider-3d/slider-data";
 import "./slider-banner.scss";
 import SliderBannerCard from "./slider-banner-card";
 import SubcategorySliderCard from "./subcategory-slider-card";
 import { useSelector } from "react-redux";
 import { NextArrow, PrevArrow } from "../../util/util_functions";
 import MainLink from "../MainLink/MainLink";
+import SliderData from "./slider-data";
 
 const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
   const sliderProducts = useSelector((state) => state.products.sliderProducts);
@@ -47,7 +47,6 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
       },
     ],
   };
-  console.log(SliderData);
   return (
     <div className="slider-banner-component">
       <h2 style={{ fontWeight: "bold" }}>{`${
