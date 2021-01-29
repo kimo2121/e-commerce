@@ -98,7 +98,7 @@ export default function ButtonAppBar(props) {
 
   const logout = () => {
     localStorage.removeItem("jwtToken");
-    window.location.replace("https://ecommerce-merng.netlify.app/");
+    window.location.replace("https://e-shopping-time.netlify.app/");
   };
 
   const icons = [
