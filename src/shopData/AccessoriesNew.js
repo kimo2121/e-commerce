@@ -1,9 +1,9 @@
 export const AccessoriesNew = [
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Masques d'isolation de protection du visage Masques anti-bu�e anti-�claboussures",
+      "Face Protection Isolation Masks Anti-Fog Splash Masks",
     current_price: "9.99",
     raw_price: "16.99",
     currency: "USD",
@@ -31,9 +31,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Chapeau de parasol de casquette de baseball en denim lav� � bordure personnalis�e en plein air",
+      "Outdoor Custom Border Washed Denim Baseball Cap Parasol Hat",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -61,8 +61,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette Gavroche Cabbie Lvy Flat Hat Vintage Painter Beret Hats",
+    subcategory: "Other",
+    name: "Cabbie Lvy Flat Hat Vintage Painter Beret Hats Newsboy Cap",
     current_price: "17.49",
     raw_price: "37.34",
     currency: "USD",
@@ -90,8 +90,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque � fleurs en coton multicolore Masque vintage",
+    subcategory: "Other",
+    name: "Multicolored cotton flower mask Vintage mask",
     current_price: "5.99",
     raw_price: "16.01",
     currency: "USD",
@@ -120,8 +120,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau de p�che en plein air pour hommes",
+    subcategory: "Other",
+    name: "Mens Outdoor Fishing Hat",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -149,9 +149,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Femmes Imprimer Campagne Floral Twist Beanie Cap Turban Cap de chimioth�rapie",
+      "womenPrintCampaignFloralTwistBeanieCapTurbanChemotherapyCaperapy Cap",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -179,8 +179,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Visage floral Masque Sheild Masque en coton vintage",
+    subcategory: "Other",
+    name: "Floral Face Sheild Mask Vintage Cotton Mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -205,9 +205,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Bonnet en coton brod� pour homme Chapeau avant Chapeau de soleil r�tro britannique B�ret litt�raire",
+      "Mens Embroidered Cotton Beanie Front Hat British Retro Sun Hat Literary Beret",
     current_price: "12.99",
     raw_price: "23.99",
     currency: "USD",
@@ -235,8 +235,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette gavroche octogonale d'�t� Cabbie Lvy Flat Hat",
+    subcategory: "Other",
+    name: "Cabbie Lvy Flat Hat Octagonal Summer Newsboy Cap",
     current_price: "20.49",
     raw_price: "42.47",
     currency: "USD",
@@ -264,8 +264,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquettes de cr�ne pour hommes � carreaux sans bord assortis",
+    subcategory: "Other",
+    name: "Matching Brimless Plaid Mens Skull Caps",
     current_price: "12.99",
     raw_price: "25.99",
     currency: "USD",
@@ -291,9 +291,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Ceinture en cuir v�ritable pour hommes Ceinture d�contract�e Sangle de taille Broche lisse Ceinture r�tro",
+      "Men's Genuine Leather Belt Casual Belt Waist Strap Smooth Pin Retro Belt",
     current_price: "32.99",
     raw_price: "64.99",
     currency: "USD",
@@ -321,8 +321,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque facial en mousseline respirant r�glable",
+    subcategory: "Other",
+    name: "Adjustable breathable muslin face mask",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -347,8 +347,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque facial unisexe respirant de couleur unie",
+    subcategory: "Other",
+    name: "Solid Color Breathable Unisex Face Mask",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -377,8 +377,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Elephant Retro Beanie Hat Turban Cap de chimioth�rapie",
+    subcategory: "Other",
+    name: "Elephant Retro Beanie Hat Turban Cap de chimiotherapie",
     current_price: "10.99",
     raw_price: "22.99",
     currency: "USD",
@@ -406,8 +406,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque anti-poussi�re Masque floral visage Sheild",
+    subcategory: "Other",
+    name: "Dust mask Floral face shield mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -432,9 +432,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Chapeau �lastique de chapeau de bonnet de chapeau �lastique de couleur unie avec des boutons d'oreille",
+      "Solid Color Plastic Hat Beanie Hat Plastic Hat with Ear Buttons",
     current_price: "6.99",
     raw_price: "13.99",
     currency: "USD",
@@ -462,8 +462,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Bonnet Fleurs Bonnets D�coup�s En Relief",
+    subcategory: "Other",
+    name: "Flowers Beanie Embossed Cut Out Beanies",
     current_price: "10.99",
     raw_price: "22.99",
     currency: "USD",
@@ -491,9 +491,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Chapeau de propri�taire pour homme Collrown Summer Street Trends Melon Cap Denim Chapeaux sans bord",
+      "Collrown Men's Owner's Hat Summer Street Trends Bowler Cap Denim Brimless Hats",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -519,8 +519,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau de p�che en plein air",
+    subcategory: "Other",
+    name: "Outdoor fishing hat",
     current_price: "10.99",
     raw_price: "21.99",
     currency: "USD",
@@ -548,8 +548,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Gants tactiques Handschuhe � �cran tactile complet",
+    subcategory: "Other",
+    name: "Full Touchscreen Handschuhe Tactical Gloves",
     current_price: "25.99",
     raw_price: "49.99",
     currency: "USD",
@@ -577,9 +577,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Chapeau de parasol de casquette de baseball en denim lav� personnalis� pour hommes en plein air",
+      "Mens Outdoor Custom Washed Denim Baseball Cap Parasol Hat",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -607,8 +607,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette Trump 2020 Baseball Cap US Presidential Election",
+    subcategory: "Other",
+    name: "casquetteTrump2020BaseballCapUsPresidentialElection",
     current_price: "14.99",
     raw_price: "28.99",
     currency: "USD",
@@ -632,9 +632,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Ceinture pour hommes en cuir v�ritable ceinture givr�e d�contract�e ceinture sangle broche ceinture r�tro",
+      "Genuine leather men's belt casual give belt belt strap pin retro belt",
     current_price: "49.99",
     raw_price: "99.99",
     currency: "USD",
@@ -662,8 +662,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque en coton imprim� Masque anti-poussi�re",
+    subcategory: "Other",
+    name: "Printed cotton mask� Dust mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -692,8 +692,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque de d�coration de diamant pour femmes Masque Sheild",
+    subcategory: "Other",
+    name: "Diamond Decoration Mask for Women Mask Shield",
     current_price: "6.99",
     raw_price: "0",
     currency: "USD",
@@ -720,8 +720,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau de gommage pour casquettes chirurgicales",
+    subcategory: "Other",
+    name: "Scrub cap for surgical caps",
     current_price: "11.49",
     raw_price: "21.73",
     currency: "USD",
@@ -747,8 +747,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque Sheild visage floral femme",
+    subcategory: "Other",
+    name: "Sheild floral face mask for women",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -773,9 +773,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Masque de d�coration de femmes pour masque de mode de soir�e de danse",
+      "Women decoration mask for dance party fashion mask",
     current_price: "6.99",
     raw_price: "0",
     currency: "USD",
@@ -802,8 +802,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette Gavroche en Laine Cabbie Lvy Flat Hat Beret Hats",
+    subcategory: "Other",
+    name: "Cabbie Lvy Flat Hat Beret Hats Newsboy Cap",
     current_price: "17.49",
     raw_price: "29.26",
     currency: "USD",
@@ -829,8 +829,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Bonnet � rayures multicolore Bonnet �charpe Turban Head Wrap Cap",
+    subcategory: "Other",
+    name: "Multicolored Striped Beanie Turban Head Wrap Cap Scarf",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -854,9 +854,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Casquette de baseball r�tro chapeaux de broderie de chapeau de soleil r�tro",
+      "Retro Baseball Cap Retro Sun Hat Embroidery Hats",
     current_price: "11.99",
     raw_price: "20",
     currency: "USD",
@@ -884,8 +884,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Multifarben Color Block Cotton Blend Femme Foulards & Ch�les",
+    subcategory: "Other",
+    name: "multifarbenColorBlockCottonBlendFemmeFoulards &Ch�les",
     current_price: "28.74",
     raw_price: "71.68",
     currency: "USD",
@@ -911,9 +911,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Masque de bandeau �lastique Bandeau de bouton anti-cuir Bandeau de sport absorbant la sueur",
+      "Elastic headband mask Anti-leather button headband Sweat-absorbent sports headband",
     current_price: "4.99",
     raw_price: "8.99",
     currency: "USD",
@@ -941,8 +941,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Plaque t�lescopique � tirer",
+    subcategory: "Other",
+    name: "Telescopic plate to pull",
     current_price: "11.99",
     raw_price: "23.99",
     currency: "USD",
@@ -970,9 +970,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Casquette de baseball � la mode Chapeau de soleil r�tro Chapeaux de broderie de coton",
+      "Fashionable Baseball Cap Retro Sun Hat Cotton Embroidery Hats",
     current_price: "11.99",
     raw_price: "23.99",
     currency: "USD",
@@ -1000,8 +1000,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque ajustable en mousseline imprim�e",
+    subcategory: "Other",
+    name: "Adjustable printed muslin mask",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -1026,8 +1026,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "COLLROWN Casquettes de b�ret de peintre en coton brod� pour hommes",
+    subcategory: "Other",
+    name: "COLLROWN Men's Embroidered Cotton Painter's Cap",
     current_price: "13.99",
     raw_price: "27.99",
     currency: "USD",
@@ -1038,7 +1038,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/54/FD/c6678e90-0b96-4356-83f1-973c923fdaab.jpg",
     variation_0_image:
@@ -1055,8 +1055,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette de baseball Trump Election 2020 US",
+    subcategory: "Other",
+    name: "casquetteDeBaseballTrumpElection2020Us",
     current_price: "8.99",
     raw_price: "16.99",
     currency: "USD",
@@ -1080,8 +1080,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Bonnet papillon Bonnet de chimioth�rapie Cap Turban",
+    subcategory: "Other",
+    name: "Butterfly cap Chemotherapy cap Cap Turban",
     current_price: "11.99",
     raw_price: "24.99",
     currency: "USD",
@@ -1109,8 +1109,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette Gavroche Coton Cabbie Lvy Flat Hat Vintage Beret",
+    subcategory: "Other",
+    name: "Cabbie Lvy Flat Hat Vintage Beret Cotton Newsboy Cap",
     current_price: "17.49",
     raw_price: "27.68",
     currency: "USD",
@@ -1136,8 +1136,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "B�ret en coton pour hommes",
+    subcategory: "Other",
+    name: "Cotton beret for men",
     current_price: "11.99",
     raw_price: "23.99",
     currency: "USD",
@@ -1165,8 +1165,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau ethnique floral brod� vintage pour femme",
+    subcategory: "Other",
+    name: "Vintage embroidered floral ethnic hat for women",
     current_price: "20.99",
     raw_price: "40.99",
     currency: "USD",
@@ -1192,8 +1192,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Printed Lace Stitching Beanie Scarf Hat Dual-use Turban Cap",
+    subcategory: "Other",
+    name: "printedLaceStitchingBeanieScarfHatDualUseTurbanCap",
     current_price: "11.99",
     raw_price: "23.99",
     currency: "USD",
@@ -1221,9 +1221,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Hommes femmes rue hip hop casquette de baseball dessin anim� avion en plein air ombre casquette de baseball",
+      "Men Women Street Hip Hop Baseball Cap Cartoon Airplane Outdoor Shadow Baseball Cap",
     current_price: "10.99",
     raw_price: "15.99",
     currency: "USD",
@@ -1251,8 +1251,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau de soleil enfant Big-edge Outdoor Anti-UV",
+    subcategory: "Other",
+    name: "Big-edge Outdoor Anti-UV Kids Sun Hat",
     current_price: "14.99",
     raw_price: "29.99",
     currency: "USD",
@@ -1280,8 +1280,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau �lastique vintage en coton ethnique pour femme",
+    subcategory: "Other",
+    name: "Vintage ethnic cotton elastic hat for women",
     current_price: "11.49",
     raw_price: "21.71",
     currency: "USD",
@@ -1309,9 +1309,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "COLLROWN Couverture de protection solaire Face Visor Chapeau de p�che en plein air",
+      "COLLROWN Sun Protection Cover Face Visor Outdoor Fishing Hat",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -1339,8 +1339,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Masque Sheild visage floral vintage",
+    subcategory: "Other",
+    name: "Vintage Floral Sheild Face Mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -1365,8 +1365,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Chapeau mignon de chat de chapeau de mod�le isol� de chat de coton",
+    subcategory: "Other",
+    name: "Cotton Cat Isolated Pattern Cute Cat Hat",
     current_price: "15.25",
     raw_price: "25.99",
     currency: "USD",
@@ -1394,8 +1394,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Sun Umbrella Fishing Umbrella Headband 30CM Plastic Hat",
+    subcategory: "Other",
+    name: "sunUmbrellaFishingUmbrellaHeadband30CmPlasticHat",
     current_price: "14.49",
     raw_price: "29",
     currency: "USD",
@@ -1421,9 +1421,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Dessin anim� chat masque isol� chapeau coton quarantaine seau chapeau",
+      "Cartoon cat mask isolated hat cotton quarantine bucket hat",
     current_price: "13.99",
     raw_price: "25.99",
     currency: "USD",
@@ -1451,9 +1451,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
+    subcategory: "Other",
     name:
-      "Gants tactiques Escalade en plein air Gants antid�rapants r�sistants � l'usure Formation Gants de moto d'�quitation",
+      "Tactical Gloves Outdoor Climbing Wear Resistant Non-slip Gloves Training Motorcycle Riding Gloves",
     current_price: "27.99",
     raw_price: "43.99",
     currency: "USD",
@@ -1481,8 +1481,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Manches brod�es ethniques florales pour femmes",
+    subcategory: "Other",
+    name: "Women's floral ethnic embroidered sleeves",
     current_price: "15.99",
     raw_price: "29.99",
     currency: "USD",
@@ -1510,8 +1510,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Autres",
-    name: "Casquette simple r�tro en coton b�ret lav� pour hommes",
+    subcategory: "Other",
+    name: "Men's washed beret cotton retro single cap",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -1540,7 +1540,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Chapeau de b�ret assorti en coton pour hommes",
+    name: "Men's Matching Cotton Beret Hat",
     current_price: "12.99",
     raw_price: "25.99",
     currency: "USD",
@@ -1567,7 +1567,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Bonnet en coton ethnique motif chat vintage",
+    name: "Ethnic cotton hat with vintage cat pattern",
     current_price: "12.49",
     raw_price: "22.49",
     currency: "USD",
@@ -1627,7 +1627,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Chapeaux de broderie de bande dessin�e de chapeau de soleil de chapeau de baseball r�tro pour ext�rieur",
+      "Retro Baseball Hat Sun Hat Cartoon Embroidery Hats For Outdoors",
     current_price: "11.99",
     raw_price: "22.99",
     currency: "USD",
@@ -1686,7 +1686,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Masques d'isolation de protection du visage Masques anti-bu�e anti-�claboussures",
+      "Masks d'isolation de protection du visage Masks anti-bu�e anti-�claboussures",
     current_price: "9.99",
     raw_price: "16.99",
     currency: "USD",
@@ -1716,7 +1716,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Chapeau de parasol de casquette de baseball en denim lav� � bordure personnalis�e en plein air",
+      "Outdoor Custom Border Washed Denim Baseball Cap Parasol Hat",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -1745,7 +1745,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Casquette Gavroche Cabbie Lvy Flat Hat Vintage Painter Beret Hats",
+    name: "Cabbie Lvy Flat Hat Vintage Painter Beret Hats Newsboy Cap",
     current_price: "17.49",
     raw_price: "37.34",
     currency: "USD",
@@ -1774,7 +1774,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque � fleurs en coton multicolore Masque vintage",
+    name: "Multicolored cotton flower mask Vintage mask",
     current_price: "5.99",
     raw_price: "16.01",
     currency: "USD",
@@ -1804,7 +1804,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Chapeau de p�che en plein air pour hommes",
+    name: "Mens Outdoor Fishing Hat",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -1834,7 +1834,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Femmes Imprimer Campagne Floral Twist Beanie Cap Turban Cap de chimioth�rapie",
+      "Women Print Campaign Floral Twist Beanie Cap Turban Chemotherapy Cap",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -1863,7 +1863,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Visage floral Masque Sheild Masque en coton vintage",
+    name: "Floral Face Sheild Mask Vintage Cotton Mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -1890,7 +1890,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Bonnet en coton brod� pour homme Chapeau avant Chapeau de soleil r�tro britannique B�ret litt�raire",
+      "Mens Embroidered Cotton Beanie Front Hat British Retro Sun Hat Literary Beret",
     current_price: "12.99",
     raw_price: "23.99",
     currency: "USD",
@@ -1919,7 +1919,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Casquette gavroche octogonale d'�t� Cabbie Lvy Flat Hat",
+    name: "Cabbie Lvy Flat Hat Octagonal Summer Newsboy Cap",
     current_price: "20.49",
     raw_price: "42.47",
     currency: "USD",
@@ -1948,7 +1948,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Casquettes de cr�ne pour hommes � carreaux sans bord assortis",
+    name: "Matching Brimless Plaid Mens Skull Caps",
     current_price: "12.99",
     raw_price: "25.99",
     currency: "USD",
@@ -1976,7 +1976,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Ceinture en cuir v�ritable pour hommes Ceinture d�contract�e Sangle de taille Broche lisse Ceinture r�tro",
+      "Men's Genuine Leather Belt Casual Belt Waist Strap Smooth Pin Retro Belt",
     current_price: "32.99",
     raw_price: "64.99",
     currency: "USD",
@@ -2005,7 +2005,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque facial en mousseline respirant r�glable",
+    name: "Adjustable breathable muslin face mask",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -2031,7 +2031,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque facial unisexe respirant de couleur unie",
+    name: "Solid Color Breathable Unisex Face Mask",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -2061,7 +2061,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Elephant Retro Beanie Hat Turban Cap de chimioth�rapie",
+    name: "Elephant Retro Beanie Hat Turban Cap de chimiotherapie",
     current_price: "10.99",
     raw_price: "22.99",
     currency: "USD",
@@ -2090,7 +2090,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque anti-poussi�re Masque floral visage Sheild",
+    name: "Dust mask Floral face shield mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -2117,7 +2117,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Chapeau �lastique de chapeau de bonnet de chapeau �lastique de couleur unie avec des boutons d'oreille",
+      "Solid Color Plastic Hat Beanie Hat Plastic Hat with Buttons' hear",
     current_price: "6.99",
     raw_price: "13.99",
     currency: "USD",
@@ -2146,7 +2146,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Bonnet Fleurs Bonnets D�coup�s En Relief",
+    name: "Flowers Beanie Embossed Cut Out Beanies",
     current_price: "10.99",
     raw_price: "22.99",
     currency: "USD",
@@ -2176,7 +2176,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Chapeau de propri�taire pour homme Collrown Summer Street Trends Melon Cap Denim Chapeaux sans bord",
+      "Collrown Men's Owner's Hat Summer Street Trends Bowler Cap Denim Brimless Hats",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -2203,7 +2203,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Chapeau de p�che en plein air",
+    name: "Outdoor fishing hat",
     current_price: "10.99",
     raw_price: "21.99",
     currency: "USD",
@@ -2232,7 +2232,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Gants tactiques Handschuhe � �cran tactile complet",
+    name: "Full Touchscreen Handschuhe Tactical Gloves",
     current_price: "25.99",
     raw_price: "49.99",
     currency: "USD",
@@ -2262,7 +2262,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Chapeau de parasol de casquette de baseball en denim lav� personnalis� pour hommes en plein air",
+      "Mens Outdoor Custom Washed Denim Baseball Cap Parasol Hat",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -2291,7 +2291,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Casquette Trump 2020 Baseball Cap US Presidential Election",
+    name: "casquetteTrump2020BaseballCapUsPresidentialElection",
     current_price: "14.99",
     raw_price: "28.99",
     currency: "USD",
@@ -2317,7 +2317,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Ceinture pour hommes en cuir v�ritable ceinture givr�e d�contract�e ceinture sangle broche ceinture r�tro",
+      "Genuine leather men's belt casual give belt belt strap pin retro belt",
     current_price: "49.99",
     raw_price: "99.99",
     currency: "USD",
@@ -2346,7 +2346,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque en coton imprim� Masque anti-poussi�re",
+    name: "Printed cotton mask� Dust mask",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -2376,7 +2376,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque de d�coration de diamant pour femmes Masque Sheild",
+    name: "Diamond Decoration Mask for Women Mask Shield",
     current_price: "6.99",
     raw_price: "0",
     currency: "USD",
@@ -2404,7 +2404,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Chapeau de gommage pour casquettes chirurgicales",
+    name: "Scrub cap for surgical caps",
     current_price: "11.49",
     raw_price: "21.73",
     currency: "USD",
@@ -2431,7 +2431,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Masque Sheild visage floral femme",
+    name: "Sheild floral face mask for women",
     current_price: "5.99",
     raw_price: "11.99",
     currency: "USD",
@@ -2458,7 +2458,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Baseball Caps",
     name:
-      "Masque de d�coration de femmes pour masque de mode de soir�e de danse",
+      "Women decoration mask for dance party fashion mask",
     current_price: "6.99",
     raw_price: "0",
     currency: "USD",
@@ -2486,7 +2486,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Casquette Gavroche en Laine Cabbie Lvy Flat Hat Beret Hats",
+    name: "Cabbie Lvy Flat Hat Beret Hats Newsboy Cap",
     current_price: "17.49",
     raw_price: "29.26",
     currency: "USD",
@@ -2513,7 +2513,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Baseball Caps",
-    name: "Bonnet � rayures multicolore Bonnet �charpe Turban Head Wrap Cap",
+    name: "Multicolored Striped Beanie Turban Head Wrap Cap Scarf",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -2538,7 +2538,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Lunettes de lecture imprim�es femmes en r�sine",
+    name: "Women's printed resin reading glasses",
     current_price: "9.23",
     raw_price: "16.37",
     currency: "USD",
@@ -2567,7 +2567,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Bonnet Style National",
+    name: "bonnetStyleNational",
     current_price: "12.69",
     raw_price: "23.89",
     currency: "USD",
@@ -2596,7 +2596,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Femme Transparent Star Soft Coque pour t�l�phone Mince Minceur",
+    name: "Woman Transparent Star Soft Slim Slimming Phone Case",
     current_price: "7.58",
     raw_price: "14.29",
     currency: "USD",
@@ -2624,7 +2624,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Ceintures de taille �lastique Ceinture en cuir PU Accessoires unilat�raux",
+      "Elastic Waist Belts PU Leather Belt One-sided Accessories",
     current_price: "24.71",
     raw_price: "51.77",
     currency: "USD",
@@ -2653,7 +2653,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Gaine Homme Ajustable Bonne �lasticit�",
+    name: "Adjustable Man Sheath Good elasticity",
     current_price: "14.82",
     raw_price: "29.09",
     currency: "USD",
@@ -2682,7 +2682,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Bonnet en laine pour femmes",
+    name: "Women's wool beanie",
     current_price: "22.83",
     raw_price: "43.09",
     currency: "USD",
@@ -2693,7 +2693,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A4/DE/362a0634-91e9-4823-87e3-ffdcaa2c8457.jpg",
     variation_0_image:
@@ -2711,7 +2711,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Ceinture de pantalon noire r�tro simple et polyvalente pour femme",
+    name: "Simple and versatile retro black trouser belt for women",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -2741,7 +2741,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Chapeaux plats en cuir pour hommes, avec chapeaux tricot�s, chapeaux chauds",
+      "Flat leather hats for men, with knitted hats, warm hats",
     current_price: "15.62",
     raw_price: "27.66",
     currency: "USD",
@@ -2770,7 +2770,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Nouveau Ceinture en cuir � double couche pour hommes",
+    name: "New Men's Double Layer Leather Belt",
     current_price: "17.24",
     raw_price: "34.26",
     currency: "USD",
@@ -2799,7 +2799,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Chaussettes respirantes en coton pour hommes",
+    name: "Breathable cotton socks for men",
     current_price: "7.12",
     raw_price: "13.25",
     currency: "USD",
@@ -2809,8 +2809,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Bleu fonc�",
-    variation_1_color: "Gris clair",
+    variation_0_color: "Bleu fonce�",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B1/96/64f1bcd4-afaa-42f7-af3d-e4ffbae89d43.jpg",
     variation_0_image:
@@ -2828,7 +2828,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Chapeau militaire ajustable en coton avec �toile",
+    name: "Adjustable cotton military hat with star",
     current_price: "7.8",
     raw_price: "14.7",
     currency: "USD",
@@ -2857,7 +2857,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Chaussettes �paisses",
+    name: "Thick socks",
     current_price: "15.28",
     raw_price: "29.77",
     currency: "USD",
@@ -2886,7 +2886,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Casquette chaude pliable",
+    name: "Foldable warm cap",
     current_price: "36.26",
     raw_price: "71.91",
     currency: "USD",
@@ -2896,7 +2896,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris clair",
+    variation_0_color: "Light grey",
     variation_1_color: "Bleu marin",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/22/BD/aac49640-0fe3-4297-9d3f-908e60146bdf.jpg",
@@ -2915,7 +2915,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Ceinture �lastique extra large pour femmes, noir",
+    name: "Extra wide elastic waistband for women, black",
     current_price: "9.67",
     raw_price: "18.23",
     currency: "USD",
@@ -2944,7 +2944,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Etui de t�l�phone imprim� Dragon",
+    name: "Dragon printed phone case",
     current_price: "3.8",
     raw_price: "13.31",
     currency: "USD",
@@ -2974,7 +2974,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Bonbons couleur lunettes femmes mode discoth�que bo�te couleur hommes",
+      "Candy color glasses women fashion nightclub box color men",
     current_price: "9.67",
     raw_price: "21.13",
     currency: "USD",
@@ -3004,7 +3004,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Chaussettes invisibles femme antid�rapantes en dentelle chaussettes coupe basse bonnetrie orteils cach�s avec doublure",
+      "Women Invisible Socks Non-slip Lace Socks Low Cut Bonnetrie Hidden Toes With Lining",
     current_price: "4.17",
     raw_price: "12.26",
     currency: "USD",
@@ -3034,7 +3034,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "�charpe � la mode chaude � carreaux pour hommes d'affaires � carreaux",
+      "Warm fashionable plaid scarf for men'checkered business",
     current_price: "12.72",
     raw_price: "26.26",
     currency: "USD",
@@ -3063,7 +3063,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Jarreti�re antid�rapante pour homme",
+    name: "Men's non-slip garter",
     current_price: "9.56",
     raw_price: "17.15",
     currency: "USD",
@@ -3093,7 +3093,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Visi�re Gorras casquette gavroche camouflage en coton b�ret de couleur assortie",
+      "Gorras visor camouflage newsboy cap in matching color beret cotton",
     current_price: "15.49",
     raw_price: "32.2",
     currency: "USD",
@@ -3122,7 +3122,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Motif original Glace Silk Sunscreen Veil Full Face",
+    name: "motifOriginalGlaceSilkSunscreenVeilFullFace",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -3151,7 +3151,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Casquette en maille simple b�ret Casquette en maille respirante",
+    name: "Single mesh cap beret Breathable mesh cap",
     current_price: "12.49",
     raw_price: "20.87",
     currency: "USD",
@@ -3181,7 +3181,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Le bateau antid�rapant de silicone sans couture de dentelle respirante de femmes chaussette les chaussettes invisibles basses �lastiques �lev�es",
+      "Women Breathable Lace Seamless Silicone Non-Slip Boat Socks High Elastic Low Invisible Socks",
     current_price: "4.2",
     raw_price: "7.96",
     currency: "USD",
@@ -3192,7 +3192,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Nu",
-    variation_1_color: "Gris clair",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/25/F7/76c3febb-951b-4833-b0dc-d686ccbc19b2.jpg",
     variation_0_image:
@@ -3210,7 +3210,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Chapeau ajustable en paille � large bordure avec haut nu pour femme",
+    name: "Wide Brim Adjustable Straw Hat with Bare Top for Women",
     current_price: "12.54",
     raw_price: "26.49",
     currency: "USD",
@@ -3240,7 +3240,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Chapeau de baseball d�contract� pour hommes brod� lettres jour de broderie lettres mens chapeau cool",
+      "Mens casual baseball hat embroidered letters day embroidery letters mens cool hat",
     current_price: "9.7",
     raw_price: "18.93",
     currency: "USD",
@@ -3270,7 +3270,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Ceintures tactiques de l'arm�e de combat en plein air de 130 cm * 5 cm",
+      "130cm * 5cm Outdoor Combat Army Tactical Belts",
     current_price: "9.11",
     raw_price: "16.16",
     currency: "USD",
@@ -3299,7 +3299,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Lunettes de soleil carr�es en m�tal Lunettes de soleil Lunettes",
+    name: "Square metal sunglasses Sunglasses Glasses",
     current_price: "8.99",
     raw_price: "16.99",
     currency: "USD",
@@ -3329,7 +3329,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Casquettes sans cr�ne sans motif en tissu ondul� � motif ondul� Soft",
+      "Cap without skull without pattern in wavy fabric with wavy pattern Soft",
     current_price: "15.62",
     raw_price: "26.45",
     currency: "USD",
@@ -3359,7 +3359,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Beanie Hat",
     name:
-      "Imprimer Elastic Hair Bande mousseline de soie soie bandeau accessoires de cheveux en plein air",
+      "Print Elastic Hair Band Chiffon Headband Outdoor Hair Accessories",
     current_price: "3.99",
     raw_price: "7.99",
     currency: "USD",
@@ -3388,7 +3388,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Miroir Plat Grand Cadre R�tro Lunettes D�grad�",
+    name: "Flat Mirror Large Retro Frame Graduated Glasses",
     current_price: "7.48",
     raw_price: "14.13",
     currency: "USD",
@@ -3417,7 +3417,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Beanie Hat",
-    name: "Chapeaux tricot�s d�contract�s pour femmes, color-block",
+    name: "Women's Casual Knit Hats, Color Block",
     current_price: "23.69",
     raw_price: "45.03",
     currency: "USD",
@@ -3441,8 +3441,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Chapeau de seau d'escalade respirant en plein air",
+    subcategory: "Cufflinks",
+    name: "Outdoor Breathable Climbing Bucket Hat",
     current_price: "9.32",
     raw_price: "17.59",
     currency: "USD",
@@ -3470,9 +3470,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Anti-UV Anti-�blouissement Lunettes de soleil de conduite polaris�es avec miroir de grenouille",
+      "Anti-UV Anti-Glare Polarized Driving Sunglasses with Frog Mirror",
     current_price: "15.89",
     raw_price: "29.99",
     currency: "USD",
@@ -3500,9 +3500,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Casquettes de b�ret r�glables de couleurs de patchwork de coton lav� de sport",
+      "Sports Washed Cotton Patchwork Colors Adjustable Beret Caps",
     current_price: "14.61",
     raw_price: "28.03",
     currency: "USD",
@@ -3530,8 +3530,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Foulard en soie artificielle surdimensionn� de 190 cm * 90 cm",
+    subcategory: "Cufflinks",
+    name: "190cm * 90cm oversized artificial silk scarf",
     current_price: "14.15",
     raw_price: "29.44",
     currency: "USD",
@@ -3559,8 +3559,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Bonnet chaud en couleur pure coupe-vent",
+    subcategory: "Cufflinks",
+    name: "Warm hat in pure color windproof",
     current_price: "13.96",
     raw_price: "27.64",
     currency: "USD",
@@ -3588,8 +3588,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Foulard Foulard Foulard Chouchou Pour Femmes",
+    subcategory: "Cufflinks",
+    name: "Foulard Foulard Chouchou For Women",
     current_price: "8.18",
     raw_price: "14.65",
     currency: "USD",
@@ -3617,9 +3617,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Casquette de baseball homme femme style russe en broderie chapeau de coton respirant",
+      "Baseball Cap Men Women Russian Style Embroidery Breathable Cotton Hat",
     current_price: "13.73",
     raw_price: "25.55",
     currency: "USD",
@@ -3647,8 +3647,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Bonnet Motif de Hibou avec Multi-Fonctions",
+    subcategory: "Cufflinks",
+    name: "Owl Pattern Beanie with Multi-Function",
     current_price: "12.04",
     raw_price: "22.93",
     currency: "USD",
@@ -3676,9 +3676,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Cravate et Noeud Papillon avec Pochette Ensemble Vintage � Business pour Homme",
+      "Tie and Bow Tie with Pocket Square Vintage Business Set for Men",
     current_price: "11.73",
     raw_price: "24.13",
     currency: "USD",
@@ -3706,9 +3706,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "125CM Homme Ceinture Nylon Avec Boucle En R�sine Durable Pour Sport Militaire Tactique Ext�rieur",
+      "125CM Men Nylon Belt With Durable Resin Buckle For Outdoor Tactical Military Sport",
     current_price: "13.69",
     raw_price: "25.45",
     currency: "USD",
@@ -3719,7 +3719,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/01/5F/9716f3c9-de13-4003-a9ac-e2c657163e8f.jpg",
     variation_0_image:
@@ -3736,9 +3736,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Chapeau � s�chage rapide imperm�able � l'eau de sport des femmes des hommes",
+      "Men's Women's Waterproof Quick Dry Sports Hat",
     current_price: "11.58",
     raw_price: "17.84",
     currency: "USD",
@@ -3766,8 +3766,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Casquette plate homme femme respirante en maille",
+    subcategory: "Cufflinks",
+    name: "Men's Women's Breathable Mesh Flat Cap",
     current_price: "12.83",
     raw_price: "22.87",
     currency: "USD",
@@ -3795,8 +3795,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Fleur Casquette de baseball Couple Cr�me solaire Street Cap Tide",
+    subcategory: "Cufflinks",
+    name: "Flower Couple Baseball Cap Street Cape Tide Sunscreen",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -3824,8 +3824,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "B�ret Vogue en coton � boutons d'�t�",
+    subcategory: "Cufflinks",
+    name: "Vogue cotton beret with summer buttons",
     current_price: "14.02",
     raw_price: "27.52",
     currency: "USD",
@@ -3853,8 +3853,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Gants mignons en vogue",
+    subcategory: "Cufflinks",
+    name: "Gloves mignons en vogue",
     current_price: "12.05",
     raw_price: "22.79",
     currency: "USD",
@@ -3882,8 +3882,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Bonnet Baggy en Tricot au Crochet avec D�coration de Bouton",
+    subcategory: "Cufflinks",
+    name: "Crochet Knit Baggy Beanie with Button Decoration",
     current_price: "11.21",
     raw_price: "22.41",
     currency: "USD",
@@ -3893,7 +3893,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,TH",
-    variation_0_color: "Past�que rouge",
+    variation_0_color: "past�thatRed",
     variation_1_color: "Orange",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B4/00/6229e912-bac7-4558-99d0-6b47c79ba865.jpeg",
@@ -3911,8 +3911,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "TR90 Lunettes de lecture r�tro progressives � foyer multiple",
+    subcategory: "Cufflinks",
+    name: "TR90 Multi-focus retro progressive reading glasses",
     current_price: "15.53",
     raw_price: "28.41",
     currency: "USD",
@@ -3940,8 +3940,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Masque anti-poussi�re Halloween PM2.5",
+    subcategory: "Cufflinks",
+    name: "masqueAntiPousse�deHalloweenPm25",
     current_price: "18.49",
     raw_price: "33.52",
     currency: "USD",
@@ -3966,8 +3966,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Chapeau de p�che au soleil",
+    subcategory: "Cufflinks",
+    name: "Sun fishing hat",
     current_price: "19.15",
     raw_price: "36.64",
     currency: "USD",
@@ -3977,7 +3977,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris clair",
+    variation_0_color: "Light grey",
     variation_1_color: "Marine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/7A/85/2c432d71-0ff7-42cd-a373-fecf9be7898d.jpg",
@@ -3995,8 +3995,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Casquette Gavroche en Cuir Craquel� Casquette Plate Retro Beret",
+    subcategory: "Cufflinks",
+    name: "Cracked Leather Newsboy Cap Retro Beret Flat Cap",
     current_price: "14.61",
     raw_price: "26.81",
     currency: "USD",
@@ -4024,8 +4024,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Bonnet pliss� Bonnet Turban Simple Couleur Unie",
+    subcategory: "Cufflinks",
+    name: "Pleated Beanie Single Turban Beanie Solid Color",
     current_price: "8.66",
     raw_price: "16.32",
     currency: "USD",
@@ -4053,8 +4053,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Chapeau de bistrot chaud pour homme, b�ret velours c�tel�",
+    subcategory: "Cufflinks",
+    name: "Warm bistro hat for men, ribbed velvet beret",
     current_price: "14.61",
     raw_price: "26.81",
     currency: "USD",
@@ -4064,7 +4064,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "marron",
+    variation_0_color: "Brown",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/B6/33/b63389414ea8c1874890b92fb076839c.jpg",
@@ -4082,9 +4082,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Casquettes de b�ret en cuir PU Casquette de gavroche en cuir artificiel d�contract�",
+      "PU Leather Beret Caps Casual Artificial Leather Newsboy Cap",
     current_price: "16.23",
     raw_price: "34.62",
     currency: "USD",
@@ -4112,8 +4112,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Casquette anti-bu�e amovible pare-soleil COLLROWN",
+    subcategory: "Cufflinks",
+    name: "COLLROWN Detachable Anti-Fog Sun Visor Cap",
     current_price: "17.99",
     raw_price: "35",
     currency: "USD",
@@ -4141,8 +4141,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Cravate de costume � imprim� pour hommes",
+    subcategory: "Cufflinks",
+    name: "Men's Printed Suit Tie",
     current_price: "12.9",
     raw_price: "24.08",
     currency: "USD",
@@ -4170,9 +4170,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Casquette courte am�ricaine r�tro en velours c�tel� Casquette Squat originale de la rue sauvage Cowboy japonais",
+      "American Retro Short Corduroy Cap Original Wild Street Japanese Cowboy Squat Cap",
     current_price: "18.65",
     raw_price: "37.32",
     currency: "USD",
@@ -4200,8 +4200,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Bonnet en coton respirant et doux",
+    subcategory: "Cufflinks",
+    name: "Breathable and soft cotton hat",
     current_price: "10.87",
     raw_price: "20.51",
     currency: "USD",
@@ -4229,9 +4229,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Les chapeaux de soleil pour hommes couvrent le visage et le chapeau de protection UV",
+      "Men's sun hats cover face and UV protection hat",
     current_price: "30.99",
     raw_price: "39.99",
     currency: "USD",
@@ -4259,9 +4259,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Litt�rature et art chaussettes de mode fran�aise personnalit� europ�enne et am�ricaine chaussettes pour hommes chaussettes tube en coton",
+      "Literature and art French fashion socks European and American personality men's socks cotton tube socks",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -4289,9 +4289,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
+    subcategory: "Cufflinks",
     name:
-      "Couture d'artiste r�tro britannique temp�rament � bord court chapeau haut de forme b�ret casquettes plates",
+      "Temperament British Retro Artist Couture Short Brim Top Hat Beret Flat Caps",
     current_price: "9.99",
     raw_price: "16.99",
     currency: "USD",
@@ -4319,8 +4319,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "�lastique Bande Bow Super Wide Robe Robe Accessoires",
+    subcategory: "Cufflinks",
+    name: "Elastic Band Bow Super Wide Dress Dress Accessories",
     current_price: "10.57",
     raw_price: "19.95",
     currency: "USD",
@@ -4348,8 +4348,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Boutons de manchettes",
-    name: "Sac bandouli�re en soie Mulberr",
+    subcategory: "Cufflinks",
+    name: "Mulberry silk cross-body bag",
     current_price: "11.55",
     raw_price: "21.53",
     currency: "USD",
@@ -4379,7 +4379,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet en velours de laine d'hiver",
+    name: "Winter wool velor beanie",
     current_price: "8.62",
     raw_price: "16.04",
     currency: "USD",
@@ -4409,7 +4409,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "�tui en TPU pour t�l�phone �toiles Quicksand scintillant de Vogue Bling",
+      "Vogue Bling Glitter Quicksand Star TPU Phone Case",
     current_price: "11.58",
     raw_price: "22.92",
     currency: "USD",
@@ -4438,7 +4438,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Casquette de baseball pour femme",
+    name: "Women's baseball cap",
     current_price: "15.27",
     raw_price: "28.71",
     currency: "USD",
@@ -4467,7 +4467,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Gants hiver chaud en daim pour femme",
+    name: "Warm winter suede gloves for women",
     current_price: "15.39",
     raw_price: "30.1",
     currency: "USD",
@@ -4478,7 +4478,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9B/31/6b39d774-f4a6-4c24-87b1-b7208cd6db19.jpg",
     variation_0_image:
@@ -4496,7 +4496,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Etui de t�l�phone portable en cuir PU + portefeuille",
+    name: "PU Leather Cell Phone Case + Wallet",
     current_price: "31.68",
     raw_price: "63.73",
     currency: "USD",
@@ -4525,7 +4525,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Coque iPhone iPhone Vintage Couverture Arri�re Vintage L�g�re",
+    name: "IPhone Case Vintage iPhone Back Cover Vintage Light",
     current_price: "5.04",
     raw_price: "9.89",
     currency: "USD",
@@ -4554,7 +4554,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "�charpe de plage foulard en soie imprim� chat mignon",
+    name: "Cute Cat Print Silk Scarf Beach Scarf",
     current_price: "17.64",
     raw_price: "32.95",
     currency: "USD",
@@ -4583,7 +4583,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet chaud pour homme en laine tricot�e avec motif cinq �toiles",
+    name: "Men's warm knitted wool hat with five star pattern",
     current_price: "13.2",
     raw_price: "28.66",
     currency: "USD",
@@ -4593,7 +4593,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/44/16/4416a67444cbbfa9f080ff935e793e05.jpg",
@@ -4613,7 +4613,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Femmes Dos ouvert Toe Yoga Chaussettes Chaussettes antid�rapantes � cinq doigts",
+      "Women Open Back Toe Yoga Socks Non-slip Five Finger Socks",
     current_price: "7.04",
     raw_price: "14.11",
     currency: "USD",
@@ -4642,7 +4642,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chaussettes en coton � motif",
+    name: "Patterned cotton socks",
     current_price: "5.03",
     raw_price: "10.48",
     currency: "USD",
@@ -4672,7 +4672,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Chaussettes hauteur de cheville unisexe minces en coton respirant et maille",
+      "Thin Unisex Ankle Height Socks in Breathable Cotton and Mesh",
     current_price: "5.39",
     raw_price: "13.96",
     currency: "USD",
@@ -4683,7 +4683,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "rouge",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C5/7E/a2d0406f-53be-4dd4-892d-284372a152b7.jpg",
     variation_0_image:
@@ -4701,7 +4701,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "�charpe cou en tricot �pais chaud",
+    name: "Warm thick knit neck scarf",
     current_price: "11.13",
     raw_price: "21.82",
     currency: "USD",
@@ -4730,7 +4730,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet de douche bonnet de nuit",
+    name: "Nightcap shower cap",
     current_price: "9.17",
     raw_price: "17.85",
     currency: "USD",
@@ -4759,7 +4759,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Ceinture Gainante � Effet Ventre Plat Shapewear Slim Pour Homme",
+    name: "Shapewear Slim Flat Belly Effect Belt For Men",
     current_price: "16.91",
     raw_price: "30.68",
     currency: "USD",
@@ -4770,7 +4770,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Couleur de peau",
+    variation_1_color: "Skin color",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/8A/06/3de6671a-8460-4887-84df-738bb2bfe2d7.jpg",
     variation_0_image:
@@ -4789,7 +4789,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Noeud Papillon en Coton � Imprim� D�contract� Ajustable pour Mariage Soir�e pour Homme",
+      "Adjustable Casual Cotton Bow Tie for Wedding Party for Men",
     current_price: "7.01",
     raw_price: "14.33",
     currency: "USD",
@@ -4818,7 +4818,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "B�ret unisexe en denim lav� � boucle ajustable",
+    name: "Unisex washed denim beret with adjustable buckle",
     current_price: "10.23",
     raw_price: "19.26",
     currency: "USD",
@@ -4829,7 +4829,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu",
-    variation_1_color: "Bleu profond",
+    variation_1_color: "Deep blue",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/19/2F/968b73a3-5d9f-4f92-970f-515545a670d7.jpg",
     variation_0_image:
@@ -4848,7 +4848,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Mari�e rouge blanc fleur mari�e mariage strass pinces � cheveux en cristal coiffe accessoires",
+      "Navy Red White Flower Bridal Wedding Rhinestone Crystal Hair Clips Headdress Accessories",
     current_price: "10.97",
     raw_price: "20.18",
     currency: "USD",
@@ -4878,7 +4878,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Ceinture pour homme en alliage dor�, mod�le Eagle en cuir, motif boucle automatique",
+      "Men's belt in golden alloy, Eagle model in leather, automatic buckle pattern",
     current_price: "17.12",
     raw_price: "30.49",
     currency: "USD",
@@ -4907,7 +4907,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de soleil d'ext�rieur Casual Top Top vide",
+    name: "Casual Top Top Video Outdoor Sun Hat",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -4937,7 +4937,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Bonnet � Camouflage avec Multi-Fonctions Foulard Roul� Chapeau de Hip Hop pour Homme Femme",
+      "Camouflage Beanie with Multi-Functional Rolled Scarf Hip Hop Hat for Men Women",
     current_price: "12.43",
     raw_price: "22.37",
     currency: "USD",
@@ -4966,7 +4966,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnets Beanie Imprim�s Femme Style Folk",
+    name: "Women's Folk Style Printed Beanie Hats",
     current_price: "11.18",
     raw_price: "20.81",
     currency: "USD",
@@ -4995,7 +4995,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet en couleur pure pour femme",
+    name: "Pure color beanie for women",
     current_price: "14.27",
     raw_price: "26.79",
     currency: "USD",
@@ -5005,8 +5005,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris",
-    variation_1_color: "Gris fonc�",
+    variation_0_color: "Grey",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/D1/F8/4266c5df-2d57-4c40-ac87-eede188e2c41.jpg",
     variation_0_image:
@@ -5024,7 +5024,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de visage de couverture anti-UV r�glable � grand bord creux",
+    name: "Large Hollow Brim Adjustable UV Cover Face Hat",
     current_price: "11.49",
     raw_price: "22.99",
     currency: "USD",
@@ -5049,7 +5049,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau avant de b�ret en cuir de premi�re couche pour hommes, cuir",
+    name: "Mens First Layer Leather Beret Front Hat, Leather",
     current_price: "41.34",
     raw_price: "82.7",
     currency: "USD",
@@ -5078,7 +5078,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de p�cheur homme chapeau de soleil de p�che d'alpinisme",
+    name: "Men ́s fisherman hat mountaineering fishing sun hat",
     current_price: "13.99",
     raw_price: "26.99",
     currency: "USD",
@@ -5107,7 +5107,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Version du chapeau en cuir PU Melon chapeau hip-hop Yuppie",
+    name: "PU Leather Bowler Hat Version Yuppie Hip Hop Hat",
     current_price: "16.99",
     raw_price: "24.99",
     currency: "USD",
@@ -5136,7 +5136,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "2Pcs PM2.5 Filtre Masques anti-poussi�re floraux",
+    name: "2Pcs PM2.5 Filter Floral Dust Masks",
     current_price: "18.49",
     raw_price: "34.68",
     currency: "USD",
@@ -5163,7 +5163,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Chapeau de cr�ne de tissu en peluche Soft chapeaux sans couture couture � carreaux",
+      "Soft Plush Fabric Skull Hat Seamless Checkered Hats",
     current_price: "15.49",
     raw_price: "26.23",
     currency: "USD",
@@ -5193,7 +5193,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Chapeau de cr�ne de propri�taire unisexe de couleur unie �lastique sans rebord",
+      "Unisex Full Color Elastic Rimless Owner's Skull Hat",
     current_price: "5.2",
     raw_price: "16.99",
     currency: "USD",
@@ -5223,7 +5223,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Nouveau produit Chaussettes tube de curling Chaussettes pour femmes couleur sauvage",
+      "New Product Curling Tube Socks Wild Color Women's Socks",
     current_price: "5.03",
     raw_price: "10.08",
     currency: "USD",
@@ -5233,7 +5233,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/DF/1C/df1c4e284cf57bf3109507ab68d18dc2.jpg",
@@ -5252,7 +5252,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "2pcs PM2.5 masque d'impression non jetable",
+    name: "2pcs PM2.5 non-disposable printing mask",
     current_price: "18.49",
     raw_price: "34.68",
     currency: "USD",
@@ -5278,7 +5278,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chaussettes Chaudes",
+    name: "Warm Socks",
     current_price: "9.36",
     raw_price: "18.72",
     currency: "USD",
@@ -5289,7 +5289,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/40/A2/c786a879-6039-48b5-a73a-e36567347dee.jpg",
     variation_0_image:
@@ -5307,7 +5307,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Boutons de manchette en bois pour hommes",
+    name: "Men's wooden cufflinks",
     current_price: "8.83",
     raw_price: "16.72",
     currency: "USD",
@@ -5336,7 +5336,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Lunettes de soleil polaris�es transparentes anti-UV",
+    name: "Transparent anti-UV polarized sunglasses",
     current_price: "13.35",
     raw_price: "25.08",
     currency: "USD",
@@ -5361,7 +5361,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de v�lo de ski",
+    name: "Ski bike hat",
     current_price: "16.47",
     raw_price: "30.82",
     currency: "USD",
@@ -5390,7 +5390,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de seau d'�cran solaire mince d'arc",
+    name: "Thin Arc Sunscreen Bucket Hat",
     current_price: "17.53",
     raw_price: "34.27",
     currency: "USD",
@@ -5419,7 +5419,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chaussettes fines Vogue Wild Summer",
+    name: "SocksFinesVogueWildSummer",
     current_price: "7.04",
     raw_price: "14.09",
     currency: "USD",
@@ -5448,7 +5448,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chaussettes respirantes respirantes en coton Vogue Letters",
+    name: "Vogue Letters Breathable Breathable Cotton Socks",
     current_price: "5.04",
     raw_price: "10.09",
     currency: "USD",
@@ -5477,7 +5477,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet Bonnet En Laine",
+    name: "Beanie Beanie Wool",
     current_price: "10.89",
     raw_price: "20.25",
     currency: "USD",
@@ -5506,7 +5506,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Casquette Wild unisexe pour sports de plein air",
+    name: "Wild unisex cap for outdoor sports",
     current_price: "13.13",
     raw_price: "25.12",
     currency: "USD",
@@ -5535,7 +5535,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bonnet chaud Plus en bonnet de velours",
+    name: "Plus warm beanie in velor beanie",
     current_price: "14.34",
     raw_price: "27.93",
     currency: "USD",
@@ -5564,7 +5564,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau de musc pour visage couleur unie solaire",
+    name: "Musk hat for face solid color solar",
     current_price: "13.97",
     raw_price: "28.04",
     currency: "USD",
@@ -5593,7 +5593,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "�charpe fleur vintage ethnique pourpre pour femme",
+    name: "Vintage ethnic purple flower scarf for women",
     current_price: "25.75",
     raw_price: "70.01",
     currency: "USD",
@@ -5622,7 +5622,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Cas de t�l�phone d'iphone ray� en relief par TPU tridimensionnel",
+    name: "Three Dimensional TPU Embossed Striped iPhone Phone Case",
     current_price: "6.66",
     raw_price: "12.55",
     currency: "USD",
@@ -5647,7 +5647,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Bandeau en Coton Multicolore Couleur Unie R�glable",
+    name: "Adjustable Solid Color Multicolor Cotton Headband",
     current_price: "8.12",
     raw_price: "15.31",
     currency: "USD",
@@ -5676,7 +5676,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "TPU Soft Shell Case T�l�phone noir et blanc ray�",
+    name: "TPU Soft Shell Case Black and white striped phone",
     current_price: "4.03",
     raw_price: "7.61",
     currency: "USD",
@@ -5704,7 +5704,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Chapeau de paille Lafite Grass Gole en cuir fin avec corde et noeud en corde",
+      "Lafite Grass Gole Straw Hat in Fine Leather with Rope and Rope Bow",
     current_price: "19.02",
     raw_price: "35.9",
     currency: "USD",
@@ -5732,7 +5732,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Bucket Hat",
     name:
-      "Chapeau en paille tiss�e avec protection solaire estivale multicolore ajour�e",
+      "Woven straw hat with openwork multicolored summer sun protection",
     current_price: "10.69",
     raw_price: "20.16",
     currency: "USD",
@@ -5761,7 +5761,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Casquette de golf couleur unie b�ret r�glable en coton r�tro",
+    name: "Retro Cotton Adjustable Beret Solid Color Golf Cap",
     current_price: "12.19",
     raw_price: "22.98",
     currency: "USD",
@@ -5790,7 +5790,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Bucket Hat",
-    name: "Chapeau avant r�glable de chapeau de b�ret de coton respirable",
+    name: "Breathable Cotton Beret Adjustable Front Hat",
     current_price: "13.17",
     raw_price: "29.92",
     currency: "USD",
@@ -5801,7 +5801,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/6E/68/9e778f09-8e03-4f17-84a0-ef12ab1c6f93.jpg",
     variation_0_image:
@@ -5818,8 +5818,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Couronne feuilles fleur bandeau cheveux accessoires",
+    subcategory: "Earmuffs",
+    name: "Wreath leaves flower headband hair accessories",
     current_price: "9.1",
     raw_price: "15.91",
     currency: "USD",
@@ -5843,8 +5843,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Chapeau de p�cheur � motif de fleur de cajou pour femmes et hommes",
+    subcategory: "Earmuffs",
+    name: "Cashew Flower Pattern Fisherman Hat for Women and Men",
     current_price: "9.99",
     raw_price: "16.99",
     currency: "USD",
@@ -5872,9 +5872,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Chaussettes pour femmes � tube moyen en coton de dessin anim� masculin",
+      "Male Cartoon Cotton Medium Tube Women's Socks",
     current_price: "5.99",
     raw_price: "10.99",
     currency: "USD",
@@ -5898,8 +5898,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "�charpe longue en lin � motif d'impression couleur unie pour femmes",
+    subcategory: "Earmuffs",
+    name: "Solid Color Print Long Linen Scarf for Women",
     current_price: "13.99",
     raw_price: "36.99",
     currency: "USD",
@@ -5927,8 +5927,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "�charpe longue en lin � motif d'impression couleur unie pour femmes",
+    subcategory: "Earmuffs",
+    name: "Solid Color Print Long Linen Scarf for Women",
     current_price: "13.99",
     raw_price: "30.99",
     currency: "USD",
@@ -5956,9 +5956,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Chapeau de p�cheur Daisy Bucket Hat Cover Face Sunscreen Sun Sun Hat",
+      "Chapeau de pecheur Daisy Bucket Hat Cover Face Sunscreen Sun Sun Hat",
     current_price: "12.99",
     raw_price: "25.99",
     currency: "USD",
@@ -5986,8 +5986,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Femmes Patchwork UV400 Sunshade Lunettes de soleil",
+    subcategory: "Earmuffs",
+    name: "Women Patchwork UV400 Sunshade Sunglasses",
     current_price: "9.79",
     raw_price: "19.07",
     currency: "USD",
@@ -6015,8 +6015,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Femme dessin anim� mignon animal chat TPU Soft Shell",
+    subcategory: "Earmuffs",
+    name: "Woman Cartoon Cute Animal Cat TPU Soft Shell",
     current_price: "8.47",
     raw_price: "15.98",
     currency: "USD",
@@ -6044,8 +6044,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Amoeba Print Element Fashion Skull Casquettes",
+    subcategory: "Earmuffs",
+    name: "amoebaPrintElementFashionSkullCasquettes",
     current_price: "10.99",
     raw_price: "15.99",
     currency: "USD",
@@ -6071,9 +6071,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Casquette Plate D�contract�e en Tricot avec Visi�re pour Homme Femme",
+      "Casual Knit Flat Cap with Visor for Men Women",
     current_price: "13.72",
     raw_price: "27.02",
     currency: "USD",
@@ -6084,7 +6084,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ED/0C/e9d3ad56-8f9c-44fc-8e58-30afa3842689.jpg",
     variation_0_image:
@@ -6101,8 +6101,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Fourrure de b�ret pour femme chaude avec bonnet tricot�",
+    subcategory: "Earmuffs",
+    name: "Warm women's beret fur with knitted hat",
     current_price: "15.22",
     raw_price: "31.42",
     currency: "USD",
@@ -6130,9 +6130,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Nouveau ch�le chaud en treillis pied-de-poule grand en couleur assortie",
+      "New warm houndstooth lattice shawl large in matching color",
     current_price: "13.75",
     raw_price: "37.37",
     currency: "USD",
@@ -6158,8 +6158,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Chapeau tricot� chaud de femmes d'oreille tricot�",
+    subcategory: "Earmuffs",
+    name: "Women's Warm Knitted Ear Knit Hat",
     current_price: "13.27",
     raw_price: "24.19",
     currency: "USD",
@@ -6187,8 +6187,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette de base-ball ajustable en maille pour homme",
+    subcategory: "Earmuffs",
+    name: "Men's Adjustable Mesh Baseball Cap",
     current_price: "9.98",
     raw_price: "18.65",
     currency: "USD",
@@ -6216,8 +6216,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Lunettes � lentille transparente UV-400",
+    subcategory: "Earmuffs",
+    name: "UV-400 Clear Lens Glasses",
     current_price: "14.21",
     raw_price: "26.27",
     currency: "USD",
@@ -6245,8 +6245,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "�charpe musulmane Hijab en mousseline de soie longue �charpe perl�e",
+    subcategory: "Earmuffs",
+    name: "Muslim Hijab Scarf Long Chiffon Beaded Scarf",
     current_price: "15.99",
     raw_price: "32",
     currency: "USD",
@@ -6274,7 +6274,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name: "V�tements Sun Shawl Clothing UV Cover Face Sun Cap",
     current_price: "20.49",
     raw_price: "43.28",
@@ -6303,8 +6303,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Chapeau �pais d'hiver pour femmes",
+    subcategory: "Earmuffs",
+    name: "Thick Winter Hat for Women",
     current_price: "18.52",
     raw_price: "33.14",
     currency: "USD",
@@ -6328,9 +6328,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Casquettes de baseball en cuir tress�es pour hommes, chapeaux chauds",
+      "Mens Braided Leather Baseball Caps, Warm Hats",
     current_price: "15.88",
     raw_price: "26.89",
     currency: "USD",
@@ -6358,8 +6358,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "2pcs PM2.5 Filter Planet Masques non jetables",
+    subcategory: "Earmuffs",
+    name: "2pcs PM2.5 Filter Planet Non-Disposable Masks",
     current_price: "18.49",
     raw_price: "34.68",
     currency: "USD",
@@ -6384,8 +6384,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "�charpe longue en lin � motif d'impression couleur unie pour femmes",
+    subcategory: "Earmuffs",
+    name: "Solid Color Print Long Linen Scarf for Women",
     current_price: "14.99",
     raw_price: "36.99",
     currency: "USD",
@@ -6413,8 +6413,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette jazz unisexe avec paille d'�t� et cr�me solaire",
+    subcategory: "Earmuffs",
+    name: "Unisex jazz cap with summer straw and sunscreen",
     current_price: "19.33",
     raw_price: "38.27",
     currency: "USD",
@@ -6442,8 +6442,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette de baseball creuse respirante Summer Wild",
+    subcategory: "Earmuffs",
+    name: "Summer Wild Breathable Hollow Baseball Cap",
     current_price: "6.4",
     raw_price: "30.99",
     currency: "USD",
@@ -6471,9 +6471,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Chapeau pour hommes ray� chapeau r�tro jazz chapeau d'�ge moyen saison visi�re chapeau vieux chapeau",
+      "Men's hat striped hat retro jazz middle-aged hat season visor hat old hat",
     current_price: "4.75",
     raw_price: "15.15",
     currency: "USD",
@@ -6484,7 +6484,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/2B/49/2b49c3b9dccd657d340e52a73004238a.jpg",
     variation_0_image:
@@ -6501,8 +6501,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "COLLROWN pare-soleil r�glable anti-bu�e pare-soleil amovible",
+    subcategory: "Earmuffs",
+    name: "COLLROWN adjustable anti-fog sun visor removable sun visor",
     current_price: "20.49",
     raw_price: "39.85",
     currency: "USD",
@@ -6530,8 +6530,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Bonnet tricot� en couleur pure",
+    subcategory: "Earmuffs",
+    name: "Knitted hat in pure color",
     current_price: "12.28",
     raw_price: "26.05",
     currency: "USD",
@@ -6559,8 +6559,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette de golf de couleur unie b�ret r�glable en coton ligne",
+    subcategory: "Earmuffs",
+    name: "Adjustable Cotton Line Beret Solid Color Golf Cap",
     current_price: "12.19",
     raw_price: "22.98",
     currency: "USD",
@@ -6588,8 +6588,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette de baseball unisexe Little Dinosaur Embroidery Hat",
+    subcategory: "Earmuffs",
+    name: "Little Dinosaur Embroidery Hat Unisex Baseball Cap",
     current_price: "14.49",
     raw_price: "27.8",
     currency: "USD",
@@ -6617,9 +6617,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "Broderie B�ret Casquettes Plates Casquette Gavroche Casual Chapeaux Chauds",
+      "Embroidery Beret Flat Caps Newsboy Cap Casual Warm Hats",
     current_price: "15.62",
     raw_price: "30.06",
     currency: "USD",
@@ -6647,8 +6647,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "6 mini-lunettes de lecture avec porte-stylo",
+    subcategory: "Earmuffs",
+    name: "6 mini reading glasses with pen holder",
     current_price: "11.58",
     raw_price: "21.85",
     currency: "USD",
@@ -6672,8 +6672,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquette de baseball en laine pour femmes",
+    subcategory: "Earmuffs",
+    name: "Women's Wool Baseball Cap",
     current_price: "13.61",
     raw_price: "26.61",
     currency: "USD",
@@ -6684,7 +6684,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/FB/57/9d30d8d2-11bd-4ad0-bea3-569deca58993.jpg",
     variation_0_image:
@@ -6701,8 +6701,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Verres de lecture solides",
+    subcategory: "Earmuffs",
+    name: "Solid reading glasses",
     current_price: "9.2",
     raw_price: "18.08",
     currency: "USD",
@@ -6730,9 +6730,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
+    subcategory: "Earmuffs",
     name:
-      "PM2.5 Masque antipoussi�re de filtre avec masque de valve respiratoire",
+      "PM2.5 Filter Dust Mask with Respirator Valve Mask",
     current_price: "18.49",
     raw_price: "34.68",
     currency: "USD",
@@ -6757,8 +6757,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Casquettes b�ret � lacets pour hommes",
+    subcategory: "Earmuffs",
+    name: "Men's lace-up beret caps",
     current_price: "25.87",
     raw_price: "51.14",
     currency: "USD",
@@ -6769,7 +6769,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/20/2A/bd6cc9e8-50d2-4859-8348-22a21bcef520.JPG",
     variation_0_image:
@@ -6786,8 +6786,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Bonnet boule en fourrure de laine",
+    subcategory: "Earmuffs",
+    name: "Wool fur ball cap",
     current_price: "9.45",
     raw_price: "17.49",
     currency: "USD",
@@ -6798,7 +6798,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/3D/52/c48464e0-1cca-4990-93ff-8ba7e4a1edcc.jpg",
     variation_0_image:
@@ -6815,8 +6815,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Ceinture abdominale Sport Fitness Body Shaper",
+    subcategory: "Earmuffs",
+    name: "Sport Fitness Body Shaper Abdominal Belt",
     current_price: "17.68",
     raw_price: "32.91",
     currency: "USD",
@@ -6842,8 +6842,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Verres de lecture de lentille de r�sine de cadre d'alliage",
+    subcategory: "Earmuffs",
+    name: "D Frame Resin Lens Reading Glasses'alloy",
     current_price: "10.14",
     raw_price: "18.69",
     currency: "USD",
@@ -6871,8 +6871,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Bonnet Femme",
+    subcategory: "Earmuffs",
+    name: "Women's beanie",
     current_price: "13.03",
     raw_price: "24.65",
     currency: "USD",
@@ -6900,8 +6900,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Chapeau d'hiver des femmes",
+    subcategory: "Earmuffs",
+    name: "Women's winter hat",
     current_price: "12.11",
     raw_price: "23.01",
     currency: "USD",
@@ -6929,8 +6929,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Chaussettes chaudes",
+    subcategory: "Earmuffs",
+    name: "Warm socks",
     current_price: "14.46",
     raw_price: "27.14",
     currency: "USD",
@@ -6940,7 +6940,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "lac bleu",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E5/19/4dc4358e-7c06-4dda-929f-5e6a58d4a6b4.jpg",
@@ -6958,8 +6958,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles",
-    name: "Bonnet � double usage pour homme",
+    subcategory: "Earmuffs",
+    name: "Men's dual-use beanie",
     current_price: "11.49",
     raw_price: "22.51",
     currency: "USD",
@@ -6987,9 +6987,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Personnalit� de la mode Casquette de baseball Chapeau de soleil Chapeaux de broderie",
+      "Fashion Personality Baseball Cap Sun Hat Embroidery Hats",
     current_price: "11.99",
     raw_price: "23.99",
     currency: "USD",
@@ -7017,8 +7017,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Casquettes � motif champ�tre Grid Beanie",
+    subcategory: "Earmuffs & Masks",
+    name: "Grid Beanie Country Hats",
     current_price: "8.99",
     raw_price: "16.99",
     currency: "USD",
@@ -7046,9 +7046,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Masque floral Protection du cou �cran solaire �charpe mont�e sur les oreilles",
+      "Floral mask Neck protection Sunscreen scarf mounted on the ears",
     current_price: "4.99",
     raw_price: "9.99",
     currency: "USD",
@@ -7073,9 +7073,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "�charpe ajustable fixe multifonctionnelle � motif floral de couleur unie",
+      "Solid Color Floral Multifunctional Fixed Adjustable Scarf",
     current_price: "18.99",
     raw_price: "25.99",
     currency: "USD",
@@ -7085,7 +7085,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "Bleu",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C8/FB/83eb6520-349b-419b-892a-e0b2ef97e3e2.jpg",
@@ -7103,9 +7103,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Cheveux en coton teints par des femmes Bande ornements bandeau �lastique",
+      "Women Dyed Cotton Hair Band Ornaments Elastic Headband",
     current_price: "3.99",
     raw_price: "6.99",
     currency: "USD",
@@ -7133,8 +7133,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Casquette chirurgicale en coton imprim�",
+    subcategory: "Earmuffs & Masks",
+    name: "Printed cotton surgical cap",
     current_price: "15.49",
     raw_price: "31",
     currency: "USD",
@@ -7160,8 +7160,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Masque antibact�rien l�ger Masque imprim� anti-UV",
+    subcategory: "Earmuffs & Masks",
+    name: "Lightweight antibacterial mask Printed anti-UV mask",
     current_price: "8.99",
     raw_price: "17.99",
     currency: "USD",
@@ -7186,8 +7186,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "�charpe torsad�e � capuche � double usage",
+    subcategory: "Earmuffs & Masks",
+    name: "Double-use hooded cable scarf",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -7215,9 +7215,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "�t� En Plein Air �tanche Protection Couverture Visage Anti-Insectes Gaze Randonn�e P�che Chapeau",
+      "Summer Outdoor Waterproof Protective Cover Face Anti-Insect Gauze Hiking Fishing Hat",
     current_price: "12.99",
     raw_price: "25.99",
     currency: "USD",
@@ -7245,8 +7245,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Bonnet respirant � d�coupes",
+    subcategory: "Earmuffs & Masks",
+    name: "Breathable cutout beanie",
     current_price: "12.99",
     raw_price: "24.99",
     currency: "USD",
@@ -7274,9 +7274,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Masque Solaire Masque Manche Cravate En Mousseline De Soie Trois Pi�ces Sangle De Cou Oreille Voile Ch�le",
+      "Sun Mask Mask Sleeve Tie Chiffon Three Piece Neck Strap Ear Veil Shawl",
     current_price: "9.99",
     raw_price: "12.99",
     currency: "USD",
@@ -7304,7 +7304,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name: "Beret Caps Print Sun Chapeau Casquette tie-dye",
     current_price: "12.99",
     raw_price: "23.99",
@@ -7331,7 +7331,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name: "Women Pearl Bright Lace Beanie Hat Colorblock Hat Chemotherapy Cap",
     current_price: "11.99",
     raw_price: "23.99",
@@ -7360,8 +7360,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Ensemble de pinces � cravate pour hommes",
+    subcategory: "Earmuffs & Masks",
+    name: "Men's Tie Clip Set",
     current_price: "13.99",
     raw_price: "27.99",
     currency: "USD",
@@ -7385,9 +7385,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Ceinture en cuir v�ritable pour hommes Ceinture d�contract�e Sangle de taille Broche lisse Ceinture r�tro",
+      "Men's Genuine Leather Belt Casual Belt Waist Strap Smooth Pin Retro Belt",
     current_price: "43.99",
     raw_price: "86.99",
     currency: "USD",
@@ -7415,8 +7415,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Bandeau de bouton anti-cuir imprim� masque l�opard pour femme",
+    subcategory: "Earmuffs & Masks",
+    name: "Leopard mask printed anti-leather button headband for women",
     current_price: "3.99",
     raw_price: "7.99",
     currency: "USD",
@@ -7444,8 +7444,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chapeau plat d�contract� en velours en feutre",
+    subcategory: "Earmuffs & Masks",
+    name: "Velvet Felt Casual Flat Hat",
     current_price: "18.25",
     raw_price: "37.45",
     currency: "USD",
@@ -7473,8 +7473,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "�lastique Bande Bow Super Wide Robe Robe Accessoires",
+    subcategory: "Earmuffs & Masks",
+    name: "Elastic Band Bow Super Wide Dress Dress Accessories",
     current_price: "10.57",
     raw_price: "19.95",
     currency: "USD",
@@ -7502,9 +7502,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "�ponge bandeau de couleur unie multicolore � large bord bijoux pour femmes boucle de t�te de couleur unie",
+      "Sponge Headband Multicolor Solid Color Wide Brim Women's Jewelry Solid Color Head Buckle",
     current_price: "7.65",
     raw_price: "16.53",
     currency: "USD",
@@ -7515,7 +7515,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu fonc�",
-    variation_1_color: "Vin rouge",
+    variation_1_color: "Red wine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/22/BE/22be7402ddc848e8fdc6cc0926875bd0.jpg",
     variation_0_image:
@@ -7532,8 +7532,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Style Alimentaire St�r�o Silicone Anti-chute",
+    subcategory: "Earmuffs & Masks",
+    name: "Food Style Stereo Silicone Anti-Hair Loss",
     current_price: "8.07",
     raw_price: "20.16",
     currency: "USD",
@@ -7559,7 +7559,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name: "TPU Cute Puppy Boy Transparent",
     current_price: "5.03",
     raw_price: "9.67",
@@ -7586,8 +7586,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chapeau de paille respirant brod� rose pour femmes",
+    subcategory: "Earmuffs & Masks",
+    name: "Women's Pink Embroidered Breathable Straw Hat",
     current_price: "17.5",
     raw_price: "33.02",
     currency: "USD",
@@ -7615,8 +7615,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Imprimer Bonnet en laine tricot� Skull Cap Beanie avec lettre",
+    subcategory: "Earmuffs & Masks",
+    name: "Print Knitted Wool Beanie Skull Cap Beanie with Letter",
     current_price: "10.57",
     raw_price: "21.17",
     currency: "USD",
@@ -7644,8 +7644,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chaussettes de bateau respirantes de couleur unie",
+    subcategory: "Earmuffs & Masks",
+    name: "Solid Color Breathable Boat Socks",
     current_price: "8.42",
     raw_price: "16.53",
     currency: "USD",
@@ -7655,7 +7655,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "Bleu",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/19/BF/0b666c52-6540-4cb9-b8e0-d8a04441ef76.jpg",
@@ -7673,8 +7673,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chaussettes en coton grenouille Cartoon femmes",
+    subcategory: "Earmuffs & Masks",
+    name: "Women's Cartoon Frog Cotton Socks",
     current_price: "4.02",
     raw_price: "7.59",
     currency: "USD",
@@ -7702,8 +7702,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Lunettes de soleil polaris�es",
+    subcategory: "Earmuffs & Masks",
+    name: "Polarized sunglasses",
     current_price: "16.48",
     raw_price: "29.86",
     currency: "USD",
@@ -7731,8 +7731,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chaussettes Femme Chaudes en Coton pour No�l",
+    subcategory: "Earmuffs & Masks",
+    name: "Women's Warm Cotton Christmas Socks",
     current_price: "7.21",
     raw_price: "12.9",
     currency: "USD",
@@ -7760,8 +7760,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chaussettes de No�l Santa Chaussettes de No�l Elk",
+    subcategory: "Earmuffs & Masks",
+    name: "Christmas socks Santa Christmas socks Elk",
     current_price: "4.86",
     raw_price: "11.29",
     currency: "USD",
@@ -7789,8 +7789,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Mitaines d'�cran tactile antid�rapantes d'hiver",
+    subcategory: "Earmuffs & Masks",
+    name: "Winter Anti-Slip Touchscreen Mitts",
     current_price: "19.5",
     raw_price: "35.49",
     currency: "USD",
@@ -7818,9 +7818,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Homme Cravete Classique Casual � Fleurs Coupe Slim pour C�r�monie de Mariage",
+      "Men's Slim Fit Classic Casual Floral Tie for Wedding Ceremony",
     current_price: "8.54",
     raw_price: "15.29",
     currency: "USD",
@@ -7848,8 +7848,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Correcteur Hallux Valgus Confort pour Femme",
+    subcategory: "Earmuffs & Masks",
+    name: "Hallux Valgus Confort Corrector for Women",
     current_price: "5.39",
     raw_price: "10.18",
     currency: "USD",
@@ -7875,9 +7875,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Mens coton respirant avec trous de ventilation casquettes plates chapeau de l&#39;arm�e militaire parasol ext�rieur",
+      "Mens breathable cotton with ventilation holes flat caps military army hat outdoor parasol",
     current_price: "14.15",
     raw_price: "26.28",
     currency: "USD",
@@ -7888,7 +7888,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BD/B3/ef1a990b-3b51-4a8a-b2d4-e411e9bd4cd4.JPG",
     variation_0_image:
@@ -7905,9 +7905,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Coton respirant sport Chaussettes de basket-ball pour hommes Couleurs Chaussettes tube court Patchwork",
+      "Cotton Breathable Sports Mens Basketball Socks Colors Patchwork Short Tube Socks",
     current_price: "5.88",
     raw_price: "11.1",
     currency: "USD",
@@ -7918,7 +7918,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "Gris clair",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/95/8A/8edcd659-219d-399d-f035-ba0ab14a412e.jpg",
     variation_0_image:
@@ -7935,9 +7935,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Casquette de b�ret en lin pour hommes, femmes, golf, sports de plein air, golf Cabbie, chapeaux",
+      "Linen Beret Cap for Men, Women, Golf, Outdoor Sports, Golf Cabbie, Hats",
     current_price: "8.62",
     raw_price: "15.92",
     currency: "USD",
@@ -7965,8 +7965,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Casquette de baseball avec visi�re incurv�e",
+    subcategory: "Earmuffs & Masks",
+    name: "Baseball cap with curved visor",
     current_price: "9.57",
     raw_price: "17.72",
     currency: "USD",
@@ -7994,8 +7994,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chapeau d&#39;oeuvre vintage en velours c�tel� octogonal �pais",
+    subcategory: "Earmuffs & Masks",
+    name: "Vintage Heavy Octagonal Corduroy Artwork Hat",
     current_price: "12.44",
     raw_price: "23.04",
     currency: "USD",
@@ -8023,9 +8023,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Hommes Cuir de vachette b�ret en cuir v�ritable chapeau Earflap cache-oreilles oreille protection r�chauffeur Cabbie Cap",
+      "Men Cowhide Genuine Leather Beret Hat Earflap Earmuffs Ear Protective Heater Cabbie Cap",
     current_price: "31.69",
     raw_price: "58.59",
     currency: "USD",
@@ -8036,7 +8036,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/5D/4E/6f3e4c41-2da3-4bb4-90c0-5fb6be589114.jpg",
     variation_0_image:
@@ -8053,9 +8053,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Femmes Dr�le Motif Mignon Coton Chaussettes Kawaii Harajuku Pill Chaussettes Star Nouveaut� Art Sock",
+      "Women Funny Cute Pattern Cotton Socks Kawaii Harajuku Pill Socks Star Novelty Art Sock",
     current_price: "5",
     raw_price: "11.2",
     currency: "USD",
@@ -8083,9 +8083,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Hommes Femmes Chapeau De Lune Hip Hop Kpop Sport Casquette De Baseball R�glable Strapback",
+      "Men Women Moon Hat Hip Hop Kpop Sport Adjustable Strapback Baseball Cap",
     current_price: "9.53",
     raw_price: "17.87",
     currency: "USD",
@@ -8109,9 +8109,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
+    subcategory: "Earmuffs & Masks",
     name:
-      "Homme Femme Casquette Ajustable Avec M En Broderie Chapeau Baseball Style Cowboy � Visi�re Incurv�e Pour Protection Solaire",
+      "Men Women Adjustable Cap With M In Embroidery Cowboy Style Baseball Hat With Curved Visor For Sun Protection",
     current_price: "11.46",
     raw_price: "22.05",
     currency: "USD",
@@ -8121,7 +8121,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4E/45/b819eda3-9a20-4882-b925-177b4426d56d.jpg",
@@ -8139,8 +8139,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cache-oreilles & Masques",
-    name: "Chapeau de bassin pliable et respirant Chapeau de p�cheur � la mode",
+    subcategory: "Earmuffs & Masks",
+    name: "Breathable Foldable Pond Hat Trendy Fisherman Hat",
     current_price: "11.99",
     raw_price: "24",
     currency: "USD",
@@ -8167,7 +8167,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ceintures",
-    name: "Chapeau Calotte Unie Style Fran�ais",
+    name: "French Style Plain Calotte Hat",
     current_price: "12.26",
     raw_price: "24.71",
     currency: "USD",
@@ -8178,7 +8178,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/92/86/d7967344-b794-49b0-baae-ac98188715cd.jpg",
     variation_0_image:
@@ -8197,7 +8197,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Ceintures",
     name:
-      "LYZA 200 cm femmes dames surdimensionn� longue �charpe multifonction num�rique impression de plage serviette de plage",
+      "LYZA 200cm Women Ladies Oversized Long Scarf Multifunction Digital Print Beach Beach Towel",
     current_price: "11.47",
     raw_price: "22.02",
     currency: "USD",
@@ -8226,7 +8226,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ceintures",
-    name: "Lunettes de soleil � monture octogone",
+    name: "Octagon-frame sunglasses",
     current_price: "8.73",
     raw_price: "16.73",
     currency: "USD",
@@ -8255,7 +8255,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ceintures",
-    name: "Chaussettes Medium Tube Chaussettes Street Retro",
+    name: "Medium Tube Socks Street Retro Socks",
     current_price: "2.4",
     raw_price: "10.99",
     currency: "USD",
@@ -8283,8 +8283,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Plus Chaussettes �paisses en velours",
+    subcategory: "Belts & Suspenders",
+    name: "More Thick velor socks",
     current_price: "12.41",
     raw_price: "23.03",
     currency: "USD",
@@ -8312,8 +8312,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Ch�le �l�gant protection solaire vent vacances voyage Silk Beach",
+    subcategory: "Belts & Suspenders",
+    name: "Silk Beach Wind Vacation Travel Stylish Shawl",
     current_price: "3.63",
     raw_price: "13.13",
     currency: "USD",
@@ -8341,8 +8341,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau plat chaud en cuir",
+    subcategory: "Belts & Suspenders",
+    name: "Warm flat leather hat",
     current_price: "43.29",
     raw_price: "82.2",
     currency: "USD",
@@ -8353,7 +8353,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B8/C7/87602277-7b75-4718-8967-8aacf2838e62.jpg",
     variation_0_image:
@@ -8370,9 +8370,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Chapeau de paille Chapeau de plage Chapeau de soleil solaire ext�rieur en bord de mer",
+      "Straw hat Beach hat Outdoor sun hat by the sea",
     current_price: "8.99",
     raw_price: "15.99",
     currency: "USD",
@@ -8400,8 +8400,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Casquette de baseball unisexe en coton d'�t� vogue avec parasol",
+    subcategory: "Belts & Suspenders",
+    name: "Unisex cotton baseball cap'�t� vogue avec parasol",
     current_price: "13.54",
     raw_price: "26.45",
     currency: "USD",
@@ -8429,8 +8429,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "B�ret en coton de couleur unie",
+    subcategory: "Belts & Suspenders",
+    name: "Solid color cotton beret",
     current_price: "8.68",
     raw_price: "16.37",
     currency: "USD",
@@ -8454,8 +8454,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Big Box Round Face SunglassesTrend Personnalit� Border",
+    subcategory: "Belts & Suspenders",
+    name: "Big Box Round Face Sunglasses Trend Personnalite� Border",
     current_price: "8.92",
     raw_price: "16.83",
     currency: "USD",
@@ -8483,8 +8483,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Lunettes de lecture confortables Vogue",
+    subcategory: "Belts & Suspenders",
+    name: "Vogue comfortable reading glasses",
     current_price: "18.09",
     raw_price: "35.38",
     currency: "USD",
@@ -8495,7 +8495,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Vin rouge",
+    variation_1_color: "Red wine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/41/9A/1bb6781e-c294-4d05-af22-97976e5e8b1b.jpg",
     variation_0_image:
@@ -8512,9 +8512,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Lunettes de soleil de conduite photochromiques de jour et de nuit avec lentille polaris�e pour rouler en plein air",
+      "Day and night photochromic driving sunglasses with polarized lens for outdoor riding",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -8542,8 +8542,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chaussettes de plong�e",
+    subcategory: "Belts & Suspenders",
+    name: "Diving socks",
     current_price: "14.32",
     raw_price: "26.24",
     currency: "USD",
@@ -8571,8 +8571,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau d'hiver chaud",
+    subcategory: "Belts & Suspenders",
+    name: "Warm winter hat",
     current_price: "23.65",
     raw_price: "45.01",
     currency: "USD",
@@ -8600,8 +8600,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Echarpe Bonnet R�glable Double Usage",
+    subcategory: "Belts & Suspenders",
+    name: "Double Use Adjustable Hat Scarf",
     current_price: "10.4",
     raw_price: "18.79",
     currency: "USD",
@@ -8629,8 +8629,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Ceinture en toile � boucle pour homme",
+    subcategory: "Belts & Suspenders",
+    name: "Men's Buckle Canvas Belt",
     current_price: "12.71",
     raw_price: "24.01",
     currency: "USD",
@@ -8658,8 +8658,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau de seau de visi�re pliable �t� unisexe",
+    subcategory: "Belts & Suspenders",
+    name: "Unisex Foldable Visor Bucket Hat",
     current_price: "11.74",
     raw_price: "23.12",
     currency: "USD",
@@ -8687,8 +8687,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Bonnet � pompon en soie musulmane sur le c�t� trois petites fleurs",
+    subcategory: "Belts & Suspenders",
+    name: "Muslim silk pompom hat on the side three small flowers",
     current_price: "12.36",
     raw_price: "24.42",
     currency: "USD",
@@ -8716,8 +8716,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Bandeau de maquillage pour femmes �lasticit�",
+    subcategory: "Belts & Suspenders",
+    name: "Women's elasticity makeup headband",
     current_price: "8.4",
     raw_price: "15.58",
     currency: "USD",
@@ -8745,8 +8745,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Porte-lentilles de lunettes r�versible",
+    subcategory: "Belts & Suspenders",
+    name: "Reversible eyeglass lens holder",
     current_price: "12.39",
     raw_price: "23.22",
     currency: "USD",
@@ -8772,8 +8772,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Bonnet chaud en laine",
+    subcategory: "Belts & Suspenders",
+    name: "Warm wool hat",
     current_price: "11.44",
     raw_price: "23.14",
     currency: "USD",
@@ -8801,8 +8801,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Cravate en plumes d'oiseaux en coton",
+    subcategory: "Belts & Suspenders",
+    name: "Cotton Bird Feather Tie",
     current_price: "12.38",
     raw_price: "22.91",
     currency: "USD",
@@ -8830,8 +8830,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Coton Yoga Chaussettes Chaussettes Five Finger Socks Bandage",
+    subcategory: "Belts & Suspenders",
+    name: "Cotton Yoga Socks Five Finger Socks Bandage Socks",
     current_price: "8.66",
     raw_price: "17.07",
     currency: "USD",
@@ -8859,9 +8859,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Chapeau plat pour homme Chapeau d'�ge m�r Protecteur d'oreille N�palais � carreaux sauvages",
+      "Flat Hat for Men Mature Hat Wild Check Nepali Ear Protector",
     current_price: "8.66",
     raw_price: "17.07",
     currency: "USD",
@@ -8872,7 +8872,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/7C/93/7c932d8aaea9142aef5e5f8339363abb.jpg",
     variation_0_image:
@@ -8889,9 +8889,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Lunettes de lecture � montures Lunettes de vue Spectacal With LED Light",
+      "Reading glasses with frames Spectacal With LED Light",
     current_price: "11.58",
     raw_price: "21.85",
     currency: "USD",
@@ -8917,8 +8917,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau de seau � bord large en paille pour femmes",
+    subcategory: "Belts & Suspenders",
+    name: "Wide Brim Straw Bucket Hat for Women",
     current_price: "13.53",
     raw_price: "27.26",
     currency: "USD",
@@ -8946,8 +8946,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chaussettes mi-longues camouflage pour hommes",
+    subcategory: "Belts & Suspenders",
+    name: "Camouflage mid-length socks for men",
     current_price: "7.79",
     raw_price: "14.21",
     currency: "USD",
@@ -8975,8 +8975,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Ceinture en nylon",
+    subcategory: "Belts & Suspenders",
+    name: "Nylon belt",
     current_price: "13.18",
     raw_price: "26.03",
     currency: "USD",
@@ -9004,8 +9004,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Capuche en velours c�tel� en velours c�tel� � la mode",
+    subcategory: "Belts & Suspenders",
+    name: "Trendy Corduroy Corduroy Hood",
     current_price: "24.27",
     raw_price: "49.54",
     currency: "USD",
@@ -9033,8 +9033,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Femmes Gants longs � lacets sans doigts",
+    subcategory: "Belts & Suspenders",
+    name: "Women Long Lace-Up Fingerless Gloves",
     current_price: "9.43",
     raw_price: "16.77",
     currency: "USD",
@@ -9062,8 +9062,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Bonnet tricot� de bonneterie hip-hop �lastique solide",
+    subcategory: "Belts & Suspenders",
+    name: "Sturdy elastic hip-hop hosiery knitted hat",
     current_price: "5.26",
     raw_price: "9.63",
     currency: "USD",
@@ -9091,8 +9091,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Cancer Chemo Cap Hair Loss Head Scarf Wrap Cover",
+    subcategory: "Belts & Suspenders",
+    name: "cancerChemoCapHairLossHeadScarfWrapCover",
     current_price: "12.59",
     raw_price: "25.2",
     currency: "USD",
@@ -9120,8 +9120,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "�charpe ch�le � la chandelle",
+    subcategory: "Belts & Suspenders",
+    name: "Candle shawl scarf",
     current_price: "13.31",
     raw_price: "24.39",
     currency: "USD",
@@ -9149,8 +9149,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "180CM Echarpes � l'homme",
+    subcategory: "Belts & Suspenders",
+    name: "180CM Men's scarves",
     current_price: "13.76",
     raw_price: "25.64",
     currency: "USD",
@@ -9178,9 +9178,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Chaussettes bateau d&#39;�t� en dentelle antid�rapante invisible pour femmes",
+      "Women's Invisible Non-Slip Lace Summer Bateau Socks",
     current_price: "4.63",
     raw_price: "8.78",
     currency: "USD",
@@ -9208,9 +9208,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Ceinture �lastique avec bouton en m�tal et ceinture en diamant pour femmes",
+      "Elastic belt with metal button and diamond belt for women",
     current_price: "8.44",
     raw_price: "15.84",
     currency: "USD",
@@ -9238,9 +9238,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Casquette de b�ret de coton d�contract� hommes femmes coton b�ret r�glable chapeau",
+      "Casual Cotton Beret Cap Men Women Cotton Beret Adjustable Hat",
     current_price: "12.56",
     raw_price: "23.22",
     currency: "USD",
@@ -9251,7 +9251,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4C/CA/a1d70207-c8a7-4b14-a638-065d74312fc6.jpg",
     variation_0_image:
@@ -9268,8 +9268,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Casquette de baseball en cuir PU pour hommes noir",
+    subcategory: "Belts & Suspenders",
+    name: "Black Men's PU Leather Baseball Cap",
     current_price: "20.02",
     raw_price: "35",
     currency: "USD",
@@ -9295,9 +9295,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Hommes Femmes Blanc Chapeau De Lune Hip Hop Kpop Sport Casquette De Baseball R�glable Strapback",
+      "Men Women White Moon Hat Hip Hop Kpop Sport Adjustable Strapback Baseball Cap",
     current_price: "9.8",
     raw_price: "17.44",
     currency: "USD",
@@ -9321,9 +9321,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Pochette Homme Mouchoir Carr� en Soie Style Cor�en Motif Cachemire Pois Fleur",
+      "Men's Square Handkerchief Pouch in Korean Style Silk Paisley Pattern Peas Flower",
     current_price: "4.97",
     raw_price: "9.38",
     currency: "USD",
@@ -9351,8 +9351,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau de cowboy fait main sal� chapeau de paille naturelle",
+    subcategory: "Belts & Suspenders",
+    name: "Salted Handmade Cowboy Hat Natural Straw Hat",
     current_price: "19.99",
     raw_price: "25.99",
     currency: "USD",
@@ -9378,8 +9378,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "�charpe longue en lin imprim�e pour femmes",
+    subcategory: "Belts & Suspenders",
+    name: "Women's printed linen long scarf",
     current_price: "13.99",
     raw_price: "36.99",
     currency: "USD",
@@ -9407,8 +9407,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Foulard long imprim� femme",
+    subcategory: "Belts & Suspenders",
+    name: "Women's long printed scarf",
     current_price: "16.99",
     raw_price: "44.99",
     currency: "USD",
@@ -9432,9 +9432,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Ananas Cap Cheveux Secs Microfibre Absorbant L'eau �paississement Bonnet De Douche S�chage Rapide Corail Polaire Turban",
+      "Pineapple Cap Dry Hair Microfiber Water Absorbing Thickening Shower Cap Quick Dry Coral Fleece Turban",
     current_price: "7.99",
     raw_price: "14.99",
     currency: "USD",
@@ -9462,8 +9462,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "�charpe d�contract�e � carreaux gris �pais monochrome",
+    subcategory: "Belts & Suspenders",
+    name: "�echarpe de�contracte � carreaux Grey �pais monochrome",
     current_price: "16.99",
     raw_price: "44.99",
     currency: "USD",
@@ -9487,8 +9487,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau de soleil Collage de personnalit� cr�ative",
+    subcategory: "Belts & Suspenders",
+    name: "Sun Hat Creative Personality Collage",
     current_price: "9.99",
     raw_price: "22.99",
     currency: "USD",
@@ -9512,8 +9512,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeau de broderie de tourisme Casquette brod�e de style national",
+    subcategory: "Belts & Suspenders",
+    name: "Tourist embroidery hat National style embroidered cap",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -9541,9 +9541,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Casquette plate de chapeau militaire d�contract� de mode de couture de couleur contrastante",
+      "Contrast Color Stitching Fashion Casual Military Hat Flat Cap",
     current_price: "10.99",
     raw_price: "12.99",
     currency: "USD",
@@ -9571,8 +9571,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Chapeaux de broderie de mode Casquette de baseball en coton",
+    subcategory: "Belts & Suspenders",
+    name: "Fashion Embroidery Hats Cotton Baseball Cap",
     current_price: "12.99",
     raw_price: "24.99",
     currency: "USD",
@@ -9600,9 +9600,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
+    subcategory: "Belts & Suspenders",
     name:
-      "Cravate en polyester jacquard pour hommes, ensembles de clips, boutons de manchette, s�rie de cadeaux de foulard",
+      "Mens Jacquard Polyester Tie, Clip Sets, Cufflinks, Scarf Gift Series",
     current_price: "15.56",
     raw_price: "28.28",
     currency: "USD",
@@ -9630,8 +9630,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Ceintures & Bretelles",
-    name: "Capuche chaude protection visage pour plein air",
+    subcategory: "Belts & Suspenders",
+    name: "Warm face protection hood for outdoor use",
     current_price: "11.18",
     raw_price: "21.11",
     currency: "USD",
@@ -9659,8 +9659,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Boucle automatique Nylon Ceinture",
+    subcategory: "Hats & Beanies",
+    name: "Automatic Buckle Nylon Belt",
     current_price: "12.29",
     raw_price: "22.33",
     currency: "USD",
@@ -9688,8 +9688,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Bandeau en velours pour femme",
+    subcategory: "Hats & Beanies",
+    name: "Velvet headband for women",
     current_price: "9.09",
     raw_price: "16.82",
     currency: "USD",
@@ -9700,7 +9700,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Rose",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/06/41/602af0ca-f08b-4d5b-b594-6d5a24e7aef8.jpg",
     variation_0_image:
@@ -9717,8 +9717,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Chaussettes bateau respirant pour femme",
+    subcategory: "Hats & Beanies",
+    name: "Breathable boat socks for women",
     current_price: "8.04",
     raw_price: "14.19",
     currency: "USD",
@@ -9746,8 +9746,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Bonnet Vogue El�gant en Laine",
+    subcategory: "Hats & Beanies",
+    name: "Vogue Elegant Wool Beanie",
     current_price: "27.31",
     raw_price: "53.17",
     currency: "USD",
@@ -9775,8 +9775,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Ensemble de gants en �charpe en velours �pais One",
+    subcategory: "Hats & Beanies",
+    name: "One Heavy Velvet Scarf Glove Set",
     current_price: "20.91",
     raw_price: "41.01",
     currency: "USD",
@@ -9804,8 +9804,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Jupe D�coration Bow Ceinture en PU",
+    subcategory: "Hats & Beanies",
+    name: "PU Belt Bow Decorative Skirt",
     current_price: "13.95",
     raw_price: "24.73",
     currency: "USD",
@@ -9833,8 +9833,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Casquette de baseball imprim�e",
+    subcategory: "Hats & Beanies",
+    name: "Printed baseball cap",
     current_price: "18.68",
     raw_price: "34.97",
     currency: "USD",
@@ -9862,8 +9862,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Coque pour appareil photo mignon pour appareil photo arri�re",
+    subcategory: "Hats & Beanies",
+    name: "Cute Camera Case for Rear Camera",
     current_price: "13.89",
     raw_price: "27.4",
     currency: "USD",
@@ -9891,8 +9891,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Coque en TPU pour iPhone, relief jaune et bleu",
+    subcategory: "Hats & Beanies",
+    name: "TPU case for iPhone, yellow and blue relief",
     current_price: "8.07",
     raw_price: "16.05",
     currency: "USD",
@@ -9920,8 +9920,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Casquette de baseball en coton avec chapeau brod� de lettres",
+    subcategory: "Hats & Beanies",
+    name: "Cotton baseball cap with lettered hat",
     current_price: "13.6",
     raw_price: "27.22",
     currency: "USD",
@@ -9949,8 +9949,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Capuchon � s�chage rapide Capuchon de seau UV Protection",
+    subcategory: "Hats & Beanies",
+    name: "Quick Dry Cap UV Protection Bucket Cap",
     current_price: "16.49",
     raw_price: "34.18",
     currency: "USD",
@@ -9978,9 +9978,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Chapeau de p�cheur anti-�claboussures Lunettes recouvertes de visage r�versible",
+      "Splash Resistant Fisherman Hat Reversible Face Covered Goggles",
     current_price: "16.49",
     raw_price: "33",
     currency: "USD",
@@ -10008,8 +10008,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Pare-soleil amovible anti-bu�e Fisherman Hat",
+    subcategory: "Hats & Beanies",
+    name: "Fisherman Hat Detachable Anti-Fog Sun Visor",
     current_price: "23.49",
     raw_price: "47",
     currency: "USD",
@@ -10037,9 +10037,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Masque d'�quitation respirant � s�chage rapide et protection solaire",
+      "Breathable, quick-drying, sun protection mask",
     current_price: "9.99",
     raw_price: "18.75",
     currency: "USD",
@@ -10068,8 +10068,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Foulard Femme �charpe Color-Block Multicolore Hiver",
+    subcategory: "Hats & Beanies",
+    name: "Color-Block Multicolored Winter Woman Scarf",
     current_price: "44.7",
     raw_price: "88.88",
     currency: "USD",
@@ -10095,9 +10095,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Visi�re double face � chapeau de p�cheur vintage avec imprim� ancien",
+      "Double-sided visor with vintage fisherman's hat with old print",
     current_price: "12.19",
     raw_price: "27.95",
     currency: "USD",
@@ -10125,8 +10125,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Casquette de baseball imprim�e anglaise longue ceinture",
+    subcategory: "Hats & Beanies",
+    name: "English print long belt baseball cap",
     current_price: "8.66",
     raw_price: "17.85",
     currency: "USD",
@@ -10154,8 +10154,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Skull Caps Lettres Chapeaux Brimless Casual Femmes Brod�es",
+    subcategory: "Hats & Beanies",
+    name: "Skull Caps Letters Hats Brimless Casual Embroidered Women",
     current_price: "12.59",
     raw_price: "25.2",
     currency: "USD",
@@ -10166,7 +10166,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Beige",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/52/5C/525c02ef1dcb3ec2af986402ec7d5728.jpg",
     variation_0_image:
@@ -10183,8 +10183,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Soft Couple TPU Transparent Mignon Peint � la Main",
+    subcategory: "Hats & Beanies",
+    name: "Soft Couple Transparent TPU Cute Hand Painted",
     current_price: "5.03",
     raw_price: "9.5",
     currency: "USD",
@@ -10212,9 +10212,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Chapeau de paille large boucle de ceinture chapeau de protection solaire",
+      "Wide Straw Hat Belt Buckle Sun Protection Hat",
     current_price: "11.87",
     raw_price: "22.41",
     currency: "USD",
@@ -10242,8 +10242,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Tasse � caf� main gauche et droite",
+    subcategory: "Hats & Beanies",
+    name: "Coffee cup left and right hand",
     current_price: "5.85",
     raw_price: "11.03",
     currency: "USD",
@@ -10271,8 +10271,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Lunettes de natation imperm�ables et anti-bu�e",
+    subcategory: "Hats & Beanies",
+    name: "Waterproof and anti-fog swimming goggles",
     current_price: "16.29",
     raw_price: "30.73",
     currency: "USD",
@@ -10300,8 +10300,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Lunettes de soleil ovales vintage",
+    subcategory: "Hats & Beanies",
+    name: "Vintage oval sunglasses",
     current_price: "12.87",
     raw_price: "25.06",
     currency: "USD",
@@ -10329,9 +10329,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Chaussettes bateau respirantes en coton invisibles anti-d�rapantes pour hommes",
+      "Men's non-slip invisible cotton breathable boat socks",
     current_price: "5.15",
     raw_price: "11.49",
     currency: "USD",
@@ -10341,7 +10341,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Noir Gris",
+    variation_0_color: "Noir Grey",
     variation_1_color: "blanc",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B9/D3/b5333a5c-55c2-4861-aa1f-7cb7cd06e0e9.jpg",
@@ -10359,8 +10359,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "�charpe d'impression d'encre de style ethnique",
+    subcategory: "Hats & Beanies",
+    name: "Ethnic style ink print scarf",
     current_price: "13.72",
     raw_price: "27.67",
     currency: "USD",
@@ -10388,8 +10388,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Foulards de plage parasol wrap ch�le",
+    subcategory: "Hats & Beanies",
+    name: "Beach scarves parasol wrap shawl",
     current_price: "14.26",
     raw_price: "28.84",
     currency: "USD",
@@ -10417,8 +10417,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Scraves Priting de coton sexy",
+    subcategory: "Hats & Beanies",
+    name: "Scarves Sexy Cotton Pressing",
     current_price: "11.25",
     raw_price: "21.86",
     currency: "USD",
@@ -10446,8 +10446,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Chapeau plat b�ret gavroche berger",
+    subcategory: "Hats & Beanies",
+    name: "Flat beret newsboy hat shepherd",
     current_price: "13.58",
     raw_price: "29.11",
     currency: "USD",
@@ -10475,8 +10475,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Joker Hilton Lunettes de soleil polarisantes",
+    subcategory: "Hats & Beanies",
+    name: "Joker Hilton Polarized Sunglasses",
     current_price: "11.4",
     raw_price: "21.44",
     currency: "USD",
@@ -10504,8 +10504,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "�charpes carr�s de tartan � carreaux pour femmes",
+    subcategory: "Hats & Beanies",
+    name: "Women's Plaid Tartan Square Scarves",
     current_price: "14.53",
     raw_price: "28.58",
     currency: "USD",
@@ -10533,8 +10533,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Lettre de coton lav� aux lettres Bonnets de baseball en coton",
+    subcategory: "Hats & Beanies",
+    name: "Washed Cotton Letter to Letters Cotton Baseball Hats",
     current_price: "9.56",
     raw_price: "16.96",
     currency: "USD",
@@ -10544,8 +10544,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "arm�e verte",
-    variation_1_color: "marron",
+    variation_0_color: "green army",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E9/4B/ba0e7430-b600-4acd-9abc-d93c1528c2df.jpg",
     variation_0_image:
@@ -10562,9 +10562,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Gants de Cyclisme Doublure en Polaire Chaude � �cran Tactile pour Femme Homme",
+      "Warm Fleece Lined Touch Screen Cycling Gloves for Women Men",
     current_price: "15.23",
     raw_price: "28.39",
     currency: "USD",
@@ -10590,8 +10590,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Gants chauds de peau de porc de coupe-vent des hommes",
+    subcategory: "Hats & Beanies",
+    name: "Men's Warm Windproof Pigskin Gloves",
     current_price: "10.88",
     raw_price: "20.22",
     currency: "USD",
@@ -10619,8 +10619,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Bonnet bonnet tricot� en laine solide",
+    subcategory: "Hats & Beanies",
+    name: "Knitted beanie hat in solid wool",
     current_price: "8.05",
     raw_price: "15.53",
     currency: "USD",
@@ -10648,9 +10648,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "LYZA femmes style folk folk surdimensionn� �charpes hiver chaud skin-friendly ch�le jacquard tissu gland foulard",
+      "LYZA Women Oversized Folk Style Scarves Winter Warm Skin-friendly Jacquard Shawl Fabric Tassel Scarf",
     current_price: "12.74",
     raw_price: "25.12",
     currency: "USD",
@@ -10678,9 +10678,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Bonnet Femme � Imprim� Flocons de Neige Chapeau de Loisir �lastique �tanche au Vent",
+      "Women's Snowflake Print Beanie Windproof Elastic Leisure Hat",
     current_price: "12.04",
     raw_price: "22.33",
     currency: "USD",
@@ -10708,9 +10708,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "125CM Homme Ceinture Toile Avec Deux Boucles En Alliage Couroie Durable De Pantalons Pour Jeu Ext�rieur Tactique",
+      "125CM Men's Canvas Belt With Two Buckles Alloy Durable Courage Pants For Outdoor Tactical Game",
     current_price: "13.65",
     raw_price: "26.44",
     currency: "USD",
@@ -10738,9 +10738,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Homme Chapeau Ajustable En Coton B�ret De Loisir � Rayures Protection Solaire Style Peintre Casquette Plate",
+      "Men's Adjustable Cotton Leisure Hat Striped Sunscreen Painter Style Flat Cap",
     current_price: "15.74",
     raw_price: "29.04",
     currency: "USD",
@@ -10768,9 +10768,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Tube long en coton respirant pour femmes Colorful Ligne �paisse de chaussettes de loisir pour loisirs",
+      "Women's Breathable Cotton Long Tube Colorful Thick Line Leisure Leisure Socks",
     current_price: "5.65",
     raw_price: "10.65",
     currency: "USD",
@@ -10798,8 +10798,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
-    name: "Bonnet en crochet tricot� tress�",
+    subcategory: "Hats & Beanies",
+    name: "Braided knit crochet hat",
     current_price: "8.84",
     raw_price: "17",
     currency: "USD",
@@ -10827,9 +10827,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chapeaux & Bonnets",
+    subcategory: "Hats & Beanies",
     name:
-      "Casquette plate � chevrons pour hommes, femmes, casquettes, chapeau de bravo",
+      "Herringbone flat cap for men, women, caps, bravo hat",
     current_price: "8.28",
     raw_price: "14.75",
     currency: "USD",
@@ -10857,8 +10857,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Foulard long imprim� femme",
+    subcategory: "Socks",
+    name: "Women's long printed scarf",
     current_price: "16.99",
     raw_price: "44.99",
     currency: "USD",
@@ -10882,9 +10882,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "COLLROWN Chapeau amovible pour pare-soleil pour enfants Chapeau anti-bu�e",
+      "COLLROWN Removable Sun Visor Hat for Kids Anti-Fog Cap",
     current_price: "17.49",
     raw_price: "33.84",
     currency: "USD",
@@ -10912,7 +10912,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
       "Flower Beach Sun Hat For Women Elegant Summer Hats Mesh Foldable Wide Brim Hat Anti-UV Cap For Lady",
     current_price: "12.99",
@@ -10942,8 +10942,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Chaussettes antid�rapantes Toe Yoga",
+    subcategory: "Socks",
+    name: "Non-slip Toe Yoga Socks",
     current_price: "4.85",
     raw_price: "11.41",
     currency: "USD",
@@ -10971,8 +10971,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Casquettes de cr�ne de mode noir � imprim� petite marguerite",
+    subcategory: "Socks",
+    name: "Black fashion skull caps with small daisy print",
     current_price: "10.99",
     raw_price: "15.99",
     currency: "USD",
@@ -10998,8 +10998,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Graffiti Printing Fashion Out Casquette Gavroche Casquette Plate",
+    subcategory: "Socks",
+    name: "Graffiti Printing Fashion Out Newsboy Cap Flat Cap",
     current_price: "9.99",
     raw_price: "14",
     currency: "USD",
@@ -11025,8 +11025,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Ceinture de soutien � bosse",
+    subcategory: "Socks",
+    name: "Humpback support belt",
     current_price: "18.62",
     raw_price: "34.88",
     currency: "USD",
@@ -11054,8 +11054,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Chaussettes mi-longues � rayures pour hommes",
+    subcategory: "Socks",
+    name: "Mid-length striped socks for men",
     current_price: "15.21",
     raw_price: "28.47",
     currency: "USD",
@@ -11083,9 +11083,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Casquette de baseball de couleur unie en coton unisexe avec lettre P rouge",
+      "Unisex Cotton Solid Color Baseball Cap with Red Letter P",
     current_price: "15.62",
     raw_price: "30.06",
     currency: "USD",
@@ -11113,8 +11113,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Casquettes plate ajustable en coton pour homme",
+    subcategory: "Socks",
+    name: "Flat adjustable cotton caps for men",
     current_price: "12.81",
     raw_price: "24.37",
     currency: "USD",
@@ -11142,8 +11142,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Lunettes de lecture Vogue Light",
+    subcategory: "Socks",
+    name: "Vogue Light reading glasses",
     current_price: "9.47",
     raw_price: "17.91",
     currency: "USD",
@@ -11154,7 +11154,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Cadre Pourpre",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BA/88/6fba1f3e-57ad-4f9f-b259-1507ea2eadef.jpg",
     variation_0_image:
@@ -11171,8 +11171,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Bonnet de ski froid en laine russe",
+    subcategory: "Socks",
+    name: "Russian wool cold ski hat",
     current_price: "22.68",
     raw_price: "47.77",
     currency: "USD",
@@ -11200,8 +11200,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Lunettes de lecture Vintage Light Square",
+    subcategory: "Socks",
+    name: "Vintage Light Square Reading Glasses",
     current_price: "8.67",
     raw_price: "16.33",
     currency: "USD",
@@ -11229,8 +11229,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Ceinture Homme de Luxe en Cuir V�ritable avec Boucle Automatique",
+    subcategory: "Socks",
+    name: "Men's Luxury Genuine Leather Belt with Automatic Buckle",
     current_price: "37.4",
     raw_price: "74.45",
     currency: "USD",
@@ -11241,7 +11241,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DF/D0/91394695-67c5-4169-be46-e20df2b2445f.jpg",
     variation_0_image:
@@ -11258,8 +11258,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Art Plant Hazy Print Fashion Landlord Hat Skull Caps",
+    subcategory: "Socks",
+    name: "artPlantHazyPrintFashionLandlordHatSkullCaps",
     current_price: "10.99",
     raw_price: "11",
     currency: "USD",
@@ -11285,9 +11285,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Arc mignon bandeau fil droit serre-t�te point blanc bande de tissu croix bandeau",
+      "Cute Bow Headband Straight Thread Headband White Stitch Fabric Band Cross Headband",
     current_price: "3.99",
     raw_price: "7.99",
     currency: "USD",
@@ -11315,7 +11315,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name: "Casquette gavroche",
     current_price: "14.33",
     raw_price: "28.82",
@@ -11327,7 +11327,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F9/7A/45e5b5d0-cc28-4fd1-9e77-3a482f5e9060.jpg",
     variation_0_image:
@@ -11344,9 +11344,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Mens Stripe Pattern D�odorant Respirant Sport Casual Coton Cinq orteils Chaussettes",
+      "Mens Stripe Pattern Breathable Deodorant Sport Casual Cotton Five Toe Socks",
     current_price: "5.48",
     raw_price: "10.56",
     currency: "USD",
@@ -11357,7 +11357,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Marine",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A4/A2/3d373d6d-9bed-4ae8-b852-b772838ff633.jpg",
     variation_0_image:
@@ -11374,9 +11374,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Chaussettes � la cheville en coton � lacets Chaussettes invisibles � la maille en �t�",
+      "Lace-up cotton ankle socks Invisible mesh socks in summer",
     current_price: "5.26",
     raw_price: "12.47",
     currency: "USD",
@@ -11404,8 +11404,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Casquette plate simple en lin, couleur unie Vogue",
+    subcategory: "Socks",
+    name: "Vogue Linen Single Flat Cap, Solid Color",
     current_price: "8.52",
     raw_price: "16.96",
     currency: "USD",
@@ -11433,9 +11433,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Les cravates florales pour hommes en coton de mariage pour hommes conviennent aux cravates skinny cravate Corbatas Grooms",
+      "Mens Wedding Cotton Mens Floral Ties Fit Corbatas Grooms Skinny Ties Ties",
     current_price: "10.69",
     raw_price: "20.15",
     currency: "USD",
@@ -11463,8 +11463,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "B�ret en denim lav�",
+    subcategory: "Socks",
+    name: "B�ret's denim lava�",
     current_price: "12.69",
     raw_price: "25.42",
     currency: "USD",
@@ -11492,8 +11492,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Casquette Twist Utile Imprim�e",
+    subcategory: "Socks",
+    name: "Utile Printed Twist Cap",
     current_price: "11.04",
     raw_price: "21.23",
     currency: "USD",
@@ -11521,8 +11521,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Bonnet Vogue en Coton",
+    subcategory: "Socks",
+    name: "Vogue Cotton Beanie",
     current_price: "15.14",
     raw_price: "30.35",
     currency: "USD",
@@ -11550,8 +11550,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Lunettes de soleil sans cadre",
+    subcategory: "Socks",
+    name: "Frameless sunglasses",
     current_price: "13.99",
     raw_price: "26.41",
     currency: "USD",
@@ -11579,8 +11579,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Bonnets en velours c�tel� pour hommes Bonnet en tricot",
+    subcategory: "Socks",
+    name: "Corduroy Beanies for Men Knit Beanie",
     current_price: "11.58",
     raw_price: "23.19",
     currency: "USD",
@@ -11608,8 +11608,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "�charpe longue en lin � motif d'impression couleur unie pour femmes",
+    subcategory: "Socks",
+    name: "Solid Color Print Long Linen Scarf for Women",
     current_price: "13.99",
     raw_price: "36.99",
     currency: "USD",
@@ -11637,9 +11637,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Drapeau am�ricain r�tro Western Cowboy Hat Summer Prairie chapeau de paille",
+      "American Flag Retro Western Cowboy Hat Summer Prairie Straw Hat",
     current_price: "8.4",
     raw_price: "26.99",
     currency: "USD",
@@ -11667,8 +11667,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Chaussettes en coton de la s�rie Shark",
+    subcategory: "Socks",
+    name: "Shark series cotton socks",
     current_price: "2.4",
     raw_price: "10.99",
     currency: "USD",
@@ -11692,9 +11692,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Casquette de baseball lav�e � la ligne blanche simple de couleur unie",
+      "Solid Color Simple White Line Washed Baseball Cap",
     current_price: "4.4",
     raw_price: "15.99",
     currency: "USD",
@@ -11722,8 +11722,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Cr�ne fant�me de clown",
+    subcategory: "Socks",
+    name: "Cr�ne fant�me the clown",
     current_price: "6.18",
     raw_price: "10.89",
     currency: "USD",
@@ -11751,8 +11751,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "V�tements de protection pour femmes � talons hauts",
+    subcategory: "Socks",
+    name: "Women's protective clothing with high heels",
     current_price: "8.93",
     raw_price: "16.34",
     currency: "USD",
@@ -11780,9 +11780,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      " Lunettes de soleil ovales de couleur r�tro de vache, petit cadre Lunettes de soleil Fshion",
+      "Oval retro cow color sunglasses, small frame Fshion sunglasses",
     current_price: "5.09",
     raw_price: "9.61",
     currency: "USD",
@@ -11810,9 +11810,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Manchons en soie glac�e Masque facial Gants de protection solaire Riding Half Finger Ice Sleeves",
+      "Ice Silk Sleeves Face Mask Sun Protection Gloves Riding Half Finger Ice Sleeves",
     current_price: "5.99",
     raw_price: "10.99",
     currency: "USD",
@@ -11840,9 +11840,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Chaussettes en coton tube de couleur contrastante Designer Lines vert fonc�",
+      "Designer Lines contrast color cotton tube socks dark green",
     current_price: "3.99",
     raw_price: "10.99",
     currency: "USD",
@@ -11866,8 +11866,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Daisy Print Black Out Fashion Flat Caps Casquettes Gavroche",
+    subcategory: "Socks",
+    name: "daisyPrintBlackOutFashionFlatCapsCasquettesGavroche",
     current_price: "9.99",
     raw_price: "18.99",
     currency: "USD",
@@ -11893,9 +11893,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Hommes Femmes Hip Hop Baseball Chapeaux Plats Chapeaux Snapback Hip-Hop Casquette R�glable En Toile",
+      "Men Women Hip Hop Baseball Flat Hats Snapback Hats Hip-Hop Adjustable Canvas Cap",
     current_price: "9.26",
     raw_price: "16.8",
     currency: "USD",
@@ -11919,8 +11919,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Spring Legs Turn Colors Lunettes de soleil polaris�es",
+    subcategory: "Socks",
+    name: "Spring Legs Turn Colors Polarized Sunglasses",
     current_price: "23.62",
     raw_price: "44.24",
     currency: "USD",
@@ -11948,9 +11948,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
+    subcategory: "Socks",
     name:
-      "Zhongmei Printemps Et �t� Nouvelle Plaque De Coton Lav� 8 Couleur Net Cap Baseball Cap Cap Sun Hat B646",
+      "Zhongmei Spring And Summer New Washed Cotton Plate 8 Color Net Cap Baseball Cap Cap Sun Hat B646",
     current_price: "5.15",
     raw_price: "19",
     currency: "USD",
@@ -11960,7 +11960,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/EC/02/ec022d791fb085836522bad0cdb3e8ec.jpg",
@@ -11978,8 +11978,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Lunettes de lecture pliables � rotation 360",
+    subcategory: "Socks",
+    name: "360 rotating folding reading glasses",
     current_price: "18.05",
     raw_price: "39.61",
     currency: "USD",
@@ -12007,8 +12007,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes",
-    name: "Lunettes de lecture �lastiques confortables pour femme",
+    subcategory: "Socks",
+    name: "Comfortable elastic reading glasses for women",
     current_price: "8.05",
     raw_price: "24.8",
     currency: "USD",
@@ -12019,7 +12019,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,TH",
     variation_0_color: "Bleu",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B5/CC/fa8d372c-0674-455a-9dc0-620552dc0cb3.jpg",
     variation_0_image:
@@ -12036,8 +12036,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Cap b�ret respirant chaud",
+    subcategory: "Socks & Tights",
+    name: "Warm breathable beret cap",
     current_price: "13.74",
     raw_price: "25.78",
     currency: "USD",
@@ -12065,8 +12065,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chaussettes 5 doigts pour femme chaussettes roses de sport",
+    subcategory: "Socks & Tights",
+    name: "5 finger socks for women Pink sport socks",
     current_price: "5.33",
     raw_price: "12.43",
     currency: "USD",
@@ -12077,7 +12077,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/FD/A3/3bb6e991-a2c4-4e8c-a45e-7d542acab8f0.jpg",
     variation_0_image:
@@ -12094,8 +12094,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Femmes Pliable Anti-UV Cool Beach Hat",
+    subcategory: "Socks & Tights",
+    name: "femmesPliableAntiUvCoolBeachHat",
     current_price: "12.16",
     raw_price: "23.34",
     currency: "USD",
@@ -12123,8 +12123,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chaussettes transparentes ultra-fines pour femmes",
+    subcategory: "Socks & Tights",
+    name: "Ultra-thin transparent socks for women",
     current_price: "5.22",
     raw_price: "9.83",
     currency: "USD",
@@ -12134,7 +12134,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/59/BE/25cd7708-c86b-45f6-b00b-b88f2b2e8319.jpg",
@@ -12152,8 +12152,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Bonnet femme mince dentelle creuse fleur imprim�",
+    subcategory: "Socks & Tights",
+    name: "Women's thin hollow lace flower print hat",
     current_price: "11.5",
     raw_price: "20.94",
     currency: "USD",
@@ -12181,8 +12181,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chapeau de p�cheur respirant de Mesh de large bord anti-UV de Mesh",
+    subcategory: "Socks & Tights",
+    name: "Breathable Wide Brim Mesh Anti-UV Mesh Fisherman Hat",
     current_price: "14.99",
     raw_price: "27.22",
     currency: "USD",
@@ -12210,8 +12210,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Ceinture d'�lasticit� en toile pour homme",
+    subcategory: "Socks & Tights",
+    name: "Men's canvas elasticity belt",
     current_price: "11.1",
     raw_price: "21.31",
     currency: "USD",
@@ -12222,7 +12222,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/06/CE/245f2aac-03a7-4937-8981-2699aabc9913.jpg",
     variation_0_image:
@@ -12239,8 +12239,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Coton casquette de baseball",
+    subcategory: "Socks & Tights",
+    name: "Cotton baseball cap",
     current_price: "9.42",
     raw_price: "19.6",
     currency: "USD",
@@ -12268,8 +12268,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Sweat Cycling Casquette de Baseball",
+    subcategory: "Socks & Tights",
+    name: "Sweat Cycling Baseball Cap",
     current_price: "13.41",
     raw_price: "27.26",
     currency: "USD",
@@ -12297,8 +12297,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Ch�les �charpes en coton de style ethnique laine",
+    subcategory: "Socks & Tights",
+    name: "Wool ethnic style cotton scarves shawls",
     current_price: "20.42",
     raw_price: "35.92",
     currency: "USD",
@@ -12326,8 +12326,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "�charpe cercle plus chaud collier de col",
+    subcategory: "Socks & Tights",
+    name: "Scarf circle warmer collar collar",
     current_price: "11.87",
     raw_price: "23.56",
     currency: "USD",
@@ -12338,7 +12338,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "blanc",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/63/3C/259e0d93-1311-4c05-8b2d-b67d1b63335e.jpg",
     variation_0_image:
@@ -12355,8 +12355,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chapeau plat en laine",
+    subcategory: "Socks & Tights",
+    name: "Flat wool hat",
     current_price: "9.36",
     raw_price: "20.36",
     currency: "USD",
@@ -12367,7 +12367,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/7E/24/b7b3e8f4-0543-45d1-a464-dc42f6afa316.jpg",
     variation_0_image:
@@ -12384,8 +12384,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "B�ret solide",
+    subcategory: "socks & Tights",
+    name: "Solid concrete",
     current_price: "10.79",
     raw_price: "21.35",
     currency: "USD",
@@ -12413,8 +12413,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Masque en dentelle laqu� creux pour Halloween",
+    subcategory: "Socks & Tights",
+    name: "Hollow lacquer lace mask for Halloween",
     current_price: "4.72",
     raw_price: "8.82",
     currency: "USD",
@@ -12442,8 +12442,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Foulard �charpe en coton Jacquard pour femme",
+    subcategory: "Socks & Tights",
+    name: "Jacquard cotton scarf for women",
     current_price: "13.79",
     raw_price: "25.15",
     currency: "USD",
@@ -12471,8 +12471,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chaussettes Sport Vedette C�l�bre � Num�ro",
+    subcategory: "Socks & Tights",
+    name: "socksSportVedetteC�l�bre �Num�ro",
     current_price: "8.59",
     raw_price: "16.22",
     currency: "USD",
@@ -12500,7 +12500,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name: "Sports Windproof Ski Screen Screen Gloves",
     current_price: "13.39",
     raw_price: "24.68",
@@ -12529,8 +12529,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "�charpe chaude tricot�e ray�e pour homme",
+    subcategory: "Socks & Tights",
+    name: "Warm striped knitted scarf for men",
     current_price: "10.71",
     raw_price: "18.95",
     currency: "USD",
@@ -12558,8 +12558,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Hommes Durable en cuir v�ritable capuchon chauffant respirant",
+    subcategory: "Socks & Tights",
+    name: "Men Durable Genuine Leather Breathable Heated Hood",
     current_price: "23.23",
     raw_price: "53.18",
     currency: "USD",
@@ -12569,7 +12569,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Marron 1",
+    variation_0_color: "Brown 1",
     variation_1_color: "black1",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/19/5F/ac2a3ad1-b1bd-4214-a693-70256837cec7.jpg",
@@ -12587,8 +12587,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chapeau de Ski Homme Femme Imperm�able Coupe-vent",
+    subcategory: "Socks & Tights",
+    name: "Ski Hat Men Women Waterproof Windproof",
     current_price: "11.1",
     raw_price: "20.34",
     currency: "USD",
@@ -12616,8 +12616,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chapeau de p�cheur respirant solide pliable hiver femmes",
+    subcategory: "Socks & Tights",
+    name: "Winter Women Foldable Solid Breathable Fisherman Hat",
     current_price: "11.19",
     raw_price: "21.63",
     currency: "USD",
@@ -12645,8 +12645,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Bonnet ext�rieur �pais Bonnet coupe-vent",
+    subcategory: "Socks & Tights",
+    name: "Thick outer beanie Windproof beanie",
     current_price: "23.69",
     raw_price: "45.69",
     currency: "USD",
@@ -12674,8 +12674,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Gants Chauds en Polaire � Ski Cyclisme Ext�rieur",
+    subcategory: "Socks & Tights",
+    name: "Warm Fleece Gloves for Outdoor Ski Cycling",
     current_price: "12.36",
     raw_price: "23.89",
     currency: "USD",
@@ -12703,8 +12703,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Casquette r�tro en coton gris",
+    subcategory: "Socks & Tights",
+    name: "Gray cotton retro cap",
     current_price: "14.69",
     raw_price: "28.31",
     currency: "USD",
@@ -12714,7 +12714,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F2/6E/5989e276-ff90-44e3-8796-1822bec21d68.jpg",
@@ -12730,8 +12730,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chaussettes mi-longues en coton �lastique pour hommes",
+    subcategory: "Socks & Tights",
+    name: "Men's stretch cotton mid-length socks",
     current_price: "5.37",
     raw_price: "10.06",
     currency: "USD",
@@ -12741,7 +12741,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "vert",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/8E/DD/5a16b691-657e-4c45-8948-f014830de586.jpg",
@@ -12759,8 +12759,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Moufles Unies Mignonnes Doubl�es de Fourrure en Peluche",
+    subcategory: "Socks & Tights",
+    name: "Cute Solid Plush Fur Lined Mittens",
     current_price: "11.34",
     raw_price: "21.05",
     currency: "USD",
@@ -12788,9 +12788,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "LYZA Serviette de pompon chaude et longue, foulard, impression nationale de vent d&#39;automne",
+      "LYZA Warm and long pompom towel, scarf, national autumn wind print",
     current_price: "14.48",
     raw_price: "26.25",
     currency: "USD",
@@ -12816,9 +12816,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Bonnet Respirant � Jacquard en Dentelle en Coton Chapeau de Soleil D�contract� d'Ext�rieur pour Femme",
+      "Breathable Jacquard Lace Cotton Beanie Outdoor Casual Sun Hat for Women",
     current_price: "12.65",
     raw_price: "24.73",
     currency: "USD",
@@ -12846,9 +12846,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Bonnet Souple Confortable de Voyage en Coton en Couleur Unie pour Femme",
+      "Comfortable Soft Cotton Travel Cap in Solid Color for Women",
     current_price: "9.66",
     raw_price: "18.21",
     currency: "USD",
@@ -12876,9 +12876,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Noeud Papillon en Couleur D�contract�e � Deux Couches Formel en Velours C�tel� pour Homme",
+      "Formal Corduroy Two-Layer Casual Color Bow Tie for Men",
     current_price: "5.84",
     raw_price: "11",
     currency: "USD",
@@ -12889,7 +12889,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Jaune",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/02/C8/b59e0d9d-093c-473d-94d4-30cb87d52249.jpg",
     variation_0_image:
@@ -12906,8 +12906,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Prot�ge-doigts de pied en gel de silice pour homme",
+    subcategory: "Socks & Tights",
+    name: "Silica gel toe guards for men",
     current_price: "5.39",
     raw_price: "10.09",
     currency: "USD",
@@ -12931,8 +12931,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Bonnet respirant pour femmes en cr�me solaire",
+    subcategory: "Socks & Tights",
+    name: "Women's breathable sunscreen beanie",
     current_price: "9.6",
     raw_price: "17.56",
     currency: "USD",
@@ -12960,8 +12960,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "�charpes � ch�le large � grille Douce et douce serviette",
+    subcategory: "Socks & Tights",
+    name: "Soft and Soft Towel Wide Shawl Scarves",
     current_price: "20.41",
     raw_price: "38.16",
     currency: "USD",
@@ -12972,7 +12972,7 @@ export const AccessoriesNew = [
     brand_url: "https://fr.newchic.com/lyza-brand-1148.html",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "rouge",
-    variation_1_color: "Gris clair",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4F/0F/6974fb1b-afad-446d-a46c-f2be65aefc48.jpg",
     variation_0_image:
@@ -12989,9 +12989,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Hommes femmes d&#39;�t� respirant casquettes de baseball de cow-boy ext�rieur pare-soleil pare-soleil chapeau plat",
+      "Men Women Summer Breathable Cowboy Baseball Caps Outdoor Sun Visor Sun Visor Flat Hat",
     current_price: "10.73",
     raw_price: "20.59",
     currency: "USD",
@@ -13019,8 +13019,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Casquette de baseball pliable en maille respirante",
+    subcategory: "Socks & Tights",
+    name: "Breathable Mesh Foldable Baseball Cap",
     current_price: "15.62",
     raw_price: "30.64",
     currency: "USD",
@@ -13048,9 +13048,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Lunettes de Soleil Fashion Femme Effet Yeux de Chat Verres de Sport D�contract�es Color�es Anti-UV",
+      "Cat Eye Effect Fashion Sunglasses for Women Colorful Anti-UV Sports Lenses",
     current_price: "8.39",
     raw_price: "16.39",
     currency: "USD",
@@ -13078,9 +13078,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Homme Chapeau Sport Respirant Couleur Unie Foulard De Pirate Pour Escalade Rue V�lo",
+      "Men Breathable Sport Hat Solid Color Pirate Scarf For Climbing Street Bike",
     current_price: "15.89",
     raw_price: "28.31",
     currency: "USD",
@@ -13108,8 +13108,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Chapeaux de seau de camouflage d&#39;hommes � bord large",
+    subcategory: "Socks & Tights",
+    name: "Wide Brim Mens Camouflage Bucket Hats",
     current_price: "12.58",
     raw_price: "23.01",
     currency: "USD",
@@ -13137,9 +13137,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Hommes Femmes Casquette de baseball en daim de couleur unie r�glable Snapback Hip-Hop Hat",
+      "Men Women Adjustable Solid Color Suede Baseball Cap Snapback Hip-Hop Hat",
     current_price: "11.67",
     raw_price: "22.44",
     currency: "USD",
@@ -13167,9 +13167,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
+    subcategory: "Socks & Tights",
     name:
-      "Chapeau de b�ret de couleur unie coton hommes chapeau � boucle r�glable",
+      "Solid Color Cotton Beret Hat Men Adjustable Buckle Hat",
     current_price: "11.59",
     raw_price: "20.55",
     currency: "USD",
@@ -13197,8 +13197,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Chaussettes & Collants",
-    name: "Retro Harajuku Big Frame Lunettes de Vue",
+    subcategory: "Socks & Tights",
+    name: "Retro Harajuku Big Frame Prescription Glasses",
     current_price: "9.28",
     raw_price: "17.53",
     currency: "USD",
@@ -13226,8 +13226,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Waves Stripe Print Beanies Chapeau",
+    subcategory: "Headdresses",
+    name: "wavesStripePrintBeaniesChapeau",
     current_price: "14.61",
     raw_price: "27.02",
     currency: "USD",
@@ -13255,8 +13255,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Hommes Plaid coton chaud respirant b�ret casquettes",
+    subcategory: "Headdresses",
+    name: "Men Plaid Warm Cotton Breathable Beret Caps",
     current_price: "17.35",
     raw_price: "30.93",
     currency: "USD",
@@ -13284,9 +13284,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Ceinture abdominale ajustable respirante support de taille effet sculptant ceinture fitness gymnastique exercice pour homme",
+      "Breathable Adjustable Abdominal Belt Waist Support Sculpting Effect Belt Fitness Gymnastics Exercise For Man",
     current_price: "18.18",
     raw_price: "34.69",
     currency: "USD",
@@ -13314,8 +13314,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "B�ret unisexe respirant �lastique",
+    subcategory: "Headdresses",
+    name: "Elastic breathable unisex beret",
     current_price: "16.04",
     raw_price: "29.89",
     currency: "USD",
@@ -13343,9 +13343,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Les genoux de sports �lastiques respirables d&#39;hommes prot�gent l&#39;escalade ext�rieure prot�geant compl�tement le genou",
+      "Men & # 39; s breathable elastic sports knees protect outdoor climbing fully protecting the knee",
     current_price: "17.52",
     raw_price: "32.72",
     currency: "USD",
@@ -13373,8 +13373,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Femme Respirant Hallux Valgus Correcteur",
+    subcategory: "Headdresses",
+    name: "Woman Breathable Hallux Valgus Corrector",
     current_price: "6.82",
     raw_price: "12.54",
     currency: "USD",
@@ -13398,8 +13398,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Chaussettes de tube moyen respirant coton femmes hommes",
+    subcategory: "Headdresses",
+    name: "Breathable Cotton Women Men Medium Tube Socks",
     current_price: "4.94",
     raw_price: "9.54",
     currency: "USD",
@@ -13427,9 +13427,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Chapeau V�lo Ski Protection des Oreilles Usage Foulard Chaud pour Ext�rieur",
+      "Ski Bike Hat Ear Protection Warm Scarf Use For Outdoor",
     current_price: "12.5",
     raw_price: "23.6",
     currency: "USD",
@@ -13439,8 +13439,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Noir Gris",
-    variation_1_color: "Bleu + gris",
+    variation_0_color: "Noir Grey",
+    variation_1_color: "Bleu + Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F6/2D/604c4fd1-102b-4f65-8704-344d340566bc.JPG",
     variation_0_image:
@@ -13457,8 +13457,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Chapeau de seau de visi�res de protection respirant ext�rieur UV",
+    subcategory: "Headdresses",
+    name: "Exterior UV Breathable Protection Visors Bucket Hat",
     current_price: "13.01",
     raw_price: "24.01",
     currency: "USD",
@@ -13469,7 +13469,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Beige",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E2/6D/8d6181ee-cc14-4ddd-8afb-b9da7b934f90.JPG",
     variation_0_image:
@@ -13486,9 +13486,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Chapeau Plat L�ger Respirant � S�chage Rapide Casquette Imperm�able Plaid Anti-UV Style Militaire",
+      "Breathable Lightweight Quick Dry Flat Hat Waterproof Plaid Anti-UV Cap Military Style",
     current_price: "19.49",
     raw_price: "36.21",
     currency: "USD",
@@ -13516,9 +13516,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Homme Chaussettes Invisibles Respirantes Chaussettes Navires Confortables Antid�rapantes Couleur Unie",
+      "Men Invisible Socks Breathable Socks Comfortable Non-slip Ships Solid Color",
     current_price: "5.5",
     raw_price: "10.27",
     currency: "USD",
@@ -13529,7 +13529,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Rose",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/EB/7C/28443066-918e-4744-9372-1b7a4d915b5d.jpg",
     variation_0_image:
@@ -13546,9 +13546,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Homme Femme Chapeau Respirant Sueur Absorb�e Foulard Pirate Pour V�lo �quitation Escalade Ext�rieur",
+      "Men Women Hat Breathable Absorbed Sweat Pirate Scarf For Bike Riding Climbing Outdoor",
     current_price: "10.89",
     raw_price: "20.17",
     currency: "USD",
@@ -13576,9 +13576,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Chapeau Sweat � Imprim� Num�rique Foulard Respirant Style Pirate pour V�lo Sport",
+      "Hat Digital Print Breathable Scarf Pirate Style for Sport Bike",
     current_price: "10.77",
     raw_price: "20.32",
     currency: "USD",
@@ -13606,8 +13606,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Lunettes de soleil d'�t� pour femmes",
+    subcategory: "Headdresses",
+    name: "Women's summer sunglasses",
     current_price: "9.88",
     raw_price: "18.66",
     currency: "USD",
@@ -13635,8 +13635,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Lunettes de soleil polaris�es carr�es brillantes pour homme 78260",
+    subcategory: "Headdresses",
+    name: "Mens Shiny Square Polarized Sunglasses 78260",
     current_price: "25.07",
     raw_price: "44.64",
     currency: "USD",
@@ -13664,8 +13664,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Lunettes de soleil polaris�es avec monture en m�tal",
+    subcategory: "Headdresses",
+    name: "polarizedSunglassesWithMetalFrame",
     current_price: "18.94",
     raw_price: "34.37",
     currency: "USD",
@@ -13675,8 +13675,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,TH",
-    variation_0_color: "gris",
-    variation_1_color: "Gris",
+    variation_0_color: "Grey",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/6C/AE/a2950fb5-8383-44d3-b168-299a1746c8d1.jpg",
     variation_0_image:
@@ -13693,8 +13693,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Bonnet � capuche multifonction",
+    subcategory: "Headdresses",
+    name: "Multifunctional hoodie",
     current_price: "7.37",
     raw_price: "13.9",
     currency: "USD",
@@ -13722,9 +13722,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "125CM Ceinture D�contract�e Lisse Avec Fermoir Clip Ceinture Tactique En Toile Pour Homme",
+      "125CM Smooth Casual Belt With Clip Clasp Tactical Canvas Belt For Men",
     current_price: "14.41",
     raw_price: "26.69",
     currency: "USD",
@@ -13735,7 +13735,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/D6/09/7bb430a9-da2f-4b70-bed9-76dd9036773a.jpg",
     variation_0_image:
@@ -13752,9 +13752,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Casquette militaire masculine en coton Colorful Outdoor Casual chapeau respirant de protection solaire",
+      "Mens Military Cap Cotton Colorful Outdoor Casual Breathable Sunscreen Hat",
     current_price: "13.49",
     raw_price: "25.46",
     currency: "USD",
@@ -13782,8 +13782,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Casual Stripe Slouch Beanie Cap",
+    subcategory: "Headdresses",
+    name: "casualStripeSlouchBeanieCap",
     current_price: "8.35",
     raw_price: "15.98",
     currency: "USD",
@@ -13794,7 +13794,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Marine",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9A/C4/d186c03d-2b9d-d8f6-1b78-d4217fae876e.jpg",
     variation_0_image:
@@ -13811,9 +13811,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Camouflage arm�e chasse en plein air moto militaire ski v�lo protection compl�te masques",
+      "Camouflage Weapon Outdoor Hunting Military Motorcycle Skiing Bike Full Protection Masks",
     current_price: "8.31",
     raw_price: "14.94",
     currency: "USD",
@@ -13841,8 +13841,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Bonnet de b�ret en dentelle de coton pour femme",
+    subcategory: "Headdresses",
+    name: "Women's cotton lace beret hat",
     current_price: "7.94",
     raw_price: "14.96",
     currency: "USD",
@@ -13870,9 +13870,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Hommes Femmes �t� Pliable Casquette de Baseball Imperm�able � s�chage rapide Chapeau de visi�re d'escalade ext�rieure de voyage",
+      "Men Women Summer Foldable Waterproof Baseball Cap Quick Dry Outdoor Travel Climbing Visor Hat",
     current_price: "11.65",
     raw_price: "22.41",
     currency: "USD",
@@ -13900,9 +13900,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Chapeau de p�cheur anti-UV mince � s�chage rapide Fisherman unisexe pour femmes",
+      "Unisex Women's Fisherman Quick Dry Thin Anti-UV Fisherman Hat",
     current_price: "15.7",
     raw_price: "31.21",
     currency: "USD",
@@ -13930,9 +13930,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Femme Chapeau Respitant Confortable D'�t� Avec Visi�re En Protection Solaire Pour Escalader Ext�rieur",
+      "Woman Comfortable Breathable Summer Hat With Sunscreen For Outdoor Climbing",
     current_price: "11.86",
     raw_price: "21.5",
     currency: "USD",
@@ -13960,9 +13960,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Homme Femme B�ret Gavroche En Lin � Rayure Chapeau D�contract� Travail Avec Visi�re Devant Boina",
+      "Men Women B�ret Gavroche In Striped Linen Casual Hat Work With Visor In Front Boina",
     current_price: "10.22",
     raw_price: "18.96",
     currency: "USD",
@@ -13990,8 +13990,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Chapeau � s�chage rapide pour sport de plein air plat",
+    subcategory: "Headdresses",
+    name: "Quick Dry Flat Outdoor Sports Hat",
     current_price: "12.49",
     raw_price: "21.12",
     currency: "USD",
@@ -14001,8 +14001,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris fonc�",
-    variation_1_color: "arm�e verte",
+    variation_0_color: "Grey fonc�",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/56/1F/4dc14b1c-2d0a-4b7f-8264-fe4d69eea7f2.jpg",
     variation_0_image:
@@ -14019,8 +14019,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Casquette respirante baseball ajustable en coton pour homme",
+    subcategory: "Headdresses",
+    name: "Breathable adjustable cotton baseball cap for men",
     current_price: "6.83",
     raw_price: "12.65",
     currency: "USD",
@@ -14048,9 +14048,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Chaussettes Respirantes Ultra-minces Fashion En Tulle Fils D'argent Ornement Nacr� Pour Femme",
+      "Fashion Ultra-thin Breathable Socks In Silver Thread Tulle Pearly Ornament For Women",
     current_price: "8.02",
     raw_price: "17.05",
     currency: "USD",
@@ -14078,9 +14078,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
+    subcategory: "Headdresses",
     name:
-      "Hommes Femmes Lettre Broderie De Mode Chapeau Chapeau Casual Avant Parasol Chapeau R�glable",
+      "Men Women Letter Embroidery Fashion Hat Hat Casual Front Sunshade Adjustable Hat",
     current_price: "8.68",
     raw_price: "16.37",
     currency: "USD",
@@ -14108,8 +14108,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Coiffes",
-    name: "Bamboo Legs Retro Lunettes de soleil",
+    subcategory: "Headdresses",
+    name: "Bamboo Legs Retro Sunglasses",
     current_price: "17.65",
     raw_price: "30.86",
     currency: "USD",
@@ -14119,8 +14119,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,TH",
-    variation_0_color: "Gris",
-    variation_1_color: "marron",
+    variation_0_color: "Grey",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DA/FC/b4571859-dcfe-46e5-aaa9-80ac1e89244a.jpg",
     variation_0_image:
@@ -14137,8 +14137,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "B�ret d'oreille",
+    subcategory: "Ties & Bow Ties",
+    name: "Ear bead",
     current_price: "12.84",
     raw_price: "23.95",
     currency: "USD",
@@ -14149,7 +14149,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/71/A7/a3ab4d42-5b1e-4a10-ba25-3e000c76af47.jpg",
     variation_0_image:
@@ -14166,9 +14166,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Bonnet hiver chaud en laine cache-oreilles casquette de baseball cach�",
+      "Warm Winter Wool Hat Earmuffs Hidden Baseball Cap",
     current_price: "12.59",
     raw_price: "21.37",
     currency: "USD",
@@ -14196,7 +14196,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
       "Chapeau Chapeau en laine tricot� Season Plus Chapeau de plein air chaud pour homme avec t�te d'�toile � cinq branches",
     current_price: "6.2",
@@ -14208,7 +14208,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/E7/17/e7170769ed4e8d2d9287a801eb2109e0.jpg",
@@ -14226,9 +14226,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Nouveau Drapeau De Drapeau De Drapeau Des Peluches Lei Feng Chapeau En Plein Air Chapeau De Laine � Tricoter",
+      "New Lei Feng Plush Flag Flag Flag Hat Outdoor Knitting Wool Hat",
     current_price: "11.21",
     raw_price: "24.24",
     currency: "USD",
@@ -14256,8 +14256,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Colorful Chapeau de p�cheur � graffiti Chapeau de bassin solaire",
+    subcategory: "Ties & Bow Ties",
+    name: "Colorful Graffiti Fisherman's Hat Solar Pond Hat",
     current_price: "15.49",
     raw_price: "28.62",
     currency: "USD",
@@ -14281,8 +14281,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "�cran facial amovible pour capuchon anti-poussi�re pour enfants",
+    subcategory: "Ties & Bow Ties",
+    name: "Removable face shield for children's dust cap",
     current_price: "17.49",
     raw_price: "34.99",
     currency: "USD",
@@ -14310,8 +14310,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Cas de t�l�phone de style joueur simple",
+    subcategory: "Ties & Bow Ties",
+    name: "Simple player style phone case",
     current_price: "8.72",
     raw_price: "16.15",
     currency: "USD",
@@ -14339,8 +14339,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Ananas Imprimer IPhone cas",
+    subcategory: "Ties & Bow Ties",
+    name: "Pineapple Print IPhone case",
     current_price: "8.05",
     raw_price: "16.13",
     currency: "USD",
@@ -14366,9 +14366,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Bonnet chaud chapeaux mar�e mignonne dame en plein air boule de laine chaud en tricot",
+      "Warm beanie hats tide cute lady outdoor knit warm wool ball",
     current_price: "11.7",
     raw_price: "36.36",
     currency: "USD",
@@ -14396,8 +14396,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chaussettes chaudes d'hiver unisexes",
+    subcategory: "Ties & Bow Ties",
+    name: "Unisex winter warm socks",
     current_price: "7.2",
     raw_price: "13.16",
     currency: "USD",
@@ -14425,8 +14425,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Skull Caps Chapeaux multicolores",
+    subcategory: "Ties & Bow Ties",
+    name: "Skull Caps Multicolored Hats",
     current_price: "14.61",
     raw_price: "29.24",
     currency: "USD",
@@ -14454,9 +14454,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Chapeau de marin ajustable en polyester � chapeaux ajustables sans visi�re",
+      "Adjustable polyester sailor hat with adjustable hats without visor",
     current_price: "15.62",
     raw_price: "31.26",
     currency: "USD",
@@ -14484,9 +14484,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Ceinture pour hommes d&#39;affaires avec boucle � boucle noire en cuir noir",
+      "Business Men Belt with Black Buckle Buckle Black Leather",
     current_price: "19",
     raw_price: "35.14",
     currency: "USD",
@@ -14510,8 +14510,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chapeau tricot� Skullies Beanie",
+    subcategory: "Ties & Bow Ties",
+    name: "chapeauTricot�SkulliesBeanie",
     current_price: "8.36",
     raw_price: "17.79",
     currency: "USD",
@@ -14522,7 +14522,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Beige",
-    variation_1_color: "Vin rouge",
+    variation_1_color: "Red wine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E9/50/a9b575cf-fb9a-4138-be20-1ab428f4acb0.jpg",
     variation_0_image:
@@ -14539,9 +14539,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Casquette militaire militaire ext�rieure en coton parasol pour homme",
+      "Mens Parasol Cotton Outdoor Military Military Cap",
     current_price: "10.41",
     raw_price: "19.67",
     currency: "USD",
@@ -14569,7 +14569,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
       "Casquette de p�cheur camouflage avec protection solaire pour sports de plein air",
     current_price: "10.15",
@@ -14582,7 +14582,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/37/36/e82e7fd3-7fec-4375-a93b-61800ee7ef93.jpg",
     variation_0_image:
@@ -14599,8 +14599,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Verres de verres clairs anti-bleu",
+    subcategory: "Ties & Bow Ties",
+    name: "Clear anti-blue glasses",
     current_price: "10.5",
     raw_price: "19.39",
     currency: "USD",
@@ -14628,9 +14628,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Lunettes de soleil anti-UV Lunettes de soleil polaris�es r�tro en m�tal",
+      "Anti-UV Sunglasses Retro Polarized Metal Sunglasses",
     current_price: "15.03",
     raw_price: "28.36",
     currency: "USD",
@@ -14658,8 +14658,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Nouveau Ceinture en cuir � double couche pour hommes",
+    subcategory: "Ties & Bow Ties",
+    name: "New Men's Double Layer Leather Belt",
     current_price: "17.64",
     raw_price: "35.3",
     currency: "USD",
@@ -14687,9 +14687,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Chapeau en cuir Casquette de baseball pour homme Chapeau en cuir de ch�vre",
+      "Leather hat Men's baseball cap Goat leather hat",
     current_price: "60.49",
     raw_price: "121",
     currency: "USD",
@@ -14717,8 +14717,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Bonnet double face en coton cr�me vintage pour femmes",
+    subcategory: "Ties & Bow Ties",
+    name: "Double-sided vintage cream cotton beanie for women",
     current_price: "13.26",
     raw_price: "25",
     currency: "USD",
@@ -14746,9 +14746,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Chapeau de p�che chapeau de seau de visi�re de camouflage coton d'�t�",
+      "fishing Hat Cotton Camouflage Visor Bucket Hat'�t�",
     current_price: "11.42",
     raw_price: "22.51",
     currency: "USD",
@@ -14776,9 +14776,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Hommes femmes chapeau de coton chapeau de crini�re papa Ushanka chapeau d'hiver russe",
+      "Men Women Cotton Hat Mane Hat Ushanka Dad Hat'russian winter",
     current_price: "12.59",
     raw_price: "23.94",
     currency: "USD",
@@ -14789,7 +14789,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Marron fonc�",
+    variation_1_color: "Brown fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/5D/62/5d6274a1b265e037632cb31e2b4d0a94.jpg",
     variation_0_image:
@@ -14806,8 +14806,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chapeau de paille de vache de parasol de femmes",
+    subcategory: "Ties & Bow Ties",
+    name: "Women Parasol Cow Straw Hat",
     current_price: "17.27",
     raw_price: "33.61",
     currency: "USD",
@@ -14835,8 +14835,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chapeau B�ret Respirant Femme",
+    subcategory: "Ties & Bow Ties",
+    name: "Women's Breathable Beret Hat",
     current_price: "10.36",
     raw_price: "19.74",
     currency: "USD",
@@ -14864,8 +14864,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Genouill�res Sport Hommes",
+    subcategory: "Ties & Bow Ties",
+    name: "Men's Sport Knee Pads",
     current_price: "21.41",
     raw_price: "42.07",
     currency: "USD",
@@ -14893,8 +14893,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Bonnet tricot� pour femmes",
+    subcategory: "Ties & Bow Ties",
+    name: "Knitted beanie for women",
     current_price: "6.63",
     raw_price: "21.21",
     currency: "USD",
@@ -14904,7 +14904,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris fonc�",
+    variation_0_color: "Grey fonc�",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/05/99/0599010b9200e890a31ab256053bd35d.jpg",
@@ -14922,8 +14922,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "�charpe en cachemire chaud � rayures pour femme",
+    subcategory: "Ties & Bow Ties",
+    name: "Warm Striped Cashmere Scarf for Women",
     current_price: "13.42",
     raw_price: "45.45",
     currency: "USD",
@@ -14933,7 +14933,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/08/2A/082ad944784eb71232280b8fc79776ca.jpg",
@@ -14949,9 +14949,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Les femmes pliable masque respirant masque � s�chage rapide de baseball hat escalade portable visi�re chapeaux",
+      "Women Foldable Breathable Mask Quick Dry Baseball Hat Portable Climbing Visor Hats",
     current_price: "11.16",
     raw_price: "21.12",
     currency: "USD",
@@ -14979,8 +14979,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Bonnet tricot� b�ret dame chaud bonnet �pais",
+    subcategory: "Ties & Bow Ties",
+    name: "Knitted beanie warm beret thick beanie",
     current_price: "4.99",
     raw_price: "17.17",
     currency: "USD",
@@ -15008,8 +15008,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chapeau de b�ret en coton r�tro",
+    subcategory: "Ties & Bow Ties",
+    name: "Retro cotton beret hat",
     current_price: "15.3",
     raw_price: "28.04",
     currency: "USD",
@@ -15020,7 +15020,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B9/4A/297bc9e4-9843-4d52-8482-c7f599a3eab5.JPG",
     variation_0_image:
@@ -15037,8 +15037,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Casquette Vintage Newsboy en Coton",
+    subcategory: "Ties & Bow Ties",
+    name: "Vintage Cotton Newsboy Cap",
     current_price: "14.76",
     raw_price: "27.95",
     currency: "USD",
@@ -15066,9 +15066,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Chapeau de protection d�tachab de protection pour chapeau de soleil UV de Top Streamer vide",
+      "Top Streamer UV Sun Hat Protective Detachab Hat Empty",
     current_price: "12.74",
     raw_price: "24.04",
     currency: "USD",
@@ -15096,8 +15096,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chapeau de p�cheur Bonnet anti-poussi�re anti-crachat",
+    subcategory: "Ties & Bow Ties",
+    name: "Fisherman's hat Spit-proof dust cap",
     current_price: "19.49",
     raw_price: "42.44",
     currency: "USD",
@@ -15125,8 +15125,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Chaussettes cor�ennes tendance coton Chaussettes tendance rue",
+    subcategory: "Ties & Bow Ties",
+    name: "Korean trendy cotton socks trendy street socks",
     current_price: "2.4",
     raw_price: "10.99",
     currency: "USD",
@@ -15150,9 +15150,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Casquette de baseball brod�e Summer Street Dance Wild Flat-edge Hat Mens Caps",
+      "casquetteDeBaseballBrod�eSummerStreetDanceWildFlatEdgeHatMensCaps",
     current_price: "5.2",
     raw_price: "0",
     currency: "USD",
@@ -15180,8 +15180,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Hommes G�om�trique Figure Stripe Pattern Skull Caps Triangle Stripe",
+    subcategory: "Ties & Bow Ties",
+    name: "hommesG�om�triqueFigureStripePatternSkullCapsTriangleStripe",
     current_price: "4.4",
     raw_price: "15.99",
     currency: "USD",
@@ -15207,9 +15207,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Homme Lunette De Soleil Vintage Polaris�es Lunettes Pour Conduire Sport Ext�rieur UV400 Anti-UV Verres Fum�s De Voyage",
+      "Men Sunglasses Vintage Polarized Glasses For Driving Sport Outdoor UV400 Anti-UV Travel Smoke Lenses",
     current_price: "16.6",
     raw_price: "31.92",
     currency: "USD",
@@ -15237,8 +15237,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Casquette de baseball � s�chage rapide",
+    subcategory: "Ties & Bow Ties",
+    name: "Quick Dry Baseball Cap",
     current_price: "10.99",
     raw_price: "21.91",
     currency: "USD",
@@ -15266,9 +15266,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
+    subcategory: "Ties & Bow Ties",
     name:
-      "Femmes Chaussettes respirantes ultra-minces transparentes Nylon Flexibale",
+      "Women Transparent Ultra Thin Breathable Nylon Flexible Socks",
     current_price: "6.54",
     raw_price: "12.18",
     currency: "USD",
@@ -15296,8 +15296,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Cravates & Noeuds Papillon",
-    name: "Casquette b�ret large en laine fine",
+    subcategory: "Ties & Bow Ties",
+    name: "Large beret cap in fine wool",
     current_price: "19.08",
     raw_price: "34.98",
     currency: "USD",
@@ -15308,7 +15308,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/59/E4/d4d56d1b-57a1-4210-a670-55f6973c5187.jpg",
     variation_0_image:
@@ -15325,9 +15325,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
+    subcategory: "Wedding favorites",
     name:
-      "Homme Chapeau Coton Vintage Style Cow-boy B�ret D�contract� Ext�rieur Casquette Plate Pour Sport",
+      "Men Hat Cotton Vintage Cowboy Style Beret Casual Outdoor Sports Flat Cap",
     current_price: "13.54",
     raw_price: "25.94",
     currency: "USD",
@@ -15355,8 +15355,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Tissu mince en lycra Soft manchon de bras",
+    subcategory: "Wedding favorites",
+    name: "Thin Lycra Fabric Soft Arm Sleeve",
     current_price: "15.63",
     raw_price: "28.97",
     currency: "USD",
@@ -15380,8 +15380,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "B�ret de coton d'hiver",
+    subcategory: "Wedding favorites",
+    name: "Winter cotton beret",
     current_price: "16.47",
     raw_price: "30.95",
     currency: "USD",
@@ -15409,8 +15409,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chapeau de peintre britannique en laine b�ret chat brod�",
+    subcategory: "Wedding favorites",
+    name: "British painter's hat in b�ret cat embroidered wool",
     current_price: "18.49",
     raw_price: "38.16",
     currency: "USD",
@@ -15438,8 +15438,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Lunettes de lecture pour femme",
+    subcategory: "Wedding favorites",
+    name: "Reading glasses for women",
     current_price: "14.84",
     raw_price: "26.59",
     currency: "USD",
@@ -15465,9 +15465,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
+    subcategory: "Wedding favorites",
     name:
-      "Chapeau d'�t� mince respirant pliable � visi�re large anti-UV chapeau seau de plein air chapeau de p�cheur de sport",
+      "Anti-UV Foldable Breathable Thin Summer Hat Anti-UV Outdoor Bucket Hat Sport Fisherman Hat",
     current_price: "11.44",
     raw_price: "22.44",
     currency: "USD",
@@ -15495,8 +15495,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Casquettes Bonnets Skullies Femme",
+    subcategory: "Wedding favorites",
+    name: "Women's Skullies Beanies Caps",
     current_price: "9.13",
     raw_price: "17.56",
     currency: "USD",
@@ -15524,8 +15524,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chapeau de b�ret femmes solides",
+    subcategory: "Wedding favorites",
+    name: "Solid women beret hat",
     current_price: "15.53",
     raw_price: "29.01",
     currency: "USD",
@@ -15553,8 +15553,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Lunettes de soleil mode polaris�es anti-UV",
+    subcategory: "Wedding favorites",
+    name: "Fashion polarized anti-UV sunglasses",
     current_price: "13.76",
     raw_price: "26.06",
     currency: "USD",
@@ -15565,7 +15565,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Couleur du pistolet",
+    variation_1_color: "Gun color",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/FE/34/78a38b29-3019-47f2-a013-129ad6549390.jpg",
     variation_0_image:
@@ -15582,9 +15582,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
+    subcategory: "Wedding favorites",
     name:
-      "Femmes musulman foulard fleur bonnet bonnet multicolore capuche capuche",
+      "Muslim Women Scarf Flower Beanie Hat Multicolor Hooded Hood",
     current_price: "8.99",
     raw_price: "15.99",
     currency: "USD",
@@ -15612,8 +15612,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Bonnet Femme Chaud Coupe-vent Chapeau Multifonctionnel",
+    subcategory: "Wedding favorites",
+    name: "Beanie Women Warm Windproof Multifunctional Hat",
     current_price: "13.74",
     raw_price: "23.69",
     currency: "USD",
@@ -15641,8 +15641,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Lunettes de lecture pliable plein cadre Lunettes presbytes",
+    subcategory: "Wedding favorites",
+    name: "Full Frame Foldable Reading Glasses Presbyopic Glasses",
     current_price: "13.27",
     raw_price: "25.62",
     currency: "USD",
@@ -15670,8 +15670,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chapeau de p�cheur r�tro en coton d�lav�",
+    subcategory: "Wedding favorites",
+    name: "Retro fisherman's hat in delab cotton",
     current_price: "14.7",
     raw_price: "26.59",
     currency: "USD",
@@ -15682,7 +15682,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/74/DA/5713137f-f0b0-4974-8266-6b794bef5487.jpg",
     variation_0_image:
@@ -15699,8 +15699,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Lunettes de lecture en m�tal d�coloration",
+    subcategory: "Wedding favorites",
+    name: "Reading glasses in discoloration metal",
     current_price: "15.97",
     raw_price: "30.15",
     currency: "USD",
@@ -15726,8 +15726,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chaussettes courtes � cinq doigts",
+    subcategory: "Wedding favorites",
+    name: "Five-finger short socks",
     current_price: "20.93",
     raw_price: "40.39",
     currency: "USD",
@@ -15755,8 +15755,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Casquette plate camouflage Sun",
+    subcategory: "Wedding favorites",
+    name: "Sun camouflage flat cap",
     current_price: "11.5",
     raw_price: "21.41",
     currency: "USD",
@@ -15784,8 +15784,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chapeau de soleil casquette de baseball broderie lettre ancre",
+    subcategory: "Wedding favorites",
+    name: "Sun Hat Baseball Cap Embroidery Letter Anchor",
     current_price: "6.07",
     raw_price: "24",
     currency: "USD",
@@ -15811,8 +15811,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Chapeau de seau de fleurs de pivoine de broderie de style national",
+    subcategory: "Wedding favorites",
+    name: "National Style Embroidery Peony Flowers Bucket Hat",
     current_price: "17.18",
     raw_price: "32.37",
     currency: "USD",
@@ -15840,8 +15840,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Bandeau d'�quitation pour homme",
+    subcategory: "Wedding favorites",
+    name: "Men's riding headband",
     current_price: "15.37",
     raw_price: "28.82",
     currency: "USD",
@@ -15869,8 +15869,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Favoris de mariage",
-    name: "Bonnet unisexe de sport � s�chage rapide",
+    subcategory: "Wedding favorites",
+    name: "Quick Dry Unisex Sports Hat",
     current_price: "9.5",
     raw_price: "17.94",
     currency: "USD",
@@ -15928,7 +15928,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chapeau mode parasol � bord �troit",
+    name: "Fashionable narrow-brimmed hat",
     current_price: "16.65",
     raw_price: "31.05",
     currency: "USD",
@@ -15957,7 +15957,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Sceller Lunettes de natation r�glables imperm�ables",
+    name: "Seal Waterproof Adjustable Swimming Goggles",
     current_price: "12.76",
     raw_price: "23.8",
     currency: "USD",
@@ -15986,7 +15986,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de soleil polaris�es Vogue",
+    name: "Vogue Polarized Sunglasses",
     current_price: "24.26",
     raw_price: "47.37",
     currency: "USD",
@@ -16015,7 +16015,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bonnet boule de fourrure tricot�",
+    name: "Knitted fur ball beanie",
     current_price: "9.62",
     raw_price: "18.05",
     currency: "USD",
@@ -16026,7 +16026,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C2/79/eca17624-1476-4e7b-a4ac-b055d7364821.jpg",
     variation_0_image:
@@ -16044,7 +16044,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bonnet de bain imperm�able femme",
+    name: "Women's waterproof swim cap",
     current_price: "9.45",
     raw_price: "17.75",
     currency: "USD",
@@ -16073,7 +16073,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de lecture flexibles",
+    name: "Flexible reading glasses",
     current_price: "11.09",
     raw_price: "21.2",
     currency: "USD",
@@ -16102,7 +16102,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Casquette plate ajustable chaude en cuir de vachette noir",
+    name: "Warm adjustable flat cap in black cowhide leather",
     current_price: "25.47",
     raw_price: "48.11",
     currency: "USD",
@@ -16113,7 +16113,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/51/87/42a9690e-f53c-4511-b912-9b0daa0c630e.JPG",
     variation_0_image:
@@ -16131,7 +16131,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bonnet en maille de velours de coton",
+    name: "Cotton velvet knit hat",
     current_price: "9.35",
     raw_price: "16.96",
     currency: "USD",
@@ -16160,7 +16160,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de natation pour hommes",
+    name: "Men's swimming goggles",
     current_price: "15.42",
     raw_price: "28.79",
     currency: "USD",
@@ -16170,7 +16170,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C3/84/e2d73465-6f41-4a0b-9d9e-9a8368b68c4f.jpg",
@@ -16189,7 +16189,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de soleil rondes pour femmes",
+    name: "Round sunglasses for women",
     current_price: "14.37",
     raw_price: "26.77",
     currency: "USD",
@@ -16218,7 +16218,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de lecture pliantes et rotatives",
+    name: "Folding and rotating reading glasses",
     current_price: "10.75",
     raw_price: "20.54",
     currency: "USD",
@@ -16229,7 +16229,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DE/BE/c710b451-a61a-433d-aaeb-631e5e75116f.jpg",
     variation_0_image:
@@ -16247,7 +16247,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de soleil rondes Vogue Femme",
+    name: "Vogue Women's Round Sunglasses",
     current_price: "10.82",
     raw_price: "20.18",
     currency: "USD",
@@ -16276,7 +16276,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bande de cheveux pour femmes",
+    name: "Hair band for women",
     current_price: "11.33",
     raw_price: "20.72",
     currency: "USD",
@@ -16305,7 +16305,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Turban extensible bicolore avec turban",
+    name: "Two-tone stretch turban with turban",
     current_price: "11",
     raw_price: "20.73",
     currency: "USD",
@@ -16334,7 +16334,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bonnet de bain respirant � s�chage rapide",
+    name: "Quick-drying, breathable swim cap",
     current_price: "6.3",
     raw_price: "11.31",
     currency: "USD",
@@ -16363,7 +16363,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "B�ret en coton lav�",
+    name: "Washed cotton beret",
     current_price: "13.89",
     raw_price: "25.38",
     currency: "USD",
@@ -16374,7 +16374,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Bleu profond",
+    variation_1_color: "Deep blue",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/CB/2A/98f292a4-f8dc-4196-afe3-00e87c114d77.jpg",
     variation_0_image:
@@ -16392,7 +16392,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chaussettes Femme en Dentelle",
+    name: "Women's Lace Socks",
     current_price: "6.09",
     raw_price: "11.31",
     currency: "USD",
@@ -16421,7 +16421,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Men Casual Nylon Ceinture",
+    name: "Men Casual Nylon Belt",
     current_price: "14.37",
     raw_price: "26.89",
     currency: "USD",
@@ -16450,7 +16450,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chapeau tricot� vintage pour femme",
+    name: "Vintage knitted hat for women",
     current_price: "17.33",
     raw_price: "33.08",
     currency: "USD",
@@ -16479,7 +16479,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Costume amovible de chapeau de masque de ch�le femelle",
+    name: "Female Shawl Mask Hat Removable Costume",
     current_price: "20.88",
     raw_price: "37.86",
     currency: "USD",
@@ -16508,7 +16508,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Casquette de b�ret � large bord vide",
+    name: "Beret cap with wide empty brim",
     current_price: "11.39",
     raw_price: "20.57",
     currency: "USD",
@@ -16519,7 +16519,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A2/80/03bdf48b-d284-4610-924d-f37246c19a64.jpg",
     variation_0_image:
@@ -16537,7 +16537,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chaussettes de bateau en tissu antid�rapantes",
+    name: "Non-slip fabric boat socks",
     current_price: "8.06",
     raw_price: "15.59",
     currency: "USD",
@@ -16566,7 +16566,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Ceinture ventrale � haute �lasticit�",
+    name: "High elasticity waist belt",
     current_price: "19.17",
     raw_price: "36.06",
     currency: "USD",
@@ -16593,7 +16593,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chapeau Coton Double Face Femme",
+    name: "Double Face Cotton Hat Women",
     current_price: "10.91",
     raw_price: "20.56",
     currency: "USD",
@@ -16622,7 +16622,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chaussette en soie fine pour femme",
+    name: "Fine silk socks for women",
     current_price: "11.62",
     raw_price: "21.43",
     currency: "USD",
@@ -16651,7 +16651,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Casquette de baseball � s�chage rapide pour hommes",
+    name: "Men's Quick Dry Baseball Cap",
     current_price: "9.99",
     raw_price: "18.89",
     currency: "USD",
@@ -16661,7 +16661,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris fonc�",
+    variation_0_color: "Grey fonc�",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/84/4D/09366c1d-0527-4beb-a164-e0b5ebde9308.jpg",
@@ -16680,7 +16680,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Chapeau de Baseball Hommes Femmes",
+    name: "Baseball Hat Men Women",
     current_price: "12.9",
     raw_price: "24.51",
     currency: "USD",
@@ -16709,7 +16709,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Bandeau Musulman Femme",
+    name: "Muslim Headband Woman",
     current_price: "9.51",
     raw_price: "17.37",
     currency: "USD",
@@ -16738,7 +16738,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Hommes Polaris�es Lunettes de soleil",
+    name: "Men Polarized Sunglasses",
     current_price: "10.41",
     raw_price: "18.75",
     currency: "USD",
@@ -16767,7 +16767,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Flat Caps",
-    name: "Lunettes de lecture transparentes pour PC sans cadre",
+    name: "Clear Frameless PC Reading Glasses",
     current_price: "10.06",
     raw_price: "18.72",
     currency: "USD",
@@ -16795,8 +16795,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Chaussettes de bateau respirantes transparentes",
+    subcategory: "Flowers",
+    name: "Transparent breathable boat socks",
     current_price: "7.94",
     raw_price: "15",
     currency: "USD",
@@ -16824,8 +16824,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Masque d'�quitation coupe-vent, chapeaux, sueur � s�chage rapide",
+    subcategory: "Flowers",
+    name: "Windproof Riding Mask, Hats, Quick Dry Sweat",
     current_price: "9.34",
     raw_price: "20.2",
     currency: "USD",
@@ -16853,8 +16853,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Casquettes B�rets Denim Coton Lav� Hommes",
+    subcategory: "Flowers",
+    name: "Men's Washed Cotton Denim Berets Caps",
     current_price: "12.96",
     raw_price: "24.04",
     currency: "USD",
@@ -16882,9 +16882,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
+    subcategory: "Flowers",
     name:
-      "Casquette de baseball � s�chage rapide pour l'�t�, casquette visi�re respirante",
+      "Quick Dry Baseball Cap For Summer, Breathable Visor Cap",
     current_price: "12.59",
     raw_price: "25.2",
     currency: "USD",
@@ -16912,8 +16912,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Casquettes de b�ret en coton",
+    subcategory: "Flowers",
+    name: "Cotton beret caps",
     current_price: "12.88",
     raw_price: "24.59",
     currency: "USD",
@@ -16924,7 +16924,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/86/63/8fb70ebc-5301-419e-b28e-1bb38db6840c.jpg",
     variation_0_image:
@@ -16941,8 +16941,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Casquette de Baseball Satin Sunshade Empty Top",
+    subcategory: "Flowers",
+    name: "Satin Sunshade Empty Top Baseball Cap",
     current_price: "6.95",
     raw_price: "13.78",
     currency: "USD",
@@ -16970,8 +16970,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Lunettes de lecture monture en plastique verres en r�sine",
+    subcategory: "Flowers",
+    name: "Reading glasses plastic frame resin lenses",
     current_price: "12.48",
     raw_price: "24.78",
     currency: "USD",
@@ -16999,9 +16999,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
+    subcategory: "Flowers",
     name:
-      "Bas de chaussettes invisibles de dentelle de coton anti-d�rapant chaussettes",
+      "Non-slip Cotton Lace Invisible Socks Stockings Socks",
     current_price: "8.6",
     raw_price: "16.97",
     currency: "USD",
@@ -17029,8 +17029,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Oignon Lunettes de s�curit� Barbecue",
+    subcategory: "Flowers",
+    name: "Onion Safety glasses� Barbecue",
     current_price: "7.47",
     raw_price: "13.85",
     currency: "USD",
@@ -17058,8 +17058,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Chaussettes invisibles pour femmes en �t�",
+    subcategory: "Flowers",
+    name: "Invisible socks for women in summer",
     current_price: "4.15",
     raw_price: "7.92",
     currency: "USD",
@@ -17087,8 +17087,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Cloche ronde de seau",
+    subcategory: "Flowers",
+    name: "Round Bucket Bell",
     current_price: "14.95",
     raw_price: "31.08",
     currency: "USD",
@@ -17116,9 +17116,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
+    subcategory: "Flowers",
     name:
-      "Capuchon respirant ajustable pour chapeaux de soleil � large bord amovible",
+      "Breathable adjustable hood for sun hats with removable wide brim",
     current_price: "15.52",
     raw_price: "33.71",
     currency: "USD",
@@ -17146,8 +17146,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Femme Cap de p�cheur imperm�able � s�chage rapide",
+    subcategory: "Flowers",
+    name: "Woman Quick Dry Waterproof Fisherman's Cap",
     current_price: "14",
     raw_price: "26.47",
     currency: "USD",
@@ -17175,8 +17175,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Chaussettes respirantes � cinq pieds et chaussettes",
+    subcategory: "Flowers",
+    name: "Breathable Five Foot Socks and Socks",
     current_price: "4.37",
     raw_price: "9.98",
     currency: "USD",
@@ -17204,8 +17204,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Fleurs",
-    name: "Chaussettes � cinq orteils de couleur unie",
+    subcategory: "Flowers",
+    name: "Solid Color Five Toe Socks",
     current_price: "7.04",
     raw_price: "13.88",
     currency: "USD",
@@ -17233,9 +17233,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Masque d�tachable d'isolement d'�cran de bouclier de visages �pais de PVC",
+      "PVC Thick Faces Shield Detachable Screen Isolation Mask",
     current_price: "8.95",
     raw_price: "15.99",
     currency: "USD",
@@ -17259,8 +17259,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Chapeau anti-bu�e anti-bu�e pare-soleil amovible en PVC COLLROWN",
+    subcategory: "Gloves",
+    name: "COLLROWN PVC removable sun visor anti-fog cap",
     current_price: "15.49",
     raw_price: "29.81",
     currency: "USD",
@@ -17286,9 +17286,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Casquette de baseball floral Visi�re Snapback Chapeaux Hip Hop r�glables",
+      "Floral Baseball Cap Snapback Visor Adjustable Hip Hop Hats",
     current_price: "10.99",
     raw_price: "20",
     currency: "USD",
@@ -17316,8 +17316,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Chapeau Pom Pom & Cordon D�cor",
+    subcategory: "Gloves",
+    name: "Pom Pom Hat & Decorative Cord",
     current_price: "12.79",
     raw_price: "36.36",
     currency: "USD",
@@ -17345,8 +17345,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Bonnet chaud avec cache-oreilles",
+    subcategory: "Gloves",
+    name: "Warm beanie with Earmuffs",
     current_price: "14.69",
     raw_price: "42.42",
     currency: "USD",
@@ -17374,8 +17374,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Coquille de t�l�phone de No�l pour iPhone tout compris",
+    subcategory: "Gloves",
+    name: "All-Inclusive Christmas Phone Case for iPhone",
     current_price: "5.93",
     raw_price: "23.23",
     currency: "USD",
@@ -17403,8 +17403,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Cas de t�l�phone en trois dimensions de No�l",
+    subcategory: "Gloves",
+    name: "Christmas three dimensional phone case",
     current_price: "5.61",
     raw_price: "22.22",
     currency: "USD",
@@ -17432,9 +17432,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Bande dessin�e corail chaud 3 paires de dames dans les chaussettes de tube",
+      "Hot Coral Cartoon 3 Pairs of Ladies in Tube Socks",
     current_price: "10.39",
     raw_price: "40.4",
     currency: "USD",
@@ -17458,9 +17458,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Halloween Aa Gantshollowen Cosplay Props Costume Os De La Main Os Longs Manches � La Main",
+      "Halloween Aa Gloveshollowen Cosplay Props Costume Os De La Main Os Longs Manches � La Main",
     current_price: "4.56",
     raw_price: "15.15",
     currency: "USD",
@@ -17486,8 +17486,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Bonnet tricot� pour hommes",
+    subcategory: "Gloves",
+    name: "Knitted hat for men",
     current_price: "11.18",
     raw_price: "22.12",
     currency: "USD",
@@ -17515,8 +17515,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Nouveau Plus Bonnet tricot� � capuchon",
+    subcategory: "Gloves",
+    name: "New Plus Knitted beanie with hood",
     current_price: "6.63",
     raw_price: "20.2",
     currency: "USD",
@@ -17526,7 +17526,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris fonc�",
+    variation_0_color: "Grey fonc�",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/ser1/C4/66/c466e31cd7cf075824365f736a92eb59.jpg",
@@ -17544,9 +17544,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Chapeaux mi-mollet en laine � mailles courtes avec capuchon � froid, section mince",
+      "Mid-calf woolen hats with cold hood, thin section",
     current_price: "4.67",
     raw_price: "18.18",
     currency: "USD",
@@ -17574,8 +17574,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Illustration Design Chaussettes En Bas Chaussettes Femmes",
+    subcategory: "Gloves",
+    name: "illustrationDesignSocksEnBasSocksFemmes",
     current_price: "2.68",
     raw_price: "10.09",
     currency: "USD",
@@ -17603,9 +17603,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Coque Iphone8 / 7plus de t�l�phone de visage de couleur d'arc-en-ciel pour le mod�le tridimensionnel 6s de Apple Xs / max / S",
+      "Rainbow Color Face Phone Case Iphone 8 / Plus For Apple Xs / Max / S Three-dimensional Model 6s",
     current_price: "5.09",
     raw_price: "17.17",
     currency: "USD",
@@ -17631,8 +17631,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Chaussettes de compression pour femmes Chaussettes � tricoter",
+    subcategory: "Gloves",
+    name: "Compression socks for women Knitting socks",
     current_price: "7.3",
     raw_price: "20.2",
     currency: "USD",
@@ -17660,9 +17660,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Genouill�res de sport Pression Respirable Saison Meniscus Genouill�res Leggings Unisexe Nylon Fitness Basketball Genou Protection",
+      "Sports Knee Pads Breathable Pressure Season Meniscus Knee Pads Leggings Unisex Nylon Fitness Basketball Knee Protection",
     current_price: "7.54",
     raw_price: "23.23",
     currency: "USD",
@@ -17690,8 +17690,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Prot�ge-oreilles Bonnet coupe-vent Bonnet coton Bonnet trappeur",
+    subcategory: "Gloves",
+    name: "Ear protectors Wind beanie Cotton beanie Trapper beanie",
     current_price: "9.92",
     raw_price: "29.29",
     currency: "USD",
@@ -17719,9 +17719,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Bonnet pour cycliste �pais et coupe-vent pour hommes, coupe-vent et coupe-vent",
+      "Thick and windproof cycling cap for men, windproof and windproof",
     current_price: "10.24",
     raw_price: "28.28",
     currency: "USD",
@@ -17749,8 +17749,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Bonnet coton trappeur chaud pour hommes",
+    subcategory: "Gloves",
+    name: "Warm cotton trapper hat for men",
     current_price: "10.88",
     raw_price: "30.3",
     currency: "USD",
@@ -17778,9 +17778,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Bonnet en laine Bonnet Bonnet Bonnet cache-oreilles �paississant chaud",
+      "Wool beanie beanie beanie warm thickening Earmuffs beanie",
     current_price: "7.8",
     raw_price: "26.26",
     currency: "USD",
@@ -17808,8 +17808,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Chapeau pour homme cache-oreilles chauds �charpe en tricot",
+    subcategory: "Gloves",
+    name: "Men's Warm Earmuffs Knit Scarf Hat",
     current_price: "7.83",
     raw_price: "29.29",
     currency: "USD",
@@ -17837,8 +17837,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "�charpe en coton pour hommes �charpe en soie bross�e",
+    subcategory: "Gloves",
+    name: "Cotton scarf for men brushed silk scarf",
     current_price: "6.1",
     raw_price: "24.24",
     currency: "USD",
@@ -17864,8 +17864,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Femmes National Wind Split Ch�le Cape �pais �charpe Ch�le",
+    subcategory: "Gloves",
+    name: "femmesNationalWindSplitCh�leCape �pais �charpeCh�le",
     current_price: "27.33",
     raw_price: "55.6",
     currency: "USD",
@@ -17891,8 +17891,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "�charpe ch�le � capuche et capuche en corne de boh�me",
+    subcategory: "Gloves",
+    name: "Shawl scarf with hood and hood in bohemian horn",
     current_price: "21.28",
     raw_price: "42.34",
     currency: "USD",
@@ -17920,8 +17920,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Verre de coquille de t�l�phone en verre tremp� peint",
+    subcategory: "Gloves",
+    name: "Painted Tempered Glass Phone Shell Glass",
     current_price: "4.78",
     raw_price: "14.74",
     currency: "USD",
@@ -17949,8 +17949,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Etui de t�l�phone en relief Cartoon Soft Shell Protective Cover",
+    subcategory: "Gloves",
+    name: "etuiDeT�l�phoneEnReliefCartoonSoftShellProtectiveCover",
     current_price: "3.8",
     raw_price: "14.74",
     currency: "USD",
@@ -17978,8 +17978,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Silicone de cas de t�l�phone de poignet de relief de fleur de p�che",
+    subcategory: "Gloves",
+    name: "Peach Blossom Embossed Wrist Phone Case Silicone",
     current_price: "9.67",
     raw_price: "19.1",
     currency: "USD",
@@ -18007,9 +18007,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "7 Film tremp� non plein �cran pour film de protection pour t�l�phone Iphone8plus Xsmax",
+      "7 Non-Full Screen Tempered Film for Iphone8plus Xsmax Protective Film",
     current_price: "4.63",
     raw_price: "9.02",
     currency: "USD",
@@ -18035,9 +18035,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Cas De T�l�phone Amour Brod� Pour Samsung S10 Sac � Bandouli�re Sac � Bandouli�re T�l�phone T�l�phone Longue Lani�re Pomme X �tui En Cuir",
+      "Love Embroidered Phone Case For Samsung S10 Shoulder Bag Shoulder Bag Phone Long Strap Apple X Leather Case",
     current_price: "7.3",
     raw_price: "23.23",
     currency: "USD",
@@ -18065,9 +18065,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Paquet Carte Beaut� X T�l�phone Coque 7plus Support Cr�atif I8 Croix Diagonale Pour Longe De Personnalit� 6s",
+      "Beauty Card Package X Phone Case 7plus Creative Support I8 Diagonal Cross For Personality Lanyard 6s",
     current_price: "7.14",
     raw_price: "23.23",
     currency: "USD",
@@ -18095,9 +18095,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Gants Hommes Gants De Sport �pais Gants Chauds En Plein Air Escalade Gants De Remise En Forme Dames Gants",
+      "Gloves Men Thick Sports Gloves Hot Gloves Outdoor Climbing Fitness Gloves Ladies Gloves",
     current_price: "6.09",
     raw_price: "18.18",
     currency: "USD",
@@ -18125,9 +18125,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Ceinture pour hommes d'affaires � boucle automatique simple Ceinture en cuir � double couche en cuir",
+      "Simple Automatic Buckle Business Men's Belt Double Layer Leather Belt",
     current_price: "10.05",
     raw_price: "29.29",
     currency: "USD",
@@ -18155,8 +18155,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Coque Ipad mignon avec motif de feuilles tropicales",
+    subcategory: "Gloves",
+    name: "Cute Ipad case with tropical leaves pattern",
     current_price: "10.59",
     raw_price: "19.99",
     currency: "USD",
@@ -18182,8 +18182,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Chapeau de turban pliable litt�raire bonnet � crochet fait main",
+    subcategory: "Gloves",
+    name: "Handmade crochet beanie literary foldable turban hat",
     current_price: "13.99",
     raw_price: "28",
     currency: "USD",
@@ -18211,9 +18211,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Bonnet bonnet crochet� � la main Chapeau de turban d�contract� litt�raire r�tro",
+      "Hand-crocheted beanie hat Retro literary casual turban hat",
     current_price: "18.99",
     raw_price: "38",
     currency: "USD",
@@ -18241,9 +18241,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Chapeau de laine tricot� � la main de style ethnique r�tro fleur �l�gante",
+      "Hand knitted wool hat in elegant retro ethnic flower style",
     current_price: "15.99",
     raw_price: "32",
     currency: "USD",
@@ -18271,8 +18271,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Bonnets b�ret en laine fleurie tricot�s � la main",
+    subcategory: "Gloves",
+    name: "Hand-knitted floral wool beret hats",
     current_price: "17.99",
     raw_price: "36",
     currency: "USD",
@@ -18300,8 +18300,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Bonnets de P�re No�l tricot�s en hiver",
+    subcategory: "Gloves",
+    name: "Santa hats knitted in winter",
     current_price: "13.25",
     raw_price: "25.59",
     currency: "USD",
@@ -18329,9 +18329,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Chapeau tricot� en laine d&#39;hiver tricot� pour hommes en plein air skateboard chapeau chaud",
+      "Knitted winter woolen hat for men outdoor skateboard warm hat",
     current_price: "11.63",
     raw_price: "21.46",
     currency: "USD",
@@ -18342,7 +18342,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F4/8D/b44a1345-0f41-4531-939b-da0085c4787c.jpg",
     variation_0_image:
@@ -18359,8 +18359,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
-    name: "Jolies chaussettes en coton d�pouill�",
+    subcategory: "Gloves",
+    name: "Pretty socks in stripped cotton",
     current_price: "4.65",
     raw_price: "9.21",
     currency: "USD",
@@ -18388,9 +18388,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Gants",
+    subcategory: "Gloves",
     name:
-      "Masque de refroidissement de visage Am�lioration de la circulation sanguine Hot Gel Beauty Facemask Relax Face Care",
+      "Face Cooling Mask Blood Circulation Enhancement Hot Gel Beauty Facemask Relax Face Care",
     current_price: "37.73",
     raw_price: "61.4",
     currency: "USD",
@@ -18415,7 +18415,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette Sunshade Casual Outdoors Peaked Forward",
+    name: "casquetteSunshadeCasualOutdoorsPeakedForward",
     current_price: "12.39",
     raw_price: "32.2",
     currency: "USD",
@@ -18444,7 +18444,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Masque antipoussi�re imprim� lavable avec joint de filtre 2PC",
+    name: "Washable Printed Dust Mask with 2PC Filter Seal",
     current_price: "9.99",
     raw_price: "25.01",
     currency: "USD",
@@ -18470,7 +18470,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "100% coton lettre brod�e casquette de baseball",
+    name: "100% cotton embroidered letter baseball cap",
     current_price: "8.86",
     raw_price: "19.55",
     currency: "USD",
@@ -18499,7 +18499,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau respirant avec motif de broderie peinte rouge",
+    name: "Breathable hat with red painted embroidery design",
     current_price: "16.15",
     raw_price: "30.5",
     currency: "USD",
@@ -18525,7 +18525,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Nouveau mousseline de soie dentelle florale cr�me solaire Soft foulards ch�le hiver chaud cou foulard foulard",
+      "New Chiffon Floral Lace Sunscreen Soft Scarves Shawl Winter Warm Neck Scarf Neckerchief",
     current_price: "5.9",
     raw_price: "13.92",
     currency: "USD",
@@ -18554,7 +18554,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Bonnet souple � fleurs fines",
+    name: "Soft beanie with fine flowers",
     current_price: "18.74",
     raw_price: "46.16",
     currency: "USD",
@@ -18584,7 +18584,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Casquette de baseball Wild d'ext�rieur avec broderie de lettres Soft",
+      "Wild Outdoor Baseball Cap with Soft Letter Embroidery",
     current_price: "13.56",
     raw_price: "31.98",
     currency: "USD",
@@ -18613,7 +18613,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau plat en treillis avec patchwork en PU tweed",
+    name: "Flat hat in mesh with PU tweed patchwork",
     current_price: "1.89",
     raw_price: "20.69",
     currency: "USD",
@@ -18643,7 +18643,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Femmes teint en fourrure Pom Pom Bobble Knit Ski Hat hiver chaud bonnet �pais",
+      "Women Dyed Fur Pom Pom Bobble Knit Ski Hat Winter Warm Thick Beanie",
     current_price: "11.99",
     raw_price: "29.39",
     currency: "USD",
@@ -18672,7 +18672,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Porte-bague magn�tique en forme de cochon en acier inoxydable",
+    name: "Stainless steel pig-shaped magnetic ring holder",
     current_price: "3.22",
     raw_price: "7.59",
     currency: "USD",
@@ -18701,7 +18701,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau seau rond anti-soleil",
+    name: "Round sunscreen bucket hat",
     current_price: "10.07",
     raw_price: "23.93",
     currency: "USD",
@@ -18730,7 +18730,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chaussettes pour homme",
+    name: "Socks for men",
     current_price: "0.6",
     raw_price: "12.11",
     currency: "USD",
@@ -18759,7 +18759,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette style b�ret",
+    name: "Beret style cap",
     current_price: "8.9",
     raw_price: "20.19",
     currency: "USD",
@@ -18788,7 +18788,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Foulard � col carr�",
+    name: "Square neck scarf",
     current_price: "9.31",
     raw_price: "21.21",
     currency: "USD",
@@ -18818,7 +18818,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "�tui de t�l�phone pour iPhone avec cadre en verre transparent et m�tal � cadre unique",
+      "IPhone Phone Case with Clear Glass Frame and Single Frame Metal",
     current_price: "7.74",
     raw_price: "18.23",
     currency: "USD",
@@ -18859,7 +18859,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "kaki",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/banggood/images/98/0C/9272db14-b726-4859-9ebd-608e6a012e9d.jpg",
     variation_0_image:
@@ -18878,7 +18878,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Hommes Femmes Macaron Couleur Suede Hip-Hop Chapeau Casquette de Baseball Visi�re Bord�e",
+      "Men Women Macaron Color Suede Hip-Hop Hat Baseball Cap Brimmed Visor",
     current_price: "9.21",
     raw_price: "22.57",
     currency: "USD",
@@ -18908,7 +18908,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Ceintures tiss�es � boucle unique en toile avec garnitures en peau de vache pour hommes",
+      "Canvas Single Buckle Woven Belts with Cowhide Trims for Men",
     current_price: "7.98",
     raw_price: "18.13",
     currency: "USD",
@@ -18937,7 +18937,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Femme mignon t�l�phone cas dessin anim� ours liquide silicone",
+    name: "Cute woman phone case cartoon bear liquid silicone",
     current_price: "4.58",
     raw_price: "10.81",
     currency: "USD",
@@ -18966,7 +18966,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Bonnet Femme En Laine",
+    name: "Women's Wool Beanie",
     current_price: "8.55",
     raw_price: "19.19",
     currency: "USD",
@@ -18996,7 +18996,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Chaussettes � bouts s�par�s en coton pour hommes Soft Chaussettes fines � tubes courts",
+      "Men's Cotton Split End Soft Socks Fine Short Tube Socks",
     current_price: "5.02",
     raw_price: "12.29",
     currency: "USD",
@@ -19025,7 +19025,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette de baseball en cuir artificiel broderie",
+    name: "Embroidery Artificial Leather Baseball Cap",
     current_price: "11.01",
     raw_price: "27.01",
     currency: "USD",
@@ -19054,7 +19054,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette de baseball sauvage d�contract�e",
+    name: "Casual Wild Baseball Cap",
     current_price: "13.15",
     raw_price: "30.18",
     currency: "USD",
@@ -19083,7 +19083,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "�tui de t�l�phone pc g�om�trique style cam�ra style",
+    name: "Geometric style camera style pc phone case",
     current_price: "13.4",
     raw_price: "26.24",
     currency: "USD",
@@ -19112,7 +19112,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau de soleil en coton ajustable",
+    name: "Adjustable cotton sun hat",
     current_price: "11.15",
     raw_price: "26.46",
     currency: "USD",
@@ -19141,7 +19141,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Fedora panama chapeau jazz en cuir PU pour homme",
+    name: "Fedora panama pu leather jazz hat for men",
     current_price: "6.57",
     raw_price: "14.42",
     currency: "USD",
@@ -19166,7 +19166,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "�charpe respirante",
+    name: "Breathable scarf",
     current_price: "15.61",
     raw_price: "51.81",
     currency: "USD",
@@ -19195,7 +19195,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau de seau pliable en coton � porter double face",
+    name: "Double-sided, foldable cotton bucket hat",
     current_price: "12.9",
     raw_price: "30.42",
     currency: "USD",
@@ -19224,7 +19224,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "�charpe bandanas sans couture � usages multiples",
+    name: "Multipurpose Seamless Bandana Scarf",
     current_price: "9.59",
     raw_price: "22.99",
     currency: "USD",
@@ -19250,7 +19250,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau d�contract� unisexe octogonal",
+    name: "Octagonal Unisex Casual Hat",
     current_price: "10.54",
     raw_price: "23.62",
     currency: "USD",
@@ -19279,7 +19279,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Bonnet �charpe unisexe double usage",
+    name: "Dual-purpose unisex scarf hat",
     current_price: "9.33",
     raw_price: "21.65",
     currency: "USD",
@@ -19308,7 +19308,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Bonnet en tricot chaud arc-en-ciel",
+    name: "Warm Rainbow Knit Beanie",
     current_price: "13.31",
     raw_price: "31.43",
     currency: "USD",
@@ -19337,7 +19337,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette de baseball en coton vogue",
+    name: "Vogue cotton baseball cap",
     current_price: "11.23",
     raw_price: "26.7",
     currency: "USD",
@@ -19366,7 +19366,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Casquette de soleil contre l'usure pliable des deux c�t�s",
+    name: "Sun cap against wear foldable on both sides",
     current_price: "16.15",
     raw_price: "38.09",
     currency: "USD",
@@ -19377,7 +19377,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Orange",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/85/44/f82a4b77-6c1c-4560-a81b-418bfa43e273.jpg",
     variation_0_image:
@@ -19396,7 +19396,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Ceinture pour hommes en cuir v�ritable avec boucle automatique � la taille pour hommes",
+      "Genuine leather men's belt with automatic buckle at waist for men",
     current_price: "8.7",
     raw_price: "47.79",
     currency: "USD",
@@ -19425,7 +19425,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeau de soleil pour femmes Sun Beach Large Large Brim Sun",
+    name: "Sun Beach Large Large Brim Sun Women's Sun Hat",
     current_price: "7.5",
     raw_price: "18.05",
     currency: "USD",
@@ -19454,7 +19454,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Masque pour les yeux st�r�oscopique 3D",
+    name: "3D Stereoscopic Eye Mask",
     current_price: "5.8",
     raw_price: "13.15",
     currency: "USD",
@@ -19485,7 +19485,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Headband & Bandeaux",
     name:
-      "Pivoine Artificielle Fleurs De Soie Feuille Maison De Mariage D�cor De Mariage D�cor",
+      "Artificial Peony Silk Flowers Leaf Wedding Home Decor Wedding Decor",
     current_price: "9.92",
     raw_price: "22.55",
     currency: "USD",
@@ -19514,7 +19514,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "HD Lunettes d'exercice d'escalade r�fl�chissantes",
+    name: "HD Reflective Climbing Exercise Glasses",
     current_price: "10.17",
     raw_price: "23.11",
     currency: "USD",
@@ -19539,7 +19539,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "UV Bonnet de protection respirant",
+    name: "UV Breathable Protective Cap",
     current_price: "10.96",
     raw_price: "25.86",
     currency: "USD",
@@ -19568,7 +19568,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Headband & Bandeaux",
-    name: "Chapeaux de p�cheur pliables Bowknot d'�t�",
+    name: "Bowknot Foldable Fisherman Hats d'�t�",
     current_price: "1.89",
     raw_price: "21.27",
     currency: "USD",
@@ -19597,7 +19597,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ipad Case",
-    name: "B�ret en coton lav�",
+    name: "Washed cotton beret",
     current_price: "10.57",
     raw_price: "24.37",
     currency: "USD",
@@ -19608,7 +19608,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Noir",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/AD/FF/601024aa-cef6-4e6f-8f5d-3fe0094736b4.jpg",
     variation_0_image:
@@ -19626,7 +19626,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ipad Case",
-    name: "Chapeau de style britannique lav� en denim Beret Cap Travel",
+    name: "Beret Cap Travel British Style Washed Denim Hat",
     current_price: "8.54",
     raw_price: "20.12",
     currency: "USD",
@@ -19656,7 +19656,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Ipad Case",
     name:
-      "Femmes dames pliable solide vide top plage chapeau de paille causal large bord cr�me solaire pare-soleil chapeau",
+      "Women Ladies Collapsible Solid Empty Top Beach Straw Hat Causal Wide Brim Sunscreen Sun Visor Hat",
     current_price: "10.13",
     raw_price: "23.87",
     currency: "USD",
@@ -19685,7 +19685,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ipad Case",
-    name: "Tableau de fleurs Steampunk montre image de cabochon en verre",
+    name: "Steampunk Flowers painting shows image of glass cabochon",
     current_price: "3.75",
     raw_price: "8.95",
     currency: "USD",
@@ -19714,7 +19714,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Ipad Case",
-    name: "Casquette de baseball d�contract�e chapeau sport �quitation",
+    name: "Casual Baseball Cap Riding Sport Hat",
     current_price: "7.26",
     raw_price: "18.8",
     currency: "USD",
@@ -19725,7 +19725,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/01/7F/d7a65925-b39a-4153-a657-2320ab3d9390.jpg",
     variation_0_image:
@@ -19744,7 +19744,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Ipad Case",
     name:
-      "1Pcs Manchon de Bras Bon �lastique En Lycra Anticollision De Coude Pour Basket Et Sport",
+      "1Pcs Elbow Anti-Collision Lycra Elastic Good Arm Sleeve For Basketball And Sport",
     current_price: "7.46",
     raw_price: "17.57",
     currency: "USD",
@@ -19772,9 +19772,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Bonnet en coton lav� avec casquette pare-soleil pour broderie respirante",
+      "Washed cotton beanie with sun cap for breathable embroidery",
     current_price: "10.64",
     raw_price: "29.85",
     currency: "USD",
@@ -19802,8 +19802,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes de bateau en coton",
+    subcategory: "Glasses",
+    name: "Cotton boat socks",
     current_price: "3.31",
     raw_price: "7.96",
     currency: "USD",
@@ -19814,7 +19814,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Jaune",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/09/35/2dbe0edd-83aa-47ae-9a93-72d7c0f8b7aa.jpg",
     variation_0_image:
@@ -19831,8 +19831,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Masque anti-poussi�re cr�atif Tiger Animal Cartoon peluche masque",
+    subcategory: "Glasses",
+    name: "Creative Tiger Dust Mask Animal Cartoon Plush Mask",
     current_price: "6.39",
     raw_price: "13.34",
     currency: "USD",
@@ -19857,9 +19857,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Chapeau chaud de mariage de perle de chapeau de seau de laine des femmes avec la fleur",
+      "Women's Warm Wool Bucket Hat Pearl Wedding Hat With Flower",
     current_price: "11.69",
     raw_price: "29.24",
     currency: "USD",
@@ -19887,8 +19887,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bandeau tricot� chaud",
+    subcategory: "Glasses",
+    name: "Warm knitted headband",
     current_price: "13.02",
     raw_price: "30.91",
     currency: "USD",
@@ -19916,8 +19916,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femmes �pais �pais tricot� foulards",
+    subcategory: "Glasses",
+    name: "Women Thick Thick Knitted Scarves",
     current_price: "7.5",
     raw_price: "18.42",
     currency: "USD",
@@ -19945,8 +19945,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes chaudes pour hommes",
+    subcategory: "Glasses",
+    name: "Hot socks for men",
     current_price: "4.86",
     raw_price: "11.49",
     currency: "USD",
@@ -19974,8 +19974,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Ensemble Bonnet et �charpe en Laine M�lang�e Tricot�e",
+    subcategory: "Glasses",
+    name: "Knitted Wool Blend Hat and Scarf Set",
     current_price: "3.63",
     raw_price: "36.32",
     currency: "USD",
@@ -20003,8 +20003,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes moyennes unisexes en coton en jacquard",
+    subcategory: "Glasses",
+    name: "Medium unisex cotton jacquard socks",
     current_price: "4.42",
     raw_price: "10.22",
     currency: "USD",
@@ -20032,9 +20032,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Ceinture de s�curit� Nylon de ceinture de s�curit� pour homme de garde de s�curit� robuste pour param�dic de l&#39;arm�e",
+      "Heavy Duty Safety Guard Mens Safety Guard Nylon Seat Belt For Army Paramedic",
     current_price: "7.1",
     raw_price: "16.41",
     currency: "USD",
@@ -20058,8 +20058,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Ceinture de danse du ventre femme avec pampilles en m�tal",
+    subcategory: "Glasses",
+    name: "Women's belly dance belt with metal tassels",
     current_price: "10.93",
     raw_price: "26.26",
     currency: "USD",
@@ -20087,8 +20087,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femmes dames cuir PU cravate cravate ceinture large ceinture large",
+    subcategory: "Glasses",
+    name: "Women Ladies PU Leather Tie Tie Belt Wide Wide Belt",
     current_price: "5.76",
     raw_price: "13.33",
     currency: "USD",
@@ -20116,9 +20116,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "La version cor�enne a tricot� des loisirs de loisirs masculins pour hommes et femmes",
+      "Korean version knitted male and female leisure leisure time",
     current_price: "6.67",
     raw_price: "15.17",
     currency: "USD",
@@ -20146,8 +20146,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Echarpe de protection solaire avec foulard � pois en soie",
+    subcategory: "Glasses",
+    name: "Sun protection scarf with silk polka dot scarf",
     current_price: "9.16",
     raw_price: "21.61",
     currency: "USD",
@@ -20175,9 +20175,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Femmes Broderie Imprim� Chapeau De Paille Style Ethnique R�tro Chapeau De Soleil",
+      "Women Embroidery Print Straw Hat Ethnic Style Retro Sun Hat",
     current_price: "19.99",
     raw_price: "49.99",
     currency: "USD",
@@ -20205,8 +20205,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Echarpe Casual � treillis bross� color�",
+    subcategory: "Glasses",
+    name: "Colorful brushed mesh Casual scarf",
     current_price: "10.08",
     raw_price: "24.83",
     currency: "USD",
@@ -20234,8 +20234,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bonnet tricot� en coton",
+    subcategory: "Glasses",
+    name: "Knitted cotton hat",
     current_price: "8.02",
     raw_price: "25.95",
     currency: "USD",
@@ -20263,8 +20263,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes de plong�e en chaussettes de plage antid�rapantes",
+    subcategory: "Glasses",
+    name: "Socks de plongée and Socks de plage anti d�rapantes",
     current_price: "5.63",
     raw_price: "13.28",
     currency: "USD",
@@ -20292,8 +20292,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Ceinture de ventre ajustable � la taille",
+    subcategory: "Glasses",
+    name: "Adjustable waist belt",
     current_price: "12.48",
     raw_price: "29.9",
     currency: "USD",
@@ -20304,7 +20304,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Bleu profond",
+    variation_1_color: "Deep blue",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C0/87/22d83287-2ab3-4a4c-bb75-9c002d3ee00a.JPG",
     variation_0_image:
@@ -20321,8 +20321,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chapeau de soleil pliable",
+    subcategory: "Glasses",
+    name: "Foldable sun hat",
     current_price: "9.9",
     raw_price: "22.91",
     currency: "USD",
@@ -20350,8 +20350,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femme mignonne gommage amour motif TPU",
+    subcategory: "Glasses",
+    name: "Cute Woman Scrub Love Pattern TPU",
     current_price: "3.34",
     raw_price: "7.87",
     currency: "USD",
@@ -20379,8 +20379,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Monture en m�tal UV400 HD Lunettes de soleil rondes polaris�es",
+    subcategory: "Glasses",
+    name: "UV400 HD Metal Frame Polarized Round Sun Glasses",
     current_price: "12.3",
     raw_price: "29.55",
     currency: "USD",
@@ -20408,8 +20408,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femmes Big Brim �cran solaire Sun Hat avec ch�le",
+    subcategory: "Glasses",
+    name: "Women Big Brim Sunscreen Sun Hat with Shawl",
     current_price: "17.18",
     raw_price: "41.93",
     currency: "USD",
@@ -20437,8 +20437,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes dr�les de crocodile de saumon de coton d'hommes",
+    subcategory: "Glasses",
+    name: "Men Funny Cotton Salmon Crocodile Socks",
     current_price: "5.09",
     raw_price: "12.11",
     currency: "USD",
@@ -20466,9 +20466,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Chaussettes invisibles de bateau de coton d&#39;�t� de coton d&#39;�t� de femmes",
+      "Women Summer Cotton Invisible Cotton Boat Socks",
     current_price: "2.36",
     raw_price: "7.28",
     currency: "USD",
@@ -20496,8 +20496,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Monture carr�e en m�tal anti-uv HD lentille lunettes de sport",
+    subcategory: "Glasses",
+    name: "Anti-UV HD Metal Square Frame Sport Glasses Lens",
     current_price: "4.45",
     raw_price: "20.85",
     currency: "USD",
@@ -20525,9 +20525,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Femmes Filles �l�gant Bord �t� Creux Plage Soleil Paille Floppy Hat Beaut� Casquette",
+      "Women Girls Elegant Hollow Edge Beach Sun Straw Floppy Hat Beauty Cap",
     current_price: "4.5",
     raw_price: "10.21",
     currency: "USD",
@@ -20555,9 +20555,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "58cm hommes femmes plaine �quip�e cape solide plat blanc couleur baseball hat",
+      "58cm Men Women Plain Fitted Cape Solid Flat White Color Baseball Hat",
     current_price: "8.12",
     raw_price: "19.5",
     currency: "USD",
@@ -20568,7 +20568,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "caf�",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/banggood/images/F1/7A/da84b6b0-812b-44e9-8bbc-eb8a78653560.jpg",
     variation_0_image:
@@ -20585,8 +20585,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bonnet imprim� brod� Bonnet tricot� floral",
+    subcategory: "Glasses",
+    name: "bonnetImprim�Brod�BonnetTricot�Floral",
     current_price: "19.19",
     raw_price: "46.99",
     currency: "USD",
@@ -20610,9 +20610,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Femme Chaussettes D'�t� Invisible En Soie Glac�e Chaussettes Bateaux Antid�rapantes Respirantes D�coupe Basse",
+      "Women's Invisible Ice Silk Summer Socks Breathable Non-Slip Boat Socks Low Cut",
     current_price: "2.06",
     raw_price: "7.72",
     currency: "USD",
@@ -20623,7 +20623,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Nu",
-    variation_1_color: "Gris clair",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/4E/0B/b6f67c75-e9f7-4eb8-9a78-6e8ea08cfcb7.jpg",
     variation_0_image:
@@ -20640,8 +20640,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Casquette de baseball ajust�e en daim pour hommes et femmes",
+    subcategory: "Glasses",
+    name: "Suede Fitted Baseball Cap for Men and Women",
     current_price: "6.37",
     raw_price: "15.08",
     currency: "USD",
@@ -20651,7 +20651,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "Bleu clair",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/1A/5D/948424b7-4f13-40a0-96e4-8b43dd974abf.png",
@@ -20669,8 +20669,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Seau de paille pliable �vid�",
+    subcategory: "Glasses",
+    name: "Foldable empty straw bucket",
     current_price: "11.06",
     raw_price: "28.28",
     currency: "USD",
@@ -20698,8 +20698,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bonnet Femme En Coton Camouflage",
+    subcategory: "Glasses",
+    name: "Women's Camouflage Cotton Beanie",
     current_price: "9.48",
     raw_price: "22.04",
     currency: "USD",
@@ -20709,7 +20709,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "arm�e verte",
+    variation_0_color: "green army",
     variation_1_color: "Bleu marin",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/AD/99/104885c5-f10b-4b7d-af89-5704cf29ea05.jpg",
@@ -20727,7 +20727,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name: "Casquette d'hiver chaude",
     current_price: "9.82",
     raw_price: "22.2",
@@ -20756,8 +20756,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chapeau de f�te �l�gant",
+    subcategory: "Glasses",
+    name: "Elegant party hat",
     current_price: "14.02",
     raw_price: "34.15",
     currency: "USD",
@@ -20785,8 +20785,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bonnet unisexe en cachemire � r�seau chaud",
+    subcategory: "Glasses",
+    name: "Unisex warm net cashmere hat",
     current_price: "6.6",
     raw_price: "15.11",
     currency: "USD",
@@ -20814,8 +20814,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Bonnet b�ret en coton avec pom pom chaud",
+    subcategory: "Glasses",
+    name: "Cotton beret hat with warm pom pom",
     current_price: "5.28",
     raw_price: "27.36",
     currency: "USD",
@@ -20843,8 +20843,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes mi-longues en coton � rayures r�tro",
+    subcategory: "Glasses",
+    name: "Retro striped cotton mid-length socks",
     current_price: "4.3",
     raw_price: "9.99",
     currency: "USD",
@@ -20872,9 +20872,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Femme Porte-Jarretelle Vintage en Cuir avec Crochet Unique Sexy � Suspension Manuelle",
+      "Women's Vintage Leather Garter Belt with Sexy Hand Hanging Single Hook",
     current_price: "4.55",
     raw_price: "10.93",
     currency: "USD",
@@ -20902,9 +20902,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Br�ve chaussette en coton avec motif de rayures de mod�le Soft pour hommes",
+      "Short cotton sock with stripe pattern Soft model for men",
     current_price: "4.06",
     raw_price: "9.4",
     currency: "USD",
@@ -20932,8 +20932,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femmes en cuir PU ceinture large robe de d�coration rivet ceinture",
+    subcategory: "Glasses",
+    name: "Women PU Leather Wide Belt Decoration Dress Rivet Belt",
     current_price: "13.21",
     raw_price: "30.58",
     currency: "USD",
@@ -20959,8 +20959,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Hommes Femmes Lunettes De Soleil En Bois",
+    subcategory: "Glasses",
+    name: "Men Women Wooden Sun Glasses",
     current_price: "4.94",
     raw_price: "11.42",
     currency: "USD",
@@ -20988,8 +20988,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chapeau de seau de paille bowknot de p�cheur pour femmes",
+    subcategory: "Glasses",
+    name: "Women's Fisherman's Bowknot Straw Bucket Hat",
     current_price: "8.3",
     raw_price: "18.88",
     currency: "USD",
@@ -21017,8 +21017,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chapeau de paille creux imprim� r�tro femme",
+    subcategory: "Glasses",
+    name: "Women's retro printed hollow straw hat",
     current_price: "15.99",
     raw_price: "38.99",
     currency: "USD",
@@ -21046,7 +21046,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
       "Coton mignon b�b� ours enfants filles tricot bonnet au crochet bonnet chapeau",
     current_price: "3.64",
@@ -21076,8 +21076,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Casquette � motif ray� FlamingoPanneau de protection solaire",
+    subcategory: "Glasses",
+    name: "Flamingo striped cap Sun protection panel",
     current_price: "9.46",
     raw_price: "22.31",
     currency: "USD",
@@ -21105,8 +21105,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "�charpe en lin de coton vintage",
+    subcategory: "Glasses",
+    name: "Vintage cotton linen scarf",
     current_price: "4.69",
     raw_price: "21.51",
     currency: "USD",
@@ -21134,7 +21134,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name: "Casquette respirante de baseball pour hommes",
     current_price: "8.64",
     raw_price: "20.29",
@@ -21163,8 +21163,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "�charpe Carr�e Vintage Soft",
+    subcategory: "Glasses",
+    name: "�echarpe Carre Vintage Soft",
     current_price: "13.88",
     raw_price: "33.16",
     currency: "USD",
@@ -21192,8 +21192,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chaussettes de sport hommes en coton � rayures",
+    subcategory: "Glasses",
+    name: "Men's striped cotton sports socks",
     current_price: "5.58",
     raw_price: "9.82",
     currency: "USD",
@@ -21221,8 +21221,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Femmes hiver chaud tricot� sans doigts longs gants",
+    subcategory: "Glasses",
+    name: "Women Winter Warm Knitted Fingerless Long Gloves",
     current_price: "7.07",
     raw_price: "16.25",
     currency: "USD",
@@ -21250,8 +21250,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "�charpes Artifical En Cachemire Avec Un Ch�le De Gland",
+    subcategory: "Glasses",
+    name: "Artificial Cashmere Scarves With Tassel Shawl",
     current_price: "11.12",
     raw_price: "28.46",
     currency: "USD",
@@ -21279,9 +21279,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Hommes femmes polyester maille large bord casquette de baseball chapeau respirant r�glable en plein air",
+      "Men Women Polyester Mesh Wide Brim Baseball Cap Outdoor Adjustable Breathable Hat",
     current_price: "8.42",
     raw_price: "19.86",
     currency: "USD",
@@ -21309,8 +21309,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
-    name: "Chapeaux de chapeau de trappeur russe",
+    subcategory: "Glasses",
+    name: "Russian trapper hat hats",
     current_price: "37.6",
     raw_price: "94.94",
     currency: "USD",
@@ -21338,9 +21338,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes",
+    subcategory: "Glasses",
     name:
-      "Femmes Fleur Strass Tete Bijoux De Cha�ne Bandeau Tete Piece Cheveux Bande",
+      "Women Flower Rhinestone Head Chain Jewelry Headband Head Piece Hair Band",
     current_price: "3.36",
     raw_price: "8.24",
     currency: "USD",
@@ -21368,8 +21368,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chaussettes d'�t� en coton respirant en maille fine",
+    subcategory: "Reading glasses",
+    name: "Fine mesh breathable cotton summer socks",
     current_price: "3.7",
     raw_price: "10.26",
     currency: "USD",
@@ -21397,8 +21397,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "�charpe bross�e solide pour hommes",
+    subcategory: "Reading glasses",
+    name: "Men's Solid Brushed Scarf",
     current_price: "9.32",
     raw_price: "29.05",
     currency: "USD",
@@ -21426,8 +21426,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chapeau de pluie pour le soleil",
+    subcategory: "Reading glasses",
+    name: "Rain hat for the sun",
     current_price: "10.07",
     raw_price: "22.67",
     currency: "USD",
@@ -21455,8 +21455,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Casquette de beanie de polyester d'automne",
+    subcategory: "Reading glasses",
+    name: "Fall Polyester Beanie Cap",
     current_price: "8.39",
     raw_price: "18.79",
     currency: "USD",
@@ -21484,8 +21484,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Casquette plate � large bord � s�chage rapide",
+    subcategory: "Reading glasses",
+    name: "Quick Dry Wide Brim Flat Cap",
     current_price: "7.56",
     raw_price: "17.4",
     currency: "USD",
@@ -21513,8 +21513,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chapeau de f�te d'hiver chaud",
+    subcategory: "Reading glasses",
+    name: "Warm winter party hat",
     current_price: "18.24",
     raw_price: "43.31",
     currency: "USD",
@@ -21542,8 +21542,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Gants pour chaussettes de sport antid�rapantes Yoga",
+    subcategory: "Reading glasses",
+    name: "Gloves for Non-slip Yoga Socks",
     current_price: "10.07",
     raw_price: "23.43",
     currency: "USD",
@@ -21554,7 +21554,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/1A/DD/5c997576-d2b2-4f22-9bbe-7a4df291b4ad.jpg",
     variation_0_image:
@@ -21571,8 +21571,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Bandeau d'�lasticit� en laine pour femmes",
+    subcategory: "Reading glasses",
+    name: "Women's Wool Elastic Headband",
     current_price: "6.75",
     raw_price: "15.85",
     currency: "USD",
@@ -21600,8 +21600,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Cas de t�l�phone mode alimentaire imprime",
+    subcategory: "Reading glasses",
+    name: "Fashion Food Phone Case Prints",
     current_price: "7.29",
     raw_price: "14.15",
     currency: "USD",
@@ -21629,8 +21629,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Grand chapeau de seau visi�re Brime",
+    subcategory: "Reading glasses",
+    name: "Large Brime Visor Bucket Hat",
     current_price: "10.3",
     raw_price: "34.33",
     currency: "USD",
@@ -21658,8 +21658,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Coque pour chien et chat IPhone",
+    subcategory: "Reading glasses",
+    name: "IPhone dog and cat case",
     current_price: "3.22",
     raw_price: "7.06",
     currency: "USD",
@@ -21669,8 +21669,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Imprim� par chat",
-    variation_1_color: "Paire de chiens",
+    variation_0_color: "Cat print",
+    variation_1_color: "Pair of dogs",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A0/FA/6fd2168f-2f56-4f30-b4fa-9da92c7c3a9f.jpg",
     variation_0_image:
@@ -21687,9 +21687,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Lunettes de soleil Bonnet de ski Cache-oreilles chauds Pilot Hat Trapper Hat",
+      "Sun Glasses Ski Hat Warm Earmuffs Pilot Hat Trapper Hat",
     current_price: "20.57",
     raw_price: "49.1",
     currency: "USD",
@@ -21717,8 +21717,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Bonnet unisexe portable sur double face",
+    subcategory: "Reading glasses",
+    name: "Double-sided wearable unisex hat",
     current_price: "7.26",
     raw_price: "18.18",
     currency: "USD",
@@ -21746,8 +21746,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Poignet respirant en mesh Longueur UV Gants de protection",
+    subcategory: "Reading glasses",
+    name: "Breathable mesh cuff Length UV Protective Gloves",
     current_price: "8.07",
     raw_price: "19.28",
     currency: "USD",
@@ -21775,8 +21775,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chaussettes bateau en coton � rayures",
+    subcategory: "Reading glasses",
+    name: "Striped cotton boat socks",
     current_price: "4",
     raw_price: "10.96",
     currency: "USD",
@@ -21804,9 +21804,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Gants d'�quitation � s�chage rapide Mitaines durables avec doigts complets",
+      "Quick Dry Riding Gloves Durable Mittens with Full Fingers",
     current_price: "14.33",
     raw_price: "36.58",
     currency: "USD",
@@ -21834,8 +21834,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Femmes Style ethnique Impression Foulards chauds",
+    subcategory: "Reading glasses",
+    name: "Women Ethnic Style Print Warm Scarves",
     current_price: "15.16",
     raw_price: "36.46",
     currency: "USD",
@@ -21863,9 +21863,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Chaussettes de bateau invisibles respirantes en dentelle pour femmes",
+      "Women Lace Breathable Invisible Boat Socks",
     current_price: "4.46",
     raw_price: "10.86",
     currency: "USD",
@@ -21876,7 +21876,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B2/74/bb4e111d-f46a-40d5-b63f-f7aa62cd3071.jpg",
     variation_0_image:
@@ -21893,8 +21893,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Casquette de baseball brod� � la mode",
+    subcategory: "Reading glasses",
+    name: "Fashionable embroidered baseball cap",
     current_price: "10.7",
     raw_price: "24.13",
     currency: "USD",
@@ -21922,8 +21922,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Long Toes Socks Chaussettes sport",
+    subcategory: "Reading glasses",
+    name: "Long Toes Socks Socks sport",
     current_price: "4.76",
     raw_price: "11.7",
     currency: "USD",
@@ -21951,8 +21951,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chaussettes en coton � graffiti pour homme",
+    subcategory: "Reading glasses",
+    name: "Cotton graffiti socks for men",
     current_price: "4.83",
     raw_price: "11.4",
     currency: "USD",
@@ -21980,9 +21980,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Bonnets de chapeaux pour masque de molleton polaire multifonctions ext�rieur",
+      "Outdoor multifunctional fleece mask hat caps",
     current_price: "5.72",
     raw_price: "13.43",
     currency: "USD",
@@ -22010,8 +22010,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Casquette de baseball mignonne avec motif chien unisexe",
+    subcategory: "Reading glasses",
+    name: "Cute baseball cap with unisex dog design",
     current_price: "6.58",
     raw_price: "20.5",
     currency: "USD",
@@ -22039,8 +22039,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Maillot surdimensionn� Echarpe longue Ch�le chaud",
+    subcategory: "Reading glasses",
+    name: "Oversized swimsuit Long scarf Warm shawl",
     current_price: "7.22",
     raw_price: "17.53",
     currency: "USD",
@@ -22050,7 +22050,7 @@ export const AccessoriesNew = [
     brand: "LYZA",
     brand_url: "https://fr.newchic.com/lyza-brand-1148.html",
     codCountry: "",
-    variation_0_color: "Bleu profond",
+    variation_0_color: "Deep blue",
     variation_1_color: "Bleu fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/86/AF/c33cd192-f58c-487f-b277-0d33a02550d0.jpg",
@@ -22068,9 +22068,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Chapeau de b�ret en coton respirant maille femmes chapeau de protection solaire loisirs voyage simple",
+      "Breathable Cotton Mesh Beret Hat Women Sunscreen Hat Leisure Simple Travel",
     current_price: "6.38",
     raw_price: "15.04",
     currency: "USD",
@@ -22098,9 +22098,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "LYZA Femmes Colorful Poignets de protection solaire respirants, gants de conduite l�gers pour conduite l�g�re, � bout ouvert",
+      "LYZA Women Colorful Breathable Sun Protective Cuffs, Lightweight Riding Gloves for Light Riding, Open Toe",
     current_price: "9.2",
     raw_price: "28.92",
     currency: "USD",
@@ -22128,9 +22128,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Sexy belle sur le genou cuisse haute maille velours chaussettes femmes Gril Satin Bowknot Stocking",
+      "Sexy Lovely Over The Knee Thigh High Mesh Velvet Socks Women Gril Satin Bowknot Stocking",
     current_price: "4.83",
     raw_price: "11.09",
     currency: "USD",
@@ -22158,8 +22158,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Perle de luxe sac de soir�e fait main embrayage de diamant",
+    subcategory: "Reading glasses",
+    name: "Luxury Pearl Evening Bag Handmade Diamond Clutch",
     current_price: "22.65",
     raw_price: "53.79",
     currency: "USD",
@@ -22187,9 +22187,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Lunettes de soleil rondes demi-cadre jambes en alliage Lunettes color�es",
+      "Half-frame round sun glasses alloy legs Colored glasses",
     current_price: "11.74",
     raw_price: "27.17",
     currency: "USD",
@@ -22217,9 +22217,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Femmes musulmanes mousseline de soie couvre-chefs hijab face-lift couleurs solides chapeau foulard foulard islamique",
+      "Muslim Women Chiffon Headwear Hijab Face-lift Solid Colors Hat Headscarf Islamic Headscarf",
     current_price: "6.01",
     raw_price: "29.51",
     currency: "USD",
@@ -22247,9 +22247,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Chapeau d�contract� de chapeau de baseball de coton de femmes de chapeau de Rhinestone r�glable",
+      "Adjustable Rhinestone Hat Women Cotton Baseball Hat Casual Hat",
     current_price: "8.92",
     raw_price: "20.63",
     currency: "USD",
@@ -22260,7 +22260,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Bleu clair",
-    variation_1_color: "Bleu profond",
+    variation_1_color: "Deep blue",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C1/5A/a7f3d286-ad95-093a-ad07-e6b304d70499.jpg",
     variation_0_image:
@@ -22277,9 +22277,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Hommes deuxi�me �tage ceinture de boucle automatique r�glable alliage d&#39;or de vache d&#39;or Longueur au hasard",
+      "Men Second Floor Adjustable Automatic Buckle Belt Gold Cow Gold Alloy Random Length",
     current_price: "8.26",
     raw_price: "19.11",
     currency: "USD",
@@ -22307,9 +22307,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "7cm Pensee Male Formal Stripe Cravates Ensemble de poche pr�-attach�e avec nSuds cravate",
+      "7cm Pensee Male Formal Stripe Ties Tie Pocket Set with Tie Knots",
     current_price: "11.14",
     raw_price: "26.26",
     currency: "USD",
@@ -22337,8 +22337,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Accessoires de loisirs pour hommes cor�ens",
+    subcategory: "Reading glasses",
+    name: "Korean Men's Leisure Accessories",
     current_price: "5.12",
     raw_price: "12.08",
     currency: "USD",
@@ -22366,9 +22366,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Bonnet d&#39;hiver en laine tricot�e au crochet pour femmes au chaud",
+      "Warm Women Crochet Knitted Wool Winter Hat",
     current_price: "6.44",
     raw_price: "15.48",
     currency: "USD",
@@ -22396,9 +22396,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Chaussettes de bateau de haute qualit� femelles de bateau d&#39;impression de conception de Digital 3D chaussettes de cheville",
+      "High Quality Digital 3D Print Design Ankle Socks Female Boat Socks",
     current_price: "3.46",
     raw_price: "8.23",
     currency: "USD",
@@ -22426,9 +22426,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Casquette de baseball r�glable pour femme Chapeau Bill Paisley Hippie Snapback HipHop",
+      "Womens Adjustable Baseball Cap Bill Paisley Hippie Snapback HipHop Hat",
     current_price: "5.56",
     raw_price: "13.11",
     currency: "USD",
@@ -22452,9 +22452,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name:
-      "Mari�e Or Strass Cristal Corail Forme Princesse Reine Reine Tiara F�te De Mariage Chapeau",
+      "Bride Gold Rhinestone Crystal Coral Shape Princess Queen Queen Tiara Wedding Party Hat",
     current_price: "11.82",
     raw_price: "27.28",
     currency: "USD",
@@ -22478,8 +22478,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Chaussettes Tube Design Arbre de No�l Femme",
+    subcategory: "Reading glasses",
+    name: "Socks Tube Design Christmas Tree Woman",
     current_price: "6.26",
     raw_price: "15.16",
     currency: "USD",
@@ -22489,7 +22489,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/AE/B5/a8a9fd55-5a36-4eec-ba18-8ec808598006.jpg",
@@ -22507,8 +22507,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
-    name: "Bonnet thermique femme en laine d&#39;hiver � tricoter",
+    subcategory: "Reading glasses",
+    name: "Women's winter wool thermal knit hat",
     current_price: "8.42",
     raw_price: "20.62",
     currency: "USD",
@@ -22532,7 +22532,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de lecture",
+    subcategory: "Reading glasses",
     name: "Cartoon Rabbit Five Toes Ankle Socks",
     current_price: "4.56",
     raw_price: "10.79",
@@ -22561,9 +22561,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Foulard Gangsta Hip Hop Hommes Femmes BBOY Afflux De Foulard Ext�rieur Sauvage M�le",
+      "Gangsta Hip Hop Scarf Men Women BBOY Influx Of Male Wild Outdoor Scarf",
     current_price: "2.98",
     raw_price: "7.17",
     currency: "USD",
@@ -22591,8 +22591,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Mariage Partyfestival D�coration Papier de soie Pompoms Boule-fleur",
+    subcategory: "Sun glasses",
+    name: "Wedding Party Festival Decoration Tissue Paper Pompoms Flower Ball",
     current_price: "2.96",
     raw_price: "6.84",
     currency: "USD",
@@ -22620,9 +22620,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Hommes Lettre Motif Boutons De Manchette En Acier Inoxydable Argent Boutons De Manchette Cadeau Chemise Costume Accessoires De Mariage",
+      "Men Letter Pattern Cufflinks Stainless Steel Silver Cufflinks Gift Shirt Suit Wedding Accessories",
     current_price: "6.02",
     raw_price: "15.74",
     currency: "USD",
@@ -22646,8 +22646,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Lunettes de soleil anti-UV pour petits yeux de chat",
+    subcategory: "Sun glasses",
+    name: "Anti-UV sun glasses for small cat eyes",
     current_price: "8.66",
     raw_price: "20.19",
     currency: "USD",
@@ -22675,8 +22675,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Bonnet chaud en coton avec imprim� utile",
+    subcategory: "Sun glasses",
+    name: "Warm cotton hat with useful print",
     current_price: "7.86",
     raw_price: "18.21",
     currency: "USD",
@@ -22704,9 +22704,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Style cor�en loisirs masculins cravates mince plaid de rayures maigres maigres cravates �troites",
+      "Korean style male leisure thin ties plaid skinny striped skinny narrow ties",
     current_price: "6.56",
     raw_price: "14.91",
     currency: "USD",
@@ -22734,9 +22734,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Semelle int�rieure invisible de pied de pied de plage Isolation thermique de protection imperm�able de chaussettes de chaussette",
+      "Beach Foot Invisible Foot Insole Waterproof Protective Thermal Insulation Sock Socks",
     current_price: "3.62",
     raw_price: "8.55",
     currency: "USD",
@@ -22764,9 +22764,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Bande de pantalon de boucle d&#39;alliage d&#39;�paississement de ceinture de toile ext�rieure occasionnelle d&#39;hommes de 125cm",
+      "125cm Men Casual Outer Canvas Belt Thickening Alloy Buckle Pants Band",
     current_price: "7.18",
     raw_price: "17.58",
     currency: "USD",
@@ -22776,7 +22776,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "arm�e verte",
+    variation_0_color: "green army",
     variation_1_color: "# 03",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DC/57/af9c41ee-9f6e-2d7b-bd6d-e300353d85f3.jpg",
@@ -22794,8 +22794,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Bandeau en tricot pour femmes",
+    subcategory: "Sun glasses",
+    name: "Knit headband for women",
     current_price: "8.27",
     raw_price: "19.29",
     currency: "USD",
@@ -22823,8 +22823,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Chapeau Leifeng Velours Chaud",
+    subcategory: "Sun glasses",
+    name: "Warm Velvet Leifeng Hat",
     current_price: "13.81",
     raw_price: "33.65",
     currency: "USD",
@@ -22852,8 +22852,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Cat Eye Metal Frame Lunettes de soleil mode color�es",
+    subcategory: "Sun glasses",
+    name: "catEyeMetalFrameSunGlassesModeColor�es",
     current_price: "10.21",
     raw_price: "21.77",
     currency: "USD",
@@ -22881,8 +22881,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Bonnet de style ethnique Bonnet � imprim� fin",
+    subcategory: "Sun glasses",
+    name: "Ethnic style beanie Fine print beanie",
     current_price: "14.6",
     raw_price: "36.28",
     currency: "USD",
@@ -22906,9 +22906,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "50pcs blanc oreiller faveur bo�tes de bonbons bo�te de cadeau de papier kraft noce f�te d&#39;anniversaire emballage sacs",
+      "50pcs White Pillow Favor Candy Boxes Kraft Paper Gift Box Wedding Party Birthday Party Packaging Bags",
     current_price: "8.3",
     raw_price: "18.21",
     currency: "USD",
@@ -22932,9 +22932,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Chapeau de bonnet mignon oreille chat diable crochet crochet tricot� tresse hiver chaud bonnet",
+      "Cute devil cat ear beanie hat crochet crochet knitted braid winter warm beanie hat",
     current_price: "6.11",
     raw_price: "14.97",
     currency: "USD",
@@ -22962,9 +22962,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "140 * 475CM 3D Rose Fleur Satin All�e Coureur Tapis Rideau Toile de Fond D�coration",
+      "140 * 475CM 3D Rose Flower Satin Aisle Runner Carpet Curtain Backdrop Home Decor",
     current_price: "28.99",
     raw_price: "68.34",
     currency: "USD",
@@ -22992,8 +22992,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Hommes Chaud Plus Velvet Beanie Cap Scarf Dual Use",
+    subcategory: "Sun glasses",
+    name: "Men Warm Plus Velvet Beanie Cap Scarf Dual Use",
     current_price: "7.26",
     raw_price: "17.38",
     currency: "USD",
@@ -23003,7 +23003,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris + Noir",
+    variation_0_color: "Grey + Noir",
     variation_1_color: "Marine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F0/F6/a0c587d6-fb81-47a5-9b1d-98c524e1d7fb.jpg",
@@ -23021,8 +23021,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Protection solaire cr�me solaire Baseball Hat",
+    subcategory: "Sun glasses",
+    name: "Sunscreen Sunscreen Baseball Hat",
     current_price: "11.98",
     raw_price: "29.02",
     currency: "USD",
@@ -23050,8 +23050,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Chapeau plat camouflage",
+    subcategory: "Sun glasses",
+    name: "Camouflage flat hat",
     current_price: "9.99",
     raw_price: "21.12",
     currency: "USD",
@@ -23079,8 +23079,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Chapeau de p�cheur au chaud en hiver",
+    subcategory: "Sun glasses",
+    name: "Warm fisherman hat in winter",
     current_price: "10.74",
     raw_price: "25.48",
     currency: "USD",
@@ -23108,9 +23108,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Chapeau de protection solaire pour le cou avec protection solaire Nylon",
+      "Sunscreen Hat for Neck with Nylon Sunscreen",
     current_price: "10.76",
     raw_price: "35.44",
     currency: "USD",
@@ -23120,7 +23120,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "arm�e verte",
+    variation_0_color: "green army",
     variation_1_color: "Bleu",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/C6/F5/47bd22cd-9f99-4bbf-8ff6-fa3ea5c5f49d.jpg",
@@ -23138,8 +23138,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Lunettes tactiques hors route pour pare-brise",
+    subcategory: "Sun glasses",
+    name: "Tactical off-road windshield glasses",
     current_price: "6.14",
     raw_price: "14.48",
     currency: "USD",
@@ -23167,8 +23167,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Bandeau en coton brod� Soft pour femmes",
+    subcategory: "Sun glasses",
+    name: "Women's Soft Embroidered Cotton Headband",
     current_price: "3.7",
     raw_price: "8.72",
     currency: "USD",
@@ -23196,8 +23196,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Femme Fahion Soft Coquille Coquille Suspendue Transparente",
+    subcategory: "Sun glasses",
+    name: "Woman Fashion Soft Shell Transparent Hanging Shell",
     current_price: "5.38",
     raw_price: "12.68",
     currency: "USD",
@@ -23225,8 +23225,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Chaussettes courtes en soie Crystal Glass Silky pour femme",
+    subcategory: "Sun glasses",
+    name: "Crystal Glass Silky short socks for women",
     current_price: "3.2",
     raw_price: "10.76",
     currency: "USD",
@@ -23254,7 +23254,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name: "Masque Riding Windproof Warm",
     current_price: "7.79",
     raw_price: "17.66",
@@ -23284,8 +23284,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Foulard 180cm * 70cm d'�t� respirant mince foulard en coton",
+    subcategory: "Sun glasses",
+    name: "180cm * 70cm scarf breathable summer thin cotton scarf",
     current_price: "6.81",
     raw_price: "24.24",
     currency: "USD",
@@ -23313,9 +23313,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Hommes Femmes Clip Jambes Bague Jarreti�re Robe Chemise Antid�rapante Clip Anti-Rides",
+      "Men Women Clip Legs Ring Garter Dress Shirt Anti Slip Anti-Wrinkle Clip",
     current_price: "6.18",
     raw_price: "13.75",
     currency: "USD",
@@ -23341,9 +23341,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Gants d&#39;hiver double �paisseur Cotten Youth, arbre de No�l mignon avec mitaines en corde",
+      "Cotten Youth Double Layer Winter Gloves, Cute Christmas Tree with Rope Mittens",
     current_price: "4.26",
     raw_price: "10.04",
     currency: "USD",
@@ -23371,8 +23371,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Nylon Ceintures tactiques militaires � boucle lisse en alliage",
+    subcategory: "Sun glasses",
+    name: "Nylon Alloy Smooth Buckle Military Tactical Belts",
     current_price: "1.89",
     raw_price: "24.36",
     currency: "USD",
@@ -23383,7 +23383,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Noir",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/1F/30/e19dbaa0-f50f-469b-b5cb-6da229f4a5a3.jpg",
     variation_0_image:
@@ -23400,9 +23400,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Ceinture pour hommes, ceinture, boucle automatique, ceinture, sangle",
+      "Men's belt, belt, automatic buckle, belt, strap",
     current_price: "9.18",
     raw_price: "21.25",
     currency: "USD",
@@ -23426,8 +23426,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Femmes mince maigre m�tal or boucle ceinture ceinture en cuir PU",
+    subcategory: "Sun glasses",
+    name: "Women Thin Skinny Metal Gold Buckle Belt PU Leather Belt",
     current_price: "3.03",
     raw_price: "7.28",
     currency: "USD",
@@ -23455,8 +23455,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "�charpe en laine �paisse",
+    subcategory: "Sun glasses",
+    name: "Thick wool scarf",
     current_price: "11.78",
     raw_price: "28.32",
     currency: "USD",
@@ -23484,9 +23484,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Chapeaux de b�ret de cow-boy de coton vintage d&#39;hommes casquettes plates respirantes de voyage d�contract� en plein air",
+      "Mens Vintage Cotton Cowboy Beret Hats Outdoor Casual Travel Breathable Flat Caps",
     current_price: "5.77",
     raw_price: "27.15",
     currency: "USD",
@@ -23514,9 +23514,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "LYZA Femmes Chapeau de paille �cran solaire solaire bordeaux �l�gamment large",
+      "LYZA Women Elegantly Wide Burgundy Sunscreen Straw Hat",
     current_price: "10.04",
     raw_price: "23.67",
     currency: "USD",
@@ -23526,7 +23526,7 @@ export const AccessoriesNew = [
     brand: "LYZA",
     brand_url: "https://fr.newchic.com/lyza-brand-1148.html",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "bleu Gris",
+    variation_0_color: "bleu Grey",
     variation_1_color: "caf�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/07/10/1178fbc7-c319-4ab7-bb74-62266d72b7b0.jpg",
@@ -23544,9 +23544,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Hommes femmes lettre brod�e lettre de couleur m�lang�e casquette de plein air en pointe",
+      "Men Women Embroidered Letter Mixed Color Letter Peaked Outdoor Cap",
     current_price: "5.46",
     raw_price: "12.41",
     currency: "USD",
@@ -23574,8 +23574,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Foulard en coton � carreaux avec franges en lin femme",
+    subcategory: "Sun glasses",
+    name: "Women's checked cotton scarf with linen fringes",
     current_price: "8.12",
     raw_price: "18.79",
     currency: "USD",
@@ -23585,7 +23585,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "Beige",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9E/3E/1b2ac881-85d8-c69a-8141-6c30bfff659b.jpg",
@@ -23603,9 +23603,9 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
+    subcategory: "Sun glasses",
     name:
-      "Chapeau de baseball en coton lav� chapeau de plein air broderie vintage",
+      "Vintage embroidery washed cotton baseball hat outdoor hat",
     current_price: "10.39",
     raw_price: "30.02",
     currency: "USD",
@@ -23633,8 +23633,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Gants anti-glissement � demi-doigts avec absorption des chocs",
+    subcategory: "Sun glasses",
+    name: "Half-finger anti-slip gloves with shock absorption",
     current_price: "11.01",
     raw_price: "25.69",
     currency: "USD",
@@ -23662,8 +23662,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Lunettes de lecture rondes anti-bleues",
+    subcategory: "Sun glasses",
+    name: "Round anti-blue reading glasses",
     current_price: "12.18",
     raw_price: "28.16",
     currency: "USD",
@@ -23691,8 +23691,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "Bonnet en coton imprim�",
+    subcategory: "Sun glasses",
+    name: "Printed cotton beanie",
     current_price: "12.14",
     raw_price: "29.81",
     currency: "USD",
@@ -23720,8 +23720,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Lunettes de soleil",
-    name: "�charpe Femme Chaude Imprim�e L�opard",
+    subcategory: "Sun glasses",
+    name: "Hot Women's Leopard Print Scarf",
     current_price: "9.74",
     raw_price: "23.21",
     currency: "USD",
@@ -23750,7 +23750,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Military Hat",
-    name: "�charpe de protection solaire de style ethnique imprim�",
+    name: "Ethnic style printed sunscreen scarf",
     current_price: "4.51",
     raw_price: "10.64",
     currency: "USD",
@@ -23776,7 +23776,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Military Hat",
-    name: "Ch�le imprim� floral foulard style r�tro",
+    name: "ch�leImprim�FloralFoulardStyleR�tro",
     current_price: "10.56",
     raw_price: "24.92",
     currency: "USD",
@@ -23806,7 +23806,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Military Hat",
     name:
-      "10mm 50 yards tiss� bord organza ruban mariage f�te d&#39;anniversaire cadeau bo�te de bonbons d�coration",
+      "10mm 50 yards woven edge organza ribbon wedding anniversary party gift box candy decoration",
     current_price: "2.86",
     raw_price: "6.77",
     currency: "USD",
@@ -23835,7 +23835,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Bonnet tricot� chaud ethnique",
+    name: "Ethnic warm knitted hat",
     current_price: "18.86",
     raw_price: "44.4",
     currency: "USD",
@@ -23864,7 +23864,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Femme mignonne bande dessin�e mode mod�le vari�t� Soft",
+    name: "Cute Woman Cartoon Fashion Model Variety Soft",
     current_price: "4.61",
     raw_price: "10.86",
     currency: "USD",
@@ -23894,7 +23894,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Homme Femme Confortables Chaussettes Anti-Fatigue Manche de Compression  Soulage de Varice",
+      "Men Women Comfortable Anti-Fatigue Socks Compression Sleeve Relieves Varicose Veins",
     current_price: "0.48",
     raw_price: "10.44",
     currency: "USD",
@@ -23923,7 +23923,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Casquette de baseball en coton vintage",
+    name: "Vintage cotton baseball cap",
     current_price: "9.23",
     raw_price: "21.88",
     currency: "USD",
@@ -23953,7 +23953,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Chapeau de Bonnets chauds en coton Chapeaux de Bonnet de voyage en automne et en hiver",
+      "Cotton Warm Beanies Hat Autumn and Winter Travel Beanie Hats",
     current_price: "6.08",
     raw_price: "14.32",
     currency: "USD",
@@ -23982,7 +23982,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Echarpe Sauvage Femme",
+    name: "Wild Woman Scarf",
     current_price: "9.95",
     raw_price: "23.35",
     currency: "USD",
@@ -24011,7 +24011,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Nylon Chaussettes de bateau multicolores",
+    name: "Multicolored Nylon Boat Socks",
     current_price: "2.44",
     raw_price: "10.73",
     currency: "USD",
@@ -24022,7 +24022,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Rose",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/8E/A3/c1f19fdb-f312-47e1-b36a-4ff1f0857272.jpg",
     variation_0_image:
@@ -24040,7 +24040,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Bonnet Femme",
+    name: "Women's beanie",
     current_price: "12.66",
     raw_price: "30.3",
     currency: "USD",
@@ -24051,7 +24051,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "rouge",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/DE/2D/009539c3-922c-48c4-9825-a7ac0ab88766.jpg",
     variation_0_image:
@@ -24069,7 +24069,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau tricot� chaud",
+    name: "Warm knitted hat",
     current_price: "10.34",
     raw_price: "24.93",
     currency: "USD",
@@ -24098,7 +24098,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "�tui pour t�l�phone Soft avec gel de silice r�tro",
+    name: "Soft phone case with retro silica gel",
     current_price: "10.09",
     raw_price: "19.99",
     currency: "USD",
@@ -24123,7 +24123,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Casquette plate pour homme, couleur unie, chapeau bleu marine",
+    name: "Flat cap for men, solid color, navy blue hat",
     current_price: "8.94",
     raw_price: "21.08",
     currency: "USD",
@@ -24152,7 +24152,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Figure de dessin anim� de vari�t� mignonne Soft Shell",
+    name: "Soft Shell Cute Variety Cartoon Figure",
     current_price: "1.6",
     raw_price: "7.54",
     currency: "USD",
@@ -24181,7 +24181,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Femme Ray� Noir Et Blanc Mignon TPU Soft Coque T�l�phone",
+    name: "Woman Striped Black And White Cute TPU Soft Phone Case",
     current_price: "3.22",
     raw_price: "7.61",
     currency: "USD",
@@ -24208,7 +24208,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Casquette respirante cr�me solaire en soie camouflage",
+    name: "Breathable camouflage silk sunscreen cap",
     current_price: "2.33",
     raw_price: "20.5",
     currency: "USD",
@@ -24237,7 +24237,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeaux de p�cheur de fil",
+    name: "Wire fisherman hats",
     current_price: "9.11",
     raw_price: "23.9",
     currency: "USD",
@@ -24266,7 +24266,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de seau de peinture � l'huile de protection anti-UV",
+    name: "UV Protective Oil Paint Bucket Hat",
     current_price: "4.67",
     raw_price: "22.85",
     currency: "USD",
@@ -24295,7 +24295,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Gants respirants � doigts",
+    name: "glovesRespirants �Doigts",
     current_price: "12.07",
     raw_price: "27.38",
     currency: "USD",
@@ -24324,7 +24324,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de p�cheur en maille anti-UV",
+    name: "Anti-UV mesh fisherman hat",
     current_price: "8.13",
     raw_price: "21.32",
     currency: "USD",
@@ -24353,7 +24353,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de b�ret de broderie de style ethnique",
+    name: "Ethnic style embroidery beret hat",
     current_price: "1.6",
     raw_price: "20.38",
     currency: "USD",
@@ -24382,7 +24382,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Casquettes de baseball en coton pour hommes",
+    name: "Mens Cotton Baseball Caps",
     current_price: "1.6",
     raw_price: "18.39",
     currency: "USD",
@@ -24412,7 +24412,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Vous aider � continuer � jouer sur des appareils num�riques sans avoir les yeux secs",
+      "Help you keep gaming on digital devices without dry eyes",
     current_price: "83.05",
     raw_price: "207.64",
     currency: "USD",
@@ -24423,7 +24423,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,TH",
     variation_0_color: "rouge",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/A7/8D/67d27a7e-9683-4031-a6bb-7cdcf547829a.jpg",
     variation_0_image:
@@ -24441,7 +24441,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Gants tricot�s � �cran tactile pour femme",
+    name: "Knitted Touchscreen Gloves for Women",
     current_price: "7.5",
     raw_price: "18.23",
     currency: "USD",
@@ -24470,7 +24470,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Ghost Claw Moto Gants � doigts",
+    name: "ghostClawMotoGloves �Doigts",
     current_price: "15.5",
     raw_price: "35.88",
     currency: "USD",
@@ -24499,7 +24499,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Bonnet bicolore en laine � rayures de style britannique",
+    name: "British-style two-tone striped wool beanie",
     current_price: "7.76",
     raw_price: "25.29",
     currency: "USD",
@@ -24524,7 +24524,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Wheelup Hommes Femmes Gants Antid�rapants",
+    name: "Wheelup Men Women Gloves Non-slip",
     current_price: "9.42",
     raw_price: "29.6",
     currency: "USD",
@@ -24554,7 +24554,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Lunettes de Soleil Classique avec Monture � L�opard pour Voyage Loisir Photographier dans La Rue",
+      "Classic Sunglasses with Leopard Frame for Leisure Travel Street Photography",
     current_price: "12.22",
     raw_price: "28.81",
     currency: "USD",
@@ -24564,7 +24564,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "argent",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/89/0C/f783d866-a682-4720-8a8e-f84ce912bf06.jpg",
@@ -24583,7 +24583,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de sir�ne Chapeau de changement de couleur Halloween",
+    name: "Mermaid Hat Halloween Color Change Hat",
     current_price: "11.8",
     raw_price: "28.31",
     currency: "USD",
@@ -24613,7 +24613,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Femmes Dome chapeau de plage coton loisirs respirant pliable chapeau de sunscreen loisirs en plein air",
+      "Women Dome Beach Hat Cotton Leisure Breathable Foldable Outdoor Leisure Sunscreen Hat",
     current_price: "4.04",
     raw_price: "20.05",
     currency: "USD",
@@ -24643,7 +24643,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Hommes V�lo V�lo Gants Moto Doigt Complet Vision Nocturne R�fl�chissant Mitaines Respirantes",
+      "Men Bike Cycling Gloves Motorcycle Full Finger Night Vision Reflective Breathable Mittens",
     current_price: "16.08",
     raw_price: "37.93",
     currency: "USD",
@@ -24669,7 +24669,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Chapeau de Baseball Respirant Mince � Serage Rapide en Maillage Ext�rieur � l'Abri du Soleil",
+      "Breathable Thin Quick Release Outer Mesh Baseball Hat'Abri du Soleil",
     current_price: "7.18",
     raw_price: "16.84",
     currency: "USD",
@@ -24699,7 +24699,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Lunette de Soleil Femme R�tro Protection UV400 Oversize Verres Plates Monture M�tallique Effet Yeux de Chat et Miroir",
+      "Women Sunglasses Retro UV400 Protection Oversize Flat Lenses Metal Frame Cat Eye Effect and Mirror",
     current_price: "6.7",
     raw_price: "16.22",
     currency: "USD",
@@ -24729,7 +24729,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Casquette de baseball homme femme ultra-mince respirant � s�chage rapide chapeau plein air d�contract�",
+      "Men's Women's Ultra-Thin Breathable Quick Dry Baseball Cap Casual Outdoor Hat",
     current_price: "7.14",
     raw_price: "16.26",
     currency: "USD",
@@ -24740,7 +24740,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "rouge",
-    variation_1_color: "Bleu profond",
+    variation_1_color: "Deep blue",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/68/03/a08c1284-c5cb-4aba-9a25-baaa53e07a48.jpg",
     variation_0_image:
@@ -24759,7 +24759,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Femmes Coton Vintage Fleur Dentelle Broderie Beret Cap Casual Parasol Chapeau B�ret R�glable",
+      "Women Cotton Vintage Flower Lace Embroidery Beret Cap Casual Sunshade Hat B�ret Adjustable",
     current_price: "7.93",
     raw_price: "18.37",
     currency: "USD",
@@ -24789,7 +24789,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Hommes Modal �pais Chaud Foulards Longs Echarpe Ch�le Soft Frange Tassel Shawl Wrap",
+      "Men Thick Modal Warm Long Scarves Shawl Soft Fringe Tassel Shawl Wrap",
     current_price: "9.77",
     raw_price: "23.95",
     currency: "USD",
@@ -24819,7 +24819,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Bride strass Couronne de cristal Pageant Tiara Comb Princesse Reine Mariage Chapeau",
+      "Bride Rhinestone Crystal Crown Pageant Tiara Comb Princess Queen Wedding Hat",
     current_price: "21.27",
     raw_price: "50.08",
     currency: "USD",
@@ -24844,7 +24844,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Bonnet Homme Femme en Tricot",
+    name: "Man Woman Knit Hat",
     current_price: "4.45",
     raw_price: "10.33",
     currency: "USD",
@@ -24873,7 +24873,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Lunettes de vision nocturne Polarized Driving Sunglasses",
+    name: "glassesDeVisionNocturnePolarizedDrivingSunglasses",
     current_price: "5.51",
     raw_price: "13.91",
     currency: "USD",
@@ -24883,7 +24883,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "Vert fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/7B/CD/84ca2d2a-c085-3c0d-1a1f-8c736a3f45bc.jpg",
@@ -24903,7 +24903,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Tapis de plage rond serviette �cran solaire ch�le �charpe tenture murale Tapisserie",
+      "Round Beach Mat Towel Sunscreen Shawl Scarf Wall Hanging Tapestry",
     current_price: "12.23",
     raw_price: "28.86",
     currency: "USD",
@@ -24933,7 +24933,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Masque de bouche de visage de style de cr�ne masque de poussi�re de fluorescence lumineuse",
+      "Luminous Fluorescence Dust Mask Skull Style Face Mouth Mask",
     current_price: "10.79",
     raw_price: "24.55",
     currency: "USD",
@@ -24959,7 +24959,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Femmes ethnique paix colombe m�lange mod�le �paisse �charpe en laine chaude et tricot�e",
+      "Women Ethnic Peace Dove Mix Pattern Thick Warm Wool Knitted Scarf",
     current_price: "9.47",
     raw_price: "22.33",
     currency: "USD",
@@ -24989,7 +24989,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Version cor�enne Plaques de bande de loisirs maigres maigres cravates minces cravates masculines",
+      "Korean Version Skinny Skinny Leisure Band Plates Thin Neckties Male Neckties",
     current_price: "8.35",
     raw_price: "20.08",
     currency: "USD",
@@ -25019,7 +25019,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Mini bo�tes � bonbons maison cadeau de faveur de mariage coeur clair",
+      "Mini Homemade Candy Boxes Clear Heart Wedding Favor Gift",
     current_price: "2.41",
     raw_price: "5.9",
     currency: "USD",
@@ -25044,7 +25044,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Coton Casual Chaussettes Mens Couleur Unie Classic Business Socks",
+    name: "Cotton Casual Socks Mens Solid Color Classic Business Socks",
     current_price: "4.83",
     raw_price: "10.79",
     currency: "USD",
@@ -25069,7 +25069,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de base-ball broderie en velours de soie rose",
+    name: "Pink Silk Velvet Embroidery Baseball Hat",
     current_price: "11.28",
     raw_price: "26.87",
     currency: "USD",
@@ -25098,7 +25098,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Bonnet �pais chaud",
+    name: "Thick warm beanie",
     current_price: "18.87",
     raw_price: "38.92",
     currency: "USD",
@@ -25127,7 +25127,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Casquette seau � fleurs",
+    name: "Flowers bucket cap",
     current_price: "7.2",
     raw_price: "24.93",
     currency: "USD",
@@ -25156,7 +25156,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Phone Case",
-    name: "Chapeau de seau unisexe en coton d'�t�",
+    name: "Unisex cotton bucket hat'�t�",
     current_price: "11.14",
     raw_price: "27.32",
     currency: "USD",
@@ -25167,7 +25167,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "kaki",
-    variation_1_color: "arm�e verte",
+    variation_1_color: "green army",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/66/E0/f5d4516a-acb3-4d67-b84a-79acdcc2e222.jpg",
     variation_0_image:
@@ -25186,7 +25186,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Phone Case",
     name:
-      "Chaussettes de bateau droites confortables de coton de chaussettes de super h�ros imprim�es par bande dessin�e d&#39;hommes",
+      "Men & # 39; s Cartoon Printed Superhero Socks Cotton Comfortable Straight Boat Socks",
     current_price: "0.32",
     raw_price: "9",
     currency: "USD",
@@ -25215,7 +25215,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Capuchon vide � rayures en polyester",
+    name: "Empty polyester striped hood",
     current_price: "5.89",
     raw_price: "27.42",
     currency: "USD",
@@ -25244,7 +25244,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de voyage pliable",
+    name: "Foldable travel hat",
     current_price: "9.96",
     raw_price: "22.65",
     currency: "USD",
@@ -25273,7 +25273,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Tissu mince en lycra Soft manchon de bras",
+    name: "Thin Lycra Fabric Soft Arm Sleeve",
     current_price: "7.7",
     raw_price: "18.11",
     currency: "USD",
@@ -25302,7 +25302,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de p�cheur broyable",
+    name: "Crushable Fisherman's Hat",
     current_price: "7.7",
     raw_price: "24.54",
     currency: "USD",
@@ -25331,7 +25331,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de soleil respirant � s�chage rapide",
+    name: "Quick Dry Breathable Sun Hat",
     current_price: "7.88",
     raw_price: "25.76",
     currency: "USD",
@@ -25360,7 +25360,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau respirant de masque facial de mens",
+    name: "Mens Face Mask Breathable Hat",
     current_price: "10.5",
     raw_price: "23.23",
     currency: "USD",
@@ -25370,7 +25370,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris",
+    variation_0_color: "Grey",
     variation_1_color: "Bleu",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/B4/53/d29679f0-34d6-41a4-9895-53ed4c9b26d2.jpg",
@@ -25390,7 +25390,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Nylon Chaussettes de bateau antid�rapantes",
+    name: "Nylon Non-slip Boat Socks",
     current_price: "5.34",
     raw_price: "13.13",
     currency: "USD",
@@ -25419,7 +25419,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Prot�ge-genou mince pour femme",
+    name: "Thin Knee Pads for Women",
     current_price: "6.3",
     raw_price: "18.75",
     currency: "USD",
@@ -25448,7 +25448,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Lunettes de lecture de lentilles en r�sine avec cadre en plastique",
+    name: "Reading glasses of resin lenses with plastic frame",
     current_price: "6.62",
     raw_price: "15.66",
     currency: "USD",
@@ -25477,7 +25477,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de mode � rayures acryliques",
+    name: "Fashion hat with acrylic stripes",
     current_price: "9.94",
     raw_price: "23.69",
     currency: "USD",
@@ -25506,7 +25506,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Casquette sup�rieure � large bord vide � double couche",
+    name: "Double Layer Empty Wide Brim Top Cap",
     current_price: "11.42",
     raw_price: "25.72",
     currency: "USD",
@@ -25535,7 +25535,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau respirant masque de visage",
+    name: "Breathable hat face mask",
     current_price: "8.95",
     raw_price: "20.3",
     currency: "USD",
@@ -25575,7 +25575,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/43/4B/298c5734-35c5-487b-9ecc-b5c10977a595.JPG",
     variation_0_image:
@@ -25593,7 +25593,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Lunettes de lecture Vogue Elasticity",
+    name: "readingGlassesVogueElasticity",
     current_price: "6.55",
     raw_price: "14.34",
     currency: "USD",
@@ -25622,7 +25622,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de fleurs d'hiver",
+    name: "Winter Flowers Hat",
     current_price: "4.94",
     raw_price: "15.61",
     currency: "USD",
@@ -25633,7 +25633,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Violet clair",
-    variation_1_color: "Vin rouge",
+    variation_1_color: "Red wine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/0A/03/31820c90-fde2-45f8-89b6-086323a565be.JPG",
     variation_0_image:
@@ -25651,7 +25651,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bandeau Casual",
+    name: "Casual Headband",
     current_price: "7.06",
     raw_price: "17.22",
     currency: "USD",
@@ -25680,7 +25680,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Gants d'hiver pour hommes � �cran tactile",
+    name: "Winter Gloves for Men with Touchscreen",
     current_price: "9.74",
     raw_price: "22.32",
     currency: "USD",
@@ -25691,7 +25691,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/20/B8/03f8572d-fc5e-42a5-b70f-879523c7ad2e.jpg",
     variation_0_image:
@@ -25709,7 +25709,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet en tricot",
+    name: "Knit hat",
     current_price: "11.52",
     raw_price: "26.37",
     currency: "USD",
@@ -25738,7 +25738,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet pliable Vogue Sun Protect pour le cou",
+    name: "Vogue Sun Protect Foldable Neck Beanie",
     current_price: "10.9",
     raw_price: "36.25",
     currency: "USD",
@@ -25767,7 +25767,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de seau cr�me solaire arc",
+    name: "Bow Sunscreen Bucket Hat",
     current_price: "11.42",
     raw_price: "37.56",
     currency: "USD",
@@ -25796,7 +25796,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "B�ret chaud",
+    name: "Hot berry",
     current_price: "11.58",
     raw_price: "26.71",
     currency: "USD",
@@ -25806,7 +25806,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris fonc�",
+    variation_0_color: "Grey fonc�",
     variation_1_color: "caf�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F3/A4/e32506cf-264f-47f8-a843-711ad0534e7a.jpg",
@@ -25825,7 +25825,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bandeau � rayures pour femmes",
+    name: "Women's striped headband",
     current_price: "5.21",
     raw_price: "12",
     currency: "USD",
@@ -25854,7 +25854,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet femme chaud sauvage en tricot",
+    name: "Wild warm knit woman beanie",
     current_price: "14.97",
     raw_price: "47.59",
     currency: "USD",
@@ -25883,7 +25883,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chaussettes de tube moyen petit couple couple unisexe",
+    name: "Socks de tube moyen petit couple couple unisexe",
     current_price: "6.78",
     raw_price: "16.12",
     currency: "USD",
@@ -25912,7 +25912,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Casquette octogonale en laine litt�raire r�tro pour femme",
+    name: "Retro literary wool octagonal cap for women",
     current_price: "12.25",
     raw_price: "29.18",
     currency: "USD",
@@ -25923,7 +25923,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "Noir",
-    variation_1_color: "marron",
+    variation_1_color: "Brown",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/19/B8/50aff237-4a67-4510-b003-7baec334d47e.JPG",
     variation_0_image:
@@ -25941,7 +25941,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet bicolore en coton sauvage",
+    name: "Two-tone wild cotton beanie",
     current_price: "8.34",
     raw_price: "20.5",
     currency: "USD",
@@ -25970,7 +25970,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet tricot� chaud d'hiver",
+    name: "Warm winter knitted hat",
     current_price: "10.88",
     raw_price: "26.27",
     currency: "USD",
@@ -25999,7 +25999,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bonnet Ethnique Femme",
+    name: "Ethnic beanie woman",
     current_price: "20.36",
     raw_price: "48.71",
     currency: "USD",
@@ -26028,7 +26028,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bandeau en tricot ethnique chaud",
+    name: "Warm ethnic knit headband",
     current_price: "16.14",
     raw_price: "38.99",
     currency: "USD",
@@ -26057,7 +26057,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Bandeau confortable pour femmes en laine chaude Vogue Wild",
+    name: "Vogue Wild Women's Comfortable Warm Wool Headband",
     current_price: "7.37",
     raw_price: "17.2",
     currency: "USD",
@@ -26068,7 +26068,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Vin rouge",
+    variation_1_color: "Red wine",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/87/B9/810681e5-113b-49de-9c16-51ae45c7cdb6.jpg",
     variation_0_image:
@@ -26086,7 +26086,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Lunettes d'ordinateur unisexe anti-fatigue",
+    name: "Unisex anti-fatigue computer glasses",
     current_price: "14.46",
     raw_price: "35.75",
     currency: "USD",
@@ -26115,7 +26115,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Lunettes de lecture en m�tal",
+    name: "readingGlassesEnM�tal",
     current_price: "14.62",
     raw_price: "36.24",
     currency: "USD",
@@ -26144,7 +26144,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Cas de t�l�phone de style rose blanche",
+    name: "White rose style phone case",
     current_price: "6.99",
     raw_price: "13.93",
     currency: "USD",
@@ -26169,7 +26169,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Vogue Narrow Square Lunettes de soleil anti-UV",
+    name: "Vogue Narrow Square Sun glasses anti-UV",
     current_price: "8.79",
     raw_price: "21.28",
     currency: "USD",
@@ -26198,7 +26198,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Alimentaire TPU Soft cas de protection de t�l�phone",
+    name: "Food Soft TPU Phone Protective Case",
     current_price: "6.29",
     raw_price: "12.11",
     currency: "USD",
@@ -26227,7 +26227,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "�tui Vogue Flip Flop Soft pour iPhone",
+    name: "�tuiVogueFlipFlopSoftPourIphone",
     current_price: "7.56",
     raw_price: "14.13",
     currency: "USD",
@@ -26256,7 +26256,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Chapeau de soleil vogue amovible � bord amovible",
+    name: "Detachable vogue sun hat with removable brim",
     current_price: "8.42",
     raw_price: "41.9",
     currency: "USD",
@@ -26285,7 +26285,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Coque iPhone Imprimer Motif Pizza Transparent Style Frais",
+    name: "IPhone Case Print Transparent Pizza Pattern Fresh Style",
     current_price: "3.22",
     raw_price: "7.6",
     currency: "USD",
@@ -26312,7 +26312,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Skull Caps",
-    name: "Le chapeau en peluche �lectrique Xiaomi Santa chantera et brillera",
+    name: "Xiaomi Santa Electric Plush Hat Sing and Shine",
     current_price: "14.54",
     raw_price: "40.4",
     currency: "USD",
@@ -26342,7 +26342,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Skull Caps",
     name:
-      "Chaussettes pour hommes Chaussettes unies pour bateau Chaussettes en coton � la mode d�contract�e pour hommes",
+      "Socks for men Plain socks for boat Fashionable cotton socks for men",
     current_price: "1.7",
     raw_price: "8.08",
     currency: "USD",
@@ -26372,7 +26372,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Skull Caps",
     name:
-      "Chapeau de trappeur chaud pour hommes en ext�rieur pour hommes, chapeau d'hiver russe",
+      "Men's warm outdoor trapper hat for men, russian winter hat",
     current_price: "10.27",
     raw_price: "25.68",
     currency: "USD",
@@ -26402,7 +26402,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Femmes Vintage feutre de laine plat large bord haut capuchon chapeau Bande Jazz Hat",
+      "Women Vintage Wool Felt Flat Wide Brim Top Cap Hat Band Jazz Hat",
     current_price: "7.78",
     raw_price: "17.99",
     currency: "USD",
@@ -26432,7 +26432,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Femmes Hiver Chaud Gradient Couleur Tress� Crochet � Tricoter Chapeau Ski Beanie Cap",
+      "Women Winter Warm Gradient Color Braided Crochet Knit Hat Ski Beanie Cap",
     current_price: "6.06",
     raw_price: "13.78",
     currency: "USD",
@@ -26462,7 +26462,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Coton Grid Vide Casual B�ret Cap Ceinture Boucle R�glable Papier Cabbie Gentleman Chapeau",
+      "Men Cotton Grid Empty Casual Beret Cap Belt Adjustable Buckle Paper Cabbie Gentleman Hat",
     current_price: "7.56",
     raw_price: "14.57",
     currency: "USD",
@@ -26472,8 +26472,8 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris fonc�",
-    variation_1_color: "Gris clair",
+    variation_0_color: "Grey fonc�",
+    variation_1_color: "Light grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/12/75/fc1cd5ff-9fa2-432b-9aa6-2ee41951f588.jpg",
     variation_0_image:
@@ -26492,7 +26492,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Femmes 3D Imprim� Coton �lastique Chaussettes Mode Casual Chaussettes Longues",
+      "Men Women 3D Printed Cotton Elastic Socks Fashion Casual Long Socks",
     current_price: "8.37",
     raw_price: "19.94",
     currency: "USD",
@@ -26522,7 +26522,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Chapeau de fourrure d&#39;hiver pour femmes bonnet double pom bonnet tricot bonnet Bobble Ski Bonnet",
+      "Women's Winter Fur Hat Double Pom Beanie Knit Beanie Bobble Ski Bonnet",
     current_price: "18.12",
     raw_price: "27.47",
     currency: "USD",
@@ -26532,7 +26532,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "blanc",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/25/C5/b2cbcf0f-cb0f-49ef-9358-154018b01e28.jpg",
@@ -26552,7 +26552,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Femmes Vintage Coton Casquette De Baseball R�glable Poin�onnage Broderie Golf Snapback Hat",
+      "Men Women Vintage Cotton Baseball Cap Adjustable Stitching Embroidery Golf Snapback Hat",
     current_price: "7.18",
     raw_price: "17.52",
     currency: "USD",
@@ -26582,7 +26582,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "140 * 190CM 3D Rose Fleur Satin All�e Coureur Tapis Rideau Toile de Fond D�coration",
+      "140 * 190CM 3D Rose Flower Satin Aisle Runner Carpet Curtain Backdrop Home Decor",
     current_price: "15.47",
     raw_price: "36.04",
     currency: "USD",
@@ -26612,7 +26612,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Foulard de broderies de fleurs de soie de plage de mousseline de soie de femmes de plage transparente",
+      "Transparent Beach Women Chiffon Beach Silk Flowers Embroidery Scarf",
     current_price: "9.96",
     raw_price: "23.49",
     currency: "USD",
@@ -26642,7 +26642,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Femmes mod�le gland foulards ch�le occasionnels �charpes chaudes �paississement",
+      "Women Tassel Pattern Casual Shawl Scarves Thickening Warm Scarves",
     current_price: "8.27",
     raw_price: "18.81",
     currency: "USD",
@@ -26668,7 +26668,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Bonnet de b�ret en laine de coton m�lang� pour hommes ceinture cravate gavroche �pais r�glable Golf Cabbie Hat",
+      "Men's Cotton Blend Wool Beret Beanie Adjustable Heavyweight Newsboy Tie Belt Golf Cabbie Hat",
     current_price: "8.02",
     raw_price: "19.63",
     currency: "USD",
@@ -26678,7 +26678,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Gris clair",
+    variation_0_color: "Light grey",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F7/23/340a5537-9af1-88a8-dbb5-ff6bb9624a56.jpg",
@@ -26698,7 +26698,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Pince � cheveux pince � cheveux peigne en �pingle � cheveux coiffe de mari�e en cristal artificiel de mariage",
+      "Artificial Crystal Bridal Headpiece Wedding Hair Clip Hair Clip Hair Clip",
     current_price: "6.98",
     raw_price: "16.95",
     currency: "USD",
@@ -26723,7 +26723,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Casquettes de baseball ajustables pour hommes",
+    name: "Men's Adjustable Baseball Caps",
     current_price: "5.78",
     raw_price: "13.9",
     currency: "USD",
@@ -26753,7 +26753,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Femmes Hip Hop Shark Bouche Impression Visi�re Casquette Casquette",
+      "Men Women Hip Hop Shark Mouth Printing Visor Cap Cap",
     current_price: "5.1",
     raw_price: "11.58",
     currency: "USD",
@@ -26782,7 +26782,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Accessoires Chaussettes Garters Pin Grip Suspender",
+    name: "Accessoires Socks Garters Pin Grip Suspender",
     current_price: "8.98",
     raw_price: "21.57",
     currency: "USD",
@@ -26812,7 +26812,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Femmes b�ret casquette � fleurs motif chapeau national style r�tro casquette avant",
+      "Women beret cap with Flowers pattern national hat retro style front cap",
     current_price: "7.95",
     raw_price: "18.08",
     currency: "USD",
@@ -26842,7 +26842,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Femmes Amoureux Casquette de baseball � s�chage rapide UV Sports de plein air",
+      "Men Women Lovers Quick Dry UV Baseball Cap Outdoor Sports",
     current_price: "6.61",
     raw_price: "15.02",
     currency: "USD",
@@ -26872,7 +26872,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Casquette fra�che de camionneur de casquettes de baseball ajustable Snapback hommes femmes",
+      "Cool Snapback Adjustable Baseball Caps Trucker Cap Men Women",
     current_price: "7.06",
     raw_price: "17.29",
     currency: "USD",
@@ -26901,7 +26901,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Casquette de baseball en pur coton r�glable pour femmes",
+    name: "Women's Adjustable Pure Cotton Baseball Cap",
     current_price: "4.73",
     raw_price: "10.95",
     currency: "USD",
@@ -26911,7 +26911,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Vin rouge",
+    variation_0_color: "Red wine",
     variation_1_color: "Rose",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/BF/FD/6f85e033-49e1-5c02-2ee4-e549079d626f_1456715622289_00.jpg",
@@ -26931,7 +26931,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Mari�e perle strass ruban ceinture ceinture diamant cristal de mariage robe formelle accessoires",
+      "Bridal Pearl Rhinestone Ribbon Sash Sash Diamond Crystal Wedding Formal Dress Accessories",
     current_price: "10.58",
     raw_price: "24.5",
     currency: "USD",
@@ -26961,7 +26961,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "12 pcs papillon creuser la boucle de la serviette en papier anneau de mariage d�coration de f�te d&#39;anniversaire",
+      "12 pcs butterfly hollow out paper napkin loop wedding ring birthday party decoration",
     current_price: "3.77",
     raw_price: "8.88",
     currency: "USD",
@@ -26990,7 +26990,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Masque de camouflage Balaclavas unisexe Cheek Neck CS Hat",
+    name: "Balaclavas Unisex Cheek Neck CS Hat Camouflage Mask",
     current_price: "10.39",
     raw_price: "20",
     currency: "USD",
@@ -27016,7 +27016,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Pensee Loisirs M�le Cravates �troites Plaques � Rayures �paisses Maigre Cravate � Tricoter Cravates",
+      "Thinking Leisure Male Narrow Ties Thick Striped Plates Skinny Knitting Tie Ties",
     current_price: "8.35",
     raw_price: "19.33",
     currency: "USD",
@@ -27046,7 +27046,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Cravates en soie tiss�e Jacquard en jacquard � treillis d�contract� pour homme",
+      "Casual Jacquard Lattice Jacquard Woven Silk Ties for Men",
     current_price: "7.06",
     raw_price: "16.04",
     currency: "USD",
@@ -27075,7 +27075,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Cravates formelles en soie tiss�e de soie PenSee pour hommes",
+    name: "Men's PenSee Silk Weave Formal Ties",
     current_price: "5.47",
     raw_price: "13.15",
     currency: "USD",
@@ -27105,7 +27105,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "2,7M mari�e blanche �l�gante cath�drale ivoire Longueur mariage peigne voile de mari�e avec bord de la dentelle",
+      "2.7M White Bridal Elegant Ivory Cathedral Length Wedding Comb Bridal Veil with Lace Edge",
     current_price: "8.79",
     raw_price: "21.57",
     currency: "USD",
@@ -27134,7 +27134,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Hommes Gourde Noeuds Fleur Loisirs Paisley Jacquard Tiss� Cravates",
+    name: "Men Gourd Bows Flower Leisure Paisley Jacquard Woven Ties",
     current_price: "8.42",
     raw_price: "19.15",
     currency: "USD",
@@ -27164,7 +27164,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Cravates tiss�es en jacquard maigres � rayures en polyester serg� pour hommes",
+      "Skinny Jacquard Woven Polyester Twill Ties for Men",
     current_price: "5.94",
     raw_price: "13.77",
     currency: "USD",
@@ -27194,7 +27194,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Socquettes d�contract�es pour femmes, chaussettes pour hommes, chaussettes imprim�es en coton avec animaux en 3D",
+      "Casual socks for women, Socks for men, Cotton socks with 3D animal print",
     current_price: "3.46",
     raw_price: "7.93",
     currency: "USD",
@@ -27224,7 +27224,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Nouvelle tendance 3D Digital Design Design Unisexe Ship Socks Chaussettes mignonnes style Harajuku",
+      "New Trend 3D Digital Design Unisex Ship Socks Cute Harajuku Style Socks",
     current_price: "3.5",
     raw_price: "8.17",
     currency: "USD",
@@ -27254,7 +27254,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "10 T�tes Artificielle Soie Fleur Pivoine Bouquet De Mariage Parti D�coration",
+      "10 Heads Artificial Silk Flower Peony Bouquet Wedding Party Decoration",
     current_price: "9.42",
     raw_price: "22.63",
     currency: "USD",
@@ -27283,7 +27283,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Sexy Tattoo Boot Collants Pure Collants Stocks",
+    name: "Sexy Tattoo Boot Tights Pure Tights Stocks",
     current_price: "6.65",
     raw_price: "15.84",
     currency: "USD",
@@ -27309,7 +27309,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Style ethnique r�tro chapeau de paille broderie imprim� chapeau respirant",
+      "Retro ethnic style straw hat embroidery printed breathable hat",
     current_price: "15.99",
     raw_price: "38.99",
     currency: "USD",
@@ -27338,7 +27338,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Lunettes de soleil unisexes vintage � monture ronde",
+    name: "Vintage unisex sun glasses with round frame",
     current_price: "4.89",
     raw_price: "11.98",
     currency: "USD",
@@ -27368,7 +27368,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Hommes Femmes Chapeau De Broderie Peak Cap Hip Hop Beanie Snapback Cap R�glable",
+      "Men Women Embroidery Hat Peak Cap Hip Hop Beanie Snapback Cap Adjustable",
     current_price: "5.5",
     raw_price: "12.5",
     currency: "USD",
@@ -27397,7 +27397,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Bandeau Oreilles de Lapin Sexy Hot Black Lace Lace",
+    name: "Sexy Hot Black Lace Lace Bunny Ears Headband",
     current_price: "5.57",
     raw_price: "13.38",
     currency: "USD",
@@ -27426,7 +27426,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "�charpe chaude �paissie d�contract�e � l&#39;�paule",
+    name: "Warm thickened relaxed shoulder scarf",
     current_price: "14.57",
     raw_price: "35.02",
     currency: "USD",
@@ -27436,7 +27436,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,TH",
-    variation_0_color: "gris",
+    variation_0_color: "Grey",
     variation_1_color: "rouge",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/5B/27/dadf063a-2a97-271e-162e-c051f038a96a.jpg",
@@ -27455,7 +27455,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Gants de mari�e Robes de mari�e",
+    name: "Bridal Gloves Wedding Dresses",
     current_price: "12.21",
     raw_price: "27.75",
     currency: "USD",
@@ -27484,7 +27484,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Baby Shower Poussette Bonbonni�re Faveur De Mariage",
+    name: "Baby Shower Stroller Bonbonni�re Wedding Favor",
     current_price: "2.42",
     raw_price: "5.49",
     currency: "USD",
@@ -27510,7 +27510,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Chaussettes en coton pour hommes AESHON Bussiness Soft Chaussettes contrast�es",
+      "Cotton socks for men AESHON Bussiness Soft Contrast Socks",
     current_price: "3.27",
     raw_price: "7.65",
     currency: "USD",
@@ -27535,7 +27535,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Straw Hats",
-    name: "Gants en fourrure en fourrure en peau de lapin pour dames",
+    name: "Ladies' Rabbit Skin Fur Gloves",
     current_price: "3.34",
     raw_price: "7.88",
     currency: "USD",
@@ -27565,7 +27565,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Straw Hats",
     name:
-      "Couper Cartoon XX Yeux Motif Rivet Hip-Hop Chapeau Casquette De Baseball Snapback",
+      "Cut Cartoon XX Eyes Pattern Rivet Hip-Hop Hat Snapback Baseball Cap",
     current_price: "12.83",
     raw_price: "30.86",
     currency: "USD",
@@ -27594,7 +27594,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Femmes Velours Cross Beanie Chapeaux",
+    name: "Women Velvet Cross Beanie Hats",
     current_price: "9.54",
     raw_price: "23.16",
     currency: "USD",
@@ -27623,7 +27623,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chapeau de seau en toile imprim� Flamingo pour femmes",
+    name: "Flamingo Print Canvas Bucket Hat for Women",
     current_price: "10.25",
     raw_price: "23.41",
     currency: "USD",
@@ -27652,7 +27652,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Casquette de baseball respirante ultra-fine",
+    name: "Ultra-thin breathable baseball cap",
     current_price: "9.87",
     raw_price: "24.05",
     currency: "USD",
@@ -27681,7 +27681,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bandes de transpiration multifonctions",
+    name: "Multifunctional sweat bands",
     current_price: "10.3",
     raw_price: "25.83",
     currency: "USD",
@@ -27710,7 +27710,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnets fins en coton",
+    name: "Thin cotton cups",
     current_price: "8.93",
     raw_price: "20.35",
     currency: "USD",
@@ -27739,7 +27739,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnets en coton respirant",
+    name: "Breathable cotton cups",
     current_price: "9.98",
     raw_price: "24.28",
     currency: "USD",
@@ -27768,7 +27768,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Cas de t�l�phone TPU Black Lily Flower",
+    name: "casDeT�l�phoneTpuBlackLilyFlower",
     current_price: "11.58",
     raw_price: "22.65",
     currency: "USD",
@@ -27793,7 +27793,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "�tui de t�l�phone de style floral vintage avec lani�re de dragonne",
+    name: "Vintage Floral Style Phone Case with Wrist Strap Strap",
     current_price: "7.83",
     raw_price: "24.24",
     currency: "USD",
@@ -27822,7 +27822,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chaussettes respirantes en coton d�grad�",
+    name: "Breathable degraded cotton socks",
     current_price: "4.84",
     raw_price: "11.91",
     currency: "USD",
@@ -27851,7 +27851,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Casquette de baseball en coton d�contract� unisexe",
+    name: "Unisex Casual Cotton Baseball Cap",
     current_price: "7.82",
     raw_price: "19.18",
     currency: "USD",
@@ -27862,7 +27862,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris fonc�",
+    variation_1_color: "Grey fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/9E/80/760d0d9b-3c7e-43d8-82e8-b7b330a45542.jpg",
     variation_0_image:
@@ -27881,7 +27881,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
     name:
-      "Lunettes-bracelet unisexes uniques dr�les polaris�es pliables lunettes de soleil",
+      "Unique Unisex Glasses-Bracelet Polarized Foldable Sun Glasses",
     current_price: "7.15",
     raw_price: "16.41",
     currency: "USD",
@@ -27910,7 +27910,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Cravates tricot�es � la mode pour hommes",
+    name: "Fashionable Knitted Ties for Men",
     current_price: "4.31",
     raw_price: "14.25",
     currency: "USD",
@@ -27939,7 +27939,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnet de Cyclisme Ext�rieur Foulard Multifonction",
+    name: "Multifunctional Scarf Outdoor Cycling Cap",
     current_price: "10.17",
     raw_price: "24.2",
     currency: "USD",
@@ -27969,7 +27969,7 @@ export const AccessoriesNew = [
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
     name:
-      "Casquette de Baseball Homme en Coton pour Protection Solaire Ext�rieure",
+      "Men's Cotton Baseball Cap for Outdoor Sun Protection",
     current_price: "7.68",
     raw_price: "17.55",
     currency: "USD",
@@ -27998,7 +27998,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnet tricot� Curling Twist Bar Lettre R",
+    name: "Knitted hat� Curling Twist Bar Letter R",
     current_price: "7.3",
     raw_price: "17.27",
     currency: "USD",
@@ -28027,7 +28027,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Casquette b�ret en laine Gatsby",
+    name: "Gatsby wool beret cap",
     current_price: "16.02",
     raw_price: "39.83",
     currency: "USD",
@@ -28056,7 +28056,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Foulard foulard vogue foulard",
+    name: "Scarf scarf vogue scarf",
     current_price: "5.96",
     raw_price: "13.72",
     currency: "USD",
@@ -28085,7 +28085,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chapeau pliable vintage pour femme",
+    name: "Vintage foldable hat for women",
     current_price: "12.04",
     raw_price: "29.17",
     currency: "USD",
@@ -28114,7 +28114,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Casquette B�ret Broderie Vintage",
+    name: "Beret Vintage Embroidery Cap",
     current_price: "15.3",
     raw_price: "36.25",
     currency: "USD",
@@ -28172,7 +28172,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chapeau multifonctionnel Messy Bun Hat",
+    name: "Multifunctional Messy Bun Hat",
     current_price: "8.74",
     raw_price: "21.66",
     currency: "USD",
@@ -28182,7 +28182,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Noir Gris",
+    variation_0_color: "Noir Grey",
     variation_1_color: "Violet",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/D6/CD/d9eb8081-ce5a-49c8-b032-155ef6759284.jpg",
@@ -28201,7 +28201,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnet respirant � s�chage rapide",
+    name: "Breathable, quick-dry beanie",
     current_price: "7.91",
     raw_price: "17.83",
     currency: "USD",
@@ -28230,7 +28230,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chaussettes de sport respirantes pour hommes",
+    name: "Breathable Sports Socks for Men",
     current_price: "3.32",
     raw_price: "15.27",
     currency: "USD",
@@ -28259,7 +28259,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnet large en lin et coton",
+    name: "Large linen and cotton beanie",
     current_price: "9.67",
     raw_price: "22.52",
     currency: "USD",
@@ -28288,7 +28288,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Capsules plates lav�es � s�chage rapide",
+    name: "Quick dry washed flat capsules",
     current_price: "9.38",
     raw_price: "21.51",
     currency: "USD",
@@ -28317,7 +28317,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chapeau Sport Crushable",
+    name: "Crushable Sport Hat",
     current_price: "5.21",
     raw_price: "24.22",
     currency: "USD",
@@ -28327,7 +28327,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "",
-    variation_0_color: "Gris fonc�",
+    variation_0_color: "Grey fonc�",
     variation_1_color: "Bleu fonc�",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/04/AC/0394f906-28ab-4e96-a5d4-1f9bf3c1b485.jpg",
@@ -28346,7 +28346,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chaussettes respirantes maille peu profonde",
+    name: "Breathable shallow mesh socks",
     current_price: "3.27",
     raw_price: "10.61",
     currency: "USD",
@@ -28356,7 +28356,7 @@ export const AccessoriesNew = [
     brand: "",
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
-    variation_0_color: "Marron clair",
+    variation_0_color: "Brown clair",
     variation_1_color: "Noir",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/F4/56/223abc31-18e1-4c90-99fe-0fe353829c5f.jpg",
@@ -28375,7 +28375,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Chaussettes bateau en coton femme",
+    name: "Women's cotton boat socks",
     current_price: "6.97",
     raw_price: "22.2",
     currency: "USD",
@@ -28402,7 +28402,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Bonnet Kufi Coton Musulman Blanc",
+    name: "White Muslim Cotton Kufi Hat",
     current_price: "5.54",
     raw_price: "12.63",
     currency: "USD",
@@ -28429,7 +28429,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Sun Protection Sleeve",
-    name: "Womens Cool Casquette Beret",
+    name: "Womens Cool Beret Cap",
     current_price: "4.46",
     raw_price: "21.8",
     currency: "USD",
@@ -28458,7 +28458,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Lunettes de soleil polaris�es coupe-vent",
+    name: "sunglassesPolarisedCoupeVent",
     current_price: "6.95",
     raw_price: "16.06",
     currency: "USD",
@@ -28487,7 +28487,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Bonnet pliable femmes",
+    name: "Foldable beanie women",
     current_price: "10.07",
     raw_price: "23.43",
     currency: "USD",
@@ -28516,7 +28516,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Chaussettes moyennes de tube de sports occasionnels",
+    name: "Casual Sports Medium Tube Socks",
     current_price: "5.71",
     raw_price: "13.23",
     currency: "USD",
@@ -28545,7 +28545,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Chapeau d'hiver des femmes",
+    name: "Chapeau d'womens winter",
     current_price: "9.62",
     raw_price: "22.94",
     currency: "USD",
@@ -28556,7 +28556,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/8C/5D/0f019d03-c0a4-4e4f-9aab-9d346811bf4b.JPG",
     variation_0_image:
@@ -28574,7 +28574,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Bonnet hiver chaud",
+    name: "Warm winter hat",
     current_price: "8.46",
     raw_price: "27.15",
     currency: "USD",
@@ -28603,7 +28603,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Ensemble bonnet �charpe hiver homme",
+    name: "Men's winter hat and scarf set",
     current_price: "13.51",
     raw_price: "31.83",
     currency: "USD",
@@ -28632,7 +28632,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Bonnet hiver en laine et velours",
+    name: "Winter hat in wool and velvet",
     current_price: "9.11",
     raw_price: "20.3",
     currency: "USD",
@@ -28661,7 +28661,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Bonnet Femme",
+    name: "Women's beanie",
     current_price: "7.72",
     raw_price: "18.06",
     currency: "USD",
@@ -28690,7 +28690,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Bonnet tricot� chaud d'hiver",
+    name: "Warm winter knitted hat",
     current_price: "10.22",
     raw_price: "24.2",
     currency: "USD",
@@ -28719,7 +28719,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Chaussettes Tube Moyen Hommes",
+    name: "Mens Medium Tube Socks",
     current_price: "4.87",
     raw_price: "10.91",
     currency: "USD",
@@ -28748,7 +28748,7 @@ export const AccessoriesNew = [
   {
     category: "accessories",
     subcategory: "Tech Accessories",
-    name: "Chaussettes Casual pour Hommes",
+    name: "Casual socks for men",
     current_price: "4.87",
     raw_price: "11.21",
     currency: "USD",
@@ -28759,7 +28759,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "ID,MY,PH,SG,TH,VN",
     variation_0_color: "Noir",
-    variation_1_color: "gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/14/CA/4f8d897f-836e-4e05-abd3-af4d02d2a18a.jpg",
     variation_0_image:
@@ -28776,8 +28776,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Bonnet Tricot�",
+    subcategory: "Sails",
+    name: "bonnetTricot�",
     current_price: "7.28",
     raw_price: "17.91",
     currency: "USD",
@@ -28805,8 +28805,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Bonnet chaud en velours dor�",
+    subcategory: "Sails",
+    name: "Warm golden velvet hat",
     current_price: "11.15",
     raw_price: "25.98",
     currency: "USD",
@@ -28834,7 +28834,7 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
+    subcategory: "Sails",
     name: "Vogue Stripe Sunscreen Sketcreen Ponytail Chapeau",
     current_price: "14.35",
     raw_price: "35.44",
@@ -28863,8 +28863,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Casquette de baseball unisexe Nylon Vogue",
+    subcategory: "Sails",
+    name: "Vogue Nylon Unisex Baseball Cap",
     current_price: "7.66",
     raw_price: "25.34",
     currency: "USD",
@@ -28892,8 +28892,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Summer Thin Invisible No Show Chaussettes",
+    subcategory: "Sails",
+    name: "summerThinInvisibleNoShowSocks",
     current_price: "3.22",
     raw_price: "8.07",
     currency: "USD",
@@ -28904,7 +28904,7 @@ export const AccessoriesNew = [
     brand_url: "",
     codCountry: "",
     variation_0_color: "blanc",
-    variation_1_color: "Gris",
+    variation_1_color: "Grey",
     variation_0_thumbnail:
       "https://imgaz1.chiccdn.com/thumb/list_grid/oaupload/newchic/images/E6/0E/a2d3c6a7-2f4e-40e3-a54b-aa3f35a75186.jpg",
     variation_0_image:
@@ -28921,8 +28921,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "T�te chaude en velours Bande",
+    subcategory: "Sails",
+    name: "Hot Head Velvet Band",
     current_price: "6.9",
     raw_price: "16.04",
     currency: "USD",
@@ -28950,8 +28950,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Bonnet �charpe en laine d'hiver",
+    subcategory: "Sails",
+    name: "Winter wool scarf hat",
     current_price: "11.51",
     raw_price: "26.36",
     currency: "USD",
@@ -28979,8 +28979,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Chapeau de queue de cheval sport chaud pour femme",
+    subcategory: "Sails",
+    name: "Warm Sports Ponytail Hat for Women",
     current_price: "7.47",
     raw_price: "17.37",
     currency: "USD",
@@ -29008,8 +29008,8 @@ export const AccessoriesNew = [
   },
   {
     category: "accessories",
-    subcategory: "Voiles",
-    name: "Foulard Multifonction Femme",
+    subcategory: "Sails",
+    name: "Multifunctional Scarf Woman",
     current_price: "5.5",
     raw_price: "13.12",
     currency: "USD",

@@ -2,7 +2,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac � dos anti-vol �tanche pour femmes",
+    name: "Women's waterproof anti-theft backpack",
     current_price: "37.99",
     raw_price: "65",
     currency: "USD",
@@ -31,7 +31,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Femmes 4pcs solide sac � main vintage",
+    name: "Women 4pcs Solid Vintage Handbag",
     current_price: "51.22",
     raw_price: "87.44",
     currency: "USD",
@@ -60,7 +60,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac � main d'affaires portable en PU trois pi�ces pour femmes",
+    name: "Women's Three Piece Portable PU Business Handbag",
     current_price: "41.99",
     raw_price: "80",
     currency: "USD",
@@ -89,7 +89,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac ceinture pour t�l�phone EDC 6,3 pouces pour homme",
+    name: "6.3 inch EDC Phone Belt Bag for Men",
     current_price: "6.99",
     raw_price: "15",
     currency: "USD",
@@ -118,7 +118,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac � bandouli�re multifonction Design Business",
+    name: "Design Business Multifunction Shoulder Bag",
     current_price: "54.49",
     raw_price: "98.91",
     currency: "USD",
@@ -147,7 +147,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Femmes 3pcs sac � main multifonction vintage",
+    name: "Women 3pcs Vintage Multifunction Handbag",
     current_price: "41.99",
     raw_price: "80",
     currency: "USD",
@@ -176,7 +176,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac ceinture r�tro en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Retro Belt Bag",
     current_price: "21.99",
     raw_price: "39.99",
     currency: "USD",
@@ -205,7 +205,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "�tui en cuir v�ritable pour hommes 6,3 pouces EDC",
+    name: "6.3 inch EDC Mens Genuine Leather Case",
     current_price: "22.99",
     raw_price: "45",
     currency: "USD",
@@ -234,7 +234,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Femmes Design solide sac � main",
+    name: "Women Solid Design Handbag",
     current_price: "49.99",
     raw_price: "106.52",
     currency: "USD",
@@ -263,7 +263,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac � bandouli�re solide en cuir v�ritable pour hommes",
+    name: "Men's Genuine Leather Solid Shoulder Bag",
     current_price: "54.49",
     raw_price: "98.91",
     currency: "USD",
@@ -292,7 +292,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Colorful Sac � cheveux en agneau bricolage feuille",
+    name: "Colorful DIY Lambskin Leaf Hair Bag",
     current_price: "34.32",
     raw_price: "69.74",
     currency: "USD",
@@ -322,7 +322,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Bag Accessories",
     name:
-      "Hommes EDC 6,3 pouces sac de ceinture de t�l�phone en cuir v�ritable",
+      "Men EDC 6.3 Inch Genuine Leather Phone Belt Bag",
     current_price: "21.99",
     raw_price: "40",
     currency: "USD",
@@ -351,7 +351,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Gaine multi-outils en cuir v�ritable EDC ceinture boucle taille",
+    name: "Multi-Tool Genuine Leather EDC Belt Buckle Waist Sheath",
     current_price: "22.99",
     raw_price: "45",
     currency: "USD",
@@ -380,7 +380,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Bag Accessories",
-    name: "Sac ceinture EDC Retro en cuir v�ritable 7,2 pouces",
+    name: "7.2 inch Genuine Leather EDC Retro Belt Bag",
     current_price: "23.42",
     raw_price: "41.87",
     currency: "USD",
@@ -410,7 +410,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Sac de taille de t�l�phone en cuir v�ritable de 6,5 pouces pour hommes EDC",
+      "6.5 Inch Genuine Leather Men EDC Phone Waist Bag",
     current_price: "21.99",
     raw_price: "40",
     currency: "USD",
@@ -439,7 +439,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "EDC en cuir v�ritable r�tro 6,3 pouces sac de t�l�phone",
+    name: "EDC Genuine Leather 6.3 inch Retro Phone Bag",
     current_price: "19.99",
     raw_price: "66.63",
     currency: "USD",
@@ -468,7 +468,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re en toile imprim� fleur pour femme",
+    name: "Women's Flower Print Canvas Shoulder Bag",
     current_price: "33.99",
     raw_price: "67",
     currency: "USD",
@@ -497,7 +497,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture r�tro en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Retro Belt Bag",
     current_price: "22.99",
     raw_price: "49",
     currency: "USD",
@@ -526,7 +526,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Belt Bag",
     current_price: "24.99",
     raw_price: "48.99",
     currency: "USD",
@@ -555,7 +555,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "6 emplacements pour cartes 6,3 pouces sac de t�l�phone",
+    name: "6 card slots 6.3 inch phone bag",
     current_price: "21.79",
     raw_price: "49",
     currency: "USD",
@@ -584,7 +584,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Hommes EDC Multitool Flashlight Key Belt Bag",
+    name: "hommesEdcMultitoolFlashlightKeyBeltBag",
     current_price: "21.99",
     raw_price: "45",
     currency: "USD",
@@ -613,7 +613,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac banane EDC en cuir v�ritable 6,3 pouces pour homme",
+    name: "6.3 Inch Genuine Leather EDC Belt Bag for Men",
     current_price: "30.51",
     raw_price: "54",
     currency: "USD",
@@ -643,7 +643,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes EDC cuir v�ritable 6,3 pouces r�tro court sac de ceinture de t�l�phone portable",
+      "Men EDC Genuine Leather 6.3 Inch Retro Short Cell Phone Belt Bag",
     current_price: "21.49",
     raw_price: "65",
     currency: "USD",
@@ -672,7 +672,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Hommes 6,3 pouces sac de ceinture en cuir v�ritable",
+    name: "Men 6.3 inch Genuine Leather Belt Bag",
     current_price: "27.99",
     raw_price: "56",
     currency: "USD",
@@ -702,7 +702,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes EDC Vintage Sac en cuir Self-Defense Porte-monnaie Porte-monnaie",
+      "Men Vintage EDC Leather Bag Self-Defense Coin Purse Coin Purse",
     current_price: "19.99",
     raw_price: "29",
     currency: "USD",
@@ -731,7 +731,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Pochette en couleur pure en cuir PU porte-carte sac de t�l�phone",
+    name: "Pure Color PU Leather Pouch Card Holder Phone Bag",
     current_price: "36.5",
     raw_price: "61.42",
     currency: "USD",
@@ -789,7 +789,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos antivol imprim� Nylon pour femme",
+    name: "Women's nylon printed anti-theft backpack",
     current_price: "19.99",
     raw_price: "45",
     currency: "USD",
@@ -819,7 +819,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Sac de ceinture de t�l�phone en cuir v�ritable de 6,3 pouces pour hommes EDC",
+      "6.3 Inch Genuine Leather Phone Belt Bag For Men EDC",
     current_price: "13.99",
     raw_price: "25",
     currency: "USD",
@@ -848,7 +848,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac de ceinture pour t�l�phone EDC Retro 6,3 pouces pour homme",
+    name: "Men's 6.3 Inch EDC Retro Phone Belt Bag",
     current_price: "13.99",
     raw_price: "25",
     currency: "USD",
@@ -878,7 +878,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes en cuir v�ritable 6,3 pouces EDC r�tro court sac de ceinture pour t�l�phone portable",
+      "Men Genuine Leather 6.3 inch EDC Retro Short Cell Phone Belt Bag",
     current_price: "25.99",
     raw_price: "59",
     currency: "USD",
@@ -907,7 +907,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Belt Bag",
     current_price: "30.99",
     raw_price: "60",
     currency: "USD",
@@ -936,7 +936,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Colorful Sac � cheveux en agneau bricolage",
+    name: "Colorful DIY Lamb Hair Bag",
     current_price: "33.23",
     raw_price: "70.03",
     currency: "USD",
@@ -965,7 +965,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Portefeuille en cuir v�ritable anti-vol pour homme",
+    name: "Men's Anti-Theft Genuine Leather Wallet",
     current_price: "24.99",
     raw_price: "53",
     currency: "USD",
@@ -994,7 +994,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac de t�l�phone en cuir PU",
+    name: "PU Leather Phone Bag",
     current_price: "31.05",
     raw_price: "56.99",
     currency: "USD",
@@ -1023,7 +1023,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Hommes en cuir v�ritable 6,3 pouces sac de ceinture de t�l�phone",
+    name: "Genuine Leather Men 6.3 Inch Phone Belt Bag",
     current_price: "27.99",
     raw_price: "54",
     currency: "USD",
@@ -1052,7 +1052,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Gaine de lampe de poche multifonction en cuir v�ritable",
+    name: "Genuine Leather Multifunction Flashlight Sheath",
     current_price: "20.99",
     raw_price: "45",
     currency: "USD",
@@ -1081,7 +1081,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac d'�cole solide de chargement USB multifonction d�contract�",
+    name: "Casual Multifunction USB Charging Solid School Bag",
     current_price: "27.99",
     raw_price: "59",
     currency: "USD",
@@ -1110,7 +1110,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos de voyage anti-voleur en nylon",
+    name: "Nylon anti-theft travel backpack",
     current_price: "27.78",
     raw_price: "56.79",
     currency: "USD",
@@ -1139,7 +1139,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femme Nylon Sac bandouli�re multi-poches �tanche",
+    name: "Women Nylon Waterproof Multi-Pocket Crossbody Bag",
     current_price: "26.69",
     raw_price: "51.33",
     currency: "USD",
@@ -1169,7 +1169,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Sac bandouli�re solide � bandouli�re en cha�ne � deux couches pour femmes",
+      "Women's Solid Two-Layer Chain Crossbody Bag",
     current_price: "43.59",
     raw_price: "79.99",
     currency: "USD",
@@ -1198,7 +1198,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac-ceinture multifonction EDC en cuir v�ritable",
+    name: "Genuine Leather EDC Multifunction Belt Bag",
     current_price: "20.99",
     raw_price: "49",
     currency: "USD",
@@ -1227,7 +1227,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "4 PCS femmes PU cuir sac � main loisirs sac � bandouli�re",
+    name: "4 PCS Women PU Leather Handbag Leisure Shoulder Bag",
     current_price: "20.7",
     raw_price: "28.99",
     currency: "USD",
@@ -1256,7 +1256,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re solide pour femme � 5 fentes pour cartes",
+    name: "Women's sturdy crossbody bag with 5 card slots",
     current_price: "22.99",
     raw_price: "45",
     currency: "USD",
@@ -1286,7 +1286,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Sac de ceinture pour lampe de poche en cuir v�ritable EDC pour hommes",
+      "Men's EDC Genuine Leather Flashlight Belt Bag",
     current_price: "21.99",
     raw_price: "40",
     currency: "USD",
@@ -1315,7 +1315,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac banane en cuir v�ritable de 6,5 pouces EDC pour hommes",
+    name: "6.5 Inch EDC Men's Genuine Leather Fanny Pack",
     current_price: "29.99",
     raw_price: "59",
     currency: "USD",
@@ -1344,7 +1344,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femmes loisirs sac de paille tiss� sac de plage sac � bandouli�re",
+    name: "Women Leisure Woven Straw Bag Beach Bag Shoulder Bag",
     current_price: "31.47",
     raw_price: "50",
     currency: "USD",
@@ -1373,7 +1373,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re multifonction QUEENIE",
+    name: "QUEENIE multifunction shoulder bag",
     current_price: "41.99",
     raw_price: "135.87",
     currency: "USD",
@@ -1402,7 +1402,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac de ceinture r�tro en cuir v�ritable pour hommes EDC",
+    name: "EDC Mens Genuine Leather Retro Belt Bag",
     current_price: "21.99",
     raw_price: "40",
     currency: "USD",
@@ -1431,7 +1431,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sacs � bandouli�re boh�me � fleurs en cuir v�ritable pour femme",
+    name: "Bohemian Genuine Leather Flower Shoulder Bags for Women",
     current_price: "63.21",
     raw_price: "126.73",
     currency: "USD",
@@ -1460,7 +1460,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture solide en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Solid Belt Bag",
     current_price: "18.99",
     raw_price: "36",
     currency: "USD",
@@ -1489,7 +1489,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Rivet grande capacit� sac � main en cuir PU sac � bandouli�re",
+    name: "Large Capacity Rivet PU Leather Handbag Shoulder Bag",
     current_price: "57.42",
     raw_price: "105.89",
     currency: "USD",
@@ -1518,7 +1518,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac de ceinture en cuir v�ritable de 5,5 pouces pour hommes EDC",
+    name: "EDC Men 5.5 Inch Genuine Leather Belt Bag",
     current_price: "19.99",
     raw_price: "38",
     currency: "USD",
@@ -1547,7 +1547,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re floral en cuir v�ritable vintage",
+    name: "Vintage Genuine Leather Floral Shoulder Bag",
     current_price: "49.04",
     raw_price: "108.65",
     currency: "USD",
@@ -1575,7 +1575,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes EDC en cuir v�ritable 5,5 pouces sac de ceinture de t�l�phone",
+      "Men EDC Genuine Leather 5.5 Inch Phone Belt Bag",
     current_price: "28.99",
     raw_price: "59",
     currency: "USD",
@@ -1605,7 +1605,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes EDC en cuir v�ritable 5,5 pouces sac de ceinture de t�l�phone",
+      "Men EDC Genuine Leather 5.5 Inch Phone Belt Bag",
     current_price: "28.99",
     raw_price: "59",
     currency: "USD",
@@ -1634,7 +1634,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sacs � bandouli�re en cuir v�ritable pour femmes",
+    name: "Genuine Leather Shoulder Bags for Women",
     current_price: "99.18",
     raw_price: "207.09",
     currency: "USD",
@@ -1663,7 +1663,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re solide pour femmes",
+    name: "Women's Solid Shoulder Bag",
     current_price: "21.24",
     raw_price: "44.74",
     currency: "USD",
@@ -1692,7 +1692,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re multifonction MANDY pour femmes",
+    name: "MANDY Women's Multifunction Crossbody Bag",
     current_price: "46.86",
     raw_price: "84.89",
     currency: "USD",
@@ -1721,7 +1721,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos anti-vol �tanche pour femmes",
+    name: "Women's waterproof anti-theft backpack",
     current_price: "37.99",
     raw_price: "65",
     currency: "USD",
@@ -1750,7 +1750,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femmes 4pcs solide sac � main vintage",
+    name: "Women 4pcs Solid Vintage Handbag",
     current_price: "51.22",
     raw_price: "87.44",
     currency: "USD",
@@ -1779,7 +1779,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � main d'affaires portable en PU trois pi�ces pour femmes",
+    name: "Women's Three Piece Portable PU Business Handbag",
     current_price: "41.99",
     raw_price: "80",
     currency: "USD",
@@ -1808,7 +1808,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture pour t�l�phone EDC 6,3 pouces pour homme",
+    name: "6.3 inch EDC Phone Belt Bag for Men",
     current_price: "6.99",
     raw_price: "15",
     currency: "USD",
@@ -1837,7 +1837,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re multifonction Design Business",
+    name: "Design Business Multifunction Shoulder Bag",
     current_price: "54.49",
     raw_price: "98.91",
     currency: "USD",
@@ -1866,7 +1866,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femmes 3pcs sac � main multifonction vintage",
+    name: "Women 3pcs Vintage Multifunction Handbag",
     current_price: "41.99",
     raw_price: "80",
     currency: "USD",
@@ -1895,7 +1895,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac ceinture r�tro en cuir v�ritable EDC pour hommes",
+    name: "Men's EDC Genuine Leather Retro Belt Bag",
     current_price: "21.99",
     raw_price: "39.99",
     currency: "USD",
@@ -1924,7 +1924,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "�tui en cuir v�ritable pour hommes 6,3 pouces EDC",
+    name: "6.3 inch EDC Mens Genuine Leather Case",
     current_price: "22.99",
     raw_price: "45",
     currency: "USD",
@@ -1953,7 +1953,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femmes Design solide sac � main",
+    name: "Women Solid Design Handbag",
     current_price: "49.99",
     raw_price: "106.52",
     currency: "USD",
@@ -1982,7 +1982,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re solide en cuir v�ritable pour hommes",
+    name: "Men's Genuine Leather Solid Shoulder Bag",
     current_price: "54.49",
     raw_price: "98.91",
     currency: "USD",
@@ -2011,7 +2011,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Colorful Sac � cheveux en agneau bricolage feuille",
+    name: "Colorful DIY Lambskin Leaf Hair Bag",
     current_price: "34.32",
     raw_price: "69.74",
     currency: "USD",
@@ -2041,7 +2041,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Hommes EDC 6,3 pouces sac de ceinture de t�l�phone en cuir v�ritable",
+      "Men EDC 6.3 Inch Genuine Leather Phone Belt Bag",
     current_price: "21.99",
     raw_price: "40",
     currency: "USD",
@@ -2070,7 +2070,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re d�contract�",
+    name: "Sac � bandouliere d�contract�",
     current_price: "23.42",
     raw_price: "44.12",
     currency: "USD",
@@ -2100,7 +2100,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos �tanche Multi-Carry Femme",
+    name: "Women's Multi-Carry Waterproof Backpack",
     current_price: "22.99",
     raw_price: "49",
     currency: "USD",
@@ -2129,7 +2129,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos multi-poches solide imperm�able pour hommes",
+    name: "Men's Waterproof Rugged Multi-Pocket Backpack",
     current_price: "28.99",
     raw_price: "59",
     currency: "USD",
@@ -2158,7 +2158,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Imperm�able � l'eau 6,3 pouces t�l�phone broderie Crossbody Bag",
+    name: "Waterproof 6.3 Inch Phone Embroidery Crossbody Bag",
     current_price: "8.5",
     raw_price: "33",
     currency: "USD",
@@ -2187,7 +2187,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Impression d'un sac � dos de grande capacit� de chargement USB",
+    name: "Printing a large capacity USB charging backpack",
     current_price: "27.99",
     raw_price: "60",
     currency: "USD",
@@ -2216,7 +2216,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos d'�tudiant d'�cole de femmes 4Pcs",
+    name: "4Pcs Women School Student Backpack",
     current_price: "16.99",
     raw_price: "39",
     currency: "USD",
@@ -2245,7 +2245,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � dos femme en nylon solide de grande capacit�",
+    name: "Large capacity, solid nylon women's backpack",
     current_price: "31.05",
     raw_price: "56.99",
     currency: "USD",
@@ -2274,7 +2274,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac � bandouli�re d�contract� imperm�able � l'eau",
+    name: "Water repellent casual shoulder bag",
     current_price: "13.99",
     raw_price: "27",
     currency: "USD",
@@ -2303,7 +2303,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Femme Soft Sac bandouli�re en cuir v�ritable",
+    name: "Woman Soft Genuine Leather Crossbody Bag",
     current_price: "37.42",
     raw_price: "58.29",
     currency: "USD",
@@ -2332,7 +2332,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Nylon Sac bandouli�re multifonction �tanche pour homme",
+    name: "Nylon Waterproof Multifunctional Crossbody Bag for Men",
     current_price: "18.99",
     raw_price: "39",
     currency: "USD",
@@ -2361,7 +2361,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Sac poitrine brod� imperm�able femme",
+    name: "Women's waterproof embroidered chest bag",
     current_price: "16.99",
     raw_price: "39",
     currency: "USD",
@@ -2390,7 +2390,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Retro Soft Sacs en bandouli�re en similicuir",
+    name: "Retro Soft Faux Leather Shoulder Bags",
     current_price: "42.99",
     raw_price: "71.99",
     currency: "USD",
@@ -2419,7 +2419,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Cosmetic Bags",
-    name: "Nylon Sac � bandouli�re d�contract� imperm�able pour femme",
+    name: "Nylon Waterproof Casual Shoulder Bag for Women",
     current_price: "23.42",
     raw_price: "42.99",
     currency: "USD",
@@ -2450,7 +2450,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Cosmetic Bags",
     name:
-      "Femmes gland PU sac � main en cuir sac � bandouli�re patchwork sac � bandouli�re",
+      "Women Tassel PU Leather Handbag Crossbody Bag Patchwork Shoulder Bag",
     current_price: "39.99",
     raw_price: "79",
     currency: "USD",
@@ -2479,7 +2479,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re de loisirs solide � 3 couches pour femmes",
+    name: "Women's Solid 3-Layer Leisure Crossbody Bag",
     current_price: "53.4",
     raw_price: "116.5",
     currency: "USD",
@@ -2508,7 +2508,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re patchwork en cuir v�ritable",
+    name: "Genuine leather patchwork shoulder bag",
     current_price: "39.99",
     raw_price: "75",
     currency: "USD",
@@ -2535,7 +2535,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Nylon Sac bandouli�re d�contract� Sac multi-poches",
+    name: "Women Nylon Casual Crossbody Bag Multi-Pocket Bag",
     current_price: "20.15",
     raw_price: "40.46",
     currency: "USD",
@@ -2565,7 +2565,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "Hommes toile ext�rieure d�contract�e grande capacit� sac de ceinture sac de poitrine",
+      "Men Outer Canvas Casual Large Capacity Belt Bag Chest Bag",
     current_price: "31.05",
     raw_price: "67.83",
     currency: "USD",
@@ -2594,7 +2594,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re r�tro pour femme",
+    name: "Retro shoulder bag for women",
     current_price: "32.14",
     raw_price: "51.05",
     currency: "USD",
@@ -2624,7 +2624,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "6,3 pouces t�l�phone d�contract� en cuir v�ritable ceinture t�l�phone sac bandouli�re",
+      "6.3 Inch Genuine Leather Casual Phone Belt Phone Shoulder Bag",
     current_price: "30.99",
     raw_price: "63",
     currency: "USD",
@@ -2653,7 +2653,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac fourre-tout �tanche de grande capacit�",
+    name: "Large capacity waterproof tote bag",
     current_price: "19.99",
     raw_price: "52",
     currency: "USD",
@@ -2682,7 +2682,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � main vintage en cuir v�ritable patchwork pour femme",
+    name: "Vintage genuine leather patchwork handbag for women",
     current_price: "56.67",
     raw_price: "97.5",
     currency: "USD",
@@ -2709,7 +2709,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Mini sac bandouli�re tiss� Rrtro pour femme",
+    name: "Mini retro fabric shoulder bag for women",
     current_price: "14.99",
     raw_price: "38.99",
     currency: "USD",
@@ -2738,7 +2738,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � dos tactique multifonction pour homme",
+    name: "Multifunction Tactical Backpack for Men",
     current_price: "39.99",
     raw_price: "75",
     currency: "USD",
@@ -2767,7 +2767,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re tactique �tanche multi-poches pour hommes",
+    name: "Men's Multi-Pocket Waterproof Tactical Shoulder Bag",
     current_price: "13.99",
     raw_price: "27",
     currency: "USD",
@@ -2796,7 +2796,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Portefeuille en cuir de vachette avec boucle anti-vol pour hommes",
+    name: "Men's calfskin wallet with anti-theft buckle",
     current_price: "34.32",
     raw_price: "66.38",
     currency: "USD",
@@ -2826,7 +2826,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "6,3 pouces t�l�phone t�l�phone � carreaux sac � main sac � bandouli�re",
+      "6.3 inch phone checkered phone handbag shoulder bag",
     current_price: "16.99",
     raw_price: "48",
     currency: "USD",
@@ -2855,7 +2855,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � dos en similicuir � grande capacit�",
+    name: "Large capacity faux leather backpack",
     current_price: "29.96",
     raw_price: "54.99",
     currency: "USD",
@@ -2885,7 +2885,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "Nylon Sac � bandouli�re multifonctionnel �tanche et sportif pour homme",
+      "Nylon Multifunctional waterproof and sporty shoulder bag for men",
     current_price: "14.99",
     raw_price: "29",
     currency: "USD",
@@ -2914,7 +2914,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � dos d'ext�rieur d�contract� de haute qualit�",
+    name: "High quality casual outdoor backpack",
     current_price: "11.98",
     raw_price: "47.66",
     currency: "USD",
@@ -2943,7 +2943,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re en cuir v�ritable boh�me pour femme",
+    name: "Bohemian Genuine Leather Shoulder Bag for Women",
     current_price: "65.39",
     raw_price: "140.35",
     currency: "USD",
@@ -2968,7 +2968,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Nylon Sac �tanche Sac � main solide Sac bandouli�re",
+    name: "Nylon Waterproof Bag Solid Handbag Crossbody Bag",
     current_price: "24.99",
     raw_price: "49",
     currency: "USD",
@@ -2997,7 +2997,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac de t�l�phone en cuir v�ritable de 5,5 pouces Vintage",
+    name: "Vintage 5.5 Inch Genuine Leather Phone Bag",
     current_price: "32.99",
     raw_price: "61.99",
     currency: "USD",
@@ -3026,7 +3026,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re � fleurs pour femmes",
+    name: "Women's floral crossbody bag",
     current_price: "32.99",
     raw_price: "69",
     currency: "USD",
@@ -3055,7 +3055,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac seau femme Crocodile Patttern Sac � main",
+    name: "Women's bucket bag Crocodile Pattern Handbag",
     current_price: "45.99",
     raw_price: "82.99",
     currency: "USD",
@@ -3084,7 +3084,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Soft Sac � bandouli�re en cuir de loisirs Sac bandouli�re",
+    name: "Women Soft Leather Shoulder Bag Leisure Shoulder Bag",
     current_price: "28.87",
     raw_price: "48.38",
     currency: "USD",
@@ -3113,7 +3113,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Faux Cuir Vintage Solid Gland Crossbody Sacs",
+    name: "Women Faux Leather Vintage Solid Tassel Crossbody Bags",
     current_price: "16.88",
     raw_price: "33.38",
     currency: "USD",
@@ -3142,7 +3142,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes fille bonbons couleur cerf d�coration seau sac",
+    name: "Women girl candy color deer decoration bucket bag",
     current_price: "14.7",
     raw_price: "25.76",
     currency: "USD",
@@ -3172,7 +3172,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "Sac de plage en paille pour femme Sac bandouli�re Sac � bandouli�re tiss� � la main",
+      "Women's Straw Beach Bag Crossbody Bag Hand Woven Crossbody Bag",
     current_price: "24.51",
     raw_price: "52.87",
     currency: "USD",
@@ -3201,7 +3201,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac de ceinture en cuir v�ritable pour hommes",
+    name: "Men's Genuine Leather Belt Bag",
     current_price: "35.99",
     raw_price: "71",
     currency: "USD",
@@ -3230,7 +3230,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac bandouli�re de loisirs en nylon pour femme",
+    name: "Women's Nylon Leisure Crossbody Bag",
     current_price: "23.42",
     raw_price: "47.52",
     currency: "USD",
@@ -3259,7 +3259,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � dos multifonction grande capacit� Oxford",
+    name: "Oxford Large Capacity Multifunction Backpack",
     current_price: "29.99",
     raw_price: "68",
     currency: "USD",
@@ -3288,7 +3288,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re vintage en cuir PU",
+    name: "Vintage PU Leather Shoulder Bag",
     current_price: "49.99",
     raw_price: "92.99",
     currency: "USD",
@@ -3317,7 +3317,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re en paille d'�t� pour femmes",
+    name: "Women's Summer Straw Crossbody Bag",
     current_price: "21.99",
     raw_price: "49",
     currency: "USD",
@@ -3344,7 +3344,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Nylon Sac � bandouli�re uni � poches multiples",
+    name: "Women Nylon Plain Multi-Pocket Crossbody Bag",
     current_price: "21.2",
     raw_price: "43.73",
     currency: "USD",
@@ -3373,7 +3373,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Nylon mini sacs de t�l�phone sacs � bandouli�re portables",
+    name: "Women Nylon Mini Phone Bags Portable Shoulder Bags",
     current_price: "17.4",
     raw_price: "35.7",
     currency: "USD",
@@ -3402,7 +3402,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac bandouli�re en cuir mou de loisirs pour femme",
+    name: "Women's Leisure Soft Leather Crossbody Bag",
     current_price: "42.5",
     raw_price: "83.56",
     currency: "USD",
@@ -3431,7 +3431,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re pour femmes",
+    name: "Shoulder bag for women",
     current_price: "22.99",
     raw_price: "40",
     currency: "USD",
@@ -3460,7 +3460,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re tactique multifonction pour hommes",
+    name: "Men's Multifunction Tactical Shoulder Bag",
     current_price: "17.99",
     raw_price: "38",
     currency: "USD",
@@ -3489,7 +3489,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � main en toile Travel Patchwork grande capacit�",
+    name: "Large capacity Travel Patchwork canvas handbag",
     current_price: "47.95",
     raw_price: "82.5",
     currency: "USD",
@@ -3518,7 +3518,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sacs � bandouli�re en cuir v�ritable noir pour femme",
+    name: "Black Genuine Leather Shoulder Bags for Women",
     current_price: "54.49",
     raw_price: "103.25",
     currency: "USD",
@@ -3543,7 +3543,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � main fourre-tout � grande capacit� imprim� �l�phant",
+    name: "Large capacity tote handbag with elephant print",
     current_price: "16.99",
     raw_price: "35",
     currency: "USD",
@@ -3570,7 +3570,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac bandouli�re grande capacit�",
+    name: "Large capacity shoulder bag�",
     current_price: "32.99",
     raw_price: "69",
     currency: "USD",
@@ -3599,7 +3599,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Grand sac � main d�contract�",
+    name: "Large casual handbag",
     current_price: "33.31",
     raw_price: "58.77",
     currency: "USD",
@@ -3628,7 +3628,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Sac �tanche solide Sac bandouli�re d�contract�",
+    name: "Women Solid Waterproof Bag Casual Crossbody Bag",
     current_price: "20.23",
     raw_price: "34.52",
     currency: "USD",
@@ -3658,7 +3658,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � dos multi-poches pliable l�ger de grande capacit� pour hommes",
+    name: "Large Capacity Lightweight Foldable Multi-Pocket Backpack for Men",
     current_price: "21.99",
     raw_price: "45",
     currency: "USD",
@@ -3687,7 +3687,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac � bandouli�re �tanche pour femmes",
+    name: "Waterproof shoulder bag for women",
     current_price: "33.23",
     raw_price: "56.47",
     currency: "USD",
@@ -3716,7 +3716,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes 13 emplacements pour cartes � trois volets",
+    name: "Women 13 trifold card slots",
     current_price: "8.5",
     raw_price: "38",
     currency: "USD",
@@ -3745,7 +3745,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femme Nylon Sac bandouli�re loisir multi-poches",
+    name: "Woman Nylon Multi-pocket leisure crossbody bag",
     current_price: "21.24",
     raw_price: "43.58",
     currency: "USD",
@@ -3775,7 +3775,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "Sac de poussi�re �tanche avec cordon de 10 pi�ces Tissu non tiss� Sac de rangement antipoussi�re Buggy Bag",
+      "Waterproof dust bag with 10 piece drawstring Non-woven fabric Dustproof storage bag Buggy Bag",
     current_price: "12.94",
     raw_price: "32.36",
     currency: "USD",
@@ -3805,7 +3805,7 @@ export const BagsNew = [
     category: "bags",
     subcategory: "Men's Bags",
     name:
-      "Sac � bandouli�re � double usage �tanche Nylon Crossbody Sac � main de grande capacit� pour hommes",
+      "Dual Purpose Waterproof Nylon Crossbody Shoulder Bag Large Capacity Mens Handbag",
     current_price: "26.87",
     raw_price: "65.86",
     currency: "USD",
@@ -3834,7 +3834,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sac de rangement pour �couteurs 4.7inch pour t�l�phone portable",
+    name: "4.7inch earphone storage bag for cellphone",
     current_price: "7.19",
     raw_price: "16.99",
     currency: "USD",
@@ -3863,7 +3863,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Sacs � bandouli�re pour femmes",
+    name: "Shoulder bags for women",
     current_price: "22.39",
     raw_price: "52.99",
     currency: "USD",
@@ -3892,7 +3892,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Porte-cartes porte-monnaie vintage en cuir",
+    name: "Vintage leather wallet card holder",
     current_price: "8.82",
     raw_price: "20.41",
     currency: "USD",
@@ -3921,7 +3921,7 @@ export const BagsNew = [
   {
     category: "bags",
     subcategory: "Men's Bags",
-    name: "Femmes Nylon Date Crossbody Bag Shopping Bag Sac � bandouli�re",
+    name: "Women Nylon Newest Crossbody Bag Shopping Bag Shoulder Bag",
     current_price: "26.97",
     raw_price: "63.6",
     currency: "USD",
@@ -3949,8 +3949,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re multifonctions Vintage Business",
+    subcategory: "Pouches",
+    name: "Vintage Business Multifunctional Shoulder Bag",
     current_price: "19.6",
     raw_price: "49.01",
     currency: "USD",
@@ -3978,9 +3978,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Sac � bandouli�re rond avec pompon en paille pour femme Sac de plage brod�",
+      "Round shoulder bag with straw tassel for women Embroidered beach bag",
     current_price: "16.12",
     raw_price: "33.52",
     currency: "USD",
@@ -4008,8 +4008,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac de taille en peau de serpent pour femme",
+    subcategory: "Pouches",
+    name: "Women's Snakeskin Waist Bag",
     current_price: "8.97",
     raw_price: "25.75",
     currency: "USD",
@@ -4037,8 +4037,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Porte-monnaie multifonctionnel court pour femme",
+    subcategory: "Pouches",
+    name: "Women's Short Multifunctional Coin Purse",
     current_price: "15.99",
     raw_price: "38.99",
     currency: "USD",
@@ -4066,9 +4066,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Porte-monnaie en cuir v�ritable pour femmes avec 9 cartes et porte-cartes",
+      "Women's genuine leather coin purse with 9 cards and card holder",
     current_price: "8.42",
     raw_price: "22.47",
     currency: "USD",
@@ -4096,9 +4096,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Portefeuille court pour femmes en similicuir avec 13 fentes pour cartes",
+      "Women's faux leather short wallet with 13 card slots",
     current_price: "11.7",
     raw_price: "31.22",
     currency: "USD",
@@ -4126,9 +4126,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Portefeuille porte-monnaie sac � monnaie multi-emplacements vintage en cuir v�ritable waxy v�ritable",
+      "Vintage multi-slot coin purse wallet in genuine waxy genuine leather",
     current_price: "19.99",
     raw_price: "48.99",
     currency: "USD",
@@ -4156,8 +4156,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Bande dessin�e style mignon pi�ces sac 5.5inch t�l�phone sac",
+    subcategory: "Pouches",
+    name: "Cartoon style cute coins bag 5.5inch phone bag",
     current_price: "11.99",
     raw_price: "27.99",
     currency: "USD",
@@ -4185,8 +4185,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Portefeuille court pour femmes avec porte-monnaie solide et double",
+    subcategory: "Pouches",
+    name: "Women's short wallet with strong and double coin purse",
     current_price: "12.79",
     raw_price: "34.99",
     currency: "USD",
@@ -4214,8 +4214,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Cas de t�l�phone iPhone7 / 7 plus / X multifonctionnel",
+    subcategory: "Pouches",
+    name: "multifunctionalIPhone7 /7Plus /XPhoneCase",
     current_price: "12.04",
     raw_price: "29.96",
     currency: "USD",
@@ -4239,9 +4239,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Femmes Hommes PU Portefeuille Carte Sac Business Long Zipper Purse Wallet",
+      "Women Men PU Wallet Card Bag Business Long Zipper Purse Wallet",
     current_price: "7.46",
     raw_price: "18.29",
     currency: "USD",
@@ -4269,8 +4269,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Portefeuille � trois volets en cuir v�ritable avec 6 cartes",
+    subcategory: "Pouches",
+    name: "Genuine leather trifold wallet with 6 cards",
     current_price: "19.05",
     raw_price: "47.62",
     currency: "USD",
@@ -4298,9 +4298,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Sac multifonctionnel occasionnel de sac de poitrine de sac � bandouli�re",
+      "Crossbody Bag Chest Bag Casual Multifunctional Bag",
     current_price: "15.25",
     raw_price: "33.82",
     currency: "USD",
@@ -4328,8 +4328,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Portefeuille Femme Longue Portefeuille En Cuir Pochette",
+    subcategory: "Pouches",
+    name: "Women's Long Wallet Leather Wallet Pouch",
     current_price: "15.9",
     raw_price: "38.21",
     currency: "USD",
@@ -4357,8 +4357,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Womon Tassel Multi-slots Portefeuilles",
+    subcategory: "Pouches",
+    name: "Women Tassel Multi-slots Wallets",
     current_price: "11.3",
     raw_price: "27.56",
     currency: "USD",
@@ -4386,8 +4386,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re en cuir PU Casual Business Vintage pour homme",
+    subcategory: "Pouches",
+    name: "Men's Vintage Casual Business PU Leather Shoulder Bag",
     current_price: "14.66",
     raw_price: "35.93",
     currency: "USD",
@@ -4415,9 +4415,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Hommes Multifonctionnel Tactique Taille Sac En Toile Bikecycle Moto En Plein Air Voyage Jambe Sac",
+      "Men Multifunctional Tactical Waist Bag Canvas Bikecycle Motorcycle Outdoor Travel Leg Bag",
     current_price: "12.2",
     raw_price: "28.78",
     currency: "USD",
@@ -4445,8 +4445,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re en cuir PU pour femme Cacual �paule �l�gante",
+    subcategory: "Pouches",
+    name: "Women's Casual PU Leather Shoulder Bag Elegant Shoulder",
     current_price: "20.5",
     raw_price: "47.45",
     currency: "USD",
@@ -4474,8 +4474,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re femme motif chat sac � main",
+    subcategory: "Pouches",
+    name: "Women's shoulder bag cat motif handbag",
     current_price: "18.94",
     raw_price: "40.17",
     currency: "USD",
@@ -4503,7 +4503,7 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
       "Leather Leather 9 Card Slots Casual iPhone7 / 7Plus / 6 / 6Plus / S7/S7 EDGE T�l�phone Case Wallet Card Pack pour les hommes",
     current_price: "18.36",
@@ -4533,9 +4533,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Sac de d�ner pour femmes Sac de t�l�phone en cuir PU Sac � bandouli�re",
+      "Women's Dinner Bag PU Leather Phone Bag Shoulder Bag",
     current_price: "13.88",
     raw_price: "34.75",
     currency: "USD",
@@ -4563,8 +4563,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re multi-fentes � broderie de style national",
+    subcategory: "Pouches",
+    name: "National-Style Embroidery Multi-Slit Crossbody Bag",
     current_price: "21.59",
     raw_price: "51.99",
     currency: "USD",
@@ -4592,8 +4592,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re en cha�ne pour sac de porc mignon pour femme",
+    subcategory: "Pouches",
+    name: "Women's Cute Pig Sack Chain Shoulder Bag",
     current_price: "19.19",
     raw_price: "47.99",
     currency: "USD",
@@ -4621,8 +4621,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Femmes �l�gantes sac � main en cuir de couleur contrast�e",
+    subcategory: "Pouches",
+    name: "Elegant women handbag in contrast color leather",
     current_price: "11.42",
     raw_price: "26.91",
     currency: "USD",
@@ -4650,9 +4650,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Vintage PU Leahter Crossbody Sac Capacit� Leisure Chest Bag Sac � bandouli�re pour hommes",
+      "Vintage PU Leather Crossbody Bag Capacity Leisure Chest Bag Men's Shoulder Bag",
     current_price: "23.67",
     raw_price: "57.98",
     currency: "USD",
@@ -4680,8 +4680,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Nylon Sac � dos portable Casual Mommy",
+    subcategory: "Pouches",
+    name: "nylonSac �DosPortableCasualMommy",
     current_price: "37.59",
     raw_price: "87.99",
     currency: "USD",
@@ -4709,8 +4709,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Femmes Plain Multi-poches Sac carr� Sac � bandouli�re",
+    subcategory: "Pouches",
+    name: "Women Plain Multi-pocket Square Bag Shoulder Bag",
     current_price: "31.19",
     raw_price: "88.99",
     currency: "USD",
@@ -4738,8 +4738,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sacs � bandouli�re pour femmes",
+    subcategory: "Pouches",
+    name: "Shoulder bags for women",
     current_price: "28.66",
     raw_price: "67.99",
     currency: "USD",
@@ -4767,8 +4767,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Porte-monnaie porte-cartes porte-monnaie",
+    subcategory: "Pouches",
+    name: "Coin purse card holder coin purse",
     current_price: "6.5",
     raw_price: "15.63",
     currency: "USD",
@@ -4796,9 +4796,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Carte en cuir v�ritable de carte de cr�dit de titulaire de carte de fentes de carte de 21 cartes",
+      "21 Card Slots Card Holder Genuine Leather Credit Card Card",
     current_price: "21.03",
     raw_price: "51.54",
     currency: "USD",
@@ -4826,9 +4826,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "Femmes Hommes En Cuir Imitation Cas De T�l�phone Titulaire De La Carte T�l�phone Sac Bandouli�re Pour Iphone 7 Plus",
+      "Women Men Leather Imitation Phone Case Card Holder Phone Shoulder Bag For Iphone 7 Plus",
     current_price: "16.7",
     raw_price: "40.92",
     currency: "USD",
@@ -4856,9 +4856,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
+    subcategory: "Pouches",
     name:
-      "RFID Portefeuille En Cuir V�ritable Vintage Business 8 Porte-Cartes Porte-Monnaie Pour Hommes Femmes",
+      "RFID Genuine Leather Wallet Vintage Business 8 Card Holder Coin Purse For Men Women",
     current_price: "20.7",
     raw_price: "48.84",
     currency: "USD",
@@ -4886,8 +4886,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Femme Nylon Sacs � bandouli�re � imprim� fleurs",
+    subcategory: "Pouches",
+    name: "Women Nylon Flower Print Shoulder Bags",
     current_price: "17.82",
     raw_price: "43.26",
     currency: "USD",
@@ -4915,8 +4915,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Porte-monnaie porte-monnaie en cuir gaufr� pour femme Genuin",
+    subcategory: "Pouches",
+    name: "Genuin women's embossed leather coin purse",
     current_price: "19.43",
     raw_price: "48.07",
     currency: "USD",
@@ -4944,8 +4944,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Femmes noeud papillon en cuir PU Bifold Wallet Purse Coin Bag",
+    subcategory: "Pouches",
+    name: "Women Bow Tie PU Leather Bifold Wallet Purse Coin Bag",
     current_price: "11.99",
     raw_price: "27.99",
     currency: "USD",
@@ -4973,8 +4973,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Portefeuille � trois volets en cuir v�ritable pour femmes",
+    subcategory: "Pouches",
+    name: "Women's Genuine Leather Trifold Wallet",
     current_price: "25.62",
     raw_price: "41.51",
     currency: "USD",
@@ -5000,8 +5000,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Nylon Sac � bandouli�re � imprim� occasionnel l�ger",
+    subcategory: "Pouches",
+    name: "Nylon Lightweight Casual Printed Shoulder Bag",
     current_price: "13.7",
     raw_price: "41.2",
     currency: "USD",
@@ -5029,8 +5029,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Sac � bandouli�re en cuir PU pour femmes",
+    subcategory: "Pouches",
+    name: "Women's PU Leather Shoulder Bag",
     current_price: "17.59",
     raw_price: "47.99",
     currency: "USD",
@@ -5058,8 +5058,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Femmes Vintage Cat Casual Crossbody Sacs",
+    subcategory: "Pouches",
+    name: "Women Vintage Cat Casual Crossbody Bags",
     current_price: "7.72",
     raw_price: "17.55",
     currency: "USD",
@@ -5087,8 +5087,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes",
-    name: "Mini sac � bandouli�re en cuir pour femmes Bowknot",
+    subcategory: "Pouches",
+    name: "Bowknot Women's Mini Leather Crossbody Bag",
     current_price: "6.5",
     raw_price: "15.05",
     currency: "USD",
@@ -5116,9 +5116,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Portefeuille 9 Couleurs en Cuir V�ritable avec 11 Compartiments Carte pour Femme",
+      "9 Colors Genuine Leather Wallet with 11 Card Compartments for Women",
     current_price: "9.7",
     raw_price: "29.18",
     currency: "USD",
@@ -5146,8 +5146,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Femmes Double Zipper Long Wallet",
+    subcategory: "Pouches & Clutches",
+    name: "femmesDoubleZipperLongWallet",
     current_price: "12.95",
     raw_price: "61.8",
     currency: "USD",
@@ -5175,9 +5175,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Brenice Sacs � main fourre-tout vintage Flowers Sacs bandouli�re Business",
+      "Berenice Vintage Tote Handbags Flowers Business Crossbody Bags",
     current_price: "38.32",
     raw_price: "103",
     currency: "USD",
@@ -5203,9 +5203,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Hommes d&#39;affaires Vintage Casual Crossbody Bag Sac � bandouli�re",
+      "Business Men Vintage Casual Crossbody Bag Shoulder Bag",
     current_price: "9.59",
     raw_price: "20.99",
     currency: "USD",
@@ -5233,8 +5233,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Femmes Casual Nylon Sac � bandouli�re l�ger",
+    subcategory: "Pouches & Clutches",
+    name: "Women Casual Nylon Lightweight Shoulder Bag",
     current_price: "13.94",
     raw_price: "33.27",
     currency: "USD",
@@ -5262,9 +5262,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Sac De Pointrine Vintage Multi-fonctionnel Sac D'�paule Imperm�able � Business Pour Homme",
+      "Vintage Multifunctional Chest Bag Waterproof Business Shoulder Bag For Men",
     current_price: "25.66",
     raw_price: "65.48",
     currency: "USD",
@@ -5292,8 +5292,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "DANNY BEAR Sacoche Ceinture D�contract�e en Nylon",
+    subcategory: "Pouches & Clutches",
+    name: "DANNY BEAR Nylon Casual Belt Bag",
     current_price: "29.22",
     raw_price: "72.56",
     currency: "USD",
@@ -5321,9 +5321,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Portefeuille jardin secret en cuir PU pochette � bouton porte-carte pour femme",
+      "Secret Garden PU Leather Wallet Women Card Holder Button Pouch",
     current_price: "7.06",
     raw_price: "16.66",
     currency: "USD",
@@ -5351,8 +5351,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Portefeuille ultra-mince",
+    subcategory: "Pouches & Clutches",
+    name: "Ultra-thin wallet",
     current_price: "11.59",
     raw_price: "27.85",
     currency: "USD",
@@ -5380,8 +5380,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Sac � dos � motif de chat mignon pour femmes",
+    subcategory: "Pouches & Clutches",
+    name: "Women's Cute Cat Backpack",
     current_price: "18.98",
     raw_price: "44.77",
     currency: "USD",
@@ -5409,8 +5409,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Sac � bandouli�re en cuir PU d�contract� �l�gant pour femme",
+    subcategory: "Pouches & Clutches",
+    name: "Elegant Casual PU Leather Shoulder Bag for Women",
     current_price: "12.23",
     raw_price: "28.3",
     currency: "USD",
@@ -5438,8 +5438,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Sac bandouli�re imperm�able femme Nylon �paule",
+    subcategory: "Pouches & Clutches",
+    name: "Women's waterproof nylon shoulder bag",
     current_price: "12.91",
     raw_price: "29.34",
     currency: "USD",
@@ -5467,8 +5467,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Sac � Seau � Patchwork Sac Bandouli�re en PU Cuir pour Femme",
+    subcategory: "Pouches & Clutches",
+    name: "Patchwork Bucket Bag PU Leather Crossbody Bag for Women",
     current_price: "18.77",
     raw_price: "45.7",
     currency: "USD",
@@ -5496,8 +5496,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Sac � Cadeau de No�l pour Femme",
+    subcategory: "Pouches & Clutches",
+    name: "Christmas Gift Bag for Women",
     current_price: "3.27",
     raw_price: "6.41",
     currency: "USD",
@@ -5525,9 +5525,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Sac � bandouli�re multifonctionnel � la taille pour sac � bandouli�re",
+      "Multifunctional shoulder bag in the waist for crossbody bag",
     current_price: "9.59",
     raw_price: "25.75",
     currency: "USD",
@@ -5555,8 +5555,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Hommes et femmes Oxford imperm�able lavage sac de rangement",
+    subcategory: "Pouches & Clutches",
+    name: "Men and Women Oxford Waterproof Wash Storage Bag",
     current_price: "7.48",
     raw_price: "23.4",
     currency: "USD",
@@ -5584,9 +5584,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Femmes Bifold PU Couture portefeuille court portefeuille multifonction",
+      "Women Bifold PU Couture Short Wallet Multifunction Wallet",
     current_price: "14.11",
     raw_price: "35.3",
     currency: "USD",
@@ -5614,8 +5614,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Femmes Hommes Pliant Nylon Sac � dos imperm�able l�ger d�contract�",
+    subcategory: "Pouches & Clutches",
+    name: "Women Men Folding Nylon Waterproof Lightweight Casual Backpack",
     current_price: "12.34",
     raw_price: "30.18",
     currency: "USD",
@@ -5643,8 +5643,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Portefeuille Long Polonais Femme Dull",
+    subcategory: "Pouches & Clutches",
+    name: "Women's Long Polish Wallet Dull",
     current_price: "4.99",
     raw_price: "11.77",
     currency: "USD",
@@ -5672,9 +5672,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Nylon Multifonctionnel Sac de Sport Camouflage Sport de Taille Travling Sac de Taille pour Hommes",
+      "Multifunctional Nylon Sport Bag Camouflage Sports Waist Travling Waist Bag for Men",
     current_price: "11.97",
     raw_price: "27.2",
     currency: "USD",
@@ -5702,9 +5702,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Femmes bonbons couleur �l�gant diamant occasionnel portefeuille grain cartes � monnaie pi�ces de monnaie",
+      "Women Candy Color Elegant Diamond Casual Wallet Grain Coin Cards Coins",
     current_price: "6.97",
     raw_price: "17.09",
     currency: "USD",
@@ -5732,8 +5732,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Porte-cartes pour femmes avec porte-cartes multi-cartes PU Bow-Knot",
+    subcategory: "Pouches & Clutches",
+    name: "Women's Card Holder with PU Bow-Knot Multi Card Holder",
     current_price: "9.03",
     raw_price: "21.31",
     currency: "USD",
@@ -5761,8 +5761,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Ekphero sac � main unisexe portable en toile � multi-poches",
+    subcategory: "Pouches & Clutches",
+    name: "Ekphero Unisex Portable Multi-Pocket Canvas Handbag",
     current_price: "18.35",
     raw_price: "41.7",
     currency: "USD",
@@ -5790,8 +5790,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Femmes �l�gant Contraste Couleur Shell Conception Crossbody Sacs",
+    subcategory: "Pouches & Clutches",
+    name: "Women Elegant Contrast Color Shell Design Crossbody Bags",
     current_price: "21.28",
     raw_price: "51.15",
     currency: "USD",
@@ -5815,9 +5815,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Sac � bandouli�re en toile militaire pour homme Sac � bandouli�re pour randonn�e",
+      "Mens Military Canvas Crossbody Bag Hiking Crossbody Bag",
     current_price: "10.39",
     raw_price: "23.62",
     currency: "USD",
@@ -5845,9 +5845,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
+    subcategory: "Pouches & Clutches",
     name:
-      "Sac � bandouli�re d�contract� en toile vintage sac � bandouli�re Pho",
+      "Vintage canvas casual crossbody bag Pho crossbody bag",
     current_price: "20.13",
     raw_price: "46.91",
     currency: "USD",
@@ -5875,8 +5875,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Femmes Hommes Sac multifonctionnel en toile",
+    subcategory: "Pouches & Clutches",
+    name: "Women Men Multifunctional Canvas Bag",
     current_price: "33.34",
     raw_price: "77.94",
     currency: "USD",
@@ -5904,8 +5904,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Pochettes & Clutches",
-    name: "Portefeuille creux en feuilles de PU",
+    subcategory: "Pouches & Clutches",
+    name: "PU Sheet Hollow Wallet",
     current_price: "12.85",
     raw_price: "29.83",
     currency: "USD",
@@ -5933,8 +5933,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Femmes Oxford Crossbody Bag Square Sac � bandouli�re Box Bag",
+    subcategory: "Document holder",
+    name: "Femmes Oxford Crossbody Bag Square Sac � bandouliere Box Bag",
     current_price: "21.27",
     raw_price: "49.24",
     currency: "USD",
@@ -5962,8 +5962,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Portefeuille en cuir v�ritable pour hommes, portefeuille court",
+    subcategory: "Document holder",
+    name: "Men's Genuine Leather Wallet, Short Wallet",
     current_price: "24.79",
     raw_price: "65.99",
     currency: "USD",
@@ -5991,8 +5991,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re Sac � bandouli�re Randonn�e Homme Oxford Loisirs",
+    subcategory: "Document holder",
+    name: "Shoulder bag Shoulder bag Hiking Men Oxford Leisure",
     current_price: "10.86",
     raw_price: "25.14",
     currency: "USD",
@@ -6020,9 +6020,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Portefeuille court pour femme en cuir de vache v�ritable pour 20 cartes",
+      "Women's short wallet in genuine cowhide for 20 cards",
     current_price: "25.99",
     raw_price: "67.67",
     currency: "USD",
@@ -6050,8 +6050,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � dos femme toile pure couleur ancre rayure",
+    subcategory: "Document holder",
+    name: "Women's backpack in pure canvas color anchor stripe",
     current_price: "9.79",
     raw_price: "23.09",
     currency: "USD",
@@ -6079,9 +6079,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Portefeuille court en cuir v�ritable avec porte-cartes en cuir v�ritable Zuoerdanni",
+      "Short genuine leather wallet with Zuoerdanni genuine leather card holder",
     current_price: "20.44",
     raw_price: "51.79",
     currency: "USD",
@@ -6109,8 +6109,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � dos � bandouli�re respirant pour nouveau-n�",
+    subcategory: "Document holder",
+    name: "Breathable Cross-Body Backpack for Newborns",
     current_price: "49.59",
     raw_price: "117.99",
     currency: "USD",
@@ -6138,8 +6138,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "�l�gant sac � bandouli�re en cha�ne � plusieurs fentes",
+    subcategory: "Document holder",
+    name: "Elegant chain shoulder bag with multiple slits",
     current_price: "27.23",
     raw_price: "67.34",
     currency: "USD",
@@ -6167,9 +6167,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Porte-cartes multifonctionnel de clip de lunettes de pare-soleil de voiture en cuir v�ritable pour les hommes",
+      "Multifunctional Genuine Leather Car Sun Visor Glasses Clip Card Holder for Men",
     current_price: "9.6",
     raw_price: "23.99",
     currency: "USD",
@@ -6197,8 +6197,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � main vintage en cuir PU pour femme",
+    subcategory: "Document holder",
+    name: "Vintage PU Leather Handbag for Women",
     current_price: "24.66",
     raw_price: "58.28",
     currency: "USD",
@@ -6226,9 +6226,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Les femmes voyagent Nylon se pliant 3 sacs de stockage de PCS solide sac de lavage",
+      "Women Travel Nylon Folding 3 PCS Solid Storage Bags Wash Bag",
     current_price: "8.52",
     raw_price: "24.38",
     currency: "USD",
@@ -6256,8 +6256,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sacs en toile pour hommes, sacs � dos Shoudler",
+    subcategory: "Document holder",
+    name: "Mens Canvas Bags, Shoulder Backpacks",
     current_price: "17.23",
     raw_price: "42.16",
     currency: "USD",
@@ -6285,9 +6285,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Porte-monnaie portefeuille en cuir v�ritable avec 16 fentes pour cartes longues",
+      "Genuine leather wallet coin purse with 16 long card slots",
     current_price: "16.32",
     raw_price: "39.2",
     currency: "USD",
@@ -6315,9 +6315,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sac port� � main en toile � motif de vagues � grande capacit� pour femme",
+      "Large Capacity Wave Canvas Handbag for Women",
     current_price: "7.45",
     raw_price: "18.26",
     currency: "USD",
@@ -6345,9 +6345,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Nylon Sac � dos de sport en plein air avec sac � dos, sacs de voyage",
+      "Nylon Outdoor Sport Backpack with Backpack, Travel Bags",
     current_price: "30.39",
     raw_price: "72.99",
     currency: "USD",
@@ -6375,8 +6375,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Portefeuille court pour femmes avec bande dessin�e",
+    subcategory: "Document holder",
+    name: "Women's short wallet with cartoon",
     current_price: "10.16",
     raw_price: "22.21",
     currency: "USD",
@@ -6404,8 +6404,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � dos pour femmes � clous d�coratifs avec poche devant",
+    subcategory: "Document holder",
+    name: "Women's backpack with decorative studs and front pocket",
     current_price: "21.24",
     raw_price: "44.73",
     currency: "USD",
@@ -6433,9 +6433,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sacs � bandouli�re en plein air pour hommes d&#39;affaires en cuir v�ritable Sacs de loisirs d�contract�s � bandouli�re",
+      "Genuine Leather Business Men Outdoor Shoulder Bags Crossbody Casual Leisure Bags",
     current_price: "23.95",
     raw_price: "56.44",
     currency: "USD",
@@ -6463,8 +6463,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re en toile de style tribal imprim�",
+    subcategory: "Document holder",
+    name: "Printed tribal style canvas shoulder bag",
     current_price: "22.92",
     raw_price: "51.03",
     currency: "USD",
@@ -6492,8 +6492,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � main en cuir Upper Ling pour femmes Soft",
+    subcategory: "Document holder",
+    name: "Upper Ling Women's Leather Handbag Soft",
     current_price: "23.34",
     raw_price: "55.05",
     currency: "USD",
@@ -6521,9 +6521,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Hang Car Pu Sac De Rangement En Cuir De Voyage Potable Titulaire De La Carte Stylo Poche De Voiture Soleil Pare Soleil",
+      "Hang Car Pu Leather Travel Storage Bag Drinking Card Holder Pen Pocket Car Sun Visor",
     current_price: "6.54",
     raw_price: "15.43",
     currency: "USD",
@@ -6551,9 +6551,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sac � dos de voyage en toile � motif alimentaire pour femmes Schoolba polyvalent",
+      "Schoolba Women's Multipurpose Food Print Canvas Travel Backpack",
     current_price: "11.42",
     raw_price: "27.97",
     currency: "USD",
@@ -6581,9 +6581,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sac de lavage de sac de rangement pour le sac de rangement Nylon pour femmes",
+      "Women's Nylon Storage Bag Storage Bag Wash Bag",
     current_price: "8.04",
     raw_price: "19.7",
     currency: "USD",
@@ -6611,8 +6611,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "�tui de T�l�phone Multi-fonctionnel pour iPhone8/8 plus/7/7 plus",
+    subcategory: "Document holder",
+    name: "Multi-functional Phone Case for iPhone8 / 8 plus / 7/7 plus",
     current_price: "11.1",
     raw_price: "27.27",
     currency: "USD",
@@ -6640,8 +6640,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re en cuir Sweet Soild pour femme",
+    subcategory: "Document holder",
+    name: "Women's Sweet Solide Leather Shoulder Bag",
     current_price: "12.33",
     raw_price: "28.53",
     currency: "USD",
@@ -6669,8 +6669,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re � bandouli�re r�tro pour hommes",
+    subcategory: "Document holder",
+    name: "Men's Retro Crossbody Bag",
     current_price: "24.34",
     raw_price: "59.67",
     currency: "USD",
@@ -6698,9 +6698,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Femmes Trifold Portefeuille court multi-Slots titulaire de la carte porte-monnaie",
+      "Women Trifold Short Wallet Multi-Slots Card Holder Coin Purse",
     current_price: "14.79",
     raw_price: "36.97",
     currency: "USD",
@@ -6728,8 +6728,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac de poitrine d�contract� pour le sport en plein air Nylon",
+    subcategory: "Document holder",
+    name: "Chest bag casual for outdoor sport Nylon",
     current_price: "13",
     raw_price: "30.67",
     currency: "USD",
@@ -6757,9 +6757,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Portefeuille �l�gant Longue Cuir PU Avec Multi-fentes Porte-cartes Pour Femme",
+      "Elegant Long PU Leather Wallet With Multi Slots Card Holder For Women",
     current_price: "8.94",
     raw_price: "21.02",
     currency: "USD",
@@ -6787,8 +6787,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Portefeuille zipp� court petit �l�gant en similicuir pour femme",
+    subcategory: "Document holder",
+    name: "Small Elegant Short Zip Wallet in Faux Leather for Women",
     current_price: "13.26",
     raw_price: "30.06",
     currency: "USD",
@@ -6816,9 +6816,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sacs � bandouli�re en nylon imperm�able � l'eau sac � bandouli�re crossbody, vous pouvez stocker t�l�phone, portefeuille, cartes, etc",
+      "Waterproof nylon shoulder bags crossbody shoulder bag, you can store phone, wallet, cards, etc.",
     current_price: "12.73",
     raw_price: "28.93",
     currency: "USD",
@@ -6846,8 +6846,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac bandouli�re mignon de bande dessin�e",
+    subcategory: "Document holder",
+    name: "Cute cartoon crossbody bag",
     current_price: "13.82",
     raw_price: "34.03",
     currency: "USD",
@@ -6875,9 +6875,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Femmes Doux Casual Longue Grande Capacit� Portefeuille Loisirs Cash Coins Sacs",
+      "Women Soft Casual Long Large Capacity Wallet Leisure Cash Coins Bags",
     current_price: "5.03",
     raw_price: "12.1",
     currency: "USD",
@@ -6905,9 +6905,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Ekphero Femmes Hommes Nylon Sac � bandouli�re multi-poches imperm�able",
+      "Ekphero Women Men Nylon Waterproof Multi-Pocket Shoulder Bag",
     current_price: "29.59",
     raw_price: "71.99",
     currency: "USD",
@@ -6935,8 +6935,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Femmes Long Wallet 5.5inch T�l�phone Sac",
+    subcategory: "Document holder",
+    name: "Women Long Wallet 5.5inch Phone Bag",
     current_price: "13.21",
     raw_price: "31.15",
     currency: "USD",
@@ -6964,8 +6964,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Femmes Oxford Crossbody Bag Girls Chest Pack Travel Bag",
+    subcategory: "Document holder",
+    name: "femmesOxfordCrossbodyBagGirlsChestPackTravelBag",
     current_price: "13.77",
     raw_price: "33.09",
     currency: "USD",
@@ -6993,8 +6993,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Portefeuille Concise Court Pour Femmes 5 Cartes",
+    subcategory: "Document holder",
+    name: "Women's Concise 5 Card Short Wallet",
     current_price: "9.38",
     raw_price: "22.13",
     currency: "USD",
@@ -7022,9 +7022,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
+    subcategory: "Document holder",
     name:
-      "Sacoche � bandouli�re portable pour ordinateur portable de grande capacit�, �tanche, 4 couleurs",
+      "Large capacity portable laptop shoulder bag, waterproof, 4 colors",
     current_price: "22.95",
     raw_price: "54.14",
     currency: "USD",
@@ -7052,8 +7052,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re �l�gant pour femme Sac � bandouli�re �l�gant",
+    subcategory: "Document holder",
+    name: "Elegant shoulder bag for women Elegant shoulder bag",
     current_price: "24.62",
     raw_price: "59.38",
     currency: "USD",
@@ -7081,8 +7081,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac bandouli�re en cuir motif yeux des femmes",
+    subcategory: "Document holder",
+    name: "Women's Eye Pattern Leather Crossbody Bag",
     current_price: "6.26",
     raw_price: "16",
     currency: "USD",
@@ -7110,8 +7110,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "Sac � bandouli�re r�tro en cuir PU pour femme",
+    subcategory: "Document holder",
+    name: "Retro PU Leather Shoulder Bag for Women",
     current_price: "10.53",
     raw_price: "41.2",
     currency: "USD",
@@ -7139,8 +7139,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Porte-documents",
-    name: "USB-Anschluss Nylon Sac de poitrine l�ger",
+    subcategory: "Document holder",
+    name: "USB-Anschluss Nylon Lightweight chest bag",
     current_price: "14.54",
     raw_price: "35.67",
     currency: "USD",
@@ -7168,9 +7168,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Portefeuille Bande Dessin�e PU Cuir Femmes Rivet Long Portefeuille Chariot Zipper Wallet",
+      "Wallet Cartoon Stripe PU Leather Women Rivet Long Wallet Trolley Zipper Wallet",
     current_price: "9.58",
     raw_price: "21.78",
     currency: "USD",
@@ -7198,8 +7198,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re Sac � bandouli�re",
+    subcategory: "Wallets",
+    name: "Shoulder bag Shoulder bag",
     current_price: "16.22",
     raw_price: "39.01",
     currency: "USD",
@@ -7227,8 +7227,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femmes Vintage Floral Wallet Ladies Elegant Casual Leisure Purse",
+    subcategory: "Wallets",
+    name: "femmesVintageFloralWalletLadiesElegantCasualLeisurePurse",
     current_price: "8.86",
     raw_price: "20.51",
     currency: "USD",
@@ -7252,8 +7252,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille long en cuir pour femme",
+    subcategory: "Wallets",
+    name: "Long leather wallet for women",
     current_price: "5.54",
     raw_price: "12.83",
     currency: "USD",
@@ -7281,8 +7281,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re zipp� en forme de hamster mignon",
+    subcategory: "Wallets",
+    name: "Zippered crossbody bag in the shape of a cute hamster",
     current_price: "11.99",
     raw_price: "30.99",
     currency: "USD",
@@ -7310,8 +7310,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � ananas transparent couleur bonbon pour femme",
+    subcategory: "Wallets",
+    name: "Transparent candy pineapple bag for women",
     current_price: "16.53",
     raw_price: "29.44",
     currency: "USD",
@@ -7339,9 +7339,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Femmes Faux Cuir Longue Portefeuille Porte-Monnaie 8 Card Slot Wallet",
+      "Women Faux Leather Long Wallet Coin Holder 8 Card Slot Wallet",
     current_price: "8.55",
     raw_price: "24.47",
     currency: "USD",
@@ -7369,8 +7369,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Porte-monnaie pour femme en cuir v�ritable vintage",
+    subcategory: "Wallets",
+    name: "Vintage genuine leather women's wallet",
     current_price: "19.61",
     raw_price: "47.24",
     currency: "USD",
@@ -7398,8 +7398,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Porte-cl�s en similicuir pour femme, joli porte-monnaie Cate",
+    subcategory: "Wallets",
+    name: "Faux leather keyring for women, pretty Cate purse",
     current_price: "6.77",
     raw_price: "18.06",
     currency: "USD",
@@ -7427,8 +7427,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille Vintage � deux volets en cuir v�ritable pour hommes",
+    subcategory: "Wallets",
+    name: "Men's Vintage Genuine Leather Bifold Wallet",
     current_price: "16.13",
     raw_price: "41.24",
     currency: "USD",
@@ -7454,8 +7454,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re solide en faux cuir pour femme Sac carr�",
+    subcategory: "Wallets",
+    name: "Women's Solid Faux Leather Crossbody Bag Square Bag",
     current_price: "17.19",
     raw_price: "42.17",
     currency: "USD",
@@ -7483,9 +7483,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Homme Femme Portefeuille Porte-monnaie Avec Plusieurs Fonctions Pour T�l�phone SAMS5/S6/S6EDGE/S7/S7EDGE/S8/S8PLUS",
+      "Men Women Wallet Coin Purse With Multiple Functions For SAMS5 / S6 / S6EDGE / S7 / S7EDGE / S8 / S8PLUS Phone",
     current_price: "15.99",
     raw_price: "35.99",
     currency: "USD",
@@ -7513,8 +7513,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femme Nylon Ecouteurs Bras de course pour sac de t�l�phone",
+    subcategory: "Wallets",
+    name: "Woman Nylon Earphones Running Arm for Phone Bag",
     current_price: "14.38",
     raw_price: "30.63",
     currency: "USD",
@@ -7542,8 +7542,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femmes Nylon Sacs � bandouli�re d�contract�s l�gers",
+    subcategory: "Wallets",
+    name: "Women Nylon Lightweight Casual Shoulder Bags",
     current_price: "15.19",
     raw_price: "34.99",
     currency: "USD",
@@ -7571,8 +7571,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille de 12 cartes en cuir v�ritable � motif crocodile",
+    subcategory: "Wallets",
+    name: "Genuine leather crocodile print 12 card wallet",
     current_price: "8.79",
     raw_price: "24.99",
     currency: "USD",
@@ -7600,8 +7600,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille multifonction 15 emplacements pour cartes",
+    subcategory: "Wallets",
+    name: "Multifunction wallet with 15 card slots",
     current_price: "9.38",
     raw_price: "26.04",
     currency: "USD",
@@ -7629,8 +7629,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � Dos National en Toile Couleur Contrast�e Femmes",
+    subcategory: "Wallets",
+    name: "Women's National Contrast Colored Canvas Backpack",
     current_price: "18.06",
     raw_price: "42.58",
     currency: "USD",
@@ -7658,8 +7658,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac de ceinture � la taille",
+    subcategory: "Wallets",
+    name: "Belt bag at waist",
     current_price: "14",
     raw_price: "36.05",
     currency: "USD",
@@ -7687,8 +7687,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Type d'article: �tui de t�l�phone",
+    subcategory: "Wallets",
+    name: "Item Type: Phone Case",
     current_price: "10.77",
     raw_price: "25.41",
     currency: "USD",
@@ -7716,9 +7716,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Porte-monnaie en cuir v�ritable avec fermeture � glissi�re et boucle de porte-monnaie",
+      "Genuine leather coin purse with zipper and coin purse buckle",
     current_price: "20.38",
     raw_price: "49.46",
     currency: "USD",
@@ -7746,8 +7746,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Porte-monnaie en cuir de vache en peau de vache pour les hommes",
+    subcategory: "Wallets",
+    name: "Cowhide Cowhide Leather Coin Purse For Men",
     current_price: "6.96",
     raw_price: "18.92",
     currency: "USD",
@@ -7773,8 +7773,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille Femme En Cuir V�ritable",
+    subcategory: "Wallets",
+    name: "Women's Genuine Leather Wallet",
     current_price: "13.91",
     raw_price: "33.5",
     currency: "USD",
@@ -7802,9 +7802,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Hommes Casual Long Zipper Loisirs Portefeuille Carte de visite Coins Sacs",
+      "Men Casual Long Zipper Leisure Wallet Business Card Corners Bags",
     current_price: "6.79",
     raw_price: "16.02",
     currency: "USD",
@@ -7832,8 +7832,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac de voyage pour femme Pure Color",
+    subcategory: "Wallets",
+    name: "Pure Color Women's Travel Bag",
     current_price: "5.42",
     raw_price: "12.32",
     currency: "USD",
@@ -7861,7 +7861,7 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name: "Elephant Imprint T�l�phone Case",
     current_price: "9.59",
     raw_price: "21.99",
@@ -7890,8 +7890,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sacs Fanny d'ext�rieur r�sistants � l'eau pour hommes et femmes",
+    subcategory: "Wallets",
+    name: "Outdoor Fanny Bags Water Resistant for Men and Women",
     current_price: "11.62",
     raw_price: "32.51",
     currency: "USD",
@@ -7919,8 +7919,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille Courte Pour Femmes En Cuir V�ritable Pour 4 Cartes",
+    subcategory: "Wallets",
+    name: "Women's Genuine Leather Short Wallet For 4 Cards",
     current_price: "24.59",
     raw_price: "60.31",
     currency: "USD",
@@ -7946,8 +7946,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Cas de t�l�phone multi-fonctionnel femmes pour iphone Samsung",
+    subcategory: "Wallets",
+    name: "Multi-functional women phone case for iphone Samsung",
     current_price: "9.53",
     raw_price: "22.66",
     currency: "USD",
@@ -7973,9 +7973,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Geniune Leather Zipper Portefeuille Long Purse Card titulaire 5,5 &#39;cas de t�l�phone pour Iphone Huawei Samsung",
+      "Genuine Leather Zipper Wallet Long Purse Card Holder 5.5 'Phone Case for Iphone Huawei Samsung",
     current_price: "21.05",
     raw_price: "48.72",
     currency: "USD",
@@ -8003,9 +8003,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Femmes Hommes Polyvalent Longue Double Zipper Portefeuille Loisirs Contraste Couleur Cartes T�l�phone Porte-monnaie",
+      "Women Men Versatile Long Double Zipper Wallet Leisure Contrast Color Cards Phone Wallet",
     current_price: "8.45",
     raw_price: "19.55",
     currency: "USD",
@@ -8033,9 +8033,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Iphone d�finit Iphone 6s Plus portefeuille de t�l�phone portable suspendu � la taille de 5,5 pouces pour hommes",
+      "Iphone Sets Iphone 6s Plus 5.5 Inch Waist Hanging Cell Phone Wallet For Men",
     current_price: "13.35",
     raw_price: "33.37",
     currency: "USD",
@@ -8063,8 +8063,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille long zipp� � motif de couronne pour femme",
+    subcategory: "Wallets",
+    name: "Long zipped crown wallet for women",
     current_price: "7.86",
     raw_price: "17.84",
     currency: "USD",
@@ -8092,8 +8092,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "�tui multifonctionnel pour t�l�phone portable pour femme",
+    subcategory: "Wallets",
+    name: "Multifunctional cell phone case for women",
     current_price: "15.66",
     raw_price: "38.33",
     currency: "USD",
@@ -8121,8 +8121,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femmes PU Portefeuille solide 20 Porte-cartes",
+    subcategory: "Wallets",
+    name: "Women PU Solid Wallet 20 Card Holders",
     current_price: "8.79",
     raw_price: "21.99",
     currency: "USD",
@@ -8150,8 +8150,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femmes Cnavas Floral Mini Crossbody Bag Leisure Phone Bag",
+    subcategory: "Wallets",
+    name: "Femmes Canvas Floral Mini Crossbody Bag Leisure Phone Bag",
     current_price: "14.19",
     raw_price: "34.76",
     currency: "USD",
@@ -8179,9 +8179,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Portefeuille Pour Femmes Vintage En Cuir V�ritable Mini Porte-Cartes 12",
+      "Vintage Genuine Leather Women's Wallet Mini Card Holder 12",
     current_price: "18.48",
     raw_price: "47.14",
     currency: "USD",
@@ -8209,8 +8209,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re en toile brod�e vintage pour femme",
+    subcategory: "Wallets",
+    name: "Vintage Embroidered Canvas Shoulder Bag for Women",
     current_price: "28.72",
     raw_price: "79.77",
     currency: "USD",
@@ -8238,8 +8238,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac Bandouli�re Casual L�ger avec Multi-poches",
+    subcategory: "Wallets",
+    name: "Lightweight Casual Crossbody Bag with Multi-pockets",
     current_price: "26.94",
     raw_price: "66.95",
     currency: "USD",
@@ -8267,8 +8267,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re carr� en velours brod� pour femme",
+    subcategory: "Wallets",
+    name: "Black embroidered velvet shoulder bag for women",
     current_price: "14.36",
     raw_price: "35.24",
     currency: "USD",
@@ -8296,9 +8296,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Femmes PU portefeuille court Slim Vintage 9 porte-cartes porte-monnaie",
+      "Women PU Vintage Slim Short Wallet 9 Card Holder Coin Purse",
     current_price: "7.7",
     raw_price: "18.14",
     currency: "USD",
@@ -8326,8 +8326,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Portefeuille en cuir brod� rose",
+    subcategory: "Wallets",
+    name: "Pink embroidered leather wallet",
     current_price: "11.82",
     raw_price: "27.72",
     currency: "USD",
@@ -8355,8 +8355,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac fourre-tout � imprim� roses",
+    subcategory: "Wallets",
+    name: "Rose Print Tote Bag",
     current_price: "22.09",
     raw_price: "53.95",
     currency: "USD",
@@ -8384,8 +8384,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Nylon Sac de poitrine sport",
+    subcategory: "Wallets",
+    name: "Nylon Sport chest bag",
     current_price: "15.58",
     raw_price: "37.89",
     currency: "USD",
@@ -8413,8 +8413,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Porte-cartes en cuir v�ritable",
+    subcategory: "Wallets",
+    name: "Genuine leather card holder",
     current_price: "31.54",
     raw_price: "77.24",
     currency: "USD",
@@ -8442,8 +8442,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Porte-monnaie portefeuille court en cuir v�ritable pour homme",
+    subcategory: "Wallets",
+    name: "Men's Genuine Leather Short Wallet Coin Purse",
     current_price: "28.72",
     raw_price: "69.02",
     currency: "USD",
@@ -8471,8 +8471,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Femmes Trifolding Petit PU Cuir",
+    subcategory: "Wallets",
+    name: "Women Trifolding Small PU Leather",
     current_price: "6.89",
     raw_price: "15.52",
     currency: "USD",
@@ -8500,8 +8500,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Velvet Lovely Style Sacs de rangement cosm�tiques",
+    subcategory: "Wallets",
+    name: "Velvet Lovely Style Cosmetic Storage Bags",
     current_price: "11.74",
     raw_price: "29.09",
     currency: "USD",
@@ -8529,9 +8529,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Bonbons Couleur T�l�phone Sac Portefeuille Sac � bandouli�re Sacs � bandouli�re Sac � main pour les femmes",
+      "Candy Color Phone Bag Wallet Shoulder Bag Crossbody Bags Handbag for Women",
     current_price: "15.61",
     raw_price: "37.22",
     currency: "USD",
@@ -8559,9 +8559,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Sac Bandouli�re en Nylon D�contract� L�ger Petit Sac Port� Epaule pour Voyage Sac � Poitrine",
+      "Lightweight Casual Nylon Crossbody Bag Small Travel Shoulder Bag Chest Bag",
     current_price: "20.52",
     raw_price: "42.85",
     currency: "USD",
@@ -8589,9 +8589,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Elegant Cube Sac � bandouli�re Sac � bandouli�re Sac � bandouli�re pour femme",
+      "Elegant Cube Shoulder bag Shoulder bag Shoulder bag for women",
     current_price: "13.93",
     raw_price: "33.07",
     currency: "USD",
@@ -8619,8 +8619,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re en cuir PU avec petit sac � main pour femme",
+    subcategory: "Wallets",
+    name: "PU Leather Shoulder Bag with Small Handbag for Women",
     current_price: "22.4",
     raw_price: "55.43",
     currency: "USD",
@@ -8648,9 +8648,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "26 d�tenteurs de cartes Business Vintage en cuir v�ritable vache en cuir titulaire de la carte pour hommes (couleur al�atoire)",
+      "26 Vintage Business Card Holders Genuine Leather Cow Leather Mens Card Holder (Random Color)",
     current_price: "7.62",
     raw_price: "17.96",
     currency: "USD",
@@ -8676,9 +8676,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re Oxford Crossbody Sac � bandouli�re � �paule unique pour hommes",
+      "Oxford Crossbody Shoulder Bag Men's Single Shoulder Shoulder Bag",
     current_price: "19.38",
     raw_price: "48.45",
     currency: "USD",
@@ -8706,9 +8706,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Les femmes tissent des sacs � main de t�l�phone mini sacs � bandouli�re",
+      "Women weave mini phone handbags shoulder bags",
     current_price: "19.13",
     raw_price: "47.38",
     currency: "USD",
@@ -8736,8 +8736,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re multi-poches pour homme",
+    subcategory: "Wallets",
+    name: "Men's multi-pocket crossbody bag",
     current_price: "21.8",
     raw_price: "49.45",
     currency: "USD",
@@ -8765,9 +8765,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
+    subcategory: "Wallets",
     name:
-      "Sac imperm�able occasionnel de sac de t�l�phone 6inch PVC Durable Beach Drift",
+      "6inch PVC Durable Beach Drift Phone Bag Casual Waterproof Bag",
     current_price: "10.17",
     raw_price: "22.91",
     currency: "USD",
@@ -8795,8 +8795,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sac � bandouli�re d�contract� en plein air pour femme Nylon",
+    subcategory: "Wallets",
+    name: "Women's Nylon Outdoor Casual Crossbody Bag",
     current_price: "23.49",
     raw_price: "57.64",
     currency: "USD",
@@ -8824,8 +8824,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Portefeuilles",
-    name: "Sacs � bandouli�re grande capacit� pour femmes",
+    subcategory: "Wallets",
+    name: "Large capacity shoulder bags for women",
     current_price: "29.3",
     raw_price: "73.13",
     currency: "USD",
@@ -8853,8 +8853,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sacs � bandouli�re r�tro en cire � l'huile pour femme",
+    subcategory: "Wallets",
+    name: "Women's Retro Oil Wax Crossbody Bags",
     current_price: "17.34",
     raw_price: "43.35",
     currency: "USD",
@@ -8880,8 +8880,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Kadell Sac � bandouli�re Lady Business Casual Sac � main",
+    subcategory: "Wallets",
+    name: "Kadell Sac � bandouliere Lady Business Casual Sac � main",
     current_price: "57.67",
     raw_price: "137.77",
     currency: "USD",
@@ -8909,9 +8909,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Portefeuille trois volets vintage en cuir v�ritable avec 15 fentes cartes pour homme",
+      "Vintage genuine leather trifold wallet with 15 card slots for men",
     current_price: "17",
     raw_price: "44.27",
     currency: "USD",
@@ -8939,8 +8939,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac bandouli�re vintage en PU",
+    subcategory: "Wallets",
+    name: "Vintage PU shoulder bag",
     current_price: "23.01",
     raw_price: "70.13",
     currency: "USD",
@@ -8968,8 +8968,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac de taille Vintage en cuir v�ritable pour les hommes",
+    subcategory: "Chic bags",
+    name: "Vintage Genuine Leather Waist Bag for Men",
     current_price: "23.57",
     raw_price: "56.64",
     currency: "USD",
@@ -8997,8 +8997,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femme Sac Bandouli�re En PU Cuir Sac Seau De Haute Qualit� Sac Hobo",
+    subcategory: "Wallets",
+    name: "Women Crossbody Bag PU Leather Bucket Bag High Quality Hobo Bag",
     current_price: "15.17",
     raw_price: "36.55",
     currency: "USD",
@@ -9026,8 +9026,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re en cuir v�ritable pour homme",
+    subcategory: "Wallets",
+    name: "Men's Genuine Leather Shoulder Bag",
     current_price: "30.74",
     raw_price: "76.84",
     currency: "USD",
@@ -9055,9 +9055,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � Main � Effet de Peau de Serpent Sac Bandouli�re en PU Cuir Sac Hobo",
+      "Snakeskin Effect Handbag PU Leather Crossbody Bag Hobo Bag",
     current_price: "23.97",
     raw_price: "59.43",
     currency: "USD",
@@ -9085,9 +9085,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "6 Card Slots Portefeuille Cuir de Vache Clutch Titulaire de la Carte Porte-Monnaie T�l�phone Sac pour Hommes",
+      "6 Card Slots Wallet Cowhide Clutch Card Holder Wallet Phone Bag for Men",
     current_price: "38.92",
     raw_price: "97.3",
     currency: "USD",
@@ -9115,9 +9115,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac de T�l�phone D�contract� en Cuir � iPhone7/7Plus/6/6s/6Plus/6sPlus Porte-cartes pour Homme",
+      "IPhone7 / 7Plus / 6 / 6s / 6Plus / 6sPlus Casual Leather Phone Bag Card Holder for Men",
     current_price: "19.11",
     raw_price: "47.76",
     currency: "USD",
@@ -9145,8 +9145,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuille multi-cartes en cuir v�ritable",
+    subcategory: "Wallets",
+    name: "Genuine leather multi-card wallet",
     current_price: "17.02",
     raw_price: "42.37",
     currency: "USD",
@@ -9174,9 +9174,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Geniune Leather Phone Bag Mini Sac de section verticale pour les loisirs de plein air pour hommes",
+      "Genuine Leather Phone Bag Mini Vertical Section Bag for Men Outdoor Leisure",
     current_price: "17.08",
     raw_price: "42.71",
     currency: "USD",
@@ -9204,8 +9204,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re l�ger en plein air d�contract�",
+    subcategory: "Wallets",
+    name: "Lightweight Casual Outdoor Crossbody Bag",
     current_price: "9.63",
     raw_price: "23.57",
     currency: "USD",
@@ -9233,8 +9233,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re d�contract� imperm�able en cuir",
+    subcategory: "Wallets",
+    name: "Waterproof Leather Shoulder Bag",
     current_price: "35.99",
     raw_price: "71.99",
     currency: "USD",
@@ -9262,8 +9262,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re solide pour femme",
+    subcategory: "Wallets",
+    name: "Solid shoulder bag for women",
     current_price: "30.21",
     raw_price: "72.1",
     currency: "USD",
@@ -9291,8 +9291,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuille court � loisirs � trois fentes pour hommes",
+    subcategory: "Wallets",
+    name: "Men's Short Leisure Three Slot Wallet",
     current_price: "6.5",
     raw_price: "25.75",
     currency: "USD",
@@ -9320,7 +9320,7 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name: "Designer Mini Phone Bag",
     current_price: "27.18",
     raw_price: "118.45",
@@ -9349,8 +9349,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac de t�l�phone de prise de casque d�contract�",
+    subcategory: "Wallets",
+    name: "Casual Headset Jack Phone Bag",
     current_price: "26.58",
     raw_price: "59.86",
     currency: "USD",
@@ -9379,8 +9379,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac bandouli�re en crocodile Pu femme",
+    subcategory: "Wallets",
+    name: "Women's Pu crocodile crossbody bag",
     current_price: "26.92",
     raw_price: "62.32",
     currency: "USD",
@@ -9408,9 +9408,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sacs � bandouli�re pour femmes Fashion Set 6PCS Sacs � imprim� crocodile",
+      "Women`s Shoulder Bags Fashion Set 6PCS Crocodile Print Bags",
     current_price: "32.7",
     raw_price: "78.62",
     currency: "USD",
@@ -9438,8 +9438,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re en toile de style chinois pour femmes",
+    subcategory: "Wallets",
+    name: "Women's Chinese Style Canvas Shoulder Bag",
     current_price: "16.82",
     raw_price: "37.45",
     currency: "USD",
@@ -9467,9 +9467,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � dos style locomotive motif dessin anim� sac port� �paules �l�gant � la mode",
+      "Cartoon pattern locomotive style backpack stylish fashionable shoulder bag",
     current_price: "12.43",
     raw_price: "38.17",
     currency: "USD",
@@ -9495,8 +9495,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Nylon Sac � bandouli�re avec poche multizipper",
+    subcategory: "Wallets",
+    name: "Nylon Shoulder bag with multizipper pocket",
     current_price: "11.34",
     raw_price: "27.25",
     currency: "USD",
@@ -9524,9 +9524,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Paquet tactique occasionnel de sacs de sport de plein air de Molle occasionnel multifonctionnel de Molle",
+      "Multifunctional Casual Molle Outdoor Sports Bags Casual Tactical Pack",
     current_price: "10.4",
     raw_price: "24.07",
     currency: "USD",
@@ -9554,9 +9554,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Femmes �l�gantes longues nubuck PU cuir porte-cartes porte-monnaie sac � main",
+      "Elegant Women Long Nubuck PU Leather Card Holder Coin Purse Purse",
     current_price: "8.44",
     raw_price: "20.28",
     currency: "USD",
@@ -9584,9 +9584,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac bandouli�re �l�gant pour femme avec pendentif Messenger Sac bandouli�re",
+      "Elegant crossbody bag for women with pendant Messenger Crossbody bag",
     current_price: "9.68",
     raw_price: "22.84",
     currency: "USD",
@@ -9614,8 +9614,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femmes �l�gantes sacs � bandouli�re noir rouge d�contract�",
+    subcategory: "Wallets",
+    name: "Elegant women shoulder bags black red casual",
     current_price: "23.86",
     raw_price: "55.25",
     currency: "USD",
@@ -9643,9 +9643,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re Sac � main Wind Vintage Vintage Casual Flower National",
+      "Sac � bandouliere Sac � main Wind Vintage Vintage Casual Flower National",
     current_price: "17.06",
     raw_price: "41.84",
     currency: "USD",
@@ -9673,9 +9673,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Hommes 16 ann toile de coton cyclisme en plein air sport multi-poches poitrine sac � bandouli�re",
+      "Men 16 Ann Cotton Canvas Outdoor Cycling Sports Multi-Pocket Chest Shoulder Bag",
     current_price: "23.64",
     raw_price: "57.94",
     currency: "USD",
@@ -9703,9 +9703,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Femmes Nylon Sac � bandouli�re � glissi�re d�contract� �tanche Loisirs S",
+      "Women Nylon Waterproof Leisure Zipper Shoulder Bag S",
     current_price: "10.29",
     raw_price: "24.74",
     currency: "USD",
@@ -9733,8 +9733,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femmes Vintage Floral Canvas Backpack Sac de voyage d�contract�",
+    subcategory: "Wallets",
+    name: "Women Vintage Floral Canvas Backpack Casual Travel Bag",
     current_price: "24.06",
     raw_price: "57.81",
     currency: "USD",
@@ -9762,9 +9762,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Hommes, toile, loisirs, Multifonction, Crossbody, sac, �paule, sac, coffre, sacs",
+      "Men, Canvas, Leisure, Multifunction, Crossbody, Bag, Shoulder, Bag, Trunk, Bags",
     current_price: "14.81",
     raw_price: "35.92",
     currency: "USD",
@@ -9792,8 +9792,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuille long en cuir pour femme",
+    subcategory: "Wallets",
+    name: "Long leather wallet for women",
     current_price: "8.66",
     raw_price: "19.68",
     currency: "USD",
@@ -9821,9 +9821,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Femmes toile couture couleur fourre-tout sac � main sac � bandouli�re",
+      "Women Canvas Stitching Color Tote Handbag Shoulder Bag",
     current_price: "24.99",
     raw_price: "60.07",
     currency: "USD",
@@ -9851,8 +9851,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re femme motif chat sac � main",
+    subcategory: "Wallets",
+    name: "Women's shoulder bag cat motif handbag",
     current_price: "30.51",
     raw_price: "85.8",
     currency: "USD",
@@ -9880,8 +9880,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � main multifonctionnel de grande capacit� pour femmes",
+    subcategory: "Wallets",
+    name: "Large Capacity Multifunctional Handbag for Women",
     current_price: "32.95",
     raw_price: "60.77",
     currency: "USD",
@@ -9909,8 +9909,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac port� main de business � grande capacit� � multi-poches",
+    subcategory: "Wallets",
+    name: "Large capacity multi-pocket business handbag",
     current_price: "35.83",
     raw_price: "91.55",
     currency: "USD",
@@ -9938,8 +9938,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuille Court Femme Vintage en Cuir V�ritable",
+    subcategory: "Wallets",
+    name: "Vintage Women's Genuine Leather Short Wallet",
     current_price: "21.9",
     raw_price: "51.87",
     currency: "USD",
@@ -9967,8 +9967,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac bandouli�re en toile � rayures pour femmes",
+    subcategory: "Wallets",
+    name: "Women's Striped Canvas Cross-Body Bag",
     current_price: "14.2",
     raw_price: "37.92",
     currency: "USD",
@@ -9996,8 +9996,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femmes Sac � bandouli�re multi-fonctionnel d�contract� solide",
+    subcategory: "Wallets",
+    name: "Women Solid Casual Multi-functional Crossbody Bag",
     current_price: "30.84",
     raw_price: "82.4",
     currency: "USD",
@@ -10025,8 +10025,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femmes Sacs bandouli�re en similicuir Sacs � main patchwork",
+    subcategory: "Wallets",
+    name: "Women Faux Leather Crossbody Bags Patchwork Handbags",
     current_price: "24.83",
     raw_price: "71.19",
     currency: "USD",
@@ -10054,9 +10054,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Femmes Solide Mignon Long Portefeuille 12 Porte-Cartes Portefeuille T�l�phone Sac",
+      "Women Solid Cute Long Wallet 12 Card Holder Wallet Phone Bag",
     current_price: "8.56",
     raw_price: "25.1",
     currency: "USD",
@@ -10084,8 +10084,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Casual Sport Oxford Sling Bag Sac de poitrine Sac de taille",
+    subcategory: "Wallets",
+    name: "Casual Sport Oxford Sling Bag Chest Bag Waist Bag",
     current_price: "29.65",
     raw_price: "68.66",
     currency: "USD",
@@ -10113,9 +10113,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re en cuir PU pour femmes Sac de t�l�phone mignon Filles Daily Ba",
+      "Women PU Leather Shoulder Bag Cute Daily Ba Girls Phone Bag",
     current_price: "13.62",
     raw_price: "33.36",
     currency: "USD",
@@ -10143,8 +10143,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuilles longs en cuir v�ritable pour femmes",
+    subcategory: "Wallets",
+    name: "Long Genuine Leather Wallets for Women",
     current_price: "15.6",
     raw_price: "37.88",
     currency: "USD",
@@ -10172,9 +10172,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re en cuir PU pour homme Sac � bandouli�re d&#39;ext�rieur durable",
+      "Men's PU Leather Shoulder Bag Durable Outdoor Shoulder Bag",
     current_price: "13.62",
     raw_price: "32.74",
     currency: "USD",
@@ -10202,8 +10202,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Portefeuille long Sterne Vintage en cuir PU",
+    subcategory: "Wallets",
+    name: "Vintage Sterne PU Leather Long Wallet",
     current_price: "19.78",
     raw_price: "48.49",
     currency: "USD",
@@ -10231,8 +10231,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac de rangement portable �l�gant T�l�phone Sacs Pochettes",
+    subcategory: "Wallets",
+    name: "Stylish portable storage bag Phone Bags Pouches",
     current_price: "8.07",
     raw_price: "26.08",
     currency: "USD",
@@ -10260,9 +10260,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac de t�l�phone de l&#39;�paule commune 6inch en coton de cowboy pour iPhone Samsung Xiaomi Huawei",
+      "Cowboy Cotton 6inch Common Shoulder Phone Bag for iPhone Samsung Xiaomi Huawei",
     current_price: "7.95",
     raw_price: "18.4",
     currency: "USD",
@@ -10290,9 +10290,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Nylon Sacs � bandouli�re l�gers multi-poches d�contract�s Sacs � bandouli�re imperm�ables",
+      "Nylon Lightweight Casual Multi-Pocket Shoulder Bags Waterproof Shoulder Bags",
     current_price: "11.82",
     raw_price: "41.53",
     currency: "USD",
@@ -10320,8 +10320,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Femme Durable Nylon Sac � main",
+    subcategory: "Wallets",
+    name: "Woman Durable Nylon Handbag",
     current_price: "12.1",
     raw_price: "29.1",
     currency: "USD",
@@ -10349,9 +10349,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "40/20 Card Slots Card Titulaire Portefeuille en cuir v�ritable Zipper",
+      "40/20 Card Slots Card Holder Genuine Leather Zipper Wallet",
     current_price: "24.56",
     raw_price: "62.36",
     currency: "USD",
@@ -10379,8 +10379,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac bandouli�re solide",
+    subcategory: "Wallets",
+    name: "Solid shoulder bag",
     current_price: "37.9",
     raw_price: "94.76",
     currency: "USD",
@@ -10408,8 +10408,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Porte-cartes en cuir v�ritable � glissi�re",
+    subcategory: "Wallets",
+    name: "Zippered Genuine Leather Card Holder",
     current_price: "21.42",
     raw_price: "52.53",
     currency: "USD",
@@ -10437,9 +10437,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � dos imprim� imprim� imprim� imprim� imprim� floral Women Canvas",
+      "sac �DosImprim�Imprim�Imprim�Imprim�Imprim�FloralWomenCanvas",
     current_price: "23.19",
     raw_price: "49.99",
     currency: "USD",
@@ -10467,8 +10467,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
-    name: "Sac � bandouli�re durable en toile de grande capacit� pour femmes",
+    subcategory: "Wallets",
+    name: "Durable Large Capacity Canvas Shoulder Bag for Women",
     current_price: "19.51",
     raw_price: "54.2",
     currency: "USD",
@@ -10496,9 +10496,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re pour homme Nylon Sac � bandouli�re multicolore avec coffre",
+      "Men's Crossbody Bag Nylon Multicolor Crossbody Bag with Chest",
     current_price: "8.45",
     raw_price: "19.92",
     currency: "USD",
@@ -10526,9 +10526,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Pochette en Nylon Mini Sac Port� Epaule avec Poche sur le Devant Sac Bandouli�re pour Femme Fille",
+      "Nylon Pouch Mini Shoulder Bag with Front Pocket Crossbody Bag for Women Girls",
     current_price: "8.7",
     raw_price: "20.52",
     currency: "USD",
@@ -10556,9 +10556,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � bandouli�re d�contract� pour homme Sac � bandouli�re d�contract� pour homme",
+      "Men's casual shoulder bag Men's casual shoulder bag",
     current_price: "15.34",
     raw_price: "36.7",
     currency: "USD",
@@ -10586,9 +10586,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Vintage Oil PU Leather Handbag Sac � bandouli�re grande capacit� Sac bandouli�re",
+      "Vintage Oil PU Leather Handbag Large capacity shoulder bag Shoulder bag",
     current_price: "26.14",
     raw_price: "40.74",
     currency: "USD",
@@ -10616,9 +10616,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs chic",
+    subcategory: "Wallets",
     name:
-      "Sac � dos pour ordinateur portable avec sac � dos pour ordinateur portable",
+      "Laptop backpack with laptop backpack",
     current_price: "33.51",
     raw_price: "83.72",
     currency: "USD",
@@ -10646,8 +10646,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille pour femmes avec porte-cartes en cuir v�ritable",
+    subcategory: "Travel bags",
+    name: "Women's wallet with genuine leather card holder",
     current_price: "21.35",
     raw_price: "51.33",
     currency: "USD",
@@ -10675,8 +10675,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re en forme de crocodile pour femme",
+    subcategory: "Travel bags",
+    name: "Women's Crocodile-Shaped Crossbody Bag",
     current_price: "16.02",
     raw_price: "42.78",
     currency: "USD",
@@ -10704,9 +10704,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Sac � bandouli�re en cuir vintage pour femme avec boucle en m�tal et bandouli�re",
+      "Vintage leather shoulder bag for women with metal buckle and shoulder strap",
     current_price: "9.22",
     raw_price: "21.74",
     currency: "USD",
@@ -10734,8 +10734,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re simple pour homme, sac � bandouli�re",
+    subcategory: "Travel bags",
+    name: "Single shoulder bag for men, shoulder bag",
     current_price: "19.62",
     raw_price: "45.41",
     currency: "USD",
@@ -10763,8 +10763,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re ext�rieur Nylon Sac � bandouli�re pour hommes",
+    subcategory: "Travel bags",
+    name: "Outdoor Nylon Crossbody Bag Men's Crossbody Bag",
     current_price: "12.17",
     raw_price: "29.83",
     currency: "USD",
@@ -10792,9 +10792,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "RFID Antimagnetic Leather Leather 3 Porte-cartes 3 couleurs Portefeuille Portable",
+      "RFID Antimagnetic Leather Leather 3 Card Holder 3 Colors Portable Wallet",
     current_price: "21.77",
     raw_price: "53.35",
     currency: "USD",
@@ -10822,8 +10822,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � dos d�contract� pour femmes",
+    subcategory: "Travel bags",
+    name: "Women's casual backpack",
     current_price: "19.61",
     raw_price: "41.62",
     currency: "USD",
@@ -10851,8 +10851,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re Vintage Pure Color pour femme",
+    subcategory: "Travel bags",
+    name: "Vintage Pure Color Women's Crossbody Bag",
     current_price: "35.99",
     raw_price: "80.99",
     currency: "USD",
@@ -10880,8 +10880,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille en cuir v�ritable pour femmes avec 9 cartes",
+    subcategory: "Travel bags",
+    name: "Genuine Leather Women's Wallet with 9 Cards",
     current_price: "18.39",
     raw_price: "41.99",
     currency: "USD",
@@ -10909,8 +10909,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille Femme Girl Candy Color Small",
+    subcategory: "Travel bags",
+    name: "portefeuilleFemmeGirlCandyColorSmall",
     current_price: "14.16",
     raw_price: "32.18",
     currency: "USD",
@@ -10938,9 +10938,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Mini sac port� travers en tissu � imprim� porte-t�l�phone de loisirs pour femme",
+      "Mini Crossbody Bag in Printed Fabric Leisure Phone Holder for Women",
     current_price: "10.02",
     raw_price: "26.76",
     currency: "USD",
@@ -10968,8 +10968,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac fourre-tout en cuir PU de grande capacit� pour femmes",
+    subcategory: "Travel bags",
+    name: "Large Capacity PU Leather Tote Bag for Women",
     current_price: "32.87",
     raw_price: "91.3",
     currency: "USD",
@@ -10997,8 +10997,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille long en cuir PU",
+    subcategory: "Travel bags",
+    name: "PU leather long wallet",
     current_price: "14.12",
     raw_price: "33.86",
     currency: "USD",
@@ -11026,8 +11026,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Nylon Causal Light Sacs multi-poches",
+    subcategory: "Travel bags",
+    name: "Nylon Causal Light Multi-pocket bags",
     current_price: "9.7",
     raw_price: "21.99",
     currency: "USD",
@@ -11055,9 +11055,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Porte-cartes Homme Femme en Cuir V�ritable avec Multi-fentes pour Cartes",
+      "Man Woman Card Holder in Genuine Leather with Multi Card Slots",
     current_price: "7.1",
     raw_price: "18.11",
     currency: "USD",
@@ -11085,8 +11085,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Titulaire de la carte des �tudiants �l�gants",
+    subcategory: "Travel bags",
+    name: "Holder of the elegant student card",
     current_price: "7.45",
     raw_price: "17.7",
     currency: "USD",
@@ -11114,8 +11114,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Kadell Sac � bandouli�re �l�gant de haute qualit� pour femme",
+    subcategory: "Travel bags",
+    name: "Kadell High Quality Elegant Shoulder Bag for Women",
     current_price: "65.82",
     raw_price: "156.32",
     currency: "USD",
@@ -11143,9 +11143,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Portefeuille ultra-mince pour femmes avec porte-cartes et porte-cartes",
+      "Ultra Thin Women's Wallet with Card Holder and Card Holder",
     current_price: "9.94",
     raw_price: "25.36",
     currency: "USD",
@@ -11173,8 +11173,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re en cuir PU vintage",
+    subcategory: "Travel bags",
+    name: "Vintage PU Leather Shoulder Bag",
     current_price: "12.46",
     raw_price: "31.34",
     currency: "USD",
@@ -11202,8 +11202,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille Femme Tassel Small",
+    subcategory: "Travel bags",
+    name: "Women's Wallet Tassel Small",
     current_price: "8.53",
     raw_price: "20.51",
     currency: "USD",
@@ -11231,8 +11231,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac cosm�tique imperm�able en nylon de couleur de bonbon",
+    subcategory: "Travel bags",
+    name: "Candy Color Nylon Waterproof Cosmetic Bag",
     current_price: "7.88",
     raw_price: "18.54",
     currency: "USD",
@@ -11260,8 +11260,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille multi-cartes en cuir v�ritable pour homme",
+    subcategory: "Travel bags",
+    name: "Men's Genuine Leather Multi-Card Wallet",
     current_price: "39.99",
     raw_price: "102.99",
     currency: "USD",
@@ -11289,8 +11289,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes occasionnels PU cuir chat impression sac � main",
+    subcategory: "Travel bags",
+    name: "Women Casual PU Leather Cat Printing Handbag",
     current_price: "37.59",
     raw_price: "86.99",
     currency: "USD",
@@ -11318,9 +11318,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Sac poitrine en oxford de 9 pouces sac port� travers d�contract� sac bandouli�re pour homme",
+      "9 Inch Oxford Chest Bag Casual Crossbody Bag Mens Crossbody Bag",
     current_price: "25.7",
     raw_price: "64.24",
     currency: "USD",
@@ -11348,9 +11348,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "15 porte-cartes Vintage en cuir v�ritable pi�ce de monnaie Casual Portefeuille pour les hommes",
+      "15 Vintage Genuine Leather Card Holder Casual Coin Wallet For Men",
     current_price: "18.41",
     raw_price: "43.42",
     currency: "USD",
@@ -11378,8 +11378,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Porte-cartes �l�gant et d�contract� Coins Bag Portable Purse",
+    subcategory: "Travel bags",
+    name: "Stylish and casual card holder Coins Bag Portable Purse",
     current_price: "7.91",
     raw_price: "19.65",
     currency: "USD",
@@ -11407,9 +11407,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Casual Creative Canvas Multifonctionnel Phone Bag Sac de rangement ligne de date",
+      "Casual Creative Canvas Multifunctional Phone Bag Date Line Storage Bag",
     current_price: "21.02",
     raw_price: "51.01",
     currency: "USD",
@@ -11437,8 +11437,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes Nylon Foot Pattern Backpack Sac � bandouli�re Outdoor Casua",
+    subcategory: "Travel bags",
+    name: "Women Nylon Foot Pattern Backpack Band ouliere Outdoor Casual",
     current_price: "7.38",
     raw_price: "18.08",
     currency: "USD",
@@ -11466,8 +11466,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille court en cuir PU pour femme, petit sac",
+    subcategory: "Travel bags",
+    name: "Women's Short PU Leather Wallet, Small Bag",
     current_price: "9.82",
     raw_price: "23.56",
     currency: "USD",
@@ -11495,8 +11495,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re en cuir � imprim� bowknot pour femme",
+    subcategory: "Travel bags",
+    name: "Bowknot Print Leather Crossbody Bag for Women",
     current_price: "18.13",
     raw_price: "23.2",
     currency: "USD",
@@ -11522,8 +11522,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re en cuir PU multi-poches �l�gant pour femme",
+    subcategory: "Travel bags",
+    name: "Stylish Multi-Pocket PU Leather Crossbody Bag for Women",
     current_price: "29.74",
     raw_price: "73.74",
     currency: "USD",
@@ -11551,9 +11551,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Portefeuille �l�gant � plusieurs poches en cuir PU avec portefeuille pour les femmes",
+      "Stylish Multi-Pocket PU Leather Wallet with Wallet for Women",
     current_price: "12.18",
     raw_price: "28.84",
     currency: "USD",
@@ -11581,9 +11581,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Femmes Nylon Sac de poitrine Sac � bandouli�re haut de gamme durable",
+      "Women Nylon Chest Bag Premium Durable Shoulder Bag",
     current_price: "16.65",
     raw_price: "40.93",
     currency: "USD",
@@ -11611,8 +11611,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Porte-cartes en cuir PU pour femme",
+    subcategory: "Travel bags",
+    name: "Women's PU Leather Card Holder",
     current_price: "15.53",
     raw_price: "38.31",
     currency: "USD",
@@ -11640,8 +11640,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "2pcs sac seau en cuir PU couleur pure sac � main sacs � bandouli�re",
+    subcategory: "Travel bags",
+    name: "2pcs Pure Color PU Leather Bucket Bag Handbag Shoulder Bags",
     current_price: "18.63",
     raw_price: "45.53",
     currency: "USD",
@@ -11669,8 +11669,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille en cuir v�ritable pour 9 cartes",
+    subcategory: "Travel bags",
+    name: "Genuine leather wallet for 9 cards",
     current_price: "24.75",
     raw_price: "61.34",
     currency: "USD",
@@ -11698,9 +11698,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Portefeuille � deux volets Vintage en cuir v�ritable avec plusieurs cartes",
+      "Vintage Genuine Leather Bifold Wallet with Multiple Cards",
     current_price: "31.38",
     raw_price: "74.24",
     currency: "USD",
@@ -11728,9 +11728,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Sac � bandouli�re d�contract� pour hommes en plein air � bandouli�re en fibre",
+      "Outdoor Men's Casual Crossbody Bag Fiber Crossbody Bag",
     current_price: "26.36",
     raw_price: "33.98",
     currency: "USD",
@@ -11758,8 +11758,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes hommes toile sac � dos �tudiant d�contract� mignon cartable",
+    subcategory: "Travel bags",
+    name: "Women Men Canvas Backpack Student Casual Cute Schoolbag",
     current_price: "15.22",
     raw_price: "35.23",
     currency: "USD",
@@ -11787,8 +11787,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re pour femmes en plein air Nylon",
+    subcategory: "Travel bags",
+    name: "Nylon Outdoor Women Shoulder Bag",
     current_price: "6.55",
     raw_price: "15.56",
     currency: "USD",
@@ -11816,8 +11816,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Triangle Rectangle Patchwork Tote Bag",
+    subcategory: "Travel bags",
+    name: "triangleRectanglePatchworkToteBag",
     current_price: "9.59",
     raw_price: "20.99",
     currency: "USD",
@@ -11845,9 +11845,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Portefeuille en PU-Cuir Porte-Passeport Sac Quotidien � Porte-Carte pour Femme",
+      "PU-Leather Wallet Passport Holder Daily Bag Card Holder for Women",
     current_price: "9.25",
     raw_price: "23.1",
     currency: "USD",
@@ -11875,8 +11875,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Mat�riel: Nylon",
+    subcategory: "Travel bags",
+    name: "mat�riel:Nylon",
     current_price: "23.1",
     raw_price: "55.52",
     currency: "USD",
@@ -11904,8 +11904,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes New Fashion Triangle Creative Bag",
+    subcategory: "Travel bags",
+    name: "femmesNewFashionTriangleCreativeBag",
     current_price: "15.26",
     raw_price: "37.04",
     currency: "USD",
@@ -11933,9 +11933,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Casual Nylon Sac fourre-tout imperm�able Motif Sac � bandouli�re Impression Crossbody Sacs pour femmes",
+      "Casual Nylon Waterproof Tote Bag Pattern Shoulder Bag Printing Crossbody Bags for Women",
     current_price: "17.72",
     raw_price: "43.42",
     currency: "USD",
@@ -11963,8 +11963,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes Hitcolor Polyester Nylon Crossbody Bag Patchwork Bag",
+    subcategory: "Travel bags",
+    name: "femmesHitcolorPolyesterNylonCrossbodyBagPatchworkBag",
     current_price: "13.46",
     raw_price: "31.18",
     currency: "USD",
@@ -11992,8 +11992,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re en toile de dessin anim� mignon",
+    subcategory: "Travel bags",
+    name: "Cute Cartoon Canvas Shoulder Bag",
     current_price: "8.88",
     raw_price: "20.75",
     currency: "USD",
@@ -12021,9 +12021,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Femmes �l�gant �l�gant en cuir PU alliage Bowknot Zipper long portefeuille t�l�phone sacs titulaires de la carte",
+      "Women Stylish Stylish PU Leather Alloy Bowknot Zipper Long Wallet Phone Bags Card Holders",
     current_price: "13.18",
     raw_price: "31.7",
     currency: "USD",
@@ -12051,9 +12051,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Hommes toile occasionnels affaires en plein air sport sacs � bandouli�re loisirs sacs crossbody",
+      "Men canvas casual business outdoor sport shoulder bags leisure crossbody bags",
     current_price: "22.22",
     raw_price: "52.41",
     currency: "USD",
@@ -12081,8 +12081,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes 2PCS �l�gant Casual Vintage Glands Sacs � main",
+    subcategory: "Travel bags",
+    name: "Women 2PCS Elegant Casual Vintage Tassels Handbags",
     current_price: "24.35",
     raw_price: "59.68",
     currency: "USD",
@@ -12110,8 +12110,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sacs mignons charmants sacs � bandouli�re ananas orange fraise",
+    subcategory: "Travel bags",
+    name: "Cute charming bags strawberry orange pineapple shoulder bags",
     current_price: "11.99",
     raw_price: "28.99",
     currency: "USD",
@@ -12139,9 +12139,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Femmes mignonnes imprim�es Floral Long Wallet Girls Sweet Sweet Purse",
+      "femmesMignonnesImprim�esFloralLongWalletGirlsSweetSweetPurse",
     current_price: "8.38",
     raw_price: "20.54",
     currency: "USD",
@@ -12169,8 +12169,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � bandouli�re d�contract� mini couleur bonbon pour femme",
+    subcategory: "Travel bags",
+    name: "Mini Candy Color Casual Crossbody Bag for Women",
     current_price: "7.82",
     raw_price: "17.77",
     currency: "USD",
@@ -12198,9 +12198,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Kaukko hommes toile occasionnels sac � bandouli�re en plein air occasionnel sac � bandouli�re r�tro",
+      "Kaukko Men Canvas Casual Shoulder Bag Outdoor Casual Retro Shoulder Bag",
     current_price: "16.2",
     raw_price: "36.82",
     currency: "USD",
@@ -12228,9 +12228,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Nouveau sac � dos Convas imprim� fleurs Sac d'�cole de dessin anim� mignon Sat",
+      "New Flower Printed Canvas Backpack Cute Cartoon Sat School Bag",
     current_price: "6.98",
     raw_price: "16.48",
     currency: "USD",
@@ -12258,8 +12258,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Sac � taille multi-poches pour hommes en cuir v�ritable",
+    subcategory: "Travel bags",
+    name: "Genuine Leather Men's Multi-Pocket Waist Bag",
     current_price: "12.17",
     raw_price: "28.71",
     currency: "USD",
@@ -12287,9 +12287,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "AUGUR Men Canvas Polyvalent Nouveau Sac � bandouli�re Sac � bandouli�re",
+      "AUGUR Men Canvas Versatile New Shoulder bag Shoulder bag",
     current_price: "17.22",
     raw_price: "39.14",
     currency: "USD",
@@ -12317,8 +12317,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille court mod�le femme � talons hauts",
+    subcategory: "Travel bags",
+    name: "Women's short wallet with high heels",
     current_price: "9.03",
     raw_price: "21.71",
     currency: "USD",
@@ -12346,8 +12346,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Femmes Hommes Toile Shopping Bag Sac � main",
+    subcategory: "Travel bags",
+    name: "Women Men Canvas Shopping Bag Handbag",
     current_price: "5.75",
     raw_price: "13.82",
     currency: "USD",
@@ -12375,8 +12375,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Tactical Nylon Multifonction Mini Sac � bandouli�re",
+    subcategory: "Travel bags",
+    name: "Tactical Nylon Multifunction Mini Shoulder Bag",
     current_price: "14.67",
     raw_price: "35.96",
     currency: "USD",
@@ -12404,9 +12404,9 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
+    subcategory: "Travel bags",
     name:
-      "Hommes Couleur Contraste Vintage Longue Fermeture �clair Casual Portefeuille Cartes Pi�ces Sacs",
+      "Men Contrast Color Vintage Long Zipper Casual Wallet Cards Coins Bags",
     current_price: "8.18",
     raw_price: "19.28",
     currency: "USD",
@@ -12434,8 +12434,8 @@ export const BagsNew = [
   },
   {
     category: "bags",
-    subcategory: "Sacs de voyage",
-    name: "Portefeuille en Cuir Souple pour Femmes Candy Couleur &joker;",
+    subcategory: "Travel bags",
+    name: "Candy Color Women's Soft Leather Wallet & joker;",
     current_price: "7.17",
     raw_price: "17.57",
     currency: "USD",
