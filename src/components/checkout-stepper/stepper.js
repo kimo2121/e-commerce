@@ -7,7 +7,7 @@ const Stepper = () => {
   const step = useSelector((state) => state.checkout.checkout);
 
   return (
-    <Step.Group className="stepper-group"  size="mini">
+    <Step.Group className="stepper-group" size="mini">
       <Step active={step === "shoppingbag"} completed={step !== "shoppingbag"}>
         <Icon name="shopping bag" />
         <Step.Content>
@@ -17,7 +17,9 @@ const Stepper = () => {
 
       <Step
         active={step === "placeorder"}
-        completed={step === "pay" || step === "ordercomplete"}
+        completed={
+          step === "pay" || step === "ordercomplete" || step === "done"
+        }
         style={{ width: "23%" }}
       >
         <Icon name="clipboard list" />
@@ -28,7 +30,7 @@ const Stepper = () => {
 
       <Step
         active={step === "pay"}
-        completed={step === "ordercomplete"}
+        completed={step === "ordercomplete" || step === "done"}
         style={{ width: "23%" }}
       >
         <Icon name="payment" />
@@ -37,10 +39,7 @@ const Stepper = () => {
         </Step.Content>
       </Step>
 
-      <Step
-        active={step === "ordercomplete"}
-        completed={step === "ordercomplete"}
-      >
+      <Step active={step === "ordercomplete"} completed={step === "done"}>
         <Icon name="check square" />
         <Step.Content>
           <Step.Title>Order Complete</Step.Title>

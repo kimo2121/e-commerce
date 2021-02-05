@@ -6,6 +6,7 @@ import { selectCartTotal } from "../../redux/cart/cart.selectors";
 import { createStructuredSelector } from "reselect";
 import { connect, useSelector } from "react-redux";
 import { completeOrder } from "../../redux/cart/cart.actions";
+import { proceedToCheckout } from "../../redux/checkout/checkout.actions";
 import { useDispatch } from "react-redux";
 import { useMutation, useQuery } from "@apollo/react-hooks";
 import {
@@ -17,6 +18,7 @@ import {
 const StripeCheckoutButton = ({ total }) => {
   const cartItems = useSelector((state) => state.cart.cartItems);
   const user = useSelector((state) => state.user.user);
+  const handleCheckout = useDispatch();
 
   // const [tokenId, setTokenId] = React.useState("");
   const [errors, setErrors] = React.useState({});
@@ -41,6 +43,7 @@ const StripeCheckoutButton = ({ total }) => {
     });
     createOrder();
     Complete(completeOrder());
+    handleCheckout(proceedToCheckout());
     console.log("succesful payment");
   };
 

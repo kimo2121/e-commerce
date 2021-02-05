@@ -1,5 +1,5 @@
 import CheckoutActionTypes from "./checkout.types";
-const layout = ["shoppingbag", "placeorder", "pay", "ordercomplete"];
+const layout = ["shoppingbag", "placeorder", "pay", "ordercomplete", "done"];
 
 const INITIAL_STATE = {
   checkout: layout[0],
