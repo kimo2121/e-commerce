@@ -34,36 +34,18 @@ const CheckoutItem = ({ item, checkoutState, isOrdersPage }) => {
       )}
       <div className="checkout-item-details">
         <div style={{ width: "35%", textAlign: "left", marginLeft: "2%" }}>
-          {/* {checkoutState === "shoppingbag" ? (
-            <SimpleModal item={item}>
-              <SingleProductComponent product={item} />
-            </SimpleModal>
-          ) : (
-            <h5> {item.name} </h5>
-          )} */}
-          {/* {isOrdersPage === "shoppingbag" ||
-            (orderOverview === "shoppingbag" && (
-              <Dropdown
-                fluid
-                className="checkout-item-size-select"
-                placeholder=""
-                search
-                selection
-              />
-            ))} */}
-          <br />
-          {isOrdersPage === "shoppingbag" ||
-            (orderOverview === "shoppingbag" && (
-              <div className="del-add-btns">
-                <span
-                  className="remove-from-checkout"
-                  onClick={() => clearItem(clearItemFromCart(item))}
-                >
-                  Delete
-                </span>
-                <span className="add-to-wishlist">Save in wishlist</span>
-              </div>
-            ))}
+          {(isOrdersPage === "shoppingbag" ||
+            orderOverview === "shoppingbag") && (
+            <div className="del-add-btns">
+              <span
+                className="remove-from-checkout"
+                onClick={() => clearItem(clearItemFromCart(item))}
+              >
+                Delete
+              </span>
+              <span className="add-to-wishlist">Save in wishlist</span>
+            </div>
+          )}
         </div>
         <span style={{ marginRight: "8%" }}>${item.current_price}</span>
         <span className="item-quantity">

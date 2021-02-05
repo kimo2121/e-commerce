@@ -2,7 +2,7 @@ import CheckoutActionTypes from "./checkout.types";
 const layout = ["shoppingbag", "placeorder", "pay", "ordercomplete"];
 
 const INITIAL_STATE = {
-  checkout: ["shoppingbag"],
+  checkout: layout[0],
   index: 1,
 };
 
@@ -12,7 +12,7 @@ const checkoutReducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         index: state.index + 1,
-        checkout: [layout[state.index]],
+        checkout: layout[state.index],
       };
     default:
       return state;

@@ -13,7 +13,6 @@ const OrderSummaryPlaceOrder = ({ total, proceedNext }) => {
     <div className="order-summary-component">
       <span className="items-count">Order Summary</span>
       <div className="order-summary">
-        {/* <div style={{ marginLeft: "7%" }}></div> */}
         <div className="to-sup-summary">
           <div className="sup-sum">
             <span>subtotal: </span>
