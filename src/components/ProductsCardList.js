@@ -2,8 +2,7 @@ import React from "react";
 import ProductCard from "./ProductCard/ProductCard";
 import BasicProductCard from "./ProductCard/BasicProductCard";
 import ResProductCard from "./ProductCard/ResProductCard";
-import Grid from "@material-ui/core/Grid";
-
+import "../pages/home/main-home.scss";
 export default function ProductsCardList({
   isSingleProductPage,
   isHome,
@@ -12,11 +11,11 @@ export default function ProductsCardList({
   data,
 }) {
   return (
-    <Grid container spacing={3}>
+    <div className="grid-container-holder">
       {data &&
         data.length > 0 &&
         data.map((item, indx) => (
-          <Grid item xs={12} sm={row} key={indx}>
+          <div item key={indx} className="products-grid-container">
             {window.innerWidth < 900 ? (
               <ResProductCard onClick={onClick} product={item} />
             ) : isSingleProductPage || isHome ? (
@@ -24,8 +23,8 @@ export default function ProductsCardList({
             ) : (
               <ProductCard onClick={onClick} product={item} />
             )}
-          </Grid>
+          </div>
         ))}
-    </Grid>
+    </div>
   );
 }

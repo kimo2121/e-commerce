@@ -7,18 +7,18 @@ export default function MainLink({
   pathname,
   children,
   onClick,
+  homestyle,
   ...otherProps
 }) {
   return (
     <Link
       to={(location) => ({ ...location, pathname: pathname })}
-      className="linkColor"
+      className={homestyle ? "homestyle" : "linkColor"}
       onClick={onClick}
       {...otherProps}
     >
       {title}
       {children}
-      {/* {`${name.slice(0, 25)}...`} */}
     </Link>
   );
 }

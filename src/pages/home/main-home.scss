@@ -133,3 +133,33 @@
   font-weight: bolder;
   left: 6%;
 }
+
+.grid-container-holder {
+  width: 100% ;
+  display: flex ;
+  flex-wrap: wrap ;
+}
+.products-grid-container {
+  width: 20% ;
+}
+
+@media only screen and (max-width: 1024px){
+  .products-grid-container {
+    width: 25% ;
+  }
+}
+@media only screen and (max-width: 768px){
+  .products-grid-container {
+    width: 33% ;
+  }
+}
+@media only screen and (max-width: 600px){
+  .products-grid-container {
+    width: 50% ;
+  }
+}
+@media only screen and (max-width: 480px){
+  .products-grid-container {
+    width: 100% ;
+  }
+}

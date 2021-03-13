@@ -7,6 +7,7 @@ import ProductImgList from "../../components/ProductImgList/ProductImgList";
 import { RiHeart2Line } from "react-icons/ri";
 // import HeaderItem from "../../components/HeaderItem/HeaderItem";
 // import List from "../../components/List/List";
+
 // import ProducatDescription from "../../components/ProducatDescription/ProducatDescription";
 import VerticalSlider from "../../components/VerticalSlider/VerticalSlider";
 import LocalMallIcon from "@material-ui/icons/LocalMall";

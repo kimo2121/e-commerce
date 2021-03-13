@@ -29,9 +29,7 @@ const SingleProduct = () => {
 
   return (
     <Page>
-      <div
-        className="productsList_contianer"
-      >
+      <div className="productsList_contianer">
         <Header data={product} />
         <SingleProductComponent product={product} />
         <Reviews />
@@ -43,7 +41,7 @@ const SingleProduct = () => {
         </div>
         <br />
         <h1>Pick For You</h1>
-        <div style={{ display: "flex" }}>
+        <div style={{ display: "flex", width: "94.5%" }}>
           <ProductsCardList data={products.slice(0, 6)} row={2} isHome />
         </div>
         <div style={centerContianer}>

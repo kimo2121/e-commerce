@@ -4,3 +4,12 @@
 .linkColor:hover {
   color: black;
 }
+
+.homestyle {
+  color: grey;
+  height: 44px;
+  text-align: center;
+}
+.homestyle:hover {
+  color: black;
+}

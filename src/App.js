@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from "react-router-dom";
 import "./App.css";
 import "semantic-ui-css/semantic.min.css";
 import Account from "./pages/account/account";
@@ -36,6 +41,7 @@ function App() {
             path="/:category/:subcategory"
             component={ProductsList}
           />
+          <Redirect to="/" />
         </Switch>
       </div>
     </Router>

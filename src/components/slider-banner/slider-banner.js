@@ -15,7 +15,7 @@ const SliderBanner = ({ isWhatsHot, flashDeals, subcategoryBanner }) => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: subcategoryBanner ? 7 : isWhatsHot ? 6 : 4,
+    slidesToShow: subcategoryBanner ? 7 : isWhatsHot ? 5 : 4,
     slidesToScroll: 1,
     initialSlide: 0,
     nextArrow: <NextArrow />,
