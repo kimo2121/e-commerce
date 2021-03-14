@@ -8,12 +8,13 @@ export default function MainLink({
   children,
   onClick,
   homestyle,
+  mobView,
   ...otherProps
 }) {
   return (
     <Link
       to={(location) => ({ ...location, pathname: pathname })}
-      className={homestyle ? "homestyle" : "linkColor"}
+      className={homestyle ? "homestyle" : mobView ? "mobView" : "linkColor"}
       onClick={onClick}
       {...otherProps}
     >

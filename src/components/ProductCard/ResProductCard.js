@@ -12,7 +12,7 @@ import MainButton from "../../components/MainButton/MainButton";
 
 const img = "https://b2b.iciw.com/bilder/artiklar/ICIW-533.jpg?m=1571322922";
 
-function ResProductCard({ product, onClick, isHome }) {
+function ResProductCard({ product, onClick, mobView }) {
   const dispatch = useDispatch();
   const width = window.innerWidth;
   return (
@@ -23,17 +23,15 @@ function ResProductCard({ product, onClick, isHome }) {
           flexDirection: "column",
           alignItems: "center",
           padding: "0 0 .5rem 0",
-          marginRight: isHome ? "1rem" : "",
-          marginBottom: isHome ? "2rem" : "",
-          maxHeight: isHome ? "400px" : "",
+          marginBottom: mobView ? "1rem" : "",
         }}
       >
         <div
           style={{
+            marginTop: "1%",
             display: "flex",
-            justifyContent: "space-between",
+            width: "97%",
             height: "16vh",
-            // marginBottom: ".5rem",
           }}
         >
           <MainLink pathname={`/product/${product.id}`}>
@@ -41,17 +39,17 @@ function ResProductCard({ product, onClick, isHome }) {
               src={product.image_url}
               alt="product"
               style={{
-                // width: "40%",
                 height: "15vh",
-                objectFit: "contain",
+                width: "25vw",
+                objectFit: "cover",
                 marginRight: "4px",
               }}
             />
           </MainLink>
-
           <div>
             <MainLink
-              title={product.name}
+              mobView
+              title={`${product.name.slice(0, 35)}...`}
               pathname={`/product/${product.id}`}
             />
             <p

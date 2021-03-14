@@ -11,7 +11,7 @@ const SubcategorySliderCard = ({ item }) => {
           <div to="/" className="fukintext">
             {item.category}
           </div>
-        </div>
+        </div>  
       </div>
     </div>
   );

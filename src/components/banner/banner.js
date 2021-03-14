@@ -44,7 +44,7 @@ const Banner = () => {
       <Slider {...settings}>
         {bannerData.map((item, indx) => (
           <div className="each-slide-in-banner" key={indx}>
-            <img src={item} alt="" />
+            <img className="each-slide-in-banner-img" src={item} alt="" />
           </div>
         ))}
       </Slider>

@@ -12,24 +12,28 @@
 .home-page-banner img {
   height: 100%;
   width: 100%;
+  display: block;
 }
 .dep-brands {
-  top: -15%;
+  // top: -15%;
   font-weight: bolder;
-  position: absolute;
+  margin-left: 6%;
+  // position: absolute;
 }
 .brands-dep-container {
-  display: inline-block;
-  margin-bottom: 2%;
+  display: block;
+  height: fit-content !important;
+  // margin-bottom: 2%;
+
   @media only screen and(max-width:768px) {
-    margin-bottom: 68% !important;
+    // margin-bottom: 68% !important;
   }
 }
 .brands-section {
   margin-left: 6%;
   margin-top: 5%;
   width: 88%;
-  height: 50vh;
+  min-height: fit-content;
   filter: brightness(98%);
   display: flex;
   @media only screen and(max-width:768px) {
@@ -46,6 +50,7 @@
     width: 100%;
   }
 }
+
 .brands a img {
   width: 100%;
 }
@@ -55,12 +60,13 @@
 .brands {
   margin-left: 2%;
   width: 50%;
-  min-height: fit-content;
+  // height: auto;
   @media only screen and(max-width:768px) {
     margin-left: 0%;
     width: 100%;
   }
 }
+
 .dep-categories {
   position: absolute;
   left: 6%;
@@ -119,6 +125,7 @@
   margin-top: 3%;
   @media only screen and(max-width:768px) {
     margin-bottom: 5%;
+    margin-top: 4vh;
   }
 }
 .flash-deals {
@@ -135,31 +142,31 @@
 }
 
 .grid-container-holder {
-  width: 100% ;
-  display: flex ;
-  flex-wrap: wrap ;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .products-grid-container {
-  width: 20% ;
+  width: 20%;
 }
 
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1024px) {
   .products-grid-container {
-    width: 25% ;
+    width: 25%;
   }
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   .products-grid-container {
-    width: 33% ;
+    width: 33%;
   }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
   .products-grid-container {
-    width: 50% ;
+    width: 50%;
   }
 }
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 480px) {
   .products-grid-container {
-    width: 100% ;
+    width: 100%;
   }
 }

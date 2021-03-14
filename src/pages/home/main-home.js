@@ -21,12 +21,6 @@ const MainHome = () => {
       <SliderBanner flashDeals />
       <SliderBanner />
       <SliderBanner isWhatsHot />
-      {/* <HomeFooter /> */}
-      {/* <div className="container-view">
-        <h1>hello</h1>
-        <h1>world</h1>
-        <h1>how u doin?</h1>
-      </div> */}
       <div className="dep-flash-deals">
         <h2>Recommend For You</h2>
         <ProductsCardList data={products} row={2} isHome />

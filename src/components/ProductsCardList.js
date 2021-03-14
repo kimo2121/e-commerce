@@ -17,7 +17,7 @@ export default function ProductsCardList({
         data.map((item, indx) => (
           <div item key={indx} className="products-grid-container">
             {window.innerWidth < 900 ? (
-              <ResProductCard onClick={onClick} product={item} />
+              <ResProductCard mobView onClick={onClick} product={item} />
             ) : isSingleProductPage || isHome ? (
               <BasicProductCard onClick={onClick} product={item} isHome />
             ) : (
