@@ -63,7 +63,7 @@ function ResProductCard({ product, onClick, mobView }) {
             </p>
           </div>
         </div>
-        {width < 900 && (
+        {width < 768 && (
           <MainButton
             onClick={() => dispatch(addItem(product))}
             title="ADD TO BAG"

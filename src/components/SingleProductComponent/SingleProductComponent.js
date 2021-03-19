@@ -37,7 +37,7 @@ const SingleProductComponent = ({ addItem, product }) => {
             justifyContent: "space-between",
           }}
         >
-          {width > 900 && (
+          {width > 768 && (
             <div style={{ width: "12%", height: "100%" }}>
               <VerticalSlider setImage={setImage} data={product} />
             </div>

@@ -11,7 +11,7 @@ export default function ReviewCard({ review }) {
       <Grid item sm={12} xs={12}>
         <hr />
       </Grid>
-      <Grid item sm={3} xs={12} style={{marginBottom:width < 900 ? "1rem":"" }}>
+      <Grid item sm={3} xs={12} style={{marginBottom:width < 768 ? "1rem":"" }}>
         <p > {review.username} </p>
       </Grid>
       <Grid item sm={9} xs={10}>

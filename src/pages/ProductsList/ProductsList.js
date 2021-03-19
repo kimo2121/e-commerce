@@ -110,7 +110,7 @@ export default function ProductsList() {
         <Header data={productsToShow[0]} />
         <br />
         <Grid container spacing={3}>
-          {width > 900 && (
+          {width > 768 && (
             <Grid item xs={2}>
               <Filter
                 category={productsToShow[0]?.category}
@@ -128,7 +128,7 @@ export default function ProductsList() {
             </Grid>
             <Grid container>
               <Grid item sm={2} xs={12}>
-                {window.innerWidth > 900 ? (
+                {window.innerWidth > 768 ? (
                   <Menu
                     data={data}
                     // firstItem={data[0].item}
@@ -179,7 +179,7 @@ export default function ProductsList() {
               style={{
                 overflow: "scroll",
                 height: "75vh",
-                width: width > 900 ? "95%" : "",
+                width: width > 768 ? "95%" : "",
               }}
             >
               <ProductsCardList

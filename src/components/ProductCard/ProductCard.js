@@ -43,7 +43,7 @@ export default function ProductCard({
       }}
     >
       <div className="productImgContainer">
-        {window.innerWidth > 900 && (
+        {window.innerWidth > 768 && (
           <SimpleModal>
             <SingleProductComponent product={product} />
           </SimpleModal>
@@ -68,7 +68,7 @@ export default function ProductCard({
           </div>
         </div>
       </div>
-      { width < 900 &&   <MainButton onClick={() => dispatch(addItem(product))} title="ADD TO BAG" style={{width:"95%"}}>
+      { width < 768 &&   <MainButton onClick={() => dispatch(addItem(product))} title="ADD TO BAG" style={{width:"95%"}}>
             <LocalMallIcon style={{ marginRight: "5px" }} />
           </MainButton>}
     </Card>

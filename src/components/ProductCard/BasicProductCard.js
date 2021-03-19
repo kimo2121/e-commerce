@@ -32,7 +32,7 @@ function BasicProductCard({ product, onClick, isHome }) {
           <MainLink pathname={`/product/${product.id}`}>
             <img src={product.image_url} alt="product" className="cardImg" />
           </MainLink>
-          {width > 900 && (
+          {width > 768 && (
             <SimpleModal>
               <SingleProductComponent product={product} />
             </SimpleModal>
@@ -46,7 +46,7 @@ function BasicProductCard({ product, onClick, isHome }) {
           />
         )}
         <p style={{ marginBottom: "1rem" }}>${product.current_price}</p>
-        {width < 900 && (
+        {width < 768 && (
           <MainButton
             onClick={() => dispatch(addItem(product))}
             title="ADD TO BAG"
